@@ -33,7 +33,7 @@ rm(list = ls())
 ### site environment data ####
 
 sites <- read_csv(
-  here("data", "processed", "sites_processed_environment_nms_20250306.csv"),
+  here("data", "raw", "sites_processed_environment_nms_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )) %>%
@@ -610,7 +610,7 @@ pairs(regrid(emm.site.type), adjust = "tukey") # regrid() for back-transformatio
 
 
 save(restref_tothill0, data_model_tothill0,
-     file = here("outputs", "models", "vegetation",
+     file = here("outputs", "models",
                  "model_plants_restref_tothill0.Rdata"))
 
 

@@ -24,7 +24,7 @@ rm(list = ls())
 
 ### site environment data ####
 sites <- read_csv(
-  here("data", "processed", "sites_processed_environment_nms_20250306.csv"),
+  here("data", "raw", "sites_processed_environment_nms_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )
@@ -36,7 +36,7 @@ sites <- read_csv(
 ### species abundance data site based (A1-A4) ####
 abundances_site <- read_csv(
   here(
-    "data", "processed", "data_processed_species_plants_site_20250306.csv"
+    "data", "raw", "data_processed_species_plants_site_20250306.csv"
   ),
   col_names = TRUE, na = c("", "NA", "na"), col_types = cols(.default = "?")
 )
@@ -45,7 +45,7 @@ abundances_site <- read_csv(
 ### species abundance data plot based (entire transect) ####
 abundances_plot <- read_csv(
   here(
-    "data", "processed", "data_processed_species_plants_plot_20250306.csv"
+    "data", "raw", "data_processed_species_plants_plot_20250306.csv"
   ),
   col_names = TRUE, na = c("", "NA", "na"), col_types = cols(.default = "?")
 )
@@ -53,7 +53,7 @@ abundances_plot <- read_csv(
 
 ### species traits data ####
 traits <- read_csv(
-  here("data", "processed", "data_processed_traits_plants_20250306.csv"),
+  here("data", "raw", "data_processed_traits_plants_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )
@@ -982,7 +982,7 @@ forb_index %>%
 abundances_3 %>%
   write_csv(
     here(
-      "outputs", "temp", "vegetation", "abundances_A1A4_20250306.csv"
+      "data", "processed", "data_processed_abundances_A1A4_20250306.csv"
     )
   )
 
@@ -992,7 +992,7 @@ abundances_t_4 %>%
   select(id.plot, id.site, everything()) %>%
   write_csv(
     here(
-      "outputs", "temp", "vegetation", "abundances_t_20250306.csv"
+      "data", "processed", "data_processed_abundances_t_20250306.csv"
     )
   )
 

@@ -1,0 +1,619 @@
+name.plant,IsChildTaxonOf,name.plant.agg,target.species,target.species.agg
+Acer,Sapindaceae,Acer,0,0
+Acer campestre,Acer,Acer campestre,0,0
+Acer platanoides,Acer,Acer platanoides,0,0
+Acer pseudoplatanus,Acer,Acer pseudoplatanus,0,0
+Achillea millefolium,Achillea millefolium agg.,Achillea millefolium agg.,1,1
+Achillea millefolium agg.,Achillea,Achillea millefolium agg.,1,1
+Achillea pannonica,Achillea millefolium agg.,Achillea millefolium agg.,1,1
+Achillea ptarmica,Achillea ptarmica agg.,Achillea ptarmica agg.,1,1
+Acinos arvensis,Acinos,Acinos arvensis,1,1
+Adonis vernalis,Adonis,Adonis vernalis,1,1
+Aegopodium podagraria,Aegopodium,Aegopodium podagraria,0,0
+Agrimonia eupatoria,Agrimonia,Agrimonia eupatoria,1,1
+Agrostis canina,Agrostis canina agg.,Agrostis canina agg.,1,1
+Agrostis capillaris,Agrostis,Agrostis capillaris,1,1
+Agrostis gigantea,Agrostis stolonifera agg.,Agrostis stolonifera agg.,1,1
+Agrostis stolonifera,Agrostis stolonifera agg.,Agrostis stolonifera agg.,1,1
+Agrostis stolonifera agg.,Agrostis,Agrostis stolonifera agg.,1,1
+Aira caryophyllea s. l.,Aira,Aira caryophyllea s. l.,1,1
+Aira praecox,Aira,Aira praecox,1,1
+Ajuga reptans,Ajuga,Ajuga reptans,1,1
+Alchemilla vulgaris agg.,Alchemilla,Alchemilla vulgaris agg.,1,1
+Allium angulosum,Allium,Allium angulosum,1,1
+Allium carinatum,Allium,Allium carinatum,1,1
+Allium lusitanicum,Allium,Allium lusitanicum,1,1
+Allium oleraceum,Allium,Allium oleraceum,1,1
+Allium rotundum,Allium,Allium rotundum,0,0
+Allium schoenoprasum,Allium,Allium schoenoprasum,1,1
+Allium scorodoprasum,Allium,Allium scorodoprasum,1,1
+Allium vineale s. l.,Allium,Allium vineale s. l.,1,1
+Alnus glutinosa,Alnus,Alnus glutinosa,0,0
+Alopecurus geniculatus,Alopecurus,Alopecurus geniculatus,1,1
+Alopecurus myosuroides,Alopecurus,Alopecurus myosuroides,0,0
+Alopecurus pratensis,Alopecurus,Alopecurus pratensis,1,1
+Althaea officinalis,Althaea,Althaea officinalis,0,0
+Alyssum alyssoides,Alyssum,Alyssum alyssoides,1,1
+Alyssum montanum,Alyssum,Alyssum montanum,1,1
+Anemone nemorosa,Anemone,Anemone nemorosa,1,1
+Angelica sylvestris,Angelica,Angelica sylvestris,1,1
+Anthemis arvensis,Anthemis,Anthemis arvensis,0,0
+Anthemis tinctoria,Anthemis tinctoria agg.,Anthemis tinctoria agg.,1,1
+Anthericum liliago,Anthericum,Anthericum liliago,1,1
+Anthericum ramosum,Anthericum,Anthericum ramosum,1,1
+Anthoxanthum odoratum s. str.,Anthoxanthum odoratum agg.,Anthoxanthum odoratum agg.,1,1
+Anthriscus caucalis,Anthriscus,Anthriscus caucalis,0,0
+Anthriscus sylvestris,Anthriscus sylvestris agg.,Anthriscus sylvestris agg.,0,0
+Anthyllis vulneraria s. l.,Anthyllis,Anthyllis vulneraria s. l.,1,1
+Apera spica-venti,Apera,Apera spica-venti,0,0
+Aphanes arvensis,Aphanes,Aphanes arvensis,0,0
+Arabidopsis thaliana,Arabidopsis,Arabidopsis thaliana,1,1
+Arabis hirsuta,Arabis hirsuta agg.,Arabis hirsuta agg.,1,1
+Arctium tomentosum,Arctium,Arctium tomentosum,0,0
+Arenaria serpyllifolia s. l.,Arenaria serpyllifolia agg.,Arenaria serpyllifolia agg.,1,1
+Armeria maritima s. l.,Armeria,Armeria maritima s. l.,1,1
+Arrhenatherum elatius,Arrhenatherum,Arrhenatherum elatius,1,1
+Artemisia vulgaris,Artemisia vulgaris agg.,Artemisia vulgaris agg.,0,0
+Asperula cynanchica,Asperula,Asperula cynanchica,1,1
+Asperula tinctoria,Asperula,Asperula tinctoria,1,1
+Aster amellus,Aster,Aster amellus,1,1
+Astragalus danicus,Astragalus,Astragalus danicus,1,1
+Astragalus exscapus,Astragalus,Astragalus exscapus,1,1
+Astragalus glycyphyllos,Astragalus,Astragalus glycyphyllos,0,0
+Barbarea stricta,Barbarea,Barbarea stricta,0,0
+Barbarea vulgaris s. l.,Barbarea,Barbarea vulgaris s. l.,0,0
+Bellis perennis,Bellis,Bellis perennis,1,1
+Berberis vulgaris,Berberis,Berberis vulgaris,0,0
+Betonica officinalis,Betonica,Betonica officinalis,1,1
+Betula pendula,Betula,Betula pendula,0,0
+Bistorta officinalis,Bistorta,Bistorta officinalis,1,1
+Bolboschoenus maritimus s. str.,Bolboschoenus maritimus agg.,Bolboschoenus maritimus agg.,0,0
+Brachypodium pinnatum,Brachypodium pinnatum agg.,Brachypodium pinnatum agg.,1,1
+Brachypodium sylvaticum,Brachypodium,Brachypodium sylvaticum,0,0
+Briza media,Briza,Briza media,1,1
+Bromus arvensis,Bromus,Bromus arvensis,0,0
+Bromus erectus,Bromus,Bromus erectus,1,1
+Bromus hordeaceus,Bromus hordeaceus agg.,Bromus hordeaceus agg.,1,1
+Bromus inermis,Bromus,Bromus inermis,0,0
+Bromus japonicus,Bromus,Bromus japonicus,0,0
+Bromus racemosus,Bromus racemosus agg.,Bromus racemosus agg.,1,1
+Bromus sterilis,Bromus,Bromus sterilis,0,0
+Bromus tectorum,Bromus,Bromus tectorum,1,1
+Buglossoides arvensis s. str.,Buglossoides arvensis s. l.,Buglossoides arvensis s. str.,0,0
+Buphthalmum salicifolium,Buphthalmum,Buphthalmum salicifolium,1,1
+Bupleurum falcatum,Bupleurum,Bupleurum falcatum,1,1
+Calamagrostis canescens,Calamagrostis canescens agg.,Calamagrostis canescens agg.,1,1
+Calamagrostis epigejos,Calamagrostis,Calamagrostis epigejos,0,0
+Caltha palustris,Caltha,Caltha palustris,1,1
+Calystegia sepium,Calystegia sepium agg.,Calystegia sepium agg.,0,0
+Camelina microcarpa,Camelina sativa agg.,Camelina sativa agg.,1,1
+Camelina sativa s. str.,Camelina sativa agg.,Camelina sativa agg.,0,1
+Campanula glomerata,Campanula,Campanula glomerata,1,1
+Campanula patula,Campanula,Campanula patula,1,1
+Campanula rapunculoides,Campanula,Campanula rapunculoides,1,1
+Campanula rotundifolia s. str.,Campanula rotundifolia agg.,Campanula rotundifolia agg.,1,1
+Campanula trachelium,Campanula,Campanula trachelium,0,0
+Capsella bursa-pastoris,Capsella,Capsella bursa-pastoris,0,0
+Cardamine pratensis s. l.,Cardamine pratensis agg.,Cardamine pratensis agg.,1,1
+Carduus acanthoides,Carduus,Carduus acanthoides,0,0
+Carduus nutans,Carduus nutans agg.,Carduus nutans agg.,0,0
+Carex,Cyperaceae,Carex,0,0
+Carex acuta,Carex acuta agg.,Carex acuta agg.,1,1
+Carex acutiformis,Carex,Carex acutiformis,1,1
+Carex brizoides,Carex,Carex brizoides,0,0
+Carex canescens,Carex canescens agg.,Carex canescens agg.,1,1
+Carex caryophyllea,Carex,Carex caryophyllea,1,1
+Carex disticha,Carex,Carex disticha,1,1
+Carex elytroides,Carex,Carex elytroides,0,0
+Carex flacca,Carex,Carex flacca,1,1
+Carex flava agg.,Carex,Carex flava agg.,1,1
+Carex flava s. str.,Carex flava agg.,Carex flava agg.,1,1
+Carex hirta,Carex,Carex hirta,0,0
+Carex humilis,Carex,Carex humilis,1,1
+Carex leporina,Carex,Carex leporina,1,1
+Carex montana,Carex,Carex montana,1,1
+Carex muricata agg.,Carex,Carex muricata agg.,1,1
+Carex muricata s. str.,Carex muricata agg.,Carex muricata agg.,1,1
+Carex nigra,Carex nigra agg.,Carex nigra agg.,1,1
+Carex pallescens,Carex,Carex pallescens,1,1
+Carex panicea,Carex,Carex panicea,1,1
+Carex polyphylla,Carex muricata agg.,Carex muricata agg.,0,1
+Carex praecox agg.,Carex,Carex praecox agg.,1,1
+Carex praecox s. str.,Carex praecox agg.,Carex praecox agg.,1,1
+Carex riparia,Carex,Carex riparia,1,1
+Carex tomentosa,Carex,Carex tomentosa,1,1
+Carex vesicaria,Carex,Carex vesicaria,1,1
+Carex viridula,Carex flava agg.,Carex flava agg.,0,1
+Carex vulpina,Carex vulpina agg.,Carex vulpina agg.,1,1
+Carex vulpina agg.,Carex,Carex vulpina agg.,1,1
+Carlina vulgaris s. str.,Carlina vulgaris agg.,Carlina vulgaris agg.,1,1
+Carpinus betulus,Carpinus,Carpinus betulus,0,0
+Carum carvi,Carum,Carum carvi,1,1
+Centaurea cyanus,Centaurea,Centaurea cyanus,0,0
+Centaurea jacea agg.,Centaurea,Centaurea jacea agg.,1,1
+Centaurea scabiosa,Centaurea,Centaurea scabiosa,1,1
+Centaurea stoebe s. l.,Centaurea paniculata agg.,Centaurea paniculata agg.,1,1
+Centaurium erythraea s. str.,Centaurium erythraea s. l.,Centaurium erythraea s. str.,1,1
+Cerastium,Caryophyllaceae,Cerastium,0,0
+Cerastium arvense,Cerastium,Cerastium arvense,1,1
+Cerastium brachypetalum s. str.,Cerastium brachypetalum agg.,Cerastium brachypetalum agg.,0,0
+Cerastium dubium,Cerastium,Cerastium dubium,1,1
+Cerastium glomeratum,Cerastium,Cerastium glomeratum,0,0
+Cerastium glutinosum,Cerastium pumilum agg.,Cerastium pumilum agg.,1,1
+Cerastium holosteoides,Cerastium fontanum agg.,Cerastium fontanum agg.,1,1
+Cerastium pumilum s. str.,Cerastium pumilum agg.,Cerastium pumilum agg.,1,1
+Cerastium semidecandrum,Cerastium,Cerastium semidecandrum,1,1
+Chaerophyllum hirsutum s. str.,Chaerophyllum hirsutum agg.,Chaerophyllum hirsutum agg.,1,1
+Chenopodium album agg.,Chenopodium,Chenopodium album agg.,0,0
+Cichorium intybus,Cichorium,Cichorium intybus,0,0
+Cirsium,Asteraceae,Cirsium,0,0
+Cirsium acaulon,Cirsium,Cirsium acaulon,1,1
+Cirsium arvense,Cirsium,Cirsium arvense,0,0
+Cirsium oleraceum,Cirsium,Cirsium oleraceum,1,1
+Cirsium palustre,Cirsium,Cirsium palustre,1,1
+Cirsium vulgare,Cirsium,Cirsium vulgare,0,0
+Clematis vitalba,Clematis,Clematis vitalba,0,0
+Clinopodium vulgare,Clinopodium,Clinopodium vulgare,1,1
+Colchicum autumnale,Colchicum,Colchicum autumnale,1,1
+Conium maculatum,Conium,Conium maculatum,0,0
+Convolvulus arvensis,Convolvulus,Convolvulus arvensis,0,0
+Cornus sanguinea,Cornus,Cornus sanguinea,0,0
+Crataegus,Rosaceae,Crataegus,0,0
+Crataegus laevigata s. l.,Crataegus,Crataegus laevigata s. l.,0,0
+Crataegus monogyna,Crataegus,Crataegus monogyna,0,0
+Crepis,Asteraceae,Crepis,0,0
+Crepis biennis,Crepis,Crepis biennis,1,1
+Crepis capillaris,Crepis,Crepis capillaris,1,1
+Crepis tectorum,Crepis,Crepis tectorum,0,0
+Cruciata laevipes,Cruciata,Cruciata laevipes,0,0
+Cuscuta epithymum,Cuscuta epithymum agg.,Cuscuta epithymum agg.,1,1
+Cynoglossum officinale,Cynoglossum,Cynoglossum officinale,0,0
+Cynosurus cristatus,Cynosurus,Cynosurus cristatus,1,1
+Dactylis glomerata s. str.,Dactylis glomerata agg.,Dactylis glomerata agg.,1,1
+Dactylorhiza incarnata s. str.,Dactylorhiza incarnata agg.,Dactylorhiza incarnata agg.,1,1
+Danthonia decumbens,Danthonia,Danthonia decumbens,1,1
+Daucus carota,Daucus,Daucus carota,1,1
+Deschampsia cespitosa s. str.,Deschampsia cespitosa agg.,Deschampsia cespitosa agg.,1,1
+Descurainia sophia,Descurainia,Descurainia sophia,0,0
+Dianthus armeria,Dianthus,Dianthus armeria,0,0
+Dianthus carthusianorum,Dianthus carthusianorum agg.,Dianthus carthusianorum agg.,1,1
+Dianthus deltoides,Dianthus,Dianthus deltoides,1,1
+Dictamnus albus,Dictamnus,Dictamnus albus,1,1
+Dipsacus fullonum,Dipsacus,Dipsacus fullonum,0,0
+Dipsacus pilosus,Dipsacus,Dipsacus pilosus,0,0
+Draba verna s. str.,Draba verna agg.,Draba verna agg.,1,1
+Echinops sphaerocephalus,Echinops,Echinops sphaerocephalus,0,0
+Echium vulgare,Echium,Echium vulgare,1,1
+Eleocharis uniglumis,Eleocharis palustris agg.,Eleocharis palustris agg.,1,1
+Elymus repens s. str.,Elymus,Elymus repens s. str.,0,0
+Epilobium,Onagraceae,Epilobium,0,0
+Epilobium hirsutum,Epilobium,Epilobium hirsutum,0,0
+Epilobium lamyi,Epilobium tetragonum s. l.,Epilobium tetragonum s. l.,0,0
+Epilobium palustre,Epilobium,Epilobium palustre,1,1
+Epilobium parviflorum,Epilobium,Epilobium parviflorum,0,0
+Epilobium tetragonum s. l.,Epilobium,Epilobium tetragonum s. l.,0,0
+Equisetum arvense,Equisetum,Equisetum arvense,0,0
+Equisetum fluviatile,Equisetum,Equisetum fluviatile,1,1
+Equisetum hyemale,Equisetum,Equisetum hyemale,0,0
+Equisetum palustre,Equisetum,Equisetum palustre,1,1
+Equisetum pratense,Equisetum,Equisetum pratense,0,0
+Equisetum sylvaticum,Equisetum,Equisetum sylvaticum,0,0
+Erigeron,Asteraceae,Erigeron,0,0
+Erigeron acris s. l.,Erigeron,Erigeron acris s. l.,1,1
+Erigeron annuus,Erigeron,Erigeron annuus,0,0
+Erigeron canadensis,Erigeron,Erigeron canadensis,0,0
+Erodium cicutarium s. str.,Erodium cicutarium agg.,Erodium cicutarium agg.,0,0
+Eryngium campestre,Eryngium,Eryngium campestre,1,1
+Erysimum cheiranthoides,Erysimum,Erysimum cheiranthoides,0,0
+Erysimum crepidifolium,Erysimum,Erysimum crepidifolium,1,1
+Euonymus europaeus,Euonymus,Euonymus europaeus,0,0
+Eupatorium cannabinum,Eupatorium,Eupatorium cannabinum,0,0
+Euphorbia cyparissias,Euphorbia,Euphorbia cyparissias,1,1
+Euphorbia esula s. str.,Euphorbia esula agg.,Euphorbia esula agg.,0,0
+Euphorbia helioscopia,Euphorbia,Euphorbia helioscopia,0,0
+Euphrasia officinalis s. l.,Euphrasia officinalis agg.,Euphrasia officinalis agg.,1,1
+Fagus sylvatica,Fagus,Fagus sylvatica,0,0
+Falcaria vulgaris,Falcaria,Falcaria vulgaris,1,1
+Fallopia convolvulus,Fallopia,Fallopia convolvulus,0,0
+Festuca,Poaceae,Festuca,0,0
+Festuca arundinacea,Festuca,Festuca arundinacea,0,0
+Festuca brevipila,Festuca ovina agg.,Festuca ovina agg.,1,1
+Festuca csikhegyensis,Festuca ovina agg.,Festuca ovina agg.,0,1
+Festuca gigantea,Festuca,Festuca gigantea,0,0
+Festuca heterophylla,Festuca,Festuca heterophylla,0,0
+Festuca ovina agg.,Festuca,Festuca ovina agg.,1,1
+Festuca pratensis s. str.,Festuca pratensis s. l.,Festuca pratensis s. str.,1,1
+Festuca pulchra,Festuca valesiaca s. l.,Festuca ovina agg.,0,1
+Festuca rubra,Festuca rubra agg.,Festuca rubra agg.,1,1
+Festuca rubra agg.,Festuca,Festuca rubra agg.,1,1
+Festuca rupicola,Festuca ovina agg.,Festuca ovina agg.,1,1
+Festuca valesiaca s. l.,Festuca ovina agg.,Festuca ovina agg.,1,1
+Ficaria verna s. l.,Ficaria,Ficaria verna s. l.,0,0
+Filago arvensis,Filago,Filago arvensis,1,1
+Filago minima,Filago,Filago minima,1,1
+Filipendula ulmaria,Filipendula,Filipendula ulmaria,1,1
+Filipendula vulgaris,Filipendula,Filipendula vulgaris,1,1
+Fragaria vesca,Fragaria,Fragaria vesca,0,0
+Fragaria viridis,Fragaria,Fragaria viridis,1,1
+Fraxinus excelsior,Fraxinus,Fraxinus excelsior,0,0
+Galatella linosyris,Galatella,Galatella linosyris,1,1
+Galeopsis,Lamiaceae,Galeopsis,0,0
+Galeopsis tetrahit agg.,Galeopsis,Galeopsis tetrahit agg.,0,0
+Galium album,Galium mollugo agg.,Galium mollugo agg.,1,1
+Galium aparine,Galium aparine agg.,Galium aparine agg.,0,0
+Galium boreale,Galium,Galium boreale,1,1
+Galium glaucum,Galium,Galium glaucum,1,1
+Galium mollugo agg.,Galium,Galium mollugo agg.,0,1
+Galium palustre agg.,Galium,Galium palustre agg.,1,1
+Galium palustre s. str.,Galium palustre agg.,Galium palustre agg.,1,1
+Galium pomeranicum,Galium,Galium pomeranicum,1,1
+Galium uliginosum,Galium,Galium uliginosum,1,1
+Galium verum s. str.,Galium verum agg.,Galium verum agg.,1,1
+Genista tinctoria,Genista,Genista tinctoria,0,0
+Gentiana cruciata,Gentiana,Gentiana cruciata,1,1
+Geranium columbinum,Geranium,Geranium columbinum,0,0
+Geranium dissectum,Geranium,Geranium dissectum,0,0
+Geranium molle,Geranium,Geranium molle,0,0
+Geranium pratense,Geranium,Geranium pratense,1,1
+Geranium pusillum,Geranium,Geranium pusillum,0,0
+Geranium pyrenaicum,Geranium,Geranium pyrenaicum,0,0
+Geranium robertianum s. str.,Geranium robertianum agg.,Geranium robertianum agg.,0,0
+Geranium rotundifolium,Geranium,Geranium rotundifolium,0,0
+Geranium sanguineum,Geranium,Geranium sanguineum,1,1
+Geum rivale,Geum,Geum rivale,1,1
+Geum urbanum,Geum,Geum urbanum,0,0
+Glechoma hederacea,Glechoma,Glechoma hederacea,1,1
+Glyceria fluitans,Glyceria fluitans agg.,Glyceria fluitans agg.,1,1
+Glyceria fluitans agg.,Glyceria,Glyceria fluitans agg.,1,1
+Gymnadenia conopsea s. str.,Gymnadenia conopsea s. l.,Gymnadenia conopsea s. str.,1,1
+Helianthemum canum,Helianthemum,Helianthemum canum,1,1
+Helianthemum nummularium s. l.,Helianthemum,Helianthemum nummularium s. l.,1,1
+Helichrysum arenarium,Helichrysum,Helichrysum arenarium,1,1
+Helictotrichon pratense,Helictotrichon,Helictotrichon pratense,1,1
+Helictotrichon pubescens,Helictotrichon,Helictotrichon pubescens,1,1
+Heracleum sphondylium,Heracleum,Heracleum sphondylium,1,1
+Hieracium,Asteraceae,Hieracium,0,0
+Hieracium aurantiacum,Hieracium subg. Pilosella,Hieracium aurantiacum,0,0
+Hieracium pilosella,Hieracium subg. Pilosella,Hieracium pilosella,1,1
+Hieracium piloselloides,Hieracium subg. Pilosella,Hieracium piloselloides,0,0
+Hieracium subg. Pilosella,Hieracium,Hieracium subg. Pilosella,0,0
+Hieracium umbellatum,Hieracium subg. Hieracium,Hieracium umbellatum,1,1
+Hippocrepis comosa,Hippocrepis,Hippocrepis comosa,1,1
+Holcus lanatus,Holcus,Holcus lanatus,1,1
+Holcus mollis,Holcus,Holcus mollis,0,0
+Hordeum vulgare,Hordeum,Hordeum vulgare,0,0
+Hornungia petraea,Hornungia,Hornungia petraea,1,1
+Humulus lupulus,Humulus,Humulus lupulus,0,0
+Hypericum maculatum agg.,Hypericum,Hypericum maculatum agg.,1,1
+Hypericum perforatum,Hypericum,Hypericum perforatum,1,1
+Hypericum tetrapterum,Hypericum,Hypericum tetrapterum,1,1
+Hypochaeris radicata,Hypochaeris,Hypochaeris radicata,1,1
+Inula britannica,Inula,Inula britannica,1,1
+Inula conyzae,Inula,Inula conyzae,0,0
+Inula hirta,Inula,Inula hirta,1,1
+Inula salicina,Inula,Inula salicina,1,1
+Iris pseudacorus,Iris,Iris pseudacorus,0,0
+Jasione montana,Jasione,Jasione montana,1,1
+Juncus acutiflorus,Juncus,Juncus acutiflorus,1,1
+Juncus articulatus,Juncus,Juncus articulatus,1,1
+Juncus compressus agg.,Juncus,Juncus compressus agg.,0,0
+Juncus conglomeratus,Juncus,Juncus conglomeratus,1,1
+Juncus effusus,Juncus,Juncus effusus,1,1
+Juncus inflexus,Juncus,Juncus inflexus,1,1
+Juncus tenuis,Juncus,Juncus tenuis,0,0
+Knautia arvensis s. str.,Knautia arvensis agg.,Knautia arvensis agg.,1,1
+Koeleria macrantha,Koeleria pyramidata agg.,Koeleria pyramidata agg.,1,1
+Koeleria pyramidata,Koeleria pyramidata agg.,Koeleria pyramidata agg.,1,1
+Lactuca serriola,Lactuca,Lactuca serriola,0,0
+Lamium album,Lamium,Lamium album,0,0
+Lamium purpureum s. str.,Lamium,Lamium purpureum s. str.,0,0
+Lappula squarrosa,Lappula,Lappula squarrosa,0,0
+Lapsana communis,Lapsana,Lapsana communis,0,0
+Lathyrus palustris,Lathyrus,Lathyrus palustris,1,1
+Lathyrus pratensis,Lathyrus,Lathyrus pratensis,1,1
+Lathyrus tuberosus,Lathyrus,Lathyrus tuberosus,0,0
+Legousia speculum-veneris,Legousia,Legousia speculum-veneris,0,0
+Leontodon,Asteraceae,Leontodon,0,0
+Leontodon hispidus,Leontodon,Leontodon hispidus,1,1
+Lepidium campestre,Lepidium,Lepidium campestre,0,0
+Lepidium draba,Lepidium,Lepidium draba,0,0
+Leucanthemum ircutianum,Leucanthemum vulgare agg.,Leucanthemum vulgare agg.,0,1
+Leucanthemum vulgare agg.,Leucanthemum,Leucanthemum vulgare agg.,1,1
+Leucanthemum vulgare s. str.,Leucanthemum vulgare agg.,Leucanthemum vulgare agg.,1,1
+Ligustrum vulgare,Ligustrum,Ligustrum vulgare,0,0
+Linaria vulgaris,Linaria,Linaria vulgaris,0,0
+Linum austriacum,Linum perenne agg.,Linum perenne agg.,0,1
+Linum catharticum,Linum,Linum catharticum,1,1
+Linum perenne agg.,Linum,Linum perenne agg.,1,1
+Listera ovata,Listera,Listera ovata,1,1
+Lithospermum officinale,Lithospermum,Lithospermum officinale,0,0
+Lolium hybridum,Lolium,Lolium hybridum,0,0
+Lolium multiflorum,Lolium,Lolium multiflorum,0,0
+Lolium perenne,Lolium,Lolium perenne,1,1
+Lotus corniculatus,Lotus corniculatus agg.,Lotus corniculatus agg.,1,1
+Lotus pedunculatus,Lotus,Lotus pedunculatus,1,1
+Lotus tenuis,Lotus corniculatus agg.,Lotus corniculatus agg.,0,1
+Luzula campestris agg.,Luzula,Luzula campestris agg.,1,1
+Luzula multiflora s. str.,Luzula multiflora s. l.,Luzula campestris agg.,1,1
+Lychnis flos-cuculi,Lychnis (nom. rej. sub Silene),Lychnis flos-cuculi,1,1
+Lysimachia nummularia,Lysimachia,Lysimachia nummularia,0,0
+Lysimachia vulgaris,Lysimachia,Lysimachia vulgaris,1,1
+Lythrum salicaria,Lythrum,Lythrum salicaria,1,1
+Mahonia aquifolium,Mahonia,Mahonia aquifolium,0,0
+Malva,Malvaceae,Malva,0,0
+Malva moschata,Malva,Malva moschata,1,1
+Matricaria chamomilla,Matricaria,Matricaria chamomilla,0,0
+Medicago,Fabaceae,Medicago,0,0
+Medicago falcata s. str.,Medicago sativa agg.,Medicago sativa agg.,1,1
+Medicago lupulina,Medicago,Medicago lupulina,1,1
+Medicago minima,Medicago,Medicago minima,1,1
+Medicago sativa,Medicago sativa agg.,Medicago sativa agg.,0,1
+Medicago varia,Medicago sativa agg.,Medicago sativa agg.,0,1
+Melampyrum arvense,Melampyrum,Melampyrum arvense,1,1
+Melampyrum pratense,Melampyrum,Melampyrum pratense,0,0
+Melica nutans agg.,Melica,Melica nutans agg.,0,0
+Melilotus dentatus,Melilotus,Melilotus dentatus,0,0
+Mentha,Lamiaceae,Mentha,0,0
+Mentha aquatica,Mentha,Mentha aquatica,1,1
+Microthlaspi perfoliatum,Microthlaspi,Microthlaspi perfoliatum,1,1
+Molinia caerulea s. str.,Molinia caerulea agg.,Molinia caerulea agg.,1,1
+Muscari tenuiflorum,Muscari,Muscari tenuiflorum,1,1
+Myosotis,Boraginaceae,Myosotis,0,0
+Myosotis arvensis,Myosotis,Myosotis arvensis,0,0
+Myosotis discolor,Myosotis,Myosotis discolor,1,1
+Myosotis ramosissima,Myosotis,Myosotis ramosissima,1,1
+Myosotis scorpioides,Myosotis scorpioides agg.,Myosotis scorpioides agg.,1,1
+Myosotis stricta,Myosotis,Myosotis stricta,1,1
+Nardus stricta,Nardus,Nardus stricta,1,1
+Odontites vernus,Odontites vernus agg.,Odontites vernus agg.,0,0
+Odontites vernus agg.,Odontites,Odontites vernus agg.,0,0
+Oenothera-biennis-Gruppe,Oenothera,Oenothera-biennis-Gruppe,0,0
+Onobrychis viciifolia,Onobrychis viciifolia agg.,Onobrychis viciifolia agg.,1,1
+Ononis repens,Ononis spinosa agg.,Ononis spinosa agg.,1,1
+Ononis spinosa s. str.,Ononis spinosa agg.,Ononis spinosa agg.,1,1
+Onopordum acanthium,Onopordum,Onopordum acanthium,0,0
+Ophrys apifera,Ophrys,Ophrys apifera,1,1
+Ophrys insectifera,Ophrys,Ophrys insectifera,1,1
+Ophrys sphegodes s. str.,Ophrys sphegodes agg.,Ophrys sphegodes agg.,1,1
+Orchis militaris,Orchis,Orchis militaris,1,1
+Orchis purpurea,Orchis,Orchis purpurea,1,1
+Orchis pyramidalis,Orchis,Orchis pyramidalis,1,1
+Orchis tridentata,Orchis,Orchis tridentata,1,1
+Orchis ustulata,Orchis,Orchis ustulata,1,1
+Origanum vulgare,Origanum,Origanum vulgare,1,1
+Ornithogalum umbellatum,Ornithogalum,Ornithogalum umbellatum agg.,1,1
+Ornithogalum umbellatum s. l.,Ornithogalum umbellatum agg.,Ornithogalum umbellatum agg.,1,1
+Ornithopus perpusillus,Ornithopus,Ornithopus perpusillus,1,1
+Orobanche gracilis,Orobanche,Orobanche gracilis,1,1
+Oxytropis pilosa,Oxytropis,Oxytropis pilosa,1,1
+Papaver dubium s. l.,Papaver,Papaver dubium s. l.,0,0
+Papaver rhoeas,Papaver,Papaver rhoeas,0,0
+Parnassia palustris,Parnassia,Parnassia palustris,1,1
+Pastinaca sativa,Pastinaca,Pastinaca sativa,1,1
+Persicaria amphibia,Persicaria,Persicaria amphibia,0,0
+Persicaria maculosa,Persicaria,Persicaria maculosa,0,0
+Petrorhagia prolifera,Petrorhagia,Petrorhagia prolifera,1,1
+Petrorhagia saxifraga,Petrorhagia,Petrorhagia saxifraga,1,1
+Peucedanum cervaria,Peucedanum,Peucedanum cervaria,1,1
+Peucedanum officinale,Peucedanum,Peucedanum officinale,1,1
+Peucedanum oreoselinum,Peucedanum,Peucedanum oreoselinum,1,1
+Peucedanum palustre,Peucedanum,Peucedanum palustre,1,1
+Phalaris arundinacea,Phalaris,Phalaris arundinacea,1,1
+Phleum phleoides,Phleum,Phleum phleoides,1,1
+Phleum pratense agg.,Phleum,Phleum pratense agg.,1,1
+Phragmites australis,Phragmites,Phragmites australis,0,0
+Phyteuma orbiculare s. l.,Phyteuma,Phyteuma orbiculare s. l.,1,1
+Picea abies,Picea,Picea abies,0,0
+Picris hieracioides s. l.,Picris,Picris hieracioides s. l.,0,0
+Pimpinella major,Pimpinella,Pimpinella major,1,1
+Pimpinella saxifraga,Pimpinella saxifraga agg.,Pimpinella saxifraga agg.,1,1
+Pinus sylvestris,Pinus,Pinus sylvestris,0,0
+Plantago lanceolata,Plantago,Plantago lanceolata,1,1
+Plantago major agg.,Plantago,Plantago major agg.,1,1
+Plantago media,Plantago,Plantago media,1,1
+Plantago uliginosa,Plantago major agg.,Plantago major agg.,0,1
+Platanthera bifolia s. l.,Platanthera,Platanthera bifolia s. l.,1,1
+Platanthera chlorantha,Platanthera,Platanthera chlorantha,1,1
+Poa angustifolia,Poa pratensis agg.,Poa pratensis agg.,1,1
+Poa annua,Poa annua agg.,Poa annua agg.,0,0
+Poa bulbosa,Poa,Poa bulbosa,1,1
+Poa humilis,Poa pratensis agg.,Poa pratensis agg.,0,1
+Poa pratensis agg.,Poa,Poa pratensis agg.,1,1
+Poa pratensis s. str.,Poa pratensis agg.,Poa pratensis agg.,1,1
+Poa trivialis s. l.,Poa,Poa trivialis s. l.,1,1
+Polygala amarella,Polygala amara agg.,Polygala amara agg.,1,1
+Polygala comosa,Polygala,Polygala comosa,1,1
+Polygala vulgaris s. l.,Polygala,Polygala vulgaris s. l.,1,1
+Polygonatum odoratum,Polygonatum,Polygonatum odoratum,1,1
+Polygonum aviculare s. l.,Polygonum aviculare agg.,Polygonum aviculare agg.,0,0
+Potentilla anserina,Potentilla,Potentilla anserina,1,1
+Potentilla argentea s. l.,Potentilla,Potentilla argentea s. l.,1,1
+Potentilla erecta,Potentilla,Potentilla erecta,1,1
+Potentilla heptaphylla,Potentilla,Potentilla heptaphylla,1,1
+Potentilla incana,Potentilla verna agg.,Potentilla verna agg.,1,1
+Potentilla recta,Potentilla,Potentilla recta,0,0
+Potentilla reptans,Potentilla,Potentilla reptans,0,0
+Potentilla verna,Potentilla verna agg.,Potentilla verna agg.,1,1
+Primula elatior,Primula,Primula elatior,1,1
+Primula veris,Primula,Primula veris,1,1
+Prunella grandiflora,Prunella,Prunella grandiflora,1,1
+Prunella vulgaris,Prunella,Prunella vulgaris,1,1
+Prunus,Rosaceae,Prunus,0,0
+Prunus avium,Prunus,Prunus avium,0,0
+Prunus mahaleb,Prunus,Prunus mahaleb,0,0
+Prunus padus,Prunus,Prunus padus,0,0
+Prunus serotina,Prunus,Prunus serotina,0,0
+Prunus spinosa s. str.,Prunus spinosa agg.,Prunus spinosa agg.,0,0
+Pulicaria dysenterica,Pulicaria,Pulicaria dysenterica,1,1
+Pulsatilla vulgaris s. str.,Pulsatilla vulgaris s. l.,Pulsatilla vulgaris s. str.,1,1
+Pyrus communis,Pyrus communis agg.,Pyrus communis agg.,0,0
+Pyrus pyraster,Pyrus communis agg.,Pyrus communis agg.,0,0
+Quercus,Fagaceae,Quercus,0,0
+Quercus robur,Quercus,Quercus robur,0,0
+Quercus rubra,Quercus,Quercus rubra,0,0
+Ranunculus,Ranunculaceae,Ranunculus,0,0
+Ranunculus acris,Ranunculus acris agg.,Ranunculus acris agg.,1,1
+Ranunculus auricomus agg.,Ranunculus,Ranunculus auricomus agg.,1,1
+Ranunculus bulbosus,Ranunculus,Ranunculus bulbosus,1,1
+Ranunculus flammula s. str.,Ranunculus flammula agg.,Ranunculus flammula agg.,1,1
+Ranunculus polyanthemos s. l.,Ranunculus,Ranunculus polyanthemos s. l.,1,1
+Ranunculus repens,Ranunculus,Ranunculus repens,1,1
+Reseda lutea,Reseda,Reseda lutea,0,0
+Rhamnus cathartica,Rhamnus,Rhamnus cathartica,0,0
+Rhinanthus alectorolophus,Rhinanthus,Rhinanthus alectorolophus,1,1
+Rhinanthus minor,Rhinanthus,Rhinanthus minor,1,1
+Rhinanthus serotinus s. l.,Rhinanthus,Rhinanthus serotinus s. l.,0,0
+Rorippa anceps,Rorippa,Rorippa anceps,0,0
+Rorippa palustris,Rorippa islandica agg.,Rorippa islandica agg.,0,0
+Rosa,Rosaceae,Rosa,0,0
+Rosa canina s. l.,Rosa,Rosa canina s. l.,0,0
+Rosa glauca,Rosa,Rosa glauca,0,0
+Rosa rubiginosa,Rosa rubiginosa agg.,Rosa rubiginosa agg.,0,0
+Rosa spinosissima,Rosa,Rosa spinosissima,0,0
+Rubus,Rosaceae,Rubus,0,0
+Rubus caesius,Rubus sect. Caesii,Rubus caesius,0,0
+Rubus sect. Rubus,Rubus subg. Rubus,Rubus sect. Rubus,0,0
+Rumex,Polygonaceae,Rumex,0,0
+Rumex acetosa,Rumex,Rumex acetosa,1,1
+Rumex acetosella s. l.,Rumex,Rumex acetosella s. l.,1,1
+Rumex crispus,Rumex,Rumex crispus,1,1
+Rumex obtusifolius,Rumex,Rumex obtusifolius,0,0
+Rumex rugosus,Rumex,Rumex rugosus,0,0
+Rumex stenophyllus,Rumex,Rumex stenophyllus,0,0
+Rumex thyrsiflorus,Rumex,Rumex thyrsiflorus,1,1
+Salix aurita,Salix,Salix aurita,0,0
+Salix caprea,Salix,Salix caprea,0,0
+Salix myrsinifolia,Salix,Salix myrsinifolia,0,0
+Salix purpurea,Salix,Salix purpurea,0,0
+Salvia nemorosa,Salvia,Salvia nemorosa,1,1
+Salvia pratensis,Salvia,Salvia pratensis,1,1
+Salvia verticillata,Salvia,Salvia verticillata,0,0
+Sanguisorba minor s. l.,Sanguisorba,Sanguisorba minor s. l.,1,1
+Sanguisorba officinalis,Sanguisorba,Sanguisorba officinalis,1,1
+Saxifraga granulata,Saxifraga,Saxifraga granulata,1,1
+Saxifraga tridactylites,Saxifraga,Saxifraga tridactylites,1,1
+Scabiosa,Caprifoliaceae,Scabiosa,0,0
+Scabiosa canescens,Scabiosa,Scabiosa canescens,1,1
+Scabiosa columbaria,Scabiosa columbaria agg.,Scabiosa columbaria agg.,1,1
+Scabiosa ochroleuca,Scabiosa,Scabiosa ochroleuca,1,1
+Scirpus sylvaticus,Scirpus,Scirpus sylvaticus,1,1
+Scorzonera purpurea,Scorzonera,Scorzonera purpurea,1,1
+Scorzoneroides autumnalis,Scorzoneroides,Scorzoneroides autumnalis,1,1
+Securigera varia,Securigera,Securigera varia,0,0
+Sedum sexangulare,Sedum,Sedum sexangulare,1,1
+Selinum carvifolia,Selinum,Selinum carvifolia,1,1
+Selinum dubium,Selinum,Selinum dubium,1,1
+Senecio,Asteraceae,Senecio,0,0
+Senecio aquaticus s. str.,Senecio aquaticus agg.,Senecio aquaticus agg.,1,1
+Senecio inaequidens,Senecio,Senecio inaequidens,0,0
+Senecio jacobaea,Senecio,Senecio jacobaea,1,1
+Senecio paludosus,Senecio,Senecio paludosus,1,1
+Senecio vernalis,Senecio,Senecio vernalis,0,0
+Serratula tinctoria s. l.,Serratula,Serratula tinctoria s. l.,1,1
+Seseli annuum,Seseli,Seseli annuum,1,1
+Seseli hippomarathrum,Seseli,Seseli hippomarathrum,1,1
+Seseli libanotis,Seseli,Seseli libanotis,1,1
+Sesleria caerulea,Sesleria,Sesleria caerulea,1,1
+Silaum silaus,Silaum,Silaum silaus,1,1
+Silene dioica,Silene,Silene dioica,0,0
+Silene latifolia subsp. alba,Silene latifolia,Silene latifolia subsp. alba,0,0
+Silene nutans,Silene,Silene nutans,0,0
+Silene otites,Silene,Silene otites,1,1
+Silene vulgaris,Silene,Silene vulgaris,1,1
+Sisymbrium loeselii,Sisymbrium,Sisymbrium loeselii,0,0
+Sisymbrium officinale,Sisymbrium,Sisymbrium officinale,0,0
+Solidago canadensis,Solidago,Solidago canadensis,0,0
+Solidago gigantea,Solidago,Solidago gigantea,0,0
+Solidago virgaurea,Solidago,Solidago virgaurea,1,1
+Sonchus arvensis,Sonchus,Sonchus arvensis,0,0
+Sonchus asper,Sonchus,Sonchus asper,0,0
+Sonchus oleraceus,Sonchus,Sonchus oleraceus,0,0
+Sorbus torminalis,Sorbus,Sorbus torminalis,0,0
+Stachys palustris,Stachys,Stachys palustris,1,1
+Stachys recta,Stachys,Stachys recta,1,1
+Stellaria alsine,Stellaria,Stellaria alsine,0,0
+Stellaria apetala,Stellaria media agg.,Stellaria media agg.,0,0
+Stellaria graminea,Stellaria,Stellaria graminea,1,1
+Stellaria media agg.,Stellaria,Stellaria media agg.,0,0
+Stellaria media s. str.,Stellaria media agg.,Stellaria media agg.,0,0
+Stellaria palustris,Stellaria,Stellaria palustris,1,1
+Stipa capillata,Stipa,Stipa capillata,1,1
+Stipa pennata agg.,Stipa,Stipa pennata agg.,1,1
+Succisa pratensis,Succisa,Succisa pratensis,1,1
+Symphytum bohemicum,Symphytum officinale agg.,Symphytum officinale agg.,0,1
+Symphytum officinale agg.,Symphytum,Symphytum officinale agg.,1,1
+Symphytum officinale s. str.,Symphytum officinale agg.,Symphytum officinale agg.,1,1
+Tanacetum corymbosum s. l.,Tanacetum,Tanacetum corymbosum s. l.,1,1
+Tanacetum vulgare,Tanacetum,Tanacetum vulgare,0,0
+Taraxacum sect. Erythrosperma,Taraxacum,Taraxacum sect. Erythrosperma,1,1
+Taraxacum sect. Ruderalia,Taraxacum,Taraxacum sect. Ruderalia,1,1
+Teesdalia nudicaulis,Teesdalia,Teesdalia nudicaulis,1,1
+Teucrium chamaedrys,Teucrium,Teucrium chamaedrys,1,1
+Teucrium montanum,Teucrium,Teucrium montanum,1,1
+Thalictrum aquilegiifolium,Thalictrum,Thalictrum aquilegiifolium,0,0
+Thalictrum flavum,Thalictrum,Thalictrum flavum,1,1
+Thalictrum minus,Thalictrum,Thalictrum minus,1,1
+Thesium linophyllon,Thesium,Thesium linophyllon,1,1
+Thymus praecox,Thymus,Thymus praecox,1,1
+Thymus pulegioides s. l.,Thymus chamaedrys agg.,Thymus chamaedrys agg.,1,1
+Torilis arvensis,Torilis,Torilis arvensis,0,0
+Torilis japonica,Torilis japonica agg.,Torilis japonica agg.,0,0
+Tragopogon,Asteraceae,Tragopogon,0,0
+Tragopogon dubius,Tragopogon,Tragopogon dubius,0,0
+Tragopogon pratensis s. l.,Tragopogon,Tragopogon pratensis s. l.,1,1
+Trifolium alpestre,Trifolium,Trifolium alpestre,1,1
+Trifolium arvense,Trifolium,Trifolium arvense,1,1
+Trifolium campestre,Trifolium,Trifolium campestre,1,1
+Trifolium dubium,Trifolium dubium agg.,Trifolium dubium agg.,1,1
+Trifolium hybridum,Trifolium,Trifolium hybridum,0,0
+Trifolium medium,Trifolium,Trifolium medium,0,0
+Trifolium montanum,Trifolium,Trifolium montanum,1,1
+Trifolium pratense,Trifolium,Trifolium pratense,1,1
+Trifolium repens,Trifolium,Trifolium repens,1,1
+Trifolium striatum,Trifolium,Trifolium striatum,1,1
+Tripleurospermum perforatum,Tripleurospermum maritimum agg.,Tripleurospermum maritimum agg.,0,0
+Trisetum flavescens,Trisetum,Trisetum flavescens,1,1
+Trollius europaeus,Trollius,Trollius europaeus,1,1
+Ulmus minor,Ulmus,Ulmus minor,0,0
+Urtica dioica s. l.,Urtica,Urtica dioica s. l.,0,0
+Valeriana officinalis agg.,Valeriana,Valeriana officinalis agg.,0,0
+Valerianella locusta,Valerianella,Valerianella locusta,1,1
+Verbascum,Scrophulariaceae,Verbascum,0,0
+Verbascum densiflorum,Verbascum,Verbascum densiflorum,0,0
+Verbascum nigrum,Verbascum,Verbascum nigrum,0,0
+Verbascum thapsus,Verbascum,Verbascum thapsus,0,0
+Verbena officinalis,Verbena,Verbena officinalis,0,0
+Veronica arvensis,Veronica,Veronica arvensis,1,1
+Veronica chamaedrys s. str.,Veronica chamaedrys agg.,Veronica chamaedrys agg.,1,1
+Veronica filiformis,Veronica,Veronica filiformis,0,0
+Veronica hederifolia agg.,Veronica,Veronica hederifolia agg.,0,0
+Veronica maritima,Veronica maritima agg.,Veronica maritima agg.,0,0
+Veronica officinalis,Veronica,Veronica officinalis,1,1
+Veronica persica,Veronica,Veronica persica,0,0
+Veronica polita,Veronica,Veronica polita,0,0
+Veronica praecox,Veronica,Veronica praecox,1,1
+Veronica serpyllifolia,Veronica,Veronica serpyllifolia,1,1
+Veronica teucrium,Veronica austriaca agg.,Veronica austriaca agg.,1,1
+Veronica verna agg.,Veronica,Veronica verna agg.,1,1
+Viburnum lantana,Viburnum,Viburnum lantana,0,0
+Viburnum opulus,Viburnum,Viburnum opulus,0,0
+Vicia,Fabaceae,Vicia,0,0
+Vicia angustifolia s. l.,Vicia sativa agg.,Vicia sativa agg.,0,1
+Vicia cracca,Vicia cracca agg.,Vicia cracca agg.,1,1
+Vicia grandiflora,Vicia,Vicia grandiflora,0,0
+Vicia hirsuta,Vicia,Vicia hirsuta,0,0
+Vicia sativa,Vicia,Vicia sativa agg.,1,1
+Vicia sativa agg.,Vicia,Vicia sativa agg.,1,1
+Vicia sepium,Vicia,Vicia sepium,1,1
+Vicia sylvatica,Vicia,Vicia sylvatica,0,0
+Vicia tetrasperma,Vicia tetrasperma agg.,Vicia tetrasperma agg.,0,0
+Vincetoxicum hirundinaria,Vincetoxicum,Vincetoxicum hirundinaria,1,1
+Viola arvensis,Viola tricolor agg.,Viola tricolor agg.,0,1
+Viola canina s. str.,Viola canina agg.,Viola canina agg.,1,1
+Viola collina,Viola,Viola collina,0,0
+Viola hirta,Viola,Viola hirta,1,1
+Viola stagnina,Viola,Viola stagnina,1,1
+Viola tricolor,Viola tricolor agg.,Viola tricolor agg.,1,1
+Viscaria vulgaris,Viscaria,Viscaria vulgaris,1,1
+Vulpia myuros,Vulpia,Vulpia myuros,1,1
+x Festulolium,Poaceae,x Festulolium,0,0

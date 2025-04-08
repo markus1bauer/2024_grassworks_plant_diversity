@@ -1,0 +1,6 @@
+term,estimate,std.error,statistic,p.value
+(Intercept),-0.296,0.318,-0.932,0.3515
+rest.methmga,-0.16,0.302,-0.528,0.5975
+rest.methres,0.489,0.231,2.121,0.0339
+rest.methdih,0.383,0.229,1.676,0.0937
+land.use.histgrassland,-0.035,0.176,-0.201,0.8406

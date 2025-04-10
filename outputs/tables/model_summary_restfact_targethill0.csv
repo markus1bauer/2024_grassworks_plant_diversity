@@ -1,6 +1,0 @@
-term,estimate,std.error,statistic,p.value
-(Intercept),3.225,0.152,21.282,< 0.001
-rest.methmga,0.105,0.097,1.089,0.2763
-rest.methres,0.229,0.072,3.185,0.0014
-rest.methdih,0.323,0.076,4.267,< 0.001
-land.use.histgrassland,0.102,0.054,1.901,0.0572

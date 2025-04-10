@@ -1,4 +1,0 @@
-term,estimate,std.error,statistic,p.value
-(Intercept),2.871,0.148,19.403,< 0.001
-site.typerestored,0.608,0.064,9.493,< 0.001
-site.typepositive,0.74,0.076,9.685,< 0.001

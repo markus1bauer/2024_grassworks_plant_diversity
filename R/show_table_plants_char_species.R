@@ -18,14 +18,16 @@ library(here)
 library(tidyverse)
 library(gt)
 
+
 ### Start ###
 rm(list = ls())
+
 
 ### Load data ###
 # used for diversity calculation of vegetation plots (A1-A4)
 # in skript _prepare_data_3b_site_environment.R (aggregated species level)
 abundances <- read_csv(
-  here("outputs", "temp", "vegetation", "abundances_A1A4_20250306.csv"),
+  here("data", "processed", "data_processed_abundances_A1A4_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )
@@ -34,7 +36,16 @@ abundances <- read_csv(
 species <- abundances %>% 
   distinct(name.plant.agg, .keep_all = T) %>% 
   select(name.plant.agg, target.species.agg, r.all.diagnostic, ffh.lrt, calth.btt) %>% 
-  arrange(name.plant.agg)
+  arrange(name.plant.agg) %>% 
+  mutate(name.plant.agg = str_replace(name.plant.agg, "Gruppe", "group"),
+         # add "spec." to genus taxa
+         name.plant.agg = if_else(
+           !str_detect(name.plant.agg, " ") & !str_detect(name.plant.agg, "group"),
+           paste0(name.plant.agg, " spec."),
+           name.plant.agg
+         ))
+
+
 
 
 species %>% 
@@ -74,7 +85,7 @@ species %>%
    )
  %>%
    
-   ### 2 bold characteristic species ####
+   ### 2 Bold characteristic species ####
    tab_style(
      style = list(cell_text(weight = "bold")),  # Apply bold text
      locations = cells_body(
@@ -85,7 +96,18 @@ species %>%
    cols_hide(columns = target.species.agg)
  %>% 
    
-   ### 3 Column labels ####
+   ### 3 Species names in italic ####
+ tab_style(
+   style = cell_text(style = "italic"),
+   locations = cells_body(
+     columns = name.plant.agg,  # Column to style
+     )
+ ) %>% 
+   cols_hide(columns = target.species.agg)
+ %>% 
+   
+   
+   ### 4 Column labels ####
  cols_label(
    name.plant.agg = md("**Plant**"),
    # target.species.agg = md("**Characteristic Grassland Species**"),
@@ -98,4 +120,4 @@ species %>%
 
 
 ### Save ###
-gtsave(table, here("outputs", "tables", "vegetation", "table_char_spec_list_20250407.docx"))
+gtsave(table, here("outputs", "tables", "table_char_spec_list_20250407.docx"))

@@ -35,7 +35,7 @@ rm(list = ls())
 
 
 sites <- read_csv(
-  here("data", "raw", "sites_processed_environment_nms_20240813.csv"),
+  here("data", "raw", "data_processed_environment_nms_20240813.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?",
     eco.id = "f",

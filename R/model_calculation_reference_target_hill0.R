@@ -33,7 +33,7 @@ rm(list = ls())
 ### site environment data ####
 
 sites <- read_csv(
-  here("data", "processed", "sites_processed_environment_nms_20250306.csv"),
+  here("data", "raw", "data_processed_environment_nms_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )) %>%
@@ -51,11 +51,10 @@ sites <- read_csv(
 ### diversity data ####
 
 diversity <- read_csv(
-  here("data", "processed", "data_processed_plants_site_diversity_20250306.csv"),
+  here("data", "raw", "data_processed_plants_site_diversity_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   ))
-
 
 
 
@@ -576,8 +575,8 @@ pairs(regrid(emm.site.type), adjust = "tukey") # regrid() for back-transformatio
 
 
 save(restref_targethill0, data_model_targethill0,
-     file = here("outputs", "models", "vegetation",
-                 "model_plants_restref_targethill0.Rdata"))
+     file = here("outputs", "models",
+                 "model_reference_target_hill0.Rdata"))
 
 
 

@@ -32,7 +32,7 @@ rm(list = ls())
 
 ### site environment data ####
 sites <- read_csv(
-  here("data", "processed", "sites_processed_environment_nms_20250306.csv"),
+  here("data", "raw", "data_processed_environment_nms_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )) %>%
@@ -572,8 +572,8 @@ pairs(regrid(emm.site.type), adjust = "tukey") # regrid() for back-transformatio
 
 
 save(restref_fgratio, data_model_fgratio,
-     file = here("outputs", "models", "vegetation",
-                 "model_plants_restref_fgratio.Rdata"))
+     file = here("outputs", "models",
+                 "model_reference_forb_grass.Rdata"))
 
 
 

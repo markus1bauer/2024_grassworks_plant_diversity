@@ -35,13 +35,13 @@ rm(list = ls())
 ### site environment data ####
 
 sites <- read_csv(
-  here("data", "processed", "sites_processed_environment_nms_20250306.csv"),
+  here("data", "raw", "data_processed_environment_nms_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )) %>%
   dplyr::select(
     id.site, site.type, hydrology, region, rest.meth, land.use.hist, rest.age,
-    longitude, latitude, site.cwm.abu.oek.l, site.cwm.pres.oek.l
+    longitude, latitude
   ) %>%
   distinct() %>% 
   mutate(region = fct_relevel(region, "north", "centre", "south"),
@@ -49,10 +49,12 @@ sites <- read_csv(
          rest.meth = fct_relevel(rest.meth, "cus", "mga", "res", "dih"),
   )
 
+
+
 ### diversity data ####
 
 diversity <- read_csv(
-  here("data", "processed", "data_processed_plants_site_diversity_20250306.csv"),
+  here("data", "raw", "data_processed_plants_site_diversity_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   ))
@@ -1112,8 +1114,8 @@ performance(restfact_targethill1_20y)
 ### c save final model ----
 
 save(restfact_targethill1_20y, data_model_targethill1_20y,
-     file = here("outputs", "models", "vegetation",
-                 "model_plants_restfact_targethill1_20y.Rdata"))
+     file = here("outputs", "models",
+                 "model_methods_target_hill1_20y.Rdata"))
 
 
 
@@ -1524,8 +1526,8 @@ data_model_tot %>%
 
 
 save(restfact_targethill1, data_model_targethill1,
-     file = here("outputs", "models", "vegetation",
-                 "model_plants_restfact_targethill1.Rdata"))
+     file = here("outputs", "models",
+                 "model_methods_target_hill1_full.Rdata"))
 
 
 

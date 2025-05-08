@@ -42,10 +42,7 @@ sites <- read_csv(
   dplyr::select(
     id.site,
     site.type, hydrology, region, rest.meth, land.use.hist, rest.age,
-    site.cover.grass, site.cover.forbs, site.cover.legumes,
-    site.forb.legu.grass.ratio, 
-    longitude, latitude
-  ) %>%
+    site.forb.legu.grass.ratio) %>%
   distinct() %>% 
   mutate(region = fct_relevel(region, "north", "centre", "south"),
          hydrology = fct_relevel(hydrology, "dry", "fresh", "moist"),
@@ -57,44 +54,21 @@ sites <- read_csv(
 
 ## transform input data --------------------------------------------------------
 
-# standardise explanatory variable (only numerical variables)
-# so that they have a mean of zero (“centering”) and standard deviation of one (“scaling”)
-# --> z-standardization
-# It ensures that the estimated coefficients are all on the same scale, 
-# making it easier to compare effect sizes.
-
-# Standardizing the numeric explanatory variables
+# standardize numeric explanatory variables
 data <- sites %>%
   mutate(across(where(is.character), as.factor)) %>%
   mutate(across(where(is.numeric), ~ as.numeric(scale(.)), .names = "{col}.std"))
-
-# # Verify scaling
-# summary(data)
-
 
 
 
 ## set model data --------------------------------------------------------------
 
 
+# join diversity data
 data_all <- data %>%
-  dplyr::select(
-    id.site,
-    site.forb.legu.grass.ratio,
-    hydrology,
-    region,
-    rest.meth,
-    rest.age,
-    rest.age.std,
-    land.use.hist,
-    longitude,
-    latitude
-  ) %>% 
+  dplyr::select(id.site, site.forb.legu.grass.ratio, hydrology, region,
+                rest.meth, rest.age.std, land.use.hist) %>% 
   rename(fg.ratio = site.forb.legu.grass.ratio)
-
-
-
-
 
 
 
@@ -105,40 +79,14 @@ rm(list = setdiff(ls(), c("data_all", "sites")))
 # B - DATA EXPLORATION ##########################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# Protocol of data exploration (Steps 1-8)
-# used from Zuur et al. (2010) Methods Ecol Evol 
-#[DOI: 10.1111/2041-210X.12577](https://doi.org/10.1111/2041-210X.12577)
-
-
 ## a Missing values ------------------------------------------------------------
 colSums(is.na(data_all)) 
 # 66 NAs in rest.meth, rest.age and land.use.hist due to reference sites
 # 13 other NAs in rest.age
-vis_dat(data_all)
-gg_miss_var(data_all)  
 
 
 
-
-## b Outliers, zero-inflation, transformations? (Step 1, 3, 4) -----------------
-
-# data_all %>%
-#   count(location_construction_year)
-# plot1 <- ggplot(data_all, aes(x = exposition, y = y)) +
-#   geom_quasirandom()
-# (plot2 <- ggplot(data_all, aes(x = fg.ratio)) +
-#   geom_histogram(binwidth = 1))
-# plot3 <- ggplot(data_all, aes(x = fg.ratio)) +
-#   geom_density()
-# plot4 <- ggplot(data_all, aes(x = log(fg.ratio))) +
-#   geom_density()
-# (plot1 + plot2) / (plot3 + plot4)
-
-
-
-
-
-# Outliers: check with Cleveland dotplot
+## b Outliers ------------------------------------------------------------------
 
 library(lattice)
 Z <- data_all %>% 
@@ -154,177 +102,80 @@ dotplot(as.matrix(Z), groups = FALSE,
         col = 1, cex  = 0.5, pch = 16,
         xlab = "Value of the variable",
         ylab = "Order of the data from text file")
-# outlier are points far right or left in plot
-# doesn't look like there are outliers
 
-sort(data_all$fg.ratio)
 
-## wie umgehen mit ouliers?? Messfehler: unrealistische WErte
-# 
-# dotchart(sites_data$fcsi.hill.2,
-#          ylab = "Order of the data")
-# 
-# sites_data %>% 
-#   filter(fcsi.hill.2 > 5) %>% 
-#   select(id.site)
-
-# another test for outliers
-library(rstatix)
+# rstatix test for outliers
 data_all %>% 
-  select(id.site, fg.ratio) %>% 
-  identify_outliers(fg.ratio)
-# extreme outliers with fg.ratio >= 3.96
+  select(id.site, tot.hill.0) %>% 
+  identify_outliers(tot.hill.0)
 data_all %>% 
-  select(id.site, rest.age) %>% 
-  identify_outliers(rest.age)
-# no extreme outliers
-
+  select(id.site, rest.age.std) %>% 
+  identify_outliers(rest.age.std)
 sites %>% 
   filter(id.site %in% c("S_JAU", "S_NOZ", "M_JER", "S_MCH"))
 sort(sites$site.cover.legumes)
-# nothing strange with outliers --> keep them
+# ok
 
-# # remove outliers
-# data_all <- data_all %>% 
-#   filter(fg.ratio < 3.96)
-# 
-# data_all %>% 
-#   select(id.site, fg.ratio) %>% 
-#   identify_outliers(fg.ratio)
-# # no extreme outliers
 
 
 ## c inspect categorical covariates -----------------------------------------
 
-table(data_all$rest.meth)
-#' Unbalanced...but enough observations per level.
-
-table(data_all$land.use.hist)
-#' Unbalanced...but enough observations per level.
-
+table(data_all$site.type)
 table(data_all$hydrology)
-#' Unbalanced...but enough observations per level.
-
 table(data_all$region)
-#' Balanced.
+table(data_all$site.type, data_all$hydrology)
+table(data_all$site.type, data_all$region)
 
-#' Was each previous land use measured in every restoration method?
-table(data_all$rest.meth, data_all$land.use.hist)
-histogram( ~ rest.meth | land.use.hist, data_all)
-#' Unbalanced, do we have enough observations per combination for an 
-#' interaction term?
-
-#' Was each hydrology measured in every restoration method?
-table(data_all$rest.meth, data_all$hydrology)
-histogram( ~ rest.meth | hydrology, data_all)
-#' Unbalanced, do we have enough observations per combination for an 
-#' interaction term?
-
-#' Was each region measured in every restoration method?
-table(data_all$rest.meth, data_all$region)
-histogram( ~ rest.meth | region, data_all)
-#' Unbalanced, no mga in south
-
-#' Was each hydrology measured in every previous land use?
-table(data_all$land.use.hist, data_all$hydrology)
-histogram( ~ land.use.hist | hydrology, data_all)
-#' Unbalanced, but enough observations per combination for an interaction term
-
-#' Was each region measured in every previous land use?
-table(data_all$land.use.hist, data_all$region)
-histogram( ~ land.use.hist | region, data_all)
-#' Unbalanced, but fine
-
-#' Was each region measured in every hydrology?
-table(data_all$hydrology, data_all$region)
-histogram( ~ hydrology | region, data_all)
-#' Unbalanced, but fine
 
 
 
 ## d Check collinearity part 1 ----------------------------------------
 
 # between continuous covariates
-
 # only one numerical variable in model data --> no need to check
 
-# Exclude r > 0.7
-#  Dormann et al. 2013 Ecography [DOI: 10.1111/j.1600-0587.2012.07348.x](https://doi.org/10.1111/j.1600-0587.2012.07348.x)
-
-# data_all %>%
-#   select(where(is.numeric) %>%
-#   GGally::ggpairs(
-#     lower = list(continuous = "smooth_loess")
-#   ) +
-#   theme(strip.text = element_text(size = 7))
-#   )
-#
-# # exclude variable
-# data_all <- data_all %>%
-#   select(-biotope_area)
 
 # between continuous variables and factors
 
-ggplot(data_all, aes(x = rest.meth, y = rest.age)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent")
+ggplot(data_all, aes(x = rest.meth, y = rest.age.std)) +
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 data_all %>% 
-  anova_test(rest.age ~ rest.meth)
-#' boxplots are not next to each other, anova is significant:
-#' --> restoration method is collinear with age
-ggplot(data_all, aes(x = land.use.hist, y = rest.age)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent")
-ggplot(data_all, aes(x = hydrology, y = rest.age)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent")
-ggplot(data_all, aes(x = region, y = rest.age)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent")
-#' region is unbalanced, but fine I guess.
-#' The rest is fine.
-
-
-
-# source("HighstatLibV14.R")
-# MyVar <- c("rest.meth", "rest.age", "land.use.hist", "hydrology", "region")
-# corvif(data_all[,MyVar])
+  anova_test(rest.age.std ~ rest.meth)
+# collinearity
+ggplot(data_all, aes(x = land.use.hist, y = rest.age.std)) +
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
+ggplot(data_all, aes(x = hydrology, y = rest.age.std)) +
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
+ggplot(data_all, aes(x = region, y = rest.age.std)) +
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 
 
 ## e Relationships --------------------------------------------------------------
 
 #' Plot response variable versus each covariate.
 
-
 ggplot(data_all, aes(x = rest.meth, y = fg.ratio)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent") +
-  labs(title = "Restoration method")
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 ggplot(data_all, aes(x = land.use.hist, y = fg.ratio)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent") +
-  labs(title = "Previous landuse")
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent") 
 ggplot(data_all, aes(x = rest.age, y = fg.ratio)) +
-  geom_point() + geom_smooth(method = "glm") +
-  labs(title = "Age of Restoration")
+  geom_point() + geom_smooth(method = "glm") 
 ggplot(data_all, aes(x = region, y = fg.ratio)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent") +
-  labs(title = "Region")
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent") 
 ggplot(data_all, aes(x = hydrology, y = fg.ratio)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent") +
-  labs(title = "Hydrology")
-# difference between regions --> use as random factor
-# difference between hydrology --> test as random factor
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 
 
 ## f distribution --------------------------------------------------------------
 
 library(lattice)
-histogram(data_all$fg.ratio)
-# always positive, right skewed with long tail
-# gamma distribution? exponential?
-histogram(log(data_all$fg.ratio))
-# doesn't look like a normal distribution --> not lognormal
-
-x <- data_all$fg.ratio
-
 library(fitdistrplus)
 library(logspline)
 
+histogram(data_all$fg.ratio)
+histogram(log(data_all$fg.ratio))
+
+x <- data_all$fg.ratio
 descdist(x, discrete = FALSE)
 
 fit.norm <- fitdist(x, "norm")
@@ -332,32 +183,25 @@ fit.exp <- fitdist(x, "exp")
 fit.gamma <- fitdist(x, "gamma")
 fit.lnorm <- fitdist(x, "lnorm")
 print(fit.gamma)
-# shape is close to 1 --> exponential distribution could be possible
 
-# If the variance increases with the mean, 
-# this suggests a Gamma (or exponential) distribution might be a good fit
 df_summary <- data_all %>%
-  group_by(rest.meth) %>%
+  group_by(site.type) %>%
   summarize(mean_ratio = mean(fg.ratio), 
             var_ratio = var(fg.ratio))
 ggplot(df_summary, aes(x = mean_ratio, y = var_ratio)) +
   geom_point() +
   geom_smooth(method = "lm", se = FALSE) +
   labs(title = "Variance vs. Mean of Forb-Grass Ratio")
-# increases
+
 plot(fit.norm)
 plot(fit.exp)
 plot(fit.gamma)
 plot(fit.lnorm)
-# gamma and exponential looks okay
 
 fit.norm$aic
 fit.exp$aic
 fit.gamma$aic
 fit.lnorm$aic
-# exponential has lowest AIC, < delta 2 to gamma
-# exponential is a special case of gamma, glmmTMB uses gamma with link log for both
-# --> use gamma distribution and check shape = 1 if necessary
 
 detach(package:fitdistrplus)
 

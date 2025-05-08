@@ -14,7 +14,14 @@
 ### Packages ###
 library(tidyverse)
 library(here)
-# library(DHARMa)
+library(glmmTMB)
+library(performance) # visual check of model assumptions
+library(emmeans) # calculate estimated marginal means and post-hoc Tukey
+library(rstatix)
+
+
+library(tidyverse)
+library(here)
 library(performance) # visual check of model assumptions
 library(emmeans) # calculate estimated marginal means and post-hoc Tukey
 library(rstatix)
@@ -41,8 +48,7 @@ sites <- read_csv(
     .default = "?"
   )) %>%
   dplyr::select(
-    id.site, site.type, hydrology, region, rest.meth, land.use.hist, rest.age,
-    longitude, latitude
+    id.site, site.type, hydrology, region, rest.meth, land.use.hist, rest.age
   ) %>%
   distinct() %>% 
   mutate(region = fct_relevel(region, "north", "centre", "south"),
@@ -65,20 +71,10 @@ diversity <- read_csv(
 
 ## transform input data --------------------------------------------------------
 
-# standardise explanatory variable (only numerical variables)
-# so that they have a mean of zero (“centering”) and standard deviation of one (“scaling”)
-# --> z-standardization
-# It ensures that the estimated coefficients are all on the same scale, 
-# making it easier to compare effect sizes.
-
-# Standardizing the numeric explanatory variables
+# standardize numeric explanatory variables
 data <- sites %>%
   mutate(across(where(is.character), as.factor)) %>%
   mutate(across(where(is.numeric), ~ as.numeric(scale(.)), .names = "{col}.std"))
-
-# # Verify scaling
-# summary(data)
-
 
 
 
@@ -87,70 +83,29 @@ data <- sites %>%
 
 # join diversity data
 data_all <- data %>%
-  left_join(diversity, by = "id.site")
-
-
-data_all <- data_all %>%
-  dplyr::select(
-    id.site,
-    tot.hill.0,
-    hydrology,
-    region,
-    rest.meth,
-    rest.age,
-    rest.age.std,
-    land.use.hist,
-    longitude,
-    latitude
-    )
-
-
-
-
+  left_join(diversity, by = "id.site") %>% 
+  dplyr::select(id.site, tot.hill.0, hydrology, region,
+                rest.meth, rest.age.std, land.use.hist)
 
 
 
 rm(list = setdiff(ls(), c("data_all")))
 
 
+
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # B - DATA EXPLORATION ##########################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-# Protocol of data exploration (Steps 1-8)
-# used from Zuur et al. (2010) Methods Ecol Evol 
-#[DOI: 10.1111/2041-210X.12577](https://doi.org/10.1111/2041-210X.12577)
 
 
 ## a Missing values ------------------------------------------------------------
 colSums(is.na(data_all)) 
 # 66 NAs in rest.meth, rest.age and land.use.hist due to reference sites
 # 13 other NAs in rest.age
-vis_dat(data_all)
-gg_miss_var(data_all)  
 
 
 
-
-## b Outliers, zero-inflation, transformations? (Step 1, 3, 4) -----------------
-
-# data_all %>%
-#   count(location_construction_year)
-# plot1 <- ggplot(data_all, aes(x = exposition, y = y)) +
-#   geom_quasirandom()
-# (plot2 <- ggplot(data_all, aes(x = tot.hill.0)) +
-#   geom_histogram(binwidth = 1))
-# plot3 <- ggplot(data_all, aes(x = tot.hill.0)) +
-#   geom_density()
-# plot4 <- ggplot(data_all, aes(x = log(tot.hill.0))) +
-#   geom_density()
-# (plot1 + plot2) / (plot3 + plot4)
-
-
-
-
-
-# Outliers: check with Cleveland dotplot
+## b Outliers ------------------------------------------------------------------
 
 library(lattice)
 Z <- data_all %>% 
@@ -166,147 +121,63 @@ dotplot(as.matrix(Z), groups = FALSE,
         col = 1, cex  = 0.5, pch = 16,
         xlab = "Value of the variable",
         ylab = "Order of the data from text file")
-# outlier are points far right or left in plot
-# doesn't look like there are outliers
 
-sort(data_all$tot.hill.0)
 
-## wie umgehen mit ouliers?? Messfehler: unrealistische WErte
-# 
-# dotchart(sites_data$fcsi.hill.2,
-#          ylab = "Order of the data")
-# 
-# sites_data %>% 
-#   filter(fcsi.hill.2 > 5) %>% 
-#   select(id.site)
-
-# another test for outliers
-library(rstatix)
+# rstatix test for outliers
 data_all %>% 
   select(id.site, tot.hill.0) %>% 
   identify_outliers(tot.hill.0)
 data_all %>% 
-  select(id.site, rest.age) %>% 
-  identify_outliers(rest.age)
-# no extreme outliers
+  select(id.site, rest.age.std) %>% 
+  identify_outliers(rest.age.std)
+
 
 
 ## c inspect categorical covariates -----------------------------------------
 
-table(data_all$rest.meth)
-#' Unbalanced...but enough observations per level.
-
-table(data_all$land.use.hist)
-#' Unbalanced...but enough observations per level.
-
+table(data_all$site.type)
 table(data_all$hydrology)
-#' Unbalanced...but enough observations per level.
-
 table(data_all$region)
-#' Balanced.
-
-#' Was each previous land use measured in every restoration method?
-table(data_all$rest.meth, data_all$land.use.hist)
-histogram( ~ rest.meth | land.use.hist, data_all)
-#' Unbalanced, do we have enough observations per combination for an 
-#' interaction term?
-
-#' Was each hydrology measured in every restoration method?
-table(data_all$rest.meth, data_all$hydrology)
-histogram( ~ rest.meth | hydrology, data_all)
-#' Unbalanced, do we have enough observations per combination for an 
-#' interaction term?
-
-#' Was each region measured in every restoration method?
-table(data_all$rest.meth, data_all$region)
-histogram( ~ rest.meth | region, data_all)
-#' Unbalanced, no mga in south
-
-#' Was each hydrology measured in every previous land use?
-table(data_all$land.use.hist, data_all$hydrology)
-histogram( ~ land.use.hist | hydrology, data_all)
-#' Unbalanced, but enough observations per combination for an interaction term
-
-#' Was each region measured in every previous land use?
-table(data_all$land.use.hist, data_all$region)
-histogram( ~ land.use.hist | region, data_all)
-#' Unbalanced, but fine
-
-#' Was each region measured in every hydrology?
-table(data_all$hydrology, data_all$region)
-histogram( ~ hydrology | region, data_all)
-#' Unbalanced, but fine
+table(data_all$site.type, data_all$hydrology)
+table(data_all$site.type, data_all$region)
 
 
 
 ## d Check collinearity part 1 ----------------------------------------
 
 # between continuous covariates
-
 # only one numerical variable in model data --> no need to check
 
-# Exclude r > 0.7
-#  Dormann et al. 2013 Ecography [DOI: 10.1111/j.1600-0587.2012.07348.x](https://doi.org/10.1111/j.1600-0587.2012.07348.x)
-
-# data_all %>%
-#   select(where(is.numeric) %>%
-#   GGally::ggpairs(
-#     lower = list(continuous = "smooth_loess")
-#   ) +
-#   theme(strip.text = element_text(size = 7))
-#   )
-#
-# # exclude variable
-# data_all <- data_all %>%
-#   select(-biotope_area)
 
 # between continuous variables and factors
 
-ggplot(data_all, aes(x = rest.meth, y = rest.age)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent")
+ggplot(data_all, aes(x = rest.meth, y = rest.age.std)) +
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 data_all %>% 
-  anova_test(rest.age ~ rest.meth)
-#' boxplots are not next to each other, anova is significant:
-#' --> restoration method is collinear with age
-ggplot(data_all, aes(x = land.use.hist, y = rest.age)) +
-   geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent")
-ggplot(data_all, aes(x = hydrology, y = rest.age)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent")
-ggplot(data_all, aes(x = region, y = rest.age)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent")
-#' region is unbalanced, but fine I guess.
-#' The rest is fine.
-
-
-
-# source("HighstatLibV14.R")
-# MyVar <- c("rest.meth", "rest.age", "land.use.hist", "hydrology", "region")
-# corvif(data_all[,MyVar])
+  anova_test(rest.age.std ~ rest.meth)
+# collinearity
+ggplot(data_all, aes(x = land.use.hist, y = rest.age.std)) +
+   geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
+ggplot(data_all, aes(x = hydrology, y = rest.age.std)) +
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
+ggplot(data_all, aes(x = region, y = rest.age.std)) +
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 
 
 ## e Relationships --------------------------------------------------------------
 
 #' Plot response variable versus each covariate.
 
-
 ggplot(data_all, aes(x = rest.meth, y = tot.hill.0)) +
-   geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent") +
-   labs(title = "Restoration method")
+   geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 ggplot(data_all, aes(x = land.use.hist, y = tot.hill.0)) +
-    geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent") +
-    labs(title = "Previous landuse")
+    geom_jitter(color = "grey") + geom_boxplot(fill = "transparent") 
 ggplot(data_all, aes(x = rest.age, y = tot.hill.0)) +
-    geom_point() + geom_smooth(method = "glm") +
-    labs(title = "Age of Restoration")
+    geom_point() + geom_smooth(method = "glm") 
 ggplot(data_all, aes(x = region, y = tot.hill.0)) +
-    geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent") +
-    labs(title = "Region")
+    geom_jitter(color = "grey") + geom_boxplot(fill = "transparent") 
 ggplot(data_all, aes(x = hydrology, y = tot.hill.0)) +
-    geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent") +
-    labs(title = "Hydrology")
-# relationship between rest.age and response linear?
-# difference between regions --> use as random factor
-# difference between hydrology --> test as random factor
+    geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 
 
 ## f distribution --------------------------------------------------------------
@@ -316,228 +187,127 @@ ggplot(data_all, aes(x = hydrology, y = tot.hill.0)) +
 
 ## g Interactions --------------------------------------------------------------
 
-# check for possible interactions between covariates with coplot
-coplot(tot.hill.0 ~ rest.age | region * hydrology,
-       data = data_all,
-       ylab = "Total species richness",
-       xlab = "",
-       panel = function(x, y, ...) {
-         tmp <- lm(y ~ x, na.action = na.omit)
-         abline(tmp)
-         points(x, y) })
-
-coplot(tot.hill.0 ~ rest.age | rest.meth * land.use.hist,
-       data = data_all,
-       ylab = "Total species richness",
-       xlab = "",
-       panel = function(x, y, ...) {
-         tmp <- lm(y ~ x, na.action = na.omit)
-         abline(tmp)
-         points(x, y) })
-
-# same but different
-# Grafische Daten Exploration ---
-ggplot(data_all, aes(rest.age, tot.hill.0, color = rest.meth)) +
-  geom_point() +
-  theme_bw() +
-  geom_smooth(method = "glm", method.args = list(family = poisson), se = F) +
-  facet_wrap(~land.use.hist)
-ggplot(data_all, aes(rest.age, tot.hill.0, color = hydrology)) +
-  geom_point() +
-  theme_bw() +
-  geom_smooth(method = "glm", method.args = list(family = poisson), se = F) +
-  facet_wrap(~region)
-
-
-## rest.meth vs. X
-interaction.plot(x.factor = data_all$rest.meth, trace.factor = data_all$land.use.hist,
-                 response = data_all$tot.hill.0)
-ggplot(data_all, aes(x = interaction(land.use.hist, rest.meth), y = tot.hill.0)) + geom_boxplot()
-# interaction
-
-
-ggplot(data_all, aes(rest.age, tot.hill.0, color = rest.meth)) +
-  geom_point() + theme_bw() +
-  geom_smooth(method = "glm", method.args = list(family = poisson), se = F)
-# interaction
-
-
-interaction.plot(x.factor = data_all$rest.meth, trace.factor = data_all$region,
-                 response = data_all$tot.hill.0)
-ggplot(data_all, aes(x = interaction(region, rest.meth), y = tot.hill.0)) + geom_boxplot()
-# no interaction
-
-interaction.plot(x.factor = data_all$rest.meth, trace.factor = data_all$hydrology,
-                 response = data_all$tot.hill.0)
-ggplot(data_all, aes(x = interaction(hydrology, rest.meth), y = tot.hill.0)) + geom_boxplot()
-# interaction
-
-
-## land.use.hist vs. X
-
-ggplot(data_all, aes(rest.age, tot.hill.0, color = land.use.hist)) +
-  geom_point() + theme_bw() +
-  geom_smooth(method = "glm", method.args = list(family = poisson), se = F)
-# maybe interaction
-
-interaction.plot(x.factor = data_all$land.use.hist, trace.factor = data_all$region,
-                 response = data_all$tot.hill.0)
-ggplot(data_all, aes(x = interaction(region, land.use.hist), y = tot.hill.0)) + geom_boxplot()
-# no interaction
-
-interaction.plot(x.factor = data_all$land.use.hist, trace.factor = data_all$hydrology,
-                 response = data_all$tot.hill.0)
-ggplot(data_all, aes(x = interaction(hydrology, land.use.hist), y = tot.hill.0)) + geom_boxplot()
-# interaction
-
-
-
-## rest.age vs. X
-
-ggplot(data_all, aes(rest.age, tot.hill.0, color = region)) +
-  geom_point() +
-  theme_bw() +
-  geom_smooth(method = "glm", method.args = list(family = poisson), se = F)
-# interaction between rest.age and region --> consider random slope
-
-ggplot(data_all, aes(rest.age, tot.hill.0, color = hydrology)) +
-  geom_point() +
-  theme_bw() +
-  geom_smooth(method = "glm", method.args = list(family = poisson), se = F)
-# interaction between rest.age and hydrology --> consider random slope
-
-## region vs. hydrology
-
-interaction.plot(x.factor = data_all$hydrology, trace.factor = data_all$region,
-                 response = data_all$tot.hill.0)
-ggplot(data_all, aes(x = interaction(region, hydrology), y = tot.hill.0)) + geom_boxplot()
-# interaction unclear
-
-
-
-# test interactions between covariates
-# interaction term significant --> interaction
 library(MASS)
 
 ## rest.meth vs. X
 
+interaction.plot(x.factor = data_all$rest.meth, trace.factor = data_all$land.use.hist,
+                 response = data_all$tot.hill.0)
+# interaction
 int_model <- glm(tot.hill.0 ~ rest.meth * land.use.hist, data = data_all, family = "poisson")
 check_overdispersion(int_model)
 int_model <- glm.nb(tot.hill.0 ~ rest.meth * land.use.hist, data = data_all)
 anova(int_model)
-# --> no interaction between rest.meth and land.use.hist
+# no interaction
 
-int_model <- glm(tot.hill.0 ~ rest.meth * rest.age, data = data_all, family = "poisson")
+
+ggplot(data_all, aes(rest.age.std, tot.hill.0, color = rest.meth)) +
+  geom_point() + theme_bw() +
+  geom_smooth(method = "glm", method.args = list(family = poisson), se = F)
+# interaction
+int_model <- glm(tot.hill.0 ~ rest.meth * rest.age.std, data = data_all, family = "poisson")
 check_overdispersion(int_model)
-int_model <- glm.nb(tot.hill.0 ~ rest.meth * rest.age, data = data_all)
+int_model <- glm.nb(tot.hill.0 ~ rest.meth * rest.age.std, data = data_all)
 anova(int_model)
-# --> no interaction
+# no interaction
 
+
+interaction.plot(x.factor = data_all$rest.meth, trace.factor = data_all$region,
+                 response = data_all$tot.hill.0)
+# no interaction
 int_model <- glm(tot.hill.0 ~ rest.meth * region, data = data_all, family = "poisson")
 check_overdispersion(int_model)
 int_model <- glm.nb(tot.hill.0 ~ rest.meth * region, data = data_all)
 anova(int_model)
-# --> no interaction
+# no interaction
 
+interaction.plot(x.factor = data_all$rest.meth, trace.factor = data_all$hydrology,
+                 response = data_all$tot.hill.0)
+# interaction
 int_model <- glm(tot.hill.0 ~ rest.meth * hydrology, data = data_all, family = "poisson")
 check_overdispersion(int_model)
 int_model <- glm.nb(tot.hill.0 ~ rest.meth * hydrology, data = data_all)
 anova(int_model)
-# --> interaction
+# interaction
 
 
 ## land.use.hist vs. X
 
-int_model <- glm(tot.hill.0 ~ land.use.hist * rest.age, data = data_all, family = "poisson")
+ggplot(data_all, aes(rest.age.std, tot.hill.0, color = land.use.hist)) +
+  geom_point() + theme_bw() +
+  geom_smooth(method = "glm", method.args = list(family = poisson), se = F)
+# interaction
+int_model <- glm(tot.hill.0 ~ land.use.hist * rest.age.std, data = data_all, family = "poisson")
 check_overdispersion(int_model)
-int_model <- glm.nb(tot.hill.0 ~ land.use.hist * rest.age, data = data_all)
+int_model <- glm.nb(tot.hill.0 ~ land.use.hist * rest.age.std, data = data_all)
 anova(int_model)
 # no interaction 
 
+interaction.plot(x.factor = data_all$land.use.hist, trace.factor = data_all$region,
+                 response = data_all$tot.hill.0)
+# no interaction
 int_model <- glm(tot.hill.0 ~ land.use.hist * region, data = data_all, family = "poisson")
 check_overdispersion(int_model)
 int_model <- glm.nb(tot.hill.0 ~ land.use.hist * region, data = data_all)
 anova(int_model)
 # no interaction
 
+interaction.plot(x.factor = data_all$land.use.hist, trace.factor = data_all$hydrology,
+                 response = data_all$tot.hill.0)
+# interaction
 int_model <- glm(tot.hill.0 ~ land.use.hist * hydrology, data = data_all, family = "poisson")
 check_overdispersion(int_model)
 int_model <- glm.nb(tot.hill.0 ~ land.use.hist * hydrology, data = data_all)
 anova(int_model)
-# --> interaction
+# interaction
 
 
-## rest.age vs. X
 
-int_model <- glm(tot.hill.0 ~ rest.age * region, data = data_all, family = "poisson")
+## rest.age.std vs. X
+
+ggplot(data_all, aes(rest.age.std, tot.hill.0, color = region)) +
+  geom_point() +
+  theme_bw() +
+  geom_smooth(method = "glm", method.args = list(family = poisson), se = F)
+# interaction
+int_model <- glm(tot.hill.0 ~ rest.age.std * region, data = data_all, family = "poisson")
 check_overdispersion(int_model)
-int_model <- glm.nb(tot.hill.0 ~ rest.age * region, data = data_all)
+int_model <- glm.nb(tot.hill.0 ~ rest.age.std * region, data = data_all)
 anova(int_model)
-# --> interaction between rest.age and region
+# interaction
 
-int_model <- glm(tot.hill.0 ~ rest.age * hydrology, data = data_all, family = "poisson")
+ggplot(data_all, aes(rest.age.std, tot.hill.0, color = hydrology)) +
+  geom_point() +
+  theme_bw() +
+  geom_smooth(method = "glm", method.args = list(family = poisson), se = F)
+# interaction
+int_model <- glm(tot.hill.0 ~ rest.age.std * hydrology, data = data_all, family = "poisson")
 check_overdispersion(int_model)
-int_model <- glm.nb(tot.hill.0 ~ rest.age * hydrology, data = data_all)
+int_model <- glm.nb(tot.hill.0 ~ rest.age.std * hydrology, data = data_all)
 anova(int_model)
-# --> interaction between rest.age and hydrology
+# interaction
 
 
 ## region vs. hydrology
 
+interaction.plot(x.factor = data_all$hydrology, trace.factor = data_all$region,
+                 response = data_all$tot.hill.0)
+# interaction unclear
 int_model <- glm(tot.hill.0 ~ region * hydrology, data = data_all, family = "poisson")
 check_overdispersion(int_model)
 int_model <- glm.nb(tot.hill.0 ~ region * hydrology, data = data_all)
 anova(int_model)
 # no interaction
 
+
 detach(package:MASS)
 
 
-## h Spatial dependency --------------------------------------------------------------
 
-library(rnaturalearth)
-
-#' Get Germany map (medium resolution)
-Germany <- ne_countries(country = "germany",
-                        scale = "medium", 
-                        returnclass = "sf")
-
-
-ggplot(data = Germany) +
-  geom_sf(fill = "transparent") +
-  geom_point(data = data_all, 
-             aes(x = longitude, 
-                 y = latitude,),
-             alpha = 0.3)  +
-  theme_minimal() +
-  theme(legend.position = "none") +
-  guides(fill = guide_legend(title = NULL)) +
-  labs(title = "Sampling locations") 
-
-
-
-#' Use this if you don't have online access:
-ggplot(data = data_all) +
-  theme(text = element_text(size=13)) +
-  geom_point(aes(x = longitude, y = latitude, col = region), size = 0.75) +
-  xlab("Longitude") + ylab("Latitude")
-
-
-#' And zoom in per region:
-ggplot(data = data_all) +
-  theme(text = element_text(size=13)) +
-  geom_point(aes(longitude, latitude, col = "black"), size = 0.75) +
-  xlab("Longitude") + ylab("Latitude") +
-  facet_wrap(~region, scale = "free", ncol = 2)
-#' spatial variation per region is different, south less wide in latitude
-
-
-
-## i conclusions--------------------------------------------------------------
+## h conclusions--------------------------------------------------------------
 
 #' missing values in rest.age and land.use.hist
 #' detected collinearity between restoration age and restoration method --> consider removing rest.age
-#' unclearity if there is a linear relationship between rest.age and tot.hill.0
 #' interaction between:
 #' - rest.meth and hydrology
 #' - land.use.hist and hydrology
@@ -545,10 +315,11 @@ ggplot(data = data_all) +
 #' interaction unclear between: 
 #' - rest.meth and land.use.hist, rest.age
 #' - land.use.hist and rest.age
-#' - region and hydrology
 #' no interaction between:
 #' - rest.meth and region
 #' - land.use.hist and region
+#' - region and hydrology
+
 
 
 
@@ -636,7 +407,7 @@ colSums(is.na(data_model_20y))
 
 ## check colinearity
 ggplot(data_model_20y, aes(x = rest.meth, y = rest.age)) +
-  geom_quasirandom(color = "grey") + geom_boxplot(fill = "transparent")
+  geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 # no colinearity
 
 data_model_20y %>% 

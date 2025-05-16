@@ -1,6 +1,6 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
-# Show figure map
+# Show figure map ####
 # Map of the study sites
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Markus Bauer
@@ -8,9 +8,10 @@
 
 
 
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# A Preparation #########################################################
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# A Preparation ###############################################################
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 
 ### Packages ###
@@ -40,14 +41,14 @@ theme_mb <- function() {
 
 ### Load data ###
 sites <- st_read(
-  here("data", "processed", "data_processed_sites_epsg4326.gpkg")
+  here("data", "raw", "data_processed_sites_epsg4326.gpkg")
   )
 germany <- geodata::gadm(
   country = "DEU", level = 0, version = "latest", resolution = 2, path = here()
 ) %>%
   st_as_sf() %>%
   st_set_crs(4326)
-ecoregions <- st_read(here("data", "raw", "spatial", "ecoregions2017.shp")) %>%
+ecoregions <- st_read(here("data", "raw", "ecoregions2017.shp")) %>%
   st_transform(crs = 4326) %>%
   filter(
     ECO_NAME == "Western European broadleaf forests" |

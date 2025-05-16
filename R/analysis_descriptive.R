@@ -12,6 +12,7 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+
 ### Packages ###
 library(here)
 library(tidyverse)
@@ -22,7 +23,9 @@ library(rstatix)
 rm(list = ls())
 
 
+
 ## 1 - load data -------------------------------------------------------------------
+
 
 ### abundance data #### 
 # used for diversity calculation of vegetation plots (A1-A4)
@@ -61,11 +64,15 @@ diversity <- read_csv(
   ))
 
 
+
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # B Descriptive Analysis ######################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+
+
 ## 1 - All species -------------------------------------------------------------
+
 
 data_tot <- abundances_tot_agg %>% 
   left_join(sites, by = "id.site")
@@ -126,7 +133,9 @@ data_tot %>%
 # 3 south            343         0.600
 
 
+
 ## 2 - Target species -------------------------------------------------------------
+
 
 data_tgt <- abundances_target_agg %>% 
   left_join(sites, by = "id.site")
@@ -187,7 +196,9 @@ data_tgt %>%
 # 3 south            220         0.657
 
 
+
 ## 3 - Diversity ---------------------------------------------------------------
+
 
 diversity %>% 
   get_summary_stats(tot.hill.0, type = "full")
@@ -200,6 +211,7 @@ diversity %>%
 
 
 ## 4 - Sites ---------------------------------------------------------------
+
 
 sites %>% 
   count(site.type)

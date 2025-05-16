@@ -1,0 +1,143 @@
+---
+title: "GRASSWORKS Project: Vegetation diversity analysis"
+subtitle: "Question 2: Restoration factors"
+author: "<b>Christin Juno Laschke</b>"
+date: today
+date-format: iso
+format:
+  html:
+    embed-resources: true
+toc: true
+toc-depth: 3
+toc-expand: 2
+number-sections: true
+dev: png
+fig-width: 7
+fig-height: 5
+---
+
+# Preparation
+
+## Load packages
+
+```{r message=FALSE}
+library(tidyverse)
+library(here)
+library(rstatix)
+library(ggpubr)
+```
+
+```{r include=FALSE}
+rm(list = ls())
+```
+
+## Load data
+
+```{r}
+sites <- read_csv(
+  here("data", "processed", "data_processed.csv"),
+  col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
+    .default = "?"
+  )) %>%
+  dplyr::select(
+    id.site, rest.meth, rest.age,
+    ) %>%
+  mutate(rest.meth = fct_relevel(rest.meth, "cus", "mga", "res", "dih"))
+```
+
+# Assumptions
+
+
+## Outliers
+
+
+```{r}
+sites %>% 
+  select(id.site, rest.meth, rest.age) %>% 
+  group_by(rest.meth) %>%
+  identify_outliers(rest.age)
+```
+--> no extreme outliers
+
+
+
+## Check normality assumption
+
+
+### Build linear model
+
+```{r}
+model  <- lm(rest.age ~ rest.meth, data = sites, na.action = na.omit)
+```
+
+### Create a QQ plot of residuals
+
+```{r}
+ggqqplot(residuals(model))
+```
+
+### Compute Shapiro-Wilk test of normality
+
+```{r}
+shapiro_test(residuals(model))
+```
+
+In the QQ plot, as all the points fall approximately along the reference line, we can assume normality. This conclusion is supported by the Shapiro-Wilk test. The p-value is not significant (p = 0.191), so we can assume normality.
+
+### Check normality assumption by groups
+
+```{r}
+sites %>%
+  filter(!is.na(rest.meth)) %>% 
+  group_by(rest.meth) %>%
+  shapiro_test(rest.age)
+```
+
+Note that, if your sample size is greater than 50, the normal QQ plot is preferred because at larger sample sizes the Shapiro-Wilk test becomes very sensitive even to a minor deviation from normality:
+
+```{r}
+ggqqplot(sites, "rest.age", facet.by = "rest.meth")
+```
+--> looks okay
+
+
+
+## Check homogeneity of variance assumption
+
+
+#### Residuals versus fits plot
+```{r}
+plot(model, 1)
+```
+# unclear if homogeneity is true
+
+#### Levene's test
+
+```{r}
+sites %>% levene_test(rest.age ~ rest.meth)
+```
+
+From the output above, we can see that the p-value is < 0.05, which is significant. This means that, there is significant difference between variances across groups. Therefore, we can not assume the homogeneity of variances in the different treatment groups.
+
+
+
+# Computation
+
+```{r}
+res_aov <- anova_test(model)
+```
+
+Include only sites with an age of less than 20 years
+
+```{r}
+sites_20y <- sites %>% 
+  filter(rest.age <= 20)
+model_20y  <- lm(rest.age ~ rest.meth, data = sites_20y, na.action = na.omit)
+res_aov_20y <- anova_test(model_20y)
+```
+
+# Session info
+
+```{r}
+sessionInfo()
+```

@@ -293,7 +293,9 @@ emm.df <- summary(emm.rest.meth, infer = FALSE, type = "response")
 emm.df
 
 # compact letter display
-cld_results <- multcomp::cld(emm.rest.meth, adjust = "tukey", Letters = letters) %>% 
+cld_results <- multcomp::cld(
+  emm.rest.meth, adjust = "tukey", Letters = letters
+  ) %>% 
   mutate(.group = str_trim(.group))
 
 ## plot with EMMs and SE

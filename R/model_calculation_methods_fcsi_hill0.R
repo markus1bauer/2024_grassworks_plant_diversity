@@ -9,7 +9,7 @@
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# A - PREPARATION ###############################################################
+# A - PREPARATION #############################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -17,76 +17,29 @@
 ### Packages ###
 library(tidyverse)
 library(here)
-# library(DHARMa)
-library(performance) # visual check of model assumptions
-library(emmeans) # calculate estimated marginal means and post-hoc Tukey
+library(performance)
+library(emmeans)
 library(rstatix)
-# library(broom.mixed) # Tidy up the model summary
-# library(scales) # label_number()
 library(glmmTMB)
 library(ggbeeswarm)
 library(mgcv)
 
-
 ### Start ###
 rm(list = ls())
 
-
-## load data -------------------------------------------------------------------
-
-### site environment data ####
-
-### site environment data ####
-
-sites <- read_csv(
-  here("data", "raw", "data_processed_environment_nms_20250306.csv"),
+### Load data ###
+data_all <- read_csv(
+  here("data", "processed", "data_processed.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )) %>%
-  dplyr::select(
-    id.site, site.type, hydrology, region, rest.meth, land.use.hist, rest.age
-  ) %>%
-  distinct() %>% 
-  mutate(region = fct_relevel(region, "north", "centre", "south"),
-         hydrology = fct_relevel(hydrology, "dry", "fresh", "moist"),
-         rest.meth = fct_relevel(rest.meth, "cus", "mga", "res", "dih"),
-  )
+  mutate(rest.meth = fct_relevel(rest.meth, "cus", "mga", "res", "dih"))
 
-
-
-### diversity data ####
-
-diversity <- read_csv(
-  here("data", "raw", "data_processed_plants_site_diversity_20250306.csv"),
-  col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
-    .default = "?"
-  ))
-
-## transform input data --------------------------------------------------------
-
-# standardize numeric explanatory variables
-data <- sites %>%
-  mutate(across(where(is.character), as.factor)) %>%
-  mutate(across(where(is.numeric), ~ as.numeric(scale(.)), .names = "{col}.std"))
-
-
-
-## set model data --------------------------------------------------------------
-
-
-# join diversity data
-data_all <- data %>%
-  left_join(diversity, by = "id.site") %>% 
-  dplyr::select(id.site, fcsi.hill.0, hydrology, region,
-                rest.meth, rest.age.std, land.use.hist)
-
-
-rm(list = setdiff(ls(), c("data_all")))
 
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# B - DATA EXPLORATION ##########################################################
+# B - DATA EXPLORATION ########################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 

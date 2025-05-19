@@ -7,77 +7,41 @@
 # author: Christin Juno Laschke
 
 
+
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# A - PREPARATIION ###############################################################
+# A - PREPARATIION ############################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 ### Packages ###
 library(tidyverse)
 library(here)
-# library(DHARMa)
-library(performance) # visual check of model assumptions
-library(emmeans) # calculate estimated marginal means and post-hoc Tukey
+library(performance)
+library(emmeans)
 library(rstatix)
-# library(broom.mixed) # Tidy up the model summary
-# library(scales) # label_number()
 library(glmmTMB)
 library(ggbeeswarm)
 library(mgcv)
 
-
-
 ### Start ###
 rm(list = ls())
 
-
-## load data -------------------------------------------------------------------
-
-### site environment data ####
-
-sites <- read_csv(
-  here("data", "raw", "data_processed_environment_nms_20250306.csv"),
+### Load data ###
+data_all <- read_csv(
+  here("data", "processed", "data_processed.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )) %>%
-  dplyr::select(
-    id.site,
-    site.type, hydrology, region, rest.meth, land.use.hist, rest.age,
-    site.forb.legu.grass.ratio) %>%
-  distinct() %>% 
-  mutate(region = fct_relevel(region, "north", "centre", "south"),
-         hydrology = fct_relevel(hydrology, "dry", "fresh", "moist"),
-         rest.meth = fct_relevel(rest.meth, "cus", "mga", "res", "dih"),
-  )
+  mutate(rest.meth = fct_relevel(rest.meth, "cus", "mga", "res", "dih"))
 
-
-
-
-## transform input data --------------------------------------------------------
-
-# standardize numeric explanatory variables
-data <- sites %>%
-  mutate(across(where(is.character), as.factor)) %>%
-  mutate(across(where(is.numeric), ~ as.numeric(scale(.)), .names = "{col}.std"))
-
-
-
-## set model data --------------------------------------------------------------
-
-
-# join diversity data
-data_all <- data %>%
-  dplyr::select(id.site, site.forb.legu.grass.ratio, hydrology, region,
-                rest.meth, rest.age.std, land.use.hist) %>% 
-  rename(fg.ratio = site.forb.legu.grass.ratio)
-
-
-
-rm(list = setdiff(ls(), c("data_all", "sites")))
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# B - DATA EXPLORATION ##########################################################
+# B - DATA EXPLORATION ########################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 ## a Missing values ------------------------------------------------------------
 colSums(is.na(data_all)) 
@@ -111,9 +75,9 @@ data_all %>%
 data_all %>% 
   select(id.site, rest.age.std) %>% 
   identify_outliers(rest.age.std)
-sites %>% 
+data_all %>% 
   filter(id.site %in% c("S_JAU", "S_NOZ", "M_JER", "S_MCH"))
-sort(sites$site.cover.legumes)
+sort(data_all$site.cover.legumes)
 # ok
 
 

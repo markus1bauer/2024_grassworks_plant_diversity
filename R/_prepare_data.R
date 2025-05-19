@@ -37,15 +37,18 @@ rm(list = ls())
 sites <- read_csv(
   here("data", "raw", "data_processed_environment_nms_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
-    .default = "?"
+    .default = "?",
+    rest.age = "d"
   )) %>%
-  dplyr::select(
-    id.site, site.type, hydrology, region, rest.meth, land.use.hist, rest.age
-  ) %>%
+  rename(fg.ratio = site.forb.legu.grass.ratio) %>%
   mutate(
     region = fct_relevel(region, "north", "centre", "south"),
     hydrology = fct_relevel(hydrology, "dry", "fresh", "moist"),
     rest.meth = fct_relevel(rest.meth, "cus", "mga", "res", "dih")
+  ) %>%
+  mutate(across(where(is.character), as.factor)) %>%
+  mutate(
+    across(c(rest.age, fg.ratio), ~ as.numeric(scale(.)), .names = "{col}.std")
   )
 
 diversity <- read_csv(
@@ -63,12 +66,12 @@ diversity <- read_csv(
 
 
 
-data <- sites %>%
-  distinct() %>%
-  mutate(across(where(is.character), as.factor)) %>%
-  mutate(
-    across(where(is.numeric), ~ as.numeric(scale(.)), .names = "{col}.std")
+data <- sites %>% 
+  select(
+    id.site, site.type, hydrology, region, fg.ratio, fg.ratio.std,
+    rest.meth, land.use.hist, rest.age, rest.age.std
     ) %>%
+  distinct() %>%
   left_join(diversity, by = "id.site")
 
 

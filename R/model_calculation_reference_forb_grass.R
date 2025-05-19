@@ -7,53 +7,41 @@
 # author: Christin Juno Laschke
 
 
+
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# A PREPARATION ###############################################################
+# A - PREPARATIION ############################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 ### Packages ###
 library(tidyverse)
 library(here)
-library(glmmTMB)
-library(performance) # visual check of model assumptions
-library(emmeans) # calculate estimated marginal means and post-hoc Tukey
+library(performance)
+library(emmeans)
 library(rstatix)
-
+library(glmmTMB)
+library(ggbeeswarm)
+library(mgcv)
 
 ### Start ###
 rm(list = ls())
 
-
-## load data -------------------------------------------------------------------
-
-### site environment data ####
-sites <- read_csv(
-  here("data", "raw", "data_processed_environment_nms_20250306.csv"),
+### Load data ###
+data_all <- read_csv(
+  here("data", "processed", "data_processed.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )) %>%
-  dplyr::select(
-    id.site,
-    site.type, hydrology, region, site.forb.legu.grass.ratio) %>%
-  distinct() %>% 
-  mutate(region = fct_relevel(region, "north", "centre", "south"),
-         hydrology = fct_relevel(hydrology, "dry", "fresh", "moist"),
-         site.type = fct_relevel(site.type, "negative", "restored", "positive"),
-  )
-
-
-
-## set model data --------------------------------------------------------------
-
-data_all <- sites %>%
-  dplyr::select(id.site, site.forb.legu.grass.ratio, hydrology, region, site.type) %>% 
-  rename(fg.ratio = site.forb.legu.grass.ratio)
+  mutate(site.type = fct_relevel(site.type, "negative", "restored", "positive"))
 
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # B - DATA EXPLORATION ########################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 ## a Missing values ------------------------------------------------------------
 colSums(is.na(data_all)) 

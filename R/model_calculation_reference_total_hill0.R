@@ -7,9 +7,12 @@
 # author: Christin Juno Laschke
 
 
+
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # A PREPARATION ###############################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 ### Packages ###
 library(tidyverse)
@@ -24,46 +27,22 @@ library(rstatix)
 rm(list = ls())
 
 
-## load data -------------------------------------------------------------------
+### Load data ###
 
-### site environment data ####
-
-sites <- read_csv(
-  here("data", "raw", "data_processed_environment_nms_20250306.csv"),
+data_all <- read_csv(
+  here("data", "processed", "data_processed.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )) %>%
-  dplyr::select(
-    id.site, site.type, hydrology, region) %>%
-  distinct() %>% 
-  mutate(region = fct_relevel(region, "north", "centre", "south"),
-         hydrology = fct_relevel(hydrology, "dry", "fresh", "moist"),
-         site.type = fct_relevel(site.type, "negative", "restored", "positive"),
-  )
+  mutate(site.type = fct_relevel(site.type, "negative", "restored", "positive"))
 
-
-### diversity data ####
-
-diversity <- read_csv(
-  here("data", "raw", "data_processed_plants_site_diversity_20250306.csv"),
-  col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
-    .default = "?"
-  ))
-
-
-## set model data --------------------------------------------------------------
-
-data_all <- sites %>% 
-  left_join(diversity, by = "id.site") %>% 
-  dplyr::select(id.site, tot.hill.0, hydrology, region, site.type)
-
-
-rm(list = setdiff(ls(), c("data_all")))
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # B - DATA EXPLORATION ########################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 ## a Missing values ------------------------------------------------------------
 colSums(is.na(data_all)) 

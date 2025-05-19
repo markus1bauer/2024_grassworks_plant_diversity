@@ -1,749 +1,749 @@
-id.plot,id.site,region,eco.id,eco.name,altitude,longitude,latitude,hydrology,site.type,rest.meth,rest.age,land.use.hist
-M_ALT_A1,M_ALT,centre,654,Central European mixed forests,58.13999939,11.74807035,51.82958952,moist,negative,NA,NA,NA
-M_ALT_A2,M_ALT,centre,654,Central European mixed forests,58.13999939,11.74807035,51.82958952,moist,negative,NA,NA,NA
-M_ALT_A3,M_ALT,centre,654,Central European mixed forests,58.13999939,11.74807035,51.82958952,moist,negative,NA,NA,NA
-M_ALT_A4,M_ALT,centre,654,Central European mixed forests,58.13999939,11.74807035,51.82958952,moist,negative,NA,NA,NA
-M_ASE_A1,M_ASE,centre,654,Central European mixed forests,124.5699997,11.66707081,51.47886224,fresh,restored,res,2,arable land
-M_ASE_A2,M_ASE,centre,654,Central European mixed forests,124.5699997,11.66707081,51.47886224,fresh,restored,res,2,arable land
-M_ASE_A3,M_ASE,centre,654,Central European mixed forests,124.5699997,11.66707081,51.47886224,fresh,restored,res,2,arable land
-M_ASE_A4,M_ASE,centre,654,Central European mixed forests,124.5699997,11.66707081,51.47886224,fresh,restored,res,2,arable land
-M_BAD_A1,M_BAD,centre,654,Central European mixed forests,184.0800018,11.59227903,51.32216743,dry,restored,mga,5,grassland
-M_BAD_A2,M_BAD,centre,654,Central European mixed forests,184.0800018,11.59227903,51.32216743,dry,restored,mga,5,grassland
-M_BAD_A3,M_BAD,centre,654,Central European mixed forests,184.0800018,11.59227903,51.32216743,dry,restored,mga,5,grassland
-M_BAD_A4,M_BAD,centre,654,Central European mixed forests,184.0800018,11.59227903,51.32216743,dry,restored,mga,5,grassland
-M_BAL_A1,M_BAL,centre,654,Central European mixed forests,200.6300049,11.70893906,51.2084909,fresh,negative,NA,NA,NA
-M_BAL_A2,M_BAL,centre,654,Central European mixed forests,200.6300049,11.70893906,51.2084909,fresh,negative,NA,NA,NA
-M_BAL_A3,M_BAL,centre,654,Central European mixed forests,200.6300049,11.70893906,51.2084909,fresh,negative,NA,NA,NA
-M_BAL_A4,M_BAL,centre,654,Central European mixed forests,200.6300049,11.70893906,51.2084909,fresh,negative,NA,NA,NA
-M_BEE_A1,M_BEE,centre,654,Central European mixed forests,63.38999939,11.70097692,51.72492772,fresh,restored,cus,25,arable land
-M_BEE_A2,M_BEE,centre,654,Central European mixed forests,63.38999939,11.70097692,51.72492772,fresh,restored,cus,25,arable land
-M_BEE_A3,M_BEE,centre,654,Central European mixed forests,63.38999939,11.70097692,51.72492772,fresh,restored,cus,25,arable land
-M_BEE_A4,M_BEE,centre,654,Central European mixed forests,63.38999939,11.70097692,51.72492772,fresh,restored,cus,25,arable land
-M_BEN_A1,M_BEN,centre,654,Central European mixed forests,131.8200073,11.86002024,51.48599594,fresh,restored,res,2,arable land
-M_BEN_A2,M_BEN,centre,654,Central European mixed forests,131.8200073,11.86002024,51.48599594,fresh,restored,res,2,arable land
-M_BEN_A3,M_BEN,centre,654,Central European mixed forests,131.8200073,11.86002024,51.48599594,fresh,restored,res,2,arable land
-M_BEN_A4,M_BEN,centre,654,Central European mixed forests,131.8200073,11.86002024,51.48599594,fresh,restored,res,2,arable land
-M_BIR_A1,M_BIR,centre,654,Central European mixed forests,60.08000183,12.37165595,51.82300851,fresh,positive,NA,NA,NA
-M_BIR_A2,M_BIR,centre,654,Central European mixed forests,60.08000183,12.37165595,51.82300851,fresh,positive,NA,NA,NA
-M_BIR_A3,M_BIR,centre,654,Central European mixed forests,60.08000183,12.37165595,51.82300851,fresh,positive,NA,NA,NA
-M_BIR_A4,M_BIR,centre,654,Central European mixed forests,60.08000183,12.37165595,51.82300851,fresh,positive,NA,NA,NA
-M_BOD_A1,M_BOD,centre,654,Central European mixed forests,59,11.72985443,51.83255624,fresh,negative,NA,NA,NA
-M_BOD_A2,M_BOD,centre,654,Central European mixed forests,59,11.72985443,51.83255624,fresh,negative,NA,NA,NA
-M_BOD_A3,M_BOD,centre,654,Central European mixed forests,59,11.72985443,51.83255624,fresh,negative,NA,NA,NA
-M_BOD_A4,M_BOD,centre,654,Central European mixed forests,59,11.72985443,51.83255624,fresh,negative,NA,NA,NA
-M_BRA_A1,M_BRA,centre,654,Central European mixed forests,122.0899963,11.86698516,51.54885765,dry,restored,res,10,arable land
-M_BRA_A2,M_BRA,centre,654,Central European mixed forests,122.0899963,11.86698516,51.54885765,dry,restored,res,10,arable land
-M_BRA_A3,M_BRA,centre,654,Central European mixed forests,122.0899963,11.86698516,51.54885765,dry,restored,res,10,arable land
-M_BRA_A4,M_BRA,centre,654,Central European mixed forests,122.0899963,11.86698516,51.54885765,dry,restored,res,10,arable land
-M_BUH_A1,M_BUH,centre,654,Central European mixed forests,104.7900009,10.60948255,52.00891,fresh,restored,res,3,arable land
-M_BUH_A2,M_BUH,centre,654,Central European mixed forests,104.7900009,10.60948255,52.00891,fresh,restored,res,3,arable land
-M_BUH_A3,M_BUH,centre,654,Central European mixed forests,104.7900009,10.60948255,52.00891,fresh,restored,res,3,arable land
-M_BUH_A4,M_BUH,centre,654,Central European mixed forests,104.7900009,10.60948255,52.00891,fresh,restored,res,3,arable land
-M_CAL_A1,M_CAL,centre,654,Central European mixed forests,54.95999908,11.8127823,51.91316941,fresh,restored,res,6,arable land
-M_CAL_A2,M_CAL,centre,654,Central European mixed forests,54.95999908,11.8127823,51.91316941,fresh,restored,res,6,arable land
-M_CAL_A3,M_CAL,centre,654,Central European mixed forests,54.95999908,11.8127823,51.91316941,fresh,restored,res,6,arable land
-M_CAL_A4,M_CAL,centre,654,Central European mixed forests,54.95999908,11.8127823,51.91316941,fresh,restored,res,6,arable land
-M_CBE_A1,M_CBE,centre,654,Central European mixed forests,55.54000092,11.81622602,51.91392502,fresh,negative,NA,NA,NA
-M_CBE_A2,M_CBE,centre,654,Central European mixed forests,55.54000092,11.81622602,51.91392502,fresh,negative,NA,NA,NA
-M_CBE_A3,M_CBE,centre,654,Central European mixed forests,55.54000092,11.81622602,51.91392502,fresh,negative,NA,NA,NA
-M_CBE_A4,M_CBE,centre,654,Central European mixed forests,55.54000092,11.81622602,51.91392502,fresh,negative,NA,NA,NA
-M_DOB_A1,M_DOB,centre,654,Central European mixed forests,124.8199997,11.76306711,51.62001263,dry,restored,res,6,arable land
-M_DOB_A2,M_DOB,centre,654,Central European mixed forests,124.8199997,11.76306711,51.62001263,dry,restored,res,6,arable land
-M_DOB_A3,M_DOB,centre,654,Central European mixed forests,124.8199997,11.76306711,51.62001263,dry,restored,res,6,arable land
-M_DOB_A4,M_DOB,centre,654,Central European mixed forests,124.8199997,11.76306711,51.62001263,dry,restored,res,6,arable land
-M_DOR_A1,M_DOR,centre,654,Central European mixed forests,114.1999969,11.81450305,51.64508573,fresh,restored,cus,27,arable land
-M_DOR_A2,M_DOR,centre,654,Central European mixed forests,114.1999969,11.81450305,51.64508573,fresh,restored,cus,27,arable land
-M_DOR_A3,M_DOR,centre,654,Central European mixed forests,114.1999969,11.81450305,51.64508573,fresh,restored,cus,27,arable land
-M_DOR_A4,M_DOR,centre,654,Central European mixed forests,114.1999969,11.81450305,51.64508573,fresh,restored,cus,27,arable land
-M_EIC_A1,M_EIC,centre,654,Central European mixed forests,56.56999969,12.18899395,51.85716614,fresh,negative,NA,NA,NA
-M_EIC_A2,M_EIC,centre,654,Central European mixed forests,56.56999969,12.18899395,51.85716614,fresh,negative,NA,NA,NA
-M_EIC_A3,M_EIC,centre,654,Central European mixed forests,56.56999969,12.18899395,51.85716614,fresh,negative,NA,NA,NA
-M_EIC_A4,M_EIC,centre,654,Central European mixed forests,56.56999969,12.18899395,51.85716614,fresh,negative,NA,NA,NA
-M_FAL_A1,M_FAL,centre,654,Central European mixed forests,142.5299988,11.35946299,51.74746391,fresh,restored,res,6,arable land
-M_FAL_A2,M_FAL,centre,654,Central European mixed forests,142.5299988,11.35946299,51.74746391,fresh,restored,res,6,arable land
-M_FAL_A3,M_FAL,centre,654,Central European mixed forests,142.5299988,11.35946299,51.74746391,fresh,restored,res,6,arable land
-M_FAL_A4,M_FAL,centre,654,Central European mixed forests,142.5299988,11.35946299,51.74746391,fresh,restored,res,6,arable land
-M_FRB_A1,M_FRB,centre,654,Central European mixed forests,136.2400055,11.73327072,51.62485865,dry,restored,mga,14,grassland
-M_FRB_A2,M_FRB,centre,654,Central European mixed forests,136.2400055,11.73327072,51.62485865,dry,restored,mga,14,grassland
-M_FRB_A3,M_FRB,centre,654,Central European mixed forests,136.2400055,11.73327072,51.62485865,dry,restored,mga,14,grassland
-M_FRB_A4,M_FRB,centre,654,Central European mixed forests,136.2400055,11.73327072,51.62485865,dry,restored,mga,14,grassland
-M_GRO_A1,M_GRO,centre,654,Central European mixed forests,61.65000153,11.68390121,51.76579064,fresh,restored,cus,26,arable land
-M_GRO_A2,M_GRO,centre,654,Central European mixed forests,61.65000153,11.68390121,51.76579064,fresh,restored,cus,26,arable land
-M_GRO_A3,M_GRO,centre,654,Central European mixed forests,61.65000153,11.68390121,51.76579064,fresh,restored,cus,26,arable land
-M_GRO_A4,M_GRO,centre,654,Central European mixed forests,61.65000153,11.68390121,51.76579064,fresh,restored,cus,26,arable land
-M_HAH_A1,M_HAH,centre,654,Central European mixed forests,211.7200012,11.62972068,51.30873546,dry,positive,NA,NA,NA
-M_HAH_A2,M_HAH,centre,654,Central European mixed forests,211.7200012,11.62972068,51.30873546,dry,positive,NA,NA,NA
-M_HAH_A3,M_HAH,centre,654,Central European mixed forests,211.7200012,11.62972068,51.30873546,dry,positive,NA,NA,NA
-M_HAH_A4,M_HAH,centre,654,Central European mixed forests,211.7200012,11.62972068,51.30873546,dry,positive,NA,NA,NA
-M_HAI_A1,M_HAI,centre,686,Western European broadleaf forests,302.8399963,11.18385429,51.50506446,fresh,restored,mga,11,grassland
-M_HAI_A2,M_HAI,centre,686,Western European broadleaf forests,302.8399963,11.18385429,51.50506446,fresh,restored,mga,11,grassland
-M_HAI_A3,M_HAI,centre,686,Western European broadleaf forests,302.8399963,11.18385429,51.50506446,fresh,restored,mga,11,grassland
-M_HAI_A4,M_HAI,centre,686,Western European broadleaf forests,302.8399963,11.18385429,51.50506446,fresh,restored,mga,11,grassland
-M_HAR_A1,M_HAR,centre,654,Central European mixed forests,149.1900024,11.08520296,51.82462193,fresh,restored,res,12,arable land
-M_HAR_A2,M_HAR,centre,654,Central European mixed forests,149.1900024,11.08520296,51.82462193,fresh,restored,res,12,arable land
-M_HAR_A3,M_HAR,centre,654,Central European mixed forests,149.1900024,11.08520296,51.82462193,fresh,restored,res,12,arable land
-M_HAR_A4,M_HAR,centre,654,Central European mixed forests,149.1900024,11.08520296,51.82462193,fresh,restored,res,12,arable land
-M_HIR_A1,M_HIR,centre,654,Central European mixed forests,207.1199951,11.68710429,51.1981926,dry,restored,mga,9,grassland
-M_HIR_A2,M_HIR,centre,654,Central European mixed forests,207.1199951,11.68710429,51.1981926,dry,restored,mga,9,grassland
-M_HIR_A3,M_HIR,centre,654,Central European mixed forests,207.1199951,11.68710429,51.1981926,dry,restored,mga,9,grassland
-M_HIR_A4,M_HIR,centre,654,Central European mixed forests,207.1199951,11.68710429,51.1981926,dry,restored,mga,9,grassland
-M_HLI_A1,M_HLI,centre,686,Western European broadleaf forests,344.5700073,11.33102988,51.53507321,fresh,positive,NA,NA,NA
-M_HLI_A2,M_HLI,centre,686,Western European broadleaf forests,344.5700073,11.33102988,51.53507321,fresh,positive,NA,NA,NA
-M_HLI_A3,M_HLI,centre,686,Western European broadleaf forests,344.5700073,11.33102988,51.53507321,fresh,positive,NA,NA,NA
-M_HLI_A4,M_HLI,centre,686,Western European broadleaf forests,344.5700073,11.33102988,51.53507321,fresh,positive,NA,NA,NA
-M_HNB_A1,M_HNB,centre,654,Central European mixed forests,209.5399933,11.77775515,51.2062993,dry,restored,mga,2,grassland
-M_HNB_A2,M_HNB,centre,654,Central European mixed forests,209.5399933,11.77775515,51.2062993,dry,restored,mga,2,grassland
-M_HNB_A3,M_HNB,centre,654,Central European mixed forests,209.5399933,11.77775515,51.2062993,dry,restored,mga,2,grassland
-M_HNB_A4,M_HNB,centre,654,Central European mixed forests,209.5399933,11.77775515,51.2062993,dry,restored,mga,2,grassland
-M_HOH_A1,M_HOH,centre,654,Central European mixed forests,61.65000153,11.65059088,51.85418882,moist,restored,cus,26,arable land
-M_HOH_A2,M_HOH,centre,654,Central European mixed forests,61.65000153,11.65059088,51.85418882,moist,restored,cus,26,arable land
-M_HOH_A3,M_HOH,centre,654,Central European mixed forests,61.65000153,11.65059088,51.85418882,moist,restored,cus,26,arable land
-M_HOH_A4,M_HOH,centre,654,Central European mixed forests,61.65000153,11.65059088,51.85418882,moist,restored,cus,26,arable land
-M_ILB_A1,M_ILB,centre,654,Central European mixed forests,67.48000336,11.65441561,51.82311226,fresh,restored,res,12,arable land
-M_ILB_A2,M_ILB,centre,654,Central European mixed forests,67.48000336,11.65441561,51.82311226,fresh,restored,res,12,arable land
-M_ILB_A3,M_ILB,centre,654,Central European mixed forests,67.48000336,11.65441561,51.82311226,fresh,restored,res,12,arable land
-M_ILB_A4,M_ILB,centre,654,Central European mixed forests,67.48000336,11.65441561,51.82311226,fresh,restored,res,12,arable land
-M_JEP_A1,M_JEP,centre,654,Central European mixed forests,34.40999985,12.02312125,52.4791434,fresh,positive,NA,NA,NA
-M_JEP_A2,M_JEP,centre,654,Central European mixed forests,34.40999985,12.02312125,52.4791434,fresh,positive,NA,NA,NA
-M_JEP_A3,M_JEP,centre,654,Central European mixed forests,34.40999985,12.02312125,52.4791434,fresh,positive,NA,NA,NA
-M_JEP_A4,M_JEP,centre,654,Central European mixed forests,34.40999985,12.02312125,52.4791434,fresh,positive,NA,NA,NA
-M_JER_A1,M_JER,centre,654,Central European mixed forests,34.11000061,12.01639122,52.48309646,fresh,restored,dih,5,arable land
-M_JER_A2,M_JER,centre,654,Central European mixed forests,34.11000061,12.01639122,52.48309646,fresh,restored,dih,5,arable land
-M_JER_A3,M_JER,centre,654,Central European mixed forests,34.11000061,12.01639122,52.48309646,fresh,restored,dih,5,arable land
-M_JER_A4,M_JER,centre,654,Central European mixed forests,34.11000061,12.01639122,52.48309646,fresh,restored,dih,5,arable land
-M_KAL_A1,M_KAL,centre,686,Western European broadleaf forests,274.9100037,11.1614036,51.49407413,fresh,positive,NA,NA,NA
-M_KAL_A2,M_KAL,centre,686,Western European broadleaf forests,274.9100037,11.1614036,51.49407413,fresh,positive,NA,NA,NA
-M_KAL_A3,M_KAL,centre,686,Western European broadleaf forests,274.9100037,11.1614036,51.49407413,fresh,positive,NA,NA,NA
-M_KAL_A4,M_KAL,centre,686,Western European broadleaf forests,274.9100037,11.1614036,51.49407413,fresh,positive,NA,NA,NA
-M_KAP_A1,M_KAP,centre,654,Central European mixed forests,58.43000031,12.23992028,51.87819202,fresh,negative,NA,NA,NA
-M_KAP_A2,M_KAP,centre,654,Central European mixed forests,58.43000031,12.23992028,51.87819202,fresh,negative,NA,NA,NA
-M_KAP_A3,M_KAP,centre,654,Central European mixed forests,58.43000031,12.23992028,51.87819202,fresh,negative,NA,NA,NA
-M_KAP_A4,M_KAP,centre,654,Central European mixed forests,58.43000031,12.23992028,51.87819202,fresh,negative,NA,NA,NA
-M_KIF_A1,M_KIF,centre,654,Central European mixed forests,114.7300034,11.7568316,51.65465985,dry,negative,NA,NA,NA
-M_KIF_A2,M_KIF,centre,654,Central European mixed forests,114.7300034,11.7568316,51.65465985,dry,negative,NA,NA,NA
-M_KIF_A3,M_KIF,centre,654,Central European mixed forests,114.7300034,11.7568316,51.65465985,dry,negative,NA,NA,NA
-M_KIF_A4,M_KIF,centre,654,Central European mixed forests,114.7300034,11.7568316,51.65465985,dry,negative,NA,NA,NA
-M_KOL_A1,M_KOL,centre,654,Central European mixed forests,114.6600037,11.82447632,51.50647081,dry,restored,res,3,arable land
-M_KOL_A2,M_KOL,centre,654,Central European mixed forests,114.6600037,11.82447632,51.50647081,dry,restored,res,3,arable land
-M_KOL_A3,M_KOL,centre,654,Central European mixed forests,114.6600037,11.82447632,51.50647081,dry,restored,res,3,arable land
-M_KOL_A4,M_KOL,centre,654,Central European mixed forests,114.6600037,11.82447632,51.50647081,dry,restored,res,3,arable land
-M_KOT_A1,M_KOT,centre,654,Central European mixed forests,72,11.97743495,51.76112712,fresh,restored,res,4,arable land
-M_KOT_A2,M_KOT,centre,654,Central European mixed forests,72,11.97743495,51.76112712,fresh,restored,res,4,arable land
-M_KOT_A3,M_KOT,centre,654,Central European mixed forests,72,11.97743495,51.76112712,fresh,restored,res,4,arable land
-M_KOT_A4,M_KOT,centre,654,Central European mixed forests,72,11.97743495,51.76112712,fresh,restored,res,4,arable land
-M_KUH_A1,M_KUH,centre,654,Central European mixed forests,161.2100067,11.83230936,51.25517652,dry,restored,mga,4,grassland
-M_KUH_A2,M_KUH,centre,654,Central European mixed forests,161.2100067,11.83230936,51.25517652,dry,restored,mga,4,grassland
-M_KUH_A3,M_KUH,centre,654,Central European mixed forests,161.2100067,11.83230936,51.25517652,dry,restored,mga,4,grassland
-M_KUH_A4,M_KUH,centre,654,Central European mixed forests,161.2100067,11.83230936,51.25517652,dry,restored,mga,4,grassland
-M_LOB_A1,M_LOB,centre,654,Central European mixed forests,114.2600021,11.9262047,51.63375412,fresh,restored,cus,NA,arable land
-M_LOB_A2,M_LOB,centre,654,Central European mixed forests,114.2600021,11.9262047,51.63375412,fresh,restored,cus,NA,arable land
-M_LOB_A3,M_LOB,centre,654,Central European mixed forests,114.2600021,11.9262047,51.63375412,fresh,restored,cus,NA,arable land
-M_LOB_A4,M_LOB,centre,654,Central European mixed forests,114.2600021,11.9262047,51.63375412,fresh,restored,cus,NA,arable land
-M_MOZ_A1,M_MOZ,centre,686,Western European broadleaf forests,310.6099854,11.30686446,51.69061448,moist,positive,NA,NA,NA
-M_MOZ_A2,M_MOZ,centre,686,Western European broadleaf forests,310.6099854,11.30686446,51.69061448,moist,positive,NA,NA,NA
-M_MOZ_A3,M_MOZ,centre,686,Western European broadleaf forests,310.6099854,11.30686446,51.69061448,moist,positive,NA,NA,NA
-M_MOZ_A4,M_MOZ,centre,686,Western European broadleaf forests,310.6099854,11.30686446,51.69061448,moist,positive,NA,NA,NA
-M_NEL_A1,M_NEL,centre,654,Central European mixed forests,96.33999634,11.75335512,51.66467973,dry,restored,mga,14,grassland
-M_NEL_A2,M_NEL,centre,654,Central European mixed forests,96.33999634,11.75335512,51.66467973,dry,restored,mga,14,grassland
-M_NEL_A3,M_NEL,centre,654,Central European mixed forests,96.33999634,11.75335512,51.66467973,dry,restored,mga,14,grassland
-M_NEL_A4,M_NEL,centre,654,Central European mixed forests,96.33999634,11.75335512,51.66467973,dry,restored,mga,14,grassland
-M_NIS_A1,M_NIS,centre,654,Central European mixed forests,204.7700043,11.76049993,51.20428793,dry,negative,NA,NA,NA
-M_NIS_A2,M_NIS,centre,654,Central European mixed forests,204.7700043,11.76049993,51.20428793,dry,negative,NA,NA,NA
-M_NIS_A3,M_NIS,centre,654,Central European mixed forests,204.7700043,11.76049993,51.20428793,dry,negative,NA,NA,NA
-M_NIS_A4,M_NIS,centre,654,Central European mixed forests,204.7700043,11.76049993,51.20428793,dry,negative,NA,NA,NA
-M_PRA_A1,M_PRA,centre,654,Central European mixed forests,66.73000336,12.67487398,51.84309028,moist,restored,dih,22,arable land
-M_PRA_A2,M_PRA,centre,654,Central European mixed forests,66.73000336,12.67487398,51.84309028,moist,restored,dih,22,arable land
-M_PRA_A3,M_PRA,centre,654,Central European mixed forests,66.73000336,12.67487398,51.84309028,moist,restored,dih,22,arable land
-M_PRA_A4,M_PRA,centre,654,Central European mixed forests,66.73000336,12.67487398,51.84309028,moist,restored,dih,22,arable land
-M_SKF_A1,M_SKF,centre,654,Central European mixed forests,66.11000061,11.57491171,52.02875982,fresh,restored,res,9,arable land
-M_SKF_A2,M_SKF,centre,654,Central European mixed forests,66.11000061,11.57491171,52.02875982,fresh,restored,res,9,arable land
-M_SKF_A3,M_SKF,centre,654,Central European mixed forests,66.11000061,11.57491171,52.02875982,fresh,restored,res,9,arable land
-M_SKF_A4,M_SKF,centre,654,Central European mixed forests,66.11000061,11.57491171,52.02875982,fresh,restored,res,9,arable land
-M_SMH_A1,M_SMH,centre,654,Central European mixed forests,227.3800049,11.59779124,51.33296162,dry,negative,NA,NA,NA
-M_SMH_A2,M_SMH,centre,654,Central European mixed forests,227.3800049,11.59779124,51.33296162,dry,negative,NA,NA,NA
-M_SMH_A3,M_SMH,centre,654,Central European mixed forests,227.3800049,11.59779124,51.33296162,dry,negative,NA,NA,NA
-M_SMH_A4,M_SMH,centre,654,Central European mixed forests,227.3800049,11.59779124,51.33296162,dry,negative,NA,NA,NA
-M_SSB_A1,M_SSB,centre,654,Central European mixed forests,182.1799927,11.72160941,51.21551542,dry,positive,NA,NA,NA
-M_SSB_A2,M_SSB,centre,654,Central European mixed forests,182.1799927,11.72160941,51.21551542,dry,positive,NA,NA,NA
-M_SSB_A3,M_SSB,centre,654,Central European mixed forests,182.1799927,11.72160941,51.21551542,dry,positive,NA,NA,NA
-M_SSB_A4,M_SSB,centre,654,Central European mixed forests,182.1799927,11.72160941,51.21551542,dry,positive,NA,NA,NA
-M_SSL_A1,M_SSL,centre,654,Central European mixed forests,118.0299988,11.92439633,51.6336248,dry,positive,NA,NA,NA
-M_SSL_A2,M_SSL,centre,654,Central European mixed forests,118.0299988,11.92439633,51.6336248,dry,positive,NA,NA,NA
-M_SSL_A3,M_SSL,centre,654,Central European mixed forests,118.0299988,11.92439633,51.6336248,dry,positive,NA,NA,NA
-M_SSL_A4,M_SSL,centre,654,Central European mixed forests,118.0299988,11.92439633,51.6336248,dry,positive,NA,NA,NA
-M_STA_A1,M_STA,centre,654,Central European mixed forests,54.43999863,12.03915626,51.87081962,fresh,restored,res,5,grassland
-M_STA_A2,M_STA,centre,654,Central European mixed forests,54.43999863,12.03915626,51.87081962,fresh,restored,res,5,grassland
-M_STA_A3,M_STA,centre,654,Central European mixed forests,54.43999863,12.03915626,51.87081962,fresh,restored,res,5,grassland
-M_STA_A4,M_STA,centre,654,Central European mixed forests,54.43999863,12.03915626,51.87081962,fresh,restored,res,5,grassland
-M_STF_A1,M_STF,centre,654,Central European mixed forests,39.75,11.6869805,52.28069534,moist,restored,dih,3,arable land
-M_STF_A2,M_STF,centre,654,Central European mixed forests,39.75,11.6869805,52.28069534,moist,restored,dih,3,arable land
-M_STF_A3,M_STF,centre,654,Central European mixed forests,39.75,11.6869805,52.28069534,moist,restored,dih,3,arable land
-M_STF_A4,M_STF,centre,654,Central European mixed forests,39.75,11.6869805,52.28069534,moist,restored,dih,3,arable land
-M_STI_A1,M_STI,centre,654,Central European mixed forests,91.91999817,11.83597112,51.65776367,moist,restored,cus,28,arable land
-M_STI_A2,M_STI,centre,654,Central European mixed forests,91.91999817,11.83597112,51.65776367,moist,restored,cus,28,arable land
-M_STI_A3,M_STI,centre,654,Central European mixed forests,91.91999817,11.83597112,51.65776367,moist,restored,cus,28,arable land
-M_STI_A4,M_STI,centre,654,Central European mixed forests,91.91999817,11.83597112,51.65776367,moist,restored,cus,28,arable land
-M_STN_A1,M_STN,centre,654,Central European mixed forests,184.0599976,11.51118008,51.27824642,dry,restored,mga,2,grassland
-M_STN_A2,M_STN,centre,654,Central European mixed forests,184.0599976,11.51118008,51.27824642,dry,restored,mga,2,grassland
-M_STN_A3,M_STN,centre,654,Central European mixed forests,184.0599976,11.51118008,51.27824642,dry,restored,mga,2,grassland
-M_STN_A4,M_STN,centre,654,Central European mixed forests,184.0599976,11.51118008,51.27824642,dry,restored,mga,2,grassland
-M_STP_A1,M_STP,centre,654,Central European mixed forests,54.63000107,12.05356323,51.87379422,fresh,positive,NA,NA,NA
-M_STP_A2,M_STP,centre,654,Central European mixed forests,54.63000107,12.05356323,51.87379422,fresh,positive,NA,NA,NA
-M_STP_A3,M_STP,centre,654,Central European mixed forests,54.63000107,12.05356323,51.87379422,fresh,positive,NA,NA,NA
-M_STP_A4,M_STP,centre,654,Central European mixed forests,54.63000107,12.05356323,51.87379422,fresh,positive,NA,NA,NA
-M_SUL_A1,M_SUL,centre,654,Central European mixed forests,73.33000183,11.56157811,52.02835511,fresh,negative,NA,NA,NA
-M_SUL_A2,M_SUL,centre,654,Central European mixed forests,73.33000183,11.56157811,52.02835511,fresh,negative,NA,NA,NA
-M_SUL_A3,M_SUL,centre,654,Central European mixed forests,73.33000183,11.56157811,52.02835511,fresh,negative,NA,NA,NA
-M_SUL_A4,M_SUL,centre,654,Central European mixed forests,73.33000183,11.56157811,52.02835511,fresh,negative,NA,NA,NA
-M_TAN_A1,M_TAN,centre,654,Central European mixed forests,120.5999985,11.75682108,51.64052353,dry,restored,mga,11,grassland
-M_TAN_A2,M_TAN,centre,654,Central European mixed forests,120.5999985,11.75682108,51.64052353,dry,restored,mga,11,grassland
-M_TAN_A3,M_TAN,centre,654,Central European mixed forests,120.5999985,11.75682108,51.64052353,dry,restored,mga,11,grassland
-M_TAN_A4,M_TAN,centre,654,Central European mixed forests,120.5999985,11.75682108,51.64052353,dry,restored,mga,11,grassland
-M_TRE_A1,M_TRE,centre,654,Central European mixed forests,75.77999878,11.96757714,51.64524689,fresh,restored,res,8,grassland
-M_TRE_A2,M_TRE,centre,654,Central European mixed forests,75.77999878,11.96757714,51.64524689,fresh,restored,res,8,grassland
-M_TRE_A3,M_TRE,centre,654,Central European mixed forests,75.77999878,11.96757714,51.64524689,fresh,restored,res,8,grassland
-M_TRE_A4,M_TRE,centre,654,Central European mixed forests,75.77999878,11.96757714,51.64524689,fresh,restored,res,8,grassland
-M_TRN_A1,M_TRN,centre,654,Central European mixed forests,75.37999725,11.96509704,51.64410826,moist,negative,NA,NA,NA
-M_TRN_A2,M_TRN,centre,654,Central European mixed forests,75.37999725,11.96509704,51.64410826,moist,negative,NA,NA,NA
-M_TRN_A3,M_TRN,centre,654,Central European mixed forests,75.37999725,11.96509704,51.64410826,moist,negative,NA,NA,NA
-M_TRN_A4,M_TRN,centre,654,Central European mixed forests,75.37999725,11.96509704,51.64410826,moist,negative,NA,NA,NA
-M_TTH_A1,M_TTH,centre,654,Central European mixed forests,212.8300018,11.74525195,51.20022449,dry,restored,mga,11,grassland
-M_TTH_A2,M_TTH,centre,654,Central European mixed forests,212.8300018,11.74525195,51.20022449,dry,restored,mga,11,grassland
-M_TTH_A3,M_TTH,centre,654,Central European mixed forests,212.8300018,11.74525195,51.20022449,dry,restored,mga,11,grassland
-M_TTH_A4,M_TTH,centre,654,Central European mixed forests,212.8300018,11.74525195,51.20022449,dry,restored,mga,11,grassland
-M_TTO_A1,M_TTO,centre,654,Central European mixed forests,205.6600037,11.73221691,51.18472096,dry,positive,NA,NA,NA
-M_TTO_A2,M_TTO,centre,654,Central European mixed forests,205.6600037,11.73221691,51.18472096,dry,positive,NA,NA,NA
-M_TTO_A3,M_TTO,centre,654,Central European mixed forests,205.6600037,11.73221691,51.18472096,dry,positive,NA,NA,NA
-M_TTO_A4,M_TTO,centre,654,Central European mixed forests,205.6600037,11.73221691,51.18472096,dry,positive,NA,NA,NA
-M_TTP_A1,M_TTP,centre,654,Central European mixed forests,217.3399963,11.75171156,51.20209679,dry,restored,mga,13,grassland
-M_TTP_A2,M_TTP,centre,654,Central European mixed forests,217.3399963,11.75171156,51.20209679,dry,restored,mga,13,grassland
-M_TTP_A3,M_TTP,centre,654,Central European mixed forests,217.3399963,11.75171156,51.20209679,dry,restored,mga,13,grassland
-M_TTP_A4,M_TTP,centre,654,Central European mixed forests,217.3399963,11.75171156,51.20209679,dry,restored,mga,13,grassland
-M_VOC_A1,M_VOC,centre,654,Central European mixed forests,60.04000092,12.33854304,51.85665776,fresh,restored,dih,8,arable land
-M_VOC_A2,M_VOC,centre,654,Central European mixed forests,60.04000092,12.33854304,51.85665776,fresh,restored,dih,8,arable land
-M_VOC_A3,M_VOC,centre,654,Central European mixed forests,60.04000092,12.33854304,51.85665776,fresh,restored,dih,8,arable land
-M_VOC_A4,M_VOC,centre,654,Central European mixed forests,60.04000092,12.33854304,51.85665776,fresh,restored,dih,8,arable land
-M_WDG_A1,M_WDG,centre,654,Central European mixed forests,77.66000366,11.4834876,52.2889212,fresh,restored,res,6,arable land
-M_WDG_A2,M_WDG,centre,654,Central European mixed forests,77.66000366,11.4834876,52.2889212,fresh,restored,res,6,arable land
-M_WDG_A3,M_WDG,centre,654,Central European mixed forests,77.66000366,11.4834876,52.2889212,fresh,restored,res,6,arable land
-M_WDG_A4,M_WDG,centre,654,Central European mixed forests,77.66000366,11.4834876,52.2889212,fresh,restored,res,6,arable land
-M_WED_A1,M_WED,centre,654,Central European mixed forests,48.04000092,11.48918164,52.2679638,moist,restored,res,7,arable land
-M_WED_A2,M_WED,centre,654,Central European mixed forests,48.04000092,11.48918164,52.2679638,moist,restored,res,7,arable land
-M_WED_A3,M_WED,centre,654,Central European mixed forests,48.04000092,11.48918164,52.2679638,moist,restored,res,7,arable land
-M_WED_A4,M_WED,centre,654,Central European mixed forests,48.04000092,11.48918164,52.2679638,moist,restored,res,7,arable land
-M_WEF_A1,M_WEF,centre,654,Central European mixed forests,120.6800003,11.17225431,52.17879519,moist,restored,mga,13,grassland
-M_WEF_A2,M_WEF,centre,654,Central European mixed forests,120.6800003,11.17225431,52.17879519,moist,restored,mga,13,grassland
-M_WEF_A3,M_WEF,centre,654,Central European mixed forests,120.6800003,11.17225431,52.17879519,moist,restored,mga,13,grassland
-M_WEF_A4,M_WEF,centre,654,Central European mixed forests,120.6800003,11.17225431,52.17879519,moist,restored,mga,13,grassland
-M_WIM_A1,M_WIM,centre,686,Western European broadleaf forests,212.1000061,11.49754839,51.51079173,fresh,restored,res,6,arable land
-M_WIM_A2,M_WIM,centre,686,Western European broadleaf forests,212.1000061,11.49754839,51.51079173,fresh,restored,res,6,arable land
-M_WIM_A3,M_WIM,centre,686,Western European broadleaf forests,212.1000061,11.49754839,51.51079173,fresh,restored,res,6,arable land
-M_WIM_A4,M_WIM,centre,686,Western European broadleaf forests,212.1000061,11.49754839,51.51079173,fresh,restored,res,6,arable land
-M_WLE_A1,M_WLE,centre,654,Central European mixed forests,119.6500015,11.20737972,52.18579459,moist,negative,NA,NA,NA
-M_WLE_A2,M_WLE,centre,654,Central European mixed forests,119.6500015,11.20737972,52.18579459,moist,negative,NA,NA,NA
-M_WLE_A3,M_WLE,centre,654,Central European mixed forests,119.6500015,11.20737972,52.18579459,moist,negative,NA,NA,NA
-M_WLE_A4,M_WLE,centre,654,Central European mixed forests,119.6500015,11.20737972,52.18579459,moist,negative,NA,NA,NA
-M_WUG_A1,M_WUG,centre,654,Central European mixed forests,51.81000137,11.91389537,51.85297179,fresh,restored,mga,NA,arable land
-M_WUG_A2,M_WUG,centre,654,Central European mixed forests,51.81000137,11.91389537,51.85297179,fresh,restored,mga,NA,arable land
-M_WUG_A3,M_WUG,centre,654,Central European mixed forests,51.81000137,11.91389537,51.85297179,fresh,restored,mga,NA,arable land
-M_WUG_A4,M_WUG,centre,654,Central European mixed forests,51.81000137,11.91389537,51.85297179,fresh,restored,mga,NA,arable land
-M_WUM_A1,M_WUM,centre,654,Central European mixed forests,52.34000015,11.94306453,51.83665149,fresh,restored,mga,NA,grassland
-M_WUM_A2,M_WUM,centre,654,Central European mixed forests,52.34000015,11.94306453,51.83665149,fresh,restored,mga,NA,grassland
-M_WUM_A3,M_WUM,centre,654,Central European mixed forests,52.34000015,11.94306453,51.83665149,fresh,restored,mga,NA,grassland
-M_WUM_A4,M_WUM,centre,654,Central European mixed forests,52.34000015,11.94306453,51.83665149,fresh,restored,mga,NA,grassland
-M_WUN_A1,M_WUN,centre,654,Central European mixed forests,51.93999863,11.91088705,51.85409945,fresh,negative,NA,NA,NA
-M_WUN_A2,M_WUN,centre,654,Central European mixed forests,51.93999863,11.91088705,51.85409945,fresh,negative,NA,NA,NA
-M_WUN_A3,M_WUN,centre,654,Central European mixed forests,51.93999863,11.91088705,51.85409945,fresh,negative,NA,NA,NA
-M_WUN_A4,M_WUN,centre,654,Central European mixed forests,51.93999863,11.91088705,51.85409945,fresh,negative,NA,NA,NA
-M_WUP_A1,M_WUP,centre,654,Central European mixed forests,52.24000168,11.93649437,51.84281827,fresh,positive,NA,NA,NA
-M_WUP_A2,M_WUP,centre,654,Central European mixed forests,52.24000168,11.93649437,51.84281827,fresh,positive,NA,NA,NA
-M_WUP_A3,M_WUP,centre,654,Central European mixed forests,52.24000168,11.93649437,51.84281827,fresh,positive,NA,NA,NA
-M_WUP_A4,M_WUP,centre,654,Central European mixed forests,52.24000168,11.93649437,51.84281827,fresh,positive,NA,NA,NA
-M_WUR_A1,M_WUR,centre,654,Central European mixed forests,52.08000183,11.95411022,51.83463992,moist,positive,NA,NA,NA
-M_WUR_A2,M_WUR,centre,654,Central European mixed forests,52.08000183,11.95411022,51.83463992,moist,positive,NA,NA,NA
-M_WUR_A3,M_WUR,centre,654,Central European mixed forests,52.08000183,11.95411022,51.83463992,moist,positive,NA,NA,NA
-M_WUR_A4,M_WUR,centre,654,Central European mixed forests,52.08000183,11.95411022,51.83463992,moist,positive,NA,NA,NA
-N_AFE_A1,N_AFE,north,664,European Atlantic mixed forests,54.68000031,10.60355741,52.57145886,fresh,restored,cus,34,arable land
-N_AFE_A2,N_AFE,north,664,European Atlantic mixed forests,54.68000031,10.60355741,52.57145886,fresh,restored,cus,34,arable land
-N_AFE_A3,N_AFE,north,664,European Atlantic mixed forests,54.68000031,10.60355741,52.57145886,fresh,restored,cus,34,arable land
-N_AFE_A4,N_AFE,north,664,European Atlantic mixed forests,54.68000031,10.60355741,52.57145886,fresh,restored,cus,34,arable land
-N_ALA_A1,N_ALA,north,664,European Atlantic mixed forests,18.13999939,11.63909778,52.99585029,fresh,restored,res,6,grassland
-N_ALA_A2,N_ALA,north,664,European Atlantic mixed forests,18.13999939,11.63909778,52.99585029,fresh,restored,res,6,grassland
-N_ALA_A3,N_ALA,north,664,European Atlantic mixed forests,18.13999939,11.63909778,52.99585029,fresh,restored,res,6,grassland
-N_ALA_A4,N_ALA,north,664,European Atlantic mixed forests,18.13999939,11.63909778,52.99585029,fresh,restored,res,6,grassland
-N_ARE_A1,N_ARE,north,664,European Atlantic mixed forests,20.57999992,11.41380242,52.90835525,fresh,restored,res,NA,arable land
-N_ARE_A2,N_ARE,north,664,European Atlantic mixed forests,20.57999992,11.41380242,52.90835525,fresh,restored,res,NA,arable land
-N_ARE_A3,N_ARE,north,664,European Atlantic mixed forests,20.57999992,11.41380242,52.90835525,fresh,restored,res,NA,arable land
-N_ARE_A4,N_ARE,north,664,European Atlantic mixed forests,20.57999992,11.41380242,52.90835525,fresh,restored,res,NA,arable land
-N_BEB_A1,N_BEB,north,664,European Atlantic mixed forests,54.29000092,10.58705219,52.56455023,fresh,restored,cus,29,arable land
-N_BEB_A2,N_BEB,north,664,European Atlantic mixed forests,54.29000092,10.58705219,52.56455023,fresh,restored,cus,29,arable land
-N_BEB_A3,N_BEB,north,664,European Atlantic mixed forests,54.29000092,10.58705219,52.56455023,fresh,restored,cus,29,arable land
-N_BEB_A4,N_BEB,north,664,European Atlantic mixed forests,54.29000092,10.58705219,52.56455023,fresh,restored,cus,29,arable land
-N_BEN_A1,N_BEN,north,664,European Atlantic mixed forests,59.18000031,10.61579891,52.64595831,fresh,negative,NA,NA,NA
-N_BEN_A2,N_BEN,north,664,European Atlantic mixed forests,59.18000031,10.61579891,52.64595831,fresh,negative,NA,NA,NA
-N_BEN_A3,N_BEN,north,664,European Atlantic mixed forests,59.18000031,10.61579891,52.64595831,fresh,negative,NA,NA,NA
-N_BEN_A4,N_BEN,north,664,European Atlantic mixed forests,59.18000031,10.61579891,52.64595831,fresh,negative,NA,NA,NA
-N_BIT_A1,N_BIT,north,664,European Atlantic mixed forests,29.85000038,9.712489826,54.06746828,fresh,restored,dih,4,grassland
-N_BIT_A2,N_BIT,north,664,European Atlantic mixed forests,29.85000038,9.712489826,54.06746828,fresh,restored,dih,4,grassland
-N_BIT_A3,N_BIT,north,664,European Atlantic mixed forests,29.85000038,9.712489826,54.06746828,fresh,restored,dih,4,grassland
-N_BIT_A4,N_BIT,north,664,European Atlantic mixed forests,29.85000038,9.712489826,54.06746828,fresh,restored,dih,4,grassland
-N_BLE_A1,N_BLE,north,664,European Atlantic mixed forests,8.430000305,10.74598821,53.33188724,fresh,positive,NA,NA,NA
-N_BLE_A2,N_BLE,north,664,European Atlantic mixed forests,8.430000305,10.74598821,53.33188724,fresh,positive,NA,NA,NA
-N_BLE_A3,N_BLE,north,664,European Atlantic mixed forests,8.430000305,10.74598821,53.33188724,fresh,positive,NA,NA,NA
-N_BLE_A4,N_BLE,north,664,European Atlantic mixed forests,8.430000305,10.74598821,53.33188724,fresh,positive,NA,NA,NA
-N_BLU_A1,N_BLU,north,664,European Atlantic mixed forests,17.78000069,11.15186993,52.90365006,fresh,restored,cus,28,arable land
-N_BLU_A2,N_BLU,north,664,European Atlantic mixed forests,17.78000069,11.15186993,52.90365006,fresh,restored,cus,28,arable land
-N_BLU_A3,N_BLU,north,664,European Atlantic mixed forests,17.78000069,11.15186993,52.90365006,fresh,restored,cus,28,arable land
-N_BLU_A4,N_BLU,north,664,European Atlantic mixed forests,17.78000069,11.15186993,52.90365006,fresh,restored,cus,28,arable land
-N_BRD_A1,N_BRD,north,664,European Atlantic mixed forests,16.42000008,11.4258011,53.05071543,fresh,restored,dih,3,grassland
-N_BRD_A2,N_BRD,north,664,European Atlantic mixed forests,16.42000008,11.4258011,53.05071543,fresh,restored,dih,3,grassland
-N_BRD_A3,N_BRD,north,664,European Atlantic mixed forests,16.42000008,11.4258011,53.05071543,fresh,restored,dih,3,grassland
-N_BRD_A4,N_BRD,north,664,European Atlantic mixed forests,16.42000008,11.4258011,53.05071543,fresh,restored,dih,3,grassland
-N_BRE_A1,N_BRE,north,664,European Atlantic mixed forests,21.70999908,10.66332693,53.60182733,dry,restored,res,4,arable land
-N_BRE_A2,N_BRE,north,664,European Atlantic mixed forests,21.70999908,10.66332693,53.60182733,dry,restored,res,4,arable land
-N_BRE_A3,N_BRE,north,664,European Atlantic mixed forests,21.70999908,10.66332693,53.60182733,dry,restored,res,4,arable land
-N_BRE_A4,N_BRE,north,664,European Atlantic mixed forests,21.70999908,10.66332693,53.60182733,dry,restored,res,4,arable land
-N_BRO_A1,N_BRO,north,664,European Atlantic mixed forests,21.72999954,10.66569268,53.46791394,dry,restored,dih,8,arable land
-N_BRO_A2,N_BRO,north,664,European Atlantic mixed forests,21.72999954,10.66569268,53.46791394,dry,restored,dih,8,arable land
-N_BRO_A3,N_BRO,north,664,European Atlantic mixed forests,21.72999954,10.66569268,53.46791394,dry,restored,dih,8,arable land
-N_BRO_A4,N_BRO,north,664,European Atlantic mixed forests,21.72999954,10.66569268,53.46791394,dry,restored,dih,8,arable land
-N_BU1_A1,N_BU1,north,664,European Atlantic mixed forests,14.35000038,9.774601422,54.09915593,fresh,negative,NA,NA,NA
-N_BU1_A2,N_BU1,north,664,European Atlantic mixed forests,14.35000038,9.774601422,54.09915593,fresh,negative,NA,NA,NA
-N_BU1_A3,N_BU1,north,664,European Atlantic mixed forests,14.35000038,9.774601422,54.09915593,fresh,negative,NA,NA,NA
-N_BU1_A4,N_BU1,north,664,European Atlantic mixed forests,14.35000038,9.774601422,54.09915593,fresh,negative,NA,NA,NA
-N_BU2_A1,N_BU2,north,664,European Atlantic mixed forests,12.56999969,9.766568712,54.09996863,moist,negative,NA,NA,NA
-N_BU2_A2,N_BU2,north,664,European Atlantic mixed forests,12.56999969,9.766568712,54.09996863,moist,negative,NA,NA,NA
-N_BU2_A3,N_BU2,north,664,European Atlantic mixed forests,12.56999969,9.766568712,54.09996863,moist,negative,NA,NA,NA
-N_BU2_A4,N_BU2,north,664,European Atlantic mixed forests,12.56999969,9.766568712,54.09996863,moist,negative,NA,NA,NA
-N_CAM_A1,N_CAM,north,664,European Atlantic mixed forests,70.16999817,9.825099354,53.15047911,dry,positive,NA,NA,NA
-N_CAM_A2,N_CAM,north,664,European Atlantic mixed forests,70.16999817,9.825099354,53.15047911,dry,positive,NA,NA,NA
-N_CAM_A3,N_CAM,north,664,European Atlantic mixed forests,70.16999817,9.825099354,53.15047911,dry,positive,NA,NA,NA
-N_CAM_A4,N_CAM,north,664,European Atlantic mixed forests,70.16999817,9.825099354,53.15047911,dry,positive,NA,NA,NA
-N_CNI_A1,N_CNI,north,664,European Atlantic mixed forests,10.42000008,10.85101826,53.24958879,moist,restored,mga,16,grassland
-N_CNI_A2,N_CNI,north,664,European Atlantic mixed forests,10.42000008,10.85101826,53.24958879,moist,restored,mga,16,grassland
-N_CNI_A3,N_CNI,north,664,European Atlantic mixed forests,10.42000008,10.85101826,53.24958879,moist,restored,mga,16,grassland
-N_CNI_A4,N_CNI,north,664,European Atlantic mixed forests,10.42000008,10.85101826,53.24958879,moist,restored,mga,16,grassland
-N_DAM_A1,N_DAM,north,664,European Atlantic mixed forests,12.60000038,11.13755266,53.12415583,fresh,restored,res,7,arable land
-N_DAM_A2,N_DAM,north,664,European Atlantic mixed forests,12.60000038,11.13755266,53.12415583,fresh,restored,res,7,arable land
-N_DAM_A3,N_DAM,north,664,European Atlantic mixed forests,12.60000038,11.13755266,53.12415583,fresh,restored,res,7,arable land
-N_DAM_A4,N_DAM,north,664,European Atlantic mixed forests,12.60000038,11.13755266,53.12415583,fresh,restored,res,7,arable land
-N_DUM_A1,N_DUM,north,664,European Atlantic mixed forests,24.95000076,10.96713715,52.90104063,moist,positive,NA,NA,NA
-N_DUM_A2,N_DUM,north,664,European Atlantic mixed forests,24.95000076,10.96713715,52.90104063,moist,positive,NA,NA,NA
-N_DUM_A3,N_DUM,north,664,European Atlantic mixed forests,24.95000076,10.96713715,52.90104063,moist,positive,NA,NA,NA
-N_DUM_A4,N_DUM,north,664,European Atlantic mixed forests,24.95000076,10.96713715,52.90104063,moist,positive,NA,NA,NA
-N_EIC_A1,N_EIC,north,664,European Atlantic mixed forests,135.8899994,9.966582081,53.15894547,dry,restored,dih,6,grassland
-N_EIC_A2,N_EIC,north,664,European Atlantic mixed forests,135.8899994,9.966582081,53.15894547,dry,restored,dih,6,grassland
-N_EIC_A3,N_EIC,north,664,European Atlantic mixed forests,135.8899994,9.966582081,53.15894547,dry,restored,dih,6,grassland
-N_EIC_A4,N_EIC,north,664,European Atlantic mixed forests,135.8899994,9.966582081,53.15894547,dry,restored,dih,6,grassland
-N_ELB_A1,N_ELB,north,664,European Atlantic mixed forests,13.56000042,11.21872812,53.12500769,fresh,restored,res,5,arable land
-N_ELB_A2,N_ELB,north,664,European Atlantic mixed forests,13.56000042,11.21872812,53.12500769,fresh,restored,res,5,arable land
-N_ELB_A3,N_ELB,north,664,European Atlantic mixed forests,13.56000042,11.21872812,53.12500769,fresh,restored,res,5,arable land
-N_ELB_A4,N_ELB,north,664,European Atlantic mixed forests,13.56000042,11.21872812,53.12500769,fresh,restored,res,5,arable land
-N_FLA_A1,N_FLA,north,664,European Atlantic mixed forests,13.14000034,10.30145646,53.28602734,moist,negative,NA,NA,NA
-N_FLA_A2,N_FLA,north,664,European Atlantic mixed forests,13.14000034,10.30145646,53.28602734,moist,negative,NA,NA,NA
-N_FLA_A3,N_FLA,north,664,European Atlantic mixed forests,13.14000034,10.30145646,53.28602734,moist,negative,NA,NA,NA
-N_FLA_A4,N_FLA,north,664,European Atlantic mixed forests,13.14000034,10.30145646,53.28602734,moist,negative,NA,NA,NA
-N_GAM_A1,N_GAM,north,664,European Atlantic mixed forests,52.41999817,10.54880198,52.51725778,fresh,restored,cus,30,arable land
-N_GAM_A2,N_GAM,north,664,European Atlantic mixed forests,52.41999817,10.54880198,52.51725778,fresh,restored,cus,30,arable land
-N_GAM_A3,N_GAM,north,664,European Atlantic mixed forests,52.41999817,10.54880198,52.51725778,fresh,restored,cus,30,arable land
-N_GAM_A4,N_GAM,north,664,European Atlantic mixed forests,52.41999817,10.54880198,52.51725778,fresh,restored,cus,30,arable land
-N_GAR_A1,N_GAR,north,664,European Atlantic mixed forests,6.429999828,10.65708759,53.33546428,fresh,restored,cus,17,arable land
-N_GAR_A2,N_GAR,north,664,European Atlantic mixed forests,6.429999828,10.65708759,53.33546428,fresh,restored,cus,17,arable land
-N_GAR_A3,N_GAR,north,664,European Atlantic mixed forests,6.429999828,10.65708759,53.33546428,fresh,restored,cus,17,arable land
-N_GAR_A4,N_GAR,north,664,European Atlantic mixed forests,6.429999828,10.65708759,53.33546428,fresh,restored,cus,17,arable land
-N_GBI_A1,N_GBI,north,664,European Atlantic mixed forests,17.15999985,11.21682835,52.89239537,moist,positive,NA,NA,NA
-N_GBI_A2,N_GBI,north,664,European Atlantic mixed forests,17.15999985,11.21682835,52.89239537,moist,positive,NA,NA,NA
-N_GBI_A3,N_GBI,north,664,European Atlantic mixed forests,17.15999985,11.21682835,52.89239537,moist,positive,NA,NA,NA
-N_GBI_A4,N_GBI,north,664,European Atlantic mixed forests,17.15999985,11.21682835,52.89239537,moist,positive,NA,NA,NA
-N_GUT_A1,N_GUT,north,664,European Atlantic mixed forests,39.79000092,10.7350907,53.17096801,fresh,restored,res,8,arable land
-N_GUT_A2,N_GUT,north,664,European Atlantic mixed forests,39.79000092,10.7350907,53.17096801,fresh,restored,res,8,arable land
-N_GUT_A3,N_GUT,north,664,European Atlantic mixed forests,39.79000092,10.7350907,53.17096801,fresh,restored,res,8,arable land
-N_GUT_A4,N_GUT,north,664,European Atlantic mixed forests,39.79000092,10.7350907,53.17096801,fresh,restored,res,8,arable land
-N_HAI_A1,N_HAI,north,664,European Atlantic mixed forests,16.59000015,9.734085864,53.59957298,moist,restored,mga,3,grassland
-N_HAI_A2,N_HAI,north,664,European Atlantic mixed forests,16.59000015,9.734085864,53.59957298,moist,restored,mga,3,grassland
-N_HAI_A3,N_HAI,north,664,European Atlantic mixed forests,16.59000015,9.734085864,53.59957298,moist,restored,mga,3,grassland
-N_HAI_A4,N_HAI,north,664,European Atlantic mixed forests,16.59000015,9.734085864,53.59957298,moist,restored,mga,3,grassland
-N_HOH_A1,N_HOH,north,664,European Atlantic mixed forests,37.56000137,11.41839008,53.07004693,dry,restored,mga,7,arable land
-N_HOH_A2,N_HOH,north,664,European Atlantic mixed forests,37.56000137,11.41839008,53.07004693,dry,restored,mga,7,arable land
-N_HOH_A3,N_HOH,north,664,European Atlantic mixed forests,37.56000137,11.41839008,53.07004693,dry,restored,mga,7,arable land
-N_HOH_A4,N_HOH,north,664,European Atlantic mixed forests,37.56000137,11.41839008,53.07004693,dry,restored,mga,7,arable land
-N_HOR_A1,N_HOR,north,664,European Atlantic mixed forests,60.97000122,10.18559932,53.09655483,dry,restored,cus,4,arable land
-N_HOR_A2,N_HOR,north,664,European Atlantic mixed forests,60.97000122,10.18559932,53.09655483,dry,restored,cus,4,arable land
-N_HOR_A3,N_HOR,north,664,European Atlantic mixed forests,60.97000122,10.18559932,53.09655483,dry,restored,cus,4,arable land
-N_HOR_A4,N_HOR,north,664,European Atlantic mixed forests,60.97000122,10.18559932,53.09655483,dry,restored,cus,4,arable land
-N_HOY_A1,N_HOY,north,664,European Atlantic mixed forests,17.11000061,11.16556556,52.8977337,moist,restored,mga,3,arable land
-N_HOY_A2,N_HOY,north,664,European Atlantic mixed forests,17.11000061,11.16556556,52.8977337,moist,restored,mga,3,arable land
-N_HOY_A3,N_HOY,north,664,European Atlantic mixed forests,17.11000061,11.16556556,52.8977337,moist,restored,mga,3,arable land
-N_HOY_A4,N_HOY,north,664,European Atlantic mixed forests,17.11000061,11.16556556,52.8977337,moist,restored,mga,3,arable land
-N_ISE_A1,N_ISE,north,664,European Atlantic mixed forests,55.18999863,10.61617118,52.58565925,dry,positive,NA,NA,NA
-N_ISE_A2,N_ISE,north,664,European Atlantic mixed forests,55.18999863,10.61617118,52.58565925,dry,positive,NA,NA,NA
-N_ISE_A3,N_ISE,north,664,European Atlantic mixed forests,55.18999863,10.61617118,52.58565925,dry,positive,NA,NA,NA
-N_ISE_A4,N_ISE,north,664,European Atlantic mixed forests,55.18999863,10.61617118,52.58565925,dry,positive,NA,NA,NA
-N_JAS_A1,N_JAS,north,664,European Atlantic mixed forests,7.260000229,10.76861238,53.31423676,fresh,restored,cus,10,arable land
-N_JAS_A2,N_JAS,north,664,European Atlantic mixed forests,7.260000229,10.76861238,53.31423676,fresh,restored,cus,10,arable land
-N_JAS_A3,N_JAS,north,664,European Atlantic mixed forests,7.260000229,10.76861238,53.31423676,fresh,restored,cus,10,arable land
-N_JAS_A4,N_JAS,north,664,European Atlantic mixed forests,7.260000229,10.76861238,53.31423676,fresh,restored,cus,10,arable land
-N_KAP_A1,N_KAP,north,664,European Atlantic mixed forests,17.52000046,11.50973785,53.02310201,fresh,restored,dih,7,arable land
-N_KAP_A2,N_KAP,north,664,European Atlantic mixed forests,17.52000046,11.50973785,53.02310201,fresh,restored,dih,7,arable land
-N_KAP_A3,N_KAP,north,664,European Atlantic mixed forests,17.52000046,11.50973785,53.02310201,fresh,restored,dih,7,arable land
-N_KAP_A4,N_KAP,north,664,European Atlantic mixed forests,17.52000046,11.50973785,53.02310201,fresh,restored,dih,7,arable land
-N_KIR_A1,N_KIR,north,664,European Atlantic mixed forests,1.429999948,10.16907367,53.42338413,moist,positive,NA,NA,NA
-N_KIR_A2,N_KIR,north,664,European Atlantic mixed forests,1.429999948,10.16907367,53.42338413,moist,positive,NA,NA,NA
-N_KIR_A3,N_KIR,north,664,European Atlantic mixed forests,1.429999948,10.16907367,53.42338413,moist,positive,NA,NA,NA
-N_KIR_A4,N_KIR,north,664,European Atlantic mixed forests,1.429999948,10.16907367,53.42338413,moist,positive,NA,NA,NA
-N_KRI_A1,N_KRI,north,664,European Atlantic mixed forests,18.56999969,11.28477841,52.8908079,fresh,restored,cus,12,arable land
-N_KRI_A2,N_KRI,north,664,European Atlantic mixed forests,18.56999969,11.28477841,52.8908079,fresh,restored,cus,12,arable land
-N_KRI_A3,N_KRI,north,664,European Atlantic mixed forests,18.56999969,11.28477841,52.8908079,fresh,restored,cus,12,arable land
-N_KRI_A4,N_KRI,north,664,European Atlantic mixed forests,18.56999969,11.28477841,52.8908079,fresh,restored,cus,12,arable land
-N_LUB_A1,N_LUB,north,664,European Atlantic mixed forests,17.37000084,11.1899045,52.90165593,fresh,restored,dih,27,arable land
-N_LUB_A2,N_LUB,north,664,European Atlantic mixed forests,17.37000084,11.1899045,52.90165593,fresh,restored,dih,27,arable land
-N_LUB_A3,N_LUB,north,664,European Atlantic mixed forests,17.37000084,11.1899045,52.90165593,fresh,restored,dih,27,arable land
-N_LUB_A4,N_LUB,north,664,European Atlantic mixed forests,17.37000084,11.1899045,52.90165593,fresh,restored,dih,27,arable land
-N_MAU_A1,N_MAU,north,664,European Atlantic mixed forests,41.31999969,11.04525958,53.09223625,dry,restored,cus,4,arable land
-N_MAU_A2,N_MAU,north,664,European Atlantic mixed forests,41.31999969,11.04525958,53.09223625,dry,restored,cus,4,arable land
-N_MAU_A3,N_MAU,north,664,European Atlantic mixed forests,41.31999969,11.04525958,53.09223625,dry,restored,cus,4,arable land
-N_MAU_A4,N_MAU,north,664,European Atlantic mixed forests,41.31999969,11.04525958,53.09223625,dry,restored,cus,4,arable land
-N_MEC_A1,N_MEC,north,664,European Atlantic mixed forests,10.5,10.31390512,53.29404852,fresh,negative,NA,NA,NA
-N_MEC_A2,N_MEC,north,664,European Atlantic mixed forests,10.5,10.31390512,53.29404852,fresh,negative,NA,NA,NA
-N_MEC_A3,N_MEC,north,664,European Atlantic mixed forests,10.5,10.31390512,53.29404852,fresh,negative,NA,NA,NA
-N_MEC_A4,N_MEC,north,664,European Atlantic mixed forests,10.5,10.31390512,53.29404852,fresh,negative,NA,NA,NA
-N_MOO_A1,N_MOO,north,664,European Atlantic mixed forests,44.20000076,10.65701565,53.58911462,fresh,restored,res,5,arable land
-N_MOO_A2,N_MOO,north,664,European Atlantic mixed forests,44.20000076,10.65701565,53.58911462,fresh,restored,res,5,arable land
-N_MOO_A3,N_MOO,north,664,European Atlantic mixed forests,44.20000076,10.65701565,53.58911462,fresh,restored,res,5,arable land
-N_MOO_A4,N_MOO,north,664,European Atlantic mixed forests,44.20000076,10.65701565,53.58911462,fresh,restored,res,5,arable land
-N_NLG_A1,N_NLG,north,664,European Atlantic mixed forests,12.98999977,11.09491762,53.07630186,moist,restored,res,9,arable land
-N_NLG_A2,N_NLG,north,664,European Atlantic mixed forests,12.98999977,11.09491762,53.07630186,moist,restored,res,9,arable land
-N_NLG_A3,N_NLG,north,664,European Atlantic mixed forests,12.98999977,11.09491762,53.07630186,moist,restored,res,9,arable land
-N_NLG_A4,N_NLG,north,664,European Atlantic mixed forests,12.98999977,11.09491762,53.07630186,moist,restored,res,9,arable land
-N_OCH_A1,N_OCH,north,664,European Atlantic mixed forests,29.65999985,10.37203967,53.27486287,dry,restored,dih,5,grassland
-N_OCH_A2,N_OCH,north,664,European Atlantic mixed forests,29.65999985,10.37203967,53.27486287,dry,restored,dih,5,grassland
-N_OCH_A3,N_OCH,north,664,European Atlantic mixed forests,29.65999985,10.37203967,53.27486287,dry,restored,dih,5,grassland
-N_OCH_A4,N_OCH,north,664,European Atlantic mixed forests,29.65999985,10.37203967,53.27486287,dry,restored,dih,5,grassland
-N_OLE_A1,N_OLE,north,664,European Atlantic mixed forests,13.63000011,10.25770936,53.29191269,fresh,negative,NA,NA,NA
-N_OLE_A2,N_OLE,north,664,European Atlantic mixed forests,13.63000011,10.25770936,53.29191269,fresh,negative,NA,NA,NA
-N_OLE_A3,N_OLE,north,664,European Atlantic mixed forests,13.63000011,10.25770936,53.29191269,fresh,negative,NA,NA,NA
-N_OLE_A4,N_OLE,north,664,European Atlantic mixed forests,13.63000011,10.25770936,53.29191269,fresh,negative,NA,NA,NA
-N_PAN_A1,N_PAN,north,647,Baltic mixed forests,16.34000015,10.63384914,53.6617434,fresh,restored,res,5,arable land
-N_PAN_A2,N_PAN,north,647,Baltic mixed forests,16.34000015,10.63384914,53.6617434,fresh,restored,res,5,arable land
-N_PAN_A3,N_PAN,north,647,Baltic mixed forests,16.34000015,10.63384914,53.6617434,fresh,restored,res,5,arable land
-N_PAN_A4,N_PAN,north,647,Baltic mixed forests,16.34000015,10.63384914,53.6617434,fresh,restored,res,5,arable land
-N_PEV_A1,N_PEV,north,664,European Atlantic mixed forests,16.52000046,11.46833565,53.06540809,dry,restored,dih,3,grassland
-N_PEV_A2,N_PEV,north,664,European Atlantic mixed forests,16.52000046,11.46833565,53.06540809,dry,restored,dih,3,grassland
-N_PEV_A3,N_PEV,north,664,European Atlantic mixed forests,16.52000046,11.46833565,53.06540809,dry,restored,dih,3,grassland
-N_PEV_A4,N_PEV,north,664,European Atlantic mixed forests,16.52000046,11.46833565,53.06540809,dry,restored,dih,3,grassland
-N_PFE_A1,N_PFE,north,664,European Atlantic mixed forests,11.53999996,10.24418938,53.30522848,moist,restored,mga,NA,grassland
-N_PFE_A2,N_PFE,north,664,European Atlantic mixed forests,11.53999996,10.24418938,53.30522848,moist,restored,mga,NA,grassland
-N_PFE_A3,N_PFE,north,664,European Atlantic mixed forests,11.53999996,10.24418938,53.30522848,moist,restored,mga,NA,grassland
-N_PFE_A4,N_PFE,north,664,European Atlantic mixed forests,11.53999996,10.24418938,53.30522848,moist,restored,mga,NA,grassland
-N_RAD_A1,N_RAD,north,664,European Atlantic mixed forests,5.960000038,10.26511988,53.32796833,moist,negative,NA,NA,NA
-N_RAD_A2,N_RAD,north,664,European Atlantic mixed forests,5.960000038,10.26511988,53.32796833,moist,negative,NA,NA,NA
-N_RAD_A3,N_RAD,north,664,European Atlantic mixed forests,5.960000038,10.26511988,53.32796833,moist,negative,NA,NA,NA
-N_RAD_A4,N_RAD,north,664,European Atlantic mixed forests,5.960000038,10.26511988,53.32796833,moist,negative,NA,NA,NA
-N_RET_A1,N_RET,north,664,European Atlantic mixed forests,6.5,10.26463881,53.32578714,moist,restored,mga,3,grassland
-N_RET_A2,N_RET,north,664,European Atlantic mixed forests,6.5,10.26463881,53.32578714,moist,restored,mga,3,grassland
-N_RET_A3,N_RET,north,664,European Atlantic mixed forests,6.5,10.26463881,53.32578714,moist,restored,mga,3,grassland
-N_RET_A4,N_RET,north,664,European Atlantic mixed forests,6.5,10.26463881,53.32578714,moist,restored,mga,3,grassland
-N_SCH_A1,N_SCH,north,664,European Atlantic mixed forests,16.27000046,11.42651666,53.03730674,moist,positive,NA,NA,NA
-N_SCH_A2,N_SCH,north,664,European Atlantic mixed forests,16.27000046,11.42651666,53.03730674,moist,positive,NA,NA,NA
-N_SCH_A3,N_SCH,north,664,European Atlantic mixed forests,16.27000046,11.42651666,53.03730674,moist,positive,NA,NA,NA
-N_SCH_A4,N_SCH,north,664,European Atlantic mixed forests,16.27000046,11.42651666,53.03730674,moist,positive,NA,NA,NA
-N_SMG_A1,N_SMG,north,664,European Atlantic mixed forests,53.02999878,10.55267673,52.53846878,fresh,negative,NA,NA,NA
-N_SMG_A2,N_SMG,north,664,European Atlantic mixed forests,53.02999878,10.55267673,52.53846878,fresh,negative,NA,NA,NA
-N_SMG_A3,N_SMG,north,664,European Atlantic mixed forests,53.02999878,10.55267673,52.53846878,fresh,negative,NA,NA,NA
-N_SMG_A4,N_SMG,north,664,European Atlantic mixed forests,53.02999878,10.55267673,52.53846878,fresh,negative,NA,NA,NA
-N_STA_A1,N_STA,north,664,European Atlantic mixed forests,9.430000305,10.95623026,53.23560299,fresh,restored,cus,17,arable land
-N_STA_A2,N_STA,north,664,European Atlantic mixed forests,9.430000305,10.95623026,53.23560299,fresh,restored,cus,17,arable land
-N_STA_A3,N_STA,north,664,European Atlantic mixed forests,9.430000305,10.95623026,53.23560299,fresh,restored,cus,17,arable land
-N_STA_A4,N_STA,north,664,European Atlantic mixed forests,9.430000305,10.95623026,53.23560299,fresh,restored,cus,17,arable land
-N_STE_A1,N_STE,north,664,European Atlantic mixed forests,4.570000172,9.644420627,54.37676893,moist,positive,NA,NA,NA
-N_STE_A2,N_STE,north,664,European Atlantic mixed forests,4.570000172,9.644420627,54.37676893,moist,positive,NA,NA,NA
-N_STE_A3,N_STE,north,664,European Atlantic mixed forests,4.570000172,9.644420627,54.37676893,moist,positive,NA,NA,NA
-N_STE_A4,N_STE,north,664,European Atlantic mixed forests,4.570000172,9.644420627,54.37676893,moist,positive,NA,NA,NA
-N_TAN_A1,N_TAN,north,664,European Atlantic mixed forests,33.97999954,10.88157921,53.18174904,fresh,restored,mga,3,grassland
-N_TAN_A2,N_TAN,north,664,European Atlantic mixed forests,33.97999954,10.88157921,53.18174904,fresh,restored,mga,3,grassland
-N_TAN_A3,N_TAN,north,664,European Atlantic mixed forests,33.97999954,10.88157921,53.18174904,fresh,restored,mga,3,grassland
-N_TAN_A4,N_TAN,north,664,European Atlantic mixed forests,33.97999954,10.88157921,53.18174904,fresh,restored,mga,3,grassland
-N_TAS_A1,N_TAS,north,664,European Atlantic mixed forests,55.84000015,10.8822017,53.14036873,fresh,restored,cus,6,arable land
-N_TAS_A2,N_TAS,north,664,European Atlantic mixed forests,55.84000015,10.8822017,53.14036873,fresh,restored,cus,6,arable land
-N_TAS_A3,N_TAS,north,664,European Atlantic mixed forests,55.84000015,10.8822017,53.14036873,fresh,restored,cus,6,arable land
-N_TAS_A4,N_TAS,north,664,European Atlantic mixed forests,55.84000015,10.8822017,53.14036873,fresh,restored,cus,6,arable land
-N_TRI_A1,N_TRI,north,664,European Atlantic mixed forests,11.5,11.0939351,53.15897651,fresh,negative,NA,NA,NA
-N_TRI_A2,N_TRI,north,664,European Atlantic mixed forests,11.5,11.0939351,53.15897651,fresh,negative,NA,NA,NA
-N_TRI_A3,N_TRI,north,664,European Atlantic mixed forests,11.5,11.0939351,53.15897651,fresh,negative,NA,NA,NA
-N_TRI_A4,N_TRI,north,664,European Atlantic mixed forests,11.5,11.0939351,53.15897651,fresh,negative,NA,NA,NA
-N_TUT_A1,N_TUT,north,664,European Atlantic mixed forests,78.54000092,9.934592759,53.11325527,dry,restored,mga,3,arable land
-N_TUT_A2,N_TUT,north,664,European Atlantic mixed forests,78.54000092,9.934592759,53.11325527,dry,restored,mga,3,arable land
-N_TUT_A3,N_TUT,north,664,European Atlantic mixed forests,78.54000092,9.934592759,53.11325527,dry,restored,mga,3,arable land
-N_TUT_A4,N_TUT,north,664,European Atlantic mixed forests,78.54000092,9.934592759,53.11325527,dry,restored,mga,3,arable land
-N_UET_A1,N_UET,north,664,European Atlantic mixed forests,17.61000061,9.718224004,53.62918256,fresh,negative,NA,NA,NA
-N_UET_A2,N_UET,north,664,European Atlantic mixed forests,17.61000061,9.718224004,53.62918256,fresh,negative,NA,NA,NA
-N_UET_A3,N_UET,north,664,European Atlantic mixed forests,17.61000061,9.718224004,53.62918256,fresh,negative,NA,NA,NA
-N_UET_A4,N_UET,north,664,European Atlantic mixed forests,17.61000061,9.718224004,53.62918256,fresh,negative,NA,NA,NA
-N_VIE_A1,N_VIE,north,664,European Atlantic mixed forests,8.069999695,10.66972437,53.36600443,dry,positive,NA,NA,NA
-N_VIE_A2,N_VIE,north,664,European Atlantic mixed forests,8.069999695,10.66972437,53.36600443,dry,positive,NA,NA,NA
-N_VIE_A3,N_VIE,north,664,European Atlantic mixed forests,8.069999695,10.66972437,53.36600443,dry,positive,NA,NA,NA
-N_VIE_A4,N_VIE,north,664,European Atlantic mixed forests,8.069999695,10.66972437,53.36600443,dry,positive,NA,NA,NA
-N_VOG_A1,N_VOG,north,664,European Atlantic mixed forests,13.77999973,10.33981105,53.28352764,moist,restored,dih,5,arable land
-N_VOG_A2,N_VOG,north,664,European Atlantic mixed forests,13.77999973,10.33981105,53.28352764,moist,restored,dih,5,arable land
-N_VOG_A3,N_VOG,north,664,European Atlantic mixed forests,13.77999973,10.33981105,53.28352764,moist,restored,dih,5,arable land
-N_VOG_A4,N_VOG,north,664,European Atlantic mixed forests,13.77999973,10.33981105,53.28352764,moist,restored,dih,5,arable land
-N_WAL_A1,N_WAL,north,664,European Atlantic mixed forests,7.599999905,10.32606436,53.30616173,moist,restored,dih,8,grassland
-N_WAL_A2,N_WAL,north,664,European Atlantic mixed forests,7.599999905,10.32606436,53.30616173,moist,restored,dih,8,grassland
-N_WAL_A3,N_WAL,north,664,European Atlantic mixed forests,7.599999905,10.32606436,53.30616173,moist,restored,dih,8,grassland
-N_WAL_A4,N_WAL,north,664,European Atlantic mixed forests,7.599999905,10.32606436,53.30616173,moist,restored,dih,8,grassland
-N_WEN_A1,N_WEN,north,664,European Atlantic mixed forests,41.61000061,10.2886445,53.50726174,dry,restored,dih,5,grassland
-N_WEN_A2,N_WEN,north,664,European Atlantic mixed forests,41.61000061,10.2886445,53.50726174,dry,restored,dih,5,grassland
-N_WEN_A3,N_WEN,north,664,European Atlantic mixed forests,41.61000061,10.2886445,53.50726174,dry,restored,dih,5,grassland
-N_WEN_A4,N_WEN,north,664,European Atlantic mixed forests,41.61000061,10.2886445,53.50726174,dry,restored,dih,5,grassland
-N_WER_A1,N_WER,north,664,European Atlantic mixed forests,15.68999958,11.44244748,53.03215809,moist,positive,NA,NA,NA
-N_WER_A2,N_WER,north,664,European Atlantic mixed forests,15.68999958,11.44244748,53.03215809,moist,positive,NA,NA,NA
-N_WER_A3,N_WER,north,664,European Atlantic mixed forests,15.68999958,11.44244748,53.03215809,moist,positive,NA,NA,NA
-N_WER_A4,N_WER,north,664,European Atlantic mixed forests,15.68999958,11.44244748,53.03215809,moist,positive,NA,NA,NA
-N_WIZ_A1,N_WIZ,north,664,European Atlantic mixed forests,12.97999954,10.62512681,53.45419964,dry,positive,NA,NA,NA
-N_WIZ_A2,N_WIZ,north,664,European Atlantic mixed forests,12.97999954,10.62512681,53.45419964,dry,positive,NA,NA,NA
-N_WIZ_A3,N_WIZ,north,664,European Atlantic mixed forests,12.97999954,10.62512681,53.45419964,dry,positive,NA,NA,NA
-N_WIZ_A4,N_WIZ,north,664,European Atlantic mixed forests,12.97999954,10.62512681,53.45419964,dry,positive,NA,NA,NA
-N_ZDF_A1,N_ZDF,north,664,European Atlantic mixed forests,5.039999962,10.03877469,53.46811983,fresh,restored,res,5,arable land
-N_ZDF_A2,N_ZDF,north,664,European Atlantic mixed forests,5.039999962,10.03877469,53.46811983,fresh,restored,res,5,arable land
-N_ZDF_A3,N_ZDF,north,664,European Atlantic mixed forests,5.039999962,10.03877469,53.46811983,fresh,restored,res,5,arable land
-N_ZDF_A4,N_ZDF,north,664,European Atlantic mixed forests,5.039999962,10.03877469,53.46811983,fresh,restored,res,5,arable land
-S_ACR_A1,S_ACR,south,686,Western European broadleaf forests,313.8500061,12.94115244,48.76934451,dry,restored,dih,24,grassland
-S_ACR_A2,S_ACR,south,686,Western European broadleaf forests,313.8500061,12.94115244,48.76934451,dry,restored,dih,24,grassland
-S_ACR_A3,S_ACR,south,686,Western European broadleaf forests,313.8500061,12.94115244,48.76934451,dry,restored,dih,24,grassland
-S_ACR_A4,S_ACR,south,686,Western European broadleaf forests,313.8500061,12.94115244,48.76934451,dry,restored,dih,24,grassland
-S_AFR_A1,S_AFR,south,686,Western European broadleaf forests,474.019989,12.19621171,48.43163073,fresh,restored,res,7,grassland
-S_AFR_A2,S_AFR,south,686,Western European broadleaf forests,474.019989,12.19621171,48.43163073,fresh,restored,res,7,grassland
-S_AFR_A3,S_AFR,south,686,Western European broadleaf forests,474.019989,12.19621171,48.43163073,fresh,restored,res,7,grassland
-S_AFR_A4,S_AFR,south,686,Western European broadleaf forests,474.019989,12.19621171,48.43163073,fresh,restored,res,7,grassland
-S_AMP_A1,S_AMP,south,686,Western European broadleaf forests,429.7399902,11.728948,48.45557417,moist,positive,NA,NA,NA
-S_AMP_A2,S_AMP,south,686,Western European broadleaf forests,429.7399902,11.728948,48.45557417,moist,positive,NA,NA,NA
-S_AMP_A3,S_AMP,south,686,Western European broadleaf forests,429.7399902,11.728948,48.45557417,moist,positive,NA,NA,NA
-S_AMP_A4,S_AMP,south,686,Western European broadleaf forests,429.7399902,11.728948,48.45557417,moist,positive,NA,NA,NA
-S_AUH_A1,S_AUH,south,686,Western European broadleaf forests,406.0299988,12.7596479,48.60586598,dry,restored,dih,26,arable land
-S_AUH_A2,S_AUH,south,686,Western European broadleaf forests,406.0299988,12.7596479,48.60586598,dry,restored,dih,26,arable land
-S_AUH_A3,S_AUH,south,686,Western European broadleaf forests,406.0299988,12.7596479,48.60586598,dry,restored,dih,26,arable land
-S_AUH_A4,S_AUH,south,686,Western European broadleaf forests,406.0299988,12.7596479,48.60586598,dry,restored,dih,26,arable land
-S_AUL_A1,S_AUL,south,686,Western European broadleaf forests,381.8800049,12.21921022,48.57198665,fresh,restored,res,NA,arable land
-S_AUL_A2,S_AUL,south,686,Western European broadleaf forests,381.8800049,12.21921022,48.57198665,fresh,restored,res,NA,arable land
-S_AUL_A3,S_AUL,south,686,Western European broadleaf forests,381.8800049,12.21921022,48.57198665,fresh,restored,res,NA,arable land
-S_AUL_A4,S_AUL,south,686,Western European broadleaf forests,381.8800049,12.21921022,48.57198665,fresh,restored,res,NA,arable land
-S_BUC_A1,S_BUC,south,686,Western European broadleaf forests,384.2099915,12.91594009,48.25495346,dry,restored,dih,8,arable land
-S_BUC_A2,S_BUC,south,686,Western European broadleaf forests,384.2099915,12.91594009,48.25495346,dry,restored,dih,8,arable land
-S_BUC_A3,S_BUC,south,686,Western European broadleaf forests,384.2099915,12.91594009,48.25495346,dry,restored,dih,8,arable land
-S_BUC_A4,S_BUC,south,686,Western European broadleaf forests,384.2099915,12.91594009,48.25495346,dry,restored,dih,8,arable land
-S_DIE_A1,S_DIE,south,686,Western European broadleaf forests,471.5100098,11.68287532,48.27532086,dry,negative,NA,NA,NA
-S_DIE_A2,S_DIE,south,686,Western European broadleaf forests,471.5100098,11.68287532,48.27532086,dry,negative,NA,NA,NA
-S_DIE_A3,S_DIE,south,686,Western European broadleaf forests,471.5100098,11.68287532,48.27532086,dry,negative,NA,NA,NA
-S_DIE_A4,S_DIE,south,686,Western European broadleaf forests,471.5100098,11.68287532,48.27532086,dry,negative,NA,NA,NA
-S_ECH_A1,S_ECH,south,686,Western European broadleaf forests,472.7999878,11.64420748,48.27851352,dry,restored,res,10,arable land
-S_ECH_A2,S_ECH,south,686,Western European broadleaf forests,472.7999878,11.64420748,48.27851352,dry,restored,res,10,arable land
-S_ECH_A3,S_ECH,south,686,Western European broadleaf forests,472.7999878,11.64420748,48.27851352,dry,restored,res,10,arable land
-S_ECH_A4,S_ECH,south,686,Western European broadleaf forests,472.7999878,11.64420748,48.27851352,dry,restored,res,10,arable land
-S_EIT_A1,S_EIT,south,686,Western European broadleaf forests,358.1000061,12.33237085,48.8117411,fresh,positive,NA,NA,NA
-S_EIT_A2,S_EIT,south,686,Western European broadleaf forests,358.1000061,12.33237085,48.8117411,fresh,positive,NA,NA,NA
-S_EIT_A3,S_EIT,south,686,Western European broadleaf forests,358.1000061,12.33237085,48.8117411,fresh,positive,NA,NA,NA
-S_EIT_A4,S_EIT,south,686,Western European broadleaf forests,358.1000061,12.33237085,48.8117411,fresh,positive,NA,NA,NA
-S_FCH_A1,S_FCH,south,686,Western European broadleaf forests,310.3900146,12.99798414,48.7778517,fresh,restored,dih,23,grassland
-S_FCH_A2,S_FCH,south,686,Western European broadleaf forests,310.3900146,12.99798414,48.7778517,fresh,restored,dih,23,grassland
-S_FCH_A3,S_FCH,south,686,Western European broadleaf forests,310.3900146,12.99798414,48.7778517,fresh,restored,dih,23,grassland
-S_FCH_A4,S_FCH,south,686,Western European broadleaf forests,310.3900146,12.99798414,48.7778517,fresh,restored,dih,23,grassland
-S_FHZ_A1,S_FHZ,south,686,Western European broadleaf forests,458.3099976,11.62566181,48.33018411,moist,restored,dih,17,arable land
-S_FHZ_A2,S_FHZ,south,686,Western European broadleaf forests,458.3099976,11.62566181,48.33018411,moist,restored,dih,17,arable land
-S_FHZ_A3,S_FHZ,south,686,Western European broadleaf forests,458.3099976,11.62566181,48.33018411,moist,restored,dih,17,arable land
-S_FHZ_A4,S_FHZ,south,686,Western European broadleaf forests,458.3099976,11.62566181,48.33018411,moist,restored,dih,17,arable land
-S_GIG_A1,S_GIG,south,686,Western European broadleaf forests,450.6499939,11.67758768,48.36299592,fresh,restored,dih,16,grassland
-S_GIG_A2,S_GIG,south,686,Western European broadleaf forests,450.6499939,11.67758768,48.36299592,fresh,restored,dih,16,grassland
-S_GIG_A3,S_GIG,south,686,Western European broadleaf forests,450.6499939,11.67758768,48.36299592,fresh,restored,dih,16,grassland
-S_GIG_A4,S_GIG,south,686,Western European broadleaf forests,450.6499939,11.67758768,48.36299592,fresh,restored,dih,16,grassland
-S_GSH_A1,S_GSH,south,686,Western European broadleaf forests,486.1799927,12.23745702,48.48982286,fresh,restored,res,2,arable land
-S_GSH_A2,S_GSH,south,686,Western European broadleaf forests,486.1799927,12.23745702,48.48982286,fresh,restored,res,2,arable land
-S_GSH_A3,S_GSH,south,686,Western European broadleaf forests,486.1799927,12.23745702,48.48982286,fresh,restored,res,2,arable land
-S_GSH_A4,S_GSH,south,686,Western European broadleaf forests,486.1799927,12.23745702,48.48982286,fresh,restored,res,2,arable land
-S_GSR_A1,S_GSR,south,686,Western European broadleaf forests,358.8200073,12.33541826,48.80917261,fresh,restored,dih,15,arable land
-S_GSR_A2,S_GSR,south,686,Western European broadleaf forests,358.8200073,12.33541826,48.80917261,fresh,restored,dih,15,arable land
-S_GSR_A3,S_GSR,south,686,Western European broadleaf forests,358.8200073,12.33541826,48.80917261,fresh,restored,dih,15,arable land
-S_GSR_A4,S_GSR,south,686,Western European broadleaf forests,358.8200073,12.33541826,48.80917261,fresh,restored,dih,15,arable land
-S_GTZ_A1,S_GTZ,south,686,Western European broadleaf forests,408.7399902,12.91075347,48.28923404,moist,restored,dih,5,grassland
-S_GTZ_A2,S_GTZ,south,686,Western European broadleaf forests,408.7399902,12.91075347,48.28923404,moist,restored,dih,5,grassland
-S_GTZ_A3,S_GTZ,south,686,Western European broadleaf forests,408.7399902,12.91075347,48.28923404,moist,restored,dih,5,grassland
-S_GTZ_A4,S_GTZ,south,686,Western European broadleaf forests,408.7399902,12.91075347,48.28923404,moist,restored,dih,5,grassland
-S_HBF_A1,S_HBF,south,686,Western European broadleaf forests,449.7900085,12.84243042,48.39936525,fresh,negative,NA,NA,NA
-S_HBF_A2,S_HBF,south,686,Western European broadleaf forests,449.7900085,12.84243042,48.39936525,fresh,negative,NA,NA,NA
-S_HBF_A3,S_HBF,south,686,Western European broadleaf forests,449.7900085,12.84243042,48.39936525,fresh,negative,NA,NA,NA
-S_HBF_A4,S_HBF,south,686,Western European broadleaf forests,449.7900085,12.84243042,48.39936525,fresh,negative,NA,NA,NA
-S_HGR_A1,S_HGR,south,686,Western European broadleaf forests,429.0599976,12.17203485,48.53001885,fresh,negative,NA,NA,NA
-S_HGR_A2,S_HGR,south,686,Western European broadleaf forests,429.0599976,12.17203485,48.53001885,fresh,negative,NA,NA,NA
-S_HGR_A3,S_HGR,south,686,Western European broadleaf forests,429.0599976,12.17203485,48.53001885,fresh,negative,NA,NA,NA
-S_HGR_A4,S_HGR,south,686,Western European broadleaf forests,429.0599976,12.17203485,48.53001885,fresh,negative,NA,NA,NA
-S_HLZ_A1,S_HLZ,south,686,Western European broadleaf forests,417.230011,12.79959234,48.51803671,moist,restored,dih,6,arable land
-S_HLZ_A2,S_HLZ,south,686,Western European broadleaf forests,417.230011,12.79959234,48.51803671,moist,restored,dih,6,arable land
-S_HLZ_A3,S_HLZ,south,686,Western European broadleaf forests,417.230011,12.79959234,48.51803671,moist,restored,dih,6,arable land
-S_HLZ_A4,S_HLZ,south,686,Western European broadleaf forests,417.230011,12.79959234,48.51803671,moist,restored,dih,6,arable land
-S_HTH_A1,S_HTH,south,686,Western European broadleaf forests,366.9500122,12.35473657,48.61669657,dry,restored,dih,3,arable land
-S_HTH_A2,S_HTH,south,686,Western European broadleaf forests,366.9500122,12.35473657,48.61669657,dry,restored,dih,3,arable land
-S_HTH_A3,S_HTH,south,686,Western European broadleaf forests,366.9500122,12.35473657,48.61669657,dry,restored,dih,3,arable land
-S_HTH_A4,S_HTH,south,686,Western European broadleaf forests,366.9500122,12.35473657,48.61669657,dry,restored,dih,3,arable land
-S_HUB_A1,S_HUB,south,686,Western European broadleaf forests,445.5299988,12.72431246,48.40861092,dry,restored,dih,13,arable land
-S_HUB_A2,S_HUB,south,686,Western European broadleaf forests,445.5299988,12.72431246,48.40861092,dry,restored,dih,13,arable land
-S_HUB_A3,S_HUB,south,686,Western European broadleaf forests,445.5299988,12.72431246,48.40861092,dry,restored,dih,13,arable land
-S_HUB_A4,S_HUB,south,686,Western European broadleaf forests,445.5299988,12.72431246,48.40861092,dry,restored,dih,13,arable land
-S_JAN_A1,S_JAN,south,686,Western European broadleaf forests,470.3299866,12.69901395,48.53915881,fresh,negative,NA,NA,NA
-S_JAN_A2,S_JAN,south,686,Western European broadleaf forests,470.3299866,12.69901395,48.53915881,fresh,negative,NA,NA,NA
-S_JAN_A3,S_JAN,south,686,Western European broadleaf forests,470.3299866,12.69901395,48.53915881,fresh,negative,NA,NA,NA
-S_JAN_A4,S_JAN,south,686,Western European broadleaf forests,470.3299866,12.69901395,48.53915881,fresh,negative,NA,NA,NA
-S_JAU_A1,S_JAU,south,686,Western European broadleaf forests,459.8200073,12.71231385,48.50161319,fresh,restored,res,3,arable land
-S_JAU_A2,S_JAU,south,686,Western European broadleaf forests,459.8200073,12.71231385,48.50161319,fresh,restored,res,3,arable land
-S_JAU_A3,S_JAU,south,686,Western European broadleaf forests,459.8200073,12.71231385,48.50161319,fresh,restored,res,3,arable land
-S_JAU_A4,S_JAU,south,686,Western European broadleaf forests,459.8200073,12.71231385,48.50161319,fresh,restored,res,3,arable land
-S_JHB_A1,S_JHB,south,686,Western European broadleaf forests,481.1700134,12.47326098,48.47581201,moist,restored,cus,36,arable land
-S_JHB_A2,S_JHB,south,686,Western European broadleaf forests,481.1700134,12.47326098,48.47581201,moist,restored,cus,36,arable land
-S_JHB_A3,S_JHB,south,686,Western European broadleaf forests,481.1700134,12.47326098,48.47581201,moist,restored,cus,36,arable land
-S_JHB_A4,S_JHB,south,686,Western European broadleaf forests,481.1700134,12.47326098,48.47581201,moist,restored,cus,36,arable land
-S_JOS_A1,S_JOS,south,686,Western European broadleaf forests,446.7600098,12.1719055,48.52702364,fresh,restored,res,NA,grassland
-S_JOS_A2,S_JOS,south,686,Western European broadleaf forests,446.7600098,12.1719055,48.52702364,fresh,restored,res,NA,grassland
-S_JOS_A3,S_JOS,south,686,Western European broadleaf forests,446.7600098,12.1719055,48.52702364,fresh,restored,res,NA,grassland
-S_JOS_A4,S_JOS,south,686,Western European broadleaf forests,446.7600098,12.1719055,48.52702364,fresh,restored,res,NA,grassland
-S_KDT_A1,S_KDT,south,686,Western European broadleaf forests,408.4100037,11.88897373,48.77168548,fresh,positive,NA,NA,NA
-S_KDT_A2,S_KDT,south,686,Western European broadleaf forests,408.4100037,11.88897373,48.77168548,fresh,positive,NA,NA,NA
-S_KDT_A3,S_KDT,south,686,Western European broadleaf forests,408.4100037,11.88897373,48.77168548,fresh,positive,NA,NA,NA
-S_KDT_A4,S_KDT,south,686,Western European broadleaf forests,408.4100037,11.88897373,48.77168548,fresh,positive,NA,NA,NA
-S_KRT_A1,S_KRT,south,686,Western European broadleaf forests,437.6799927,11.61319851,48.43912991,dry,restored,dih,13,grassland
-S_KRT_A2,S_KRT,south,686,Western European broadleaf forests,437.6799927,11.61319851,48.43912991,dry,restored,dih,13,grassland
-S_KRT_A3,S_KRT,south,686,Western European broadleaf forests,437.6799927,11.61319851,48.43912991,dry,restored,dih,13,grassland
-S_KRT_A4,S_KRT,south,686,Western European broadleaf forests,437.6799927,11.61319851,48.43912991,dry,restored,dih,13,grassland
-S_LAP_A1,S_LAP,south,686,Western European broadleaf forests,393.269989,12.09402349,48.54027517,fresh,restored,res,NA,grassland
-S_LAP_A2,S_LAP,south,686,Western European broadleaf forests,393.269989,12.09402349,48.54027517,fresh,restored,res,NA,grassland
-S_LAP_A3,S_LAP,south,686,Western European broadleaf forests,393.269989,12.09402349,48.54027517,fresh,restored,res,NA,grassland
-S_LAP_A4,S_LAP,south,686,Western European broadleaf forests,393.269989,12.09402349,48.54027517,fresh,restored,res,NA,grassland
-S_LPI_A1,S_LPI,south,686,Western European broadleaf forests,329.0100098,12.7908912,48.69968268,dry,restored,dih,NA,arable land
-S_LPI_A2,S_LPI,south,686,Western European broadleaf forests,329.0100098,12.7908912,48.69968268,dry,restored,dih,NA,arable land
-S_LPI_A3,S_LPI,south,686,Western European broadleaf forests,329.0100098,12.7908912,48.69968268,dry,restored,dih,NA,arable land
-S_LPI_A4,S_LPI,south,686,Western European broadleaf forests,329.0100098,12.7908912,48.69968268,dry,restored,dih,NA,arable land
-S_MAS_A1,S_MAS,south,686,Western European broadleaf forests,456.269989,11.6437404,48.33687532,moist,restored,cus,NA,grassland
-S_MAS_A2,S_MAS,south,686,Western European broadleaf forests,456.269989,11.6437404,48.33687532,moist,restored,cus,NA,grassland
-S_MAS_A3,S_MAS,south,686,Western European broadleaf forests,456.269989,11.6437404,48.33687532,moist,restored,cus,NA,grassland
-S_MAS_A4,S_MAS,south,686,Western European broadleaf forests,456.269989,11.6437404,48.33687532,moist,restored,cus,NA,grassland
-S_MBM_A1,S_MBM,south,686,Western European broadleaf forests,372.0899963,12.30389712,48.62358624,moist,restored,dih,15,arable land
-S_MBM_A2,S_MBM,south,686,Western European broadleaf forests,372.0899963,12.30389712,48.62358624,moist,restored,dih,15,arable land
-S_MBM_A3,S_MBM,south,686,Western European broadleaf forests,372.0899963,12.30389712,48.62358624,moist,restored,dih,15,arable land
-S_MBM_A4,S_MBM,south,686,Western European broadleaf forests,372.0899963,12.30389712,48.62358624,moist,restored,dih,15,arable land
-S_MCH_A1,S_MCH,south,686,Western European broadleaf forests,395.6600037,12.07870896,48.53248617,fresh,restored,res,NA,grassland
-S_MCH_A2,S_MCH,south,686,Western European broadleaf forests,395.6600037,12.07870896,48.53248617,fresh,restored,res,NA,grassland
-S_MCH_A3,S_MCH,south,686,Western European broadleaf forests,395.6600037,12.07870896,48.53248617,fresh,restored,res,NA,grassland
-S_MCH_A4,S_MCH,south,686,Western European broadleaf forests,395.6600037,12.07870896,48.53248617,fresh,restored,res,NA,grassland
-S_MHH_A1,S_MHH,south,686,Western European broadleaf forests,476.8200073,11.60328534,48.26931298,dry,positive,NA,NA,NA
-S_MHH_A2,S_MHH,south,686,Western European broadleaf forests,476.8200073,11.60328534,48.26931298,dry,positive,NA,NA,NA
-S_MHH_A3,S_MHH,south,686,Western European broadleaf forests,476.8200073,11.60328534,48.26931298,dry,positive,NA,NA,NA
-S_MHH_A4,S_MHH,south,686,Western European broadleaf forests,476.8200073,11.60328534,48.26931298,dry,positive,NA,NA,NA
-S_MTK_A1,S_MTK,south,686,Western European broadleaf forests,450.3099976,12.71665297,48.35337998,fresh,positive,NA,NA,NA
-S_MTK_A2,S_MTK,south,686,Western European broadleaf forests,450.3099976,12.71665297,48.35337998,fresh,positive,NA,NA,NA
-S_MTK_A3,S_MTK,south,686,Western European broadleaf forests,450.3099976,12.71665297,48.35337998,fresh,positive,NA,NA,NA
-S_MTK_A4,S_MTK,south,686,Western European broadleaf forests,450.3099976,12.71665297,48.35337998,fresh,positive,NA,NA,NA
-S_NOZ_A1,S_NOZ,south,686,Western European broadleaf forests,467.4899902,11.85303491,48.30648641,fresh,restored,res,2,arable land
-S_NOZ_A2,S_NOZ,south,686,Western European broadleaf forests,467.4899902,11.85303491,48.30648641,fresh,restored,res,2,arable land
-S_NOZ_A3,S_NOZ,south,686,Western European broadleaf forests,467.4899902,11.85303491,48.30648641,fresh,restored,res,2,arable land
-S_NOZ_A4,S_NOZ,south,686,Western European broadleaf forests,467.4899902,11.85303491,48.30648641,fresh,restored,res,2,arable land
-S_OST_A1,S_OST,south,686,Western European broadleaf forests,312.3200073,13.0299326,48.69049221,moist,restored,dih,13,arable land
-S_OST_A2,S_OST,south,686,Western European broadleaf forests,312.3200073,13.0299326,48.69049221,moist,restored,dih,13,arable land
-S_OST_A3,S_OST,south,686,Western European broadleaf forests,312.3200073,13.0299326,48.69049221,moist,restored,dih,13,arable land
-S_OST_A4,S_OST,south,686,Western European broadleaf forests,312.3200073,13.0299326,48.69049221,moist,restored,dih,13,arable land
-S_OSW_A1,S_OSW,south,686,Western European broadleaf forests,447.0899963,12.77263565,48.34503539,fresh,restored,dih,11,arable land
-S_OSW_A2,S_OSW,south,686,Western European broadleaf forests,447.0899963,12.77263565,48.34503539,fresh,restored,dih,11,arable land
-S_OSW_A3,S_OSW,south,686,Western European broadleaf forests,447.0899963,12.77263565,48.34503539,fresh,restored,dih,11,arable land
-S_OSW_A4,S_OSW,south,686,Western European broadleaf forests,447.0899963,12.77263565,48.34503539,fresh,restored,dih,11,arable land
-S_PEI_A1,S_PEI,south,686,Western European broadleaf forests,374.6700134,12.04598848,48.91343401,fresh,restored,dih,2,grassland
-S_PEI_A2,S_PEI,south,686,Western European broadleaf forests,374.6700134,12.04598848,48.91343401,fresh,restored,dih,2,grassland
-S_PEI_A3,S_PEI,south,686,Western European broadleaf forests,374.6700134,12.04598848,48.91343401,fresh,restored,dih,2,grassland
-S_PEI_A4,S_PEI,south,686,Western European broadleaf forests,374.6700134,12.04598848,48.91343401,fresh,restored,dih,2,grassland
-S_PEN_A1,S_PEN,south,686,Western European broadleaf forests,365.8800049,12.08385737,48.91885874,moist,negative,NA,NA,NA
-S_PEN_A2,S_PEN,south,686,Western European broadleaf forests,365.8800049,12.08385737,48.91885874,moist,negative,NA,NA,NA
-S_PEN_A3,S_PEN,south,686,Western European broadleaf forests,365.8800049,12.08385737,48.91885874,moist,negative,NA,NA,NA
-S_PEN_A4,S_PEN,south,686,Western European broadleaf forests,365.8800049,12.08385737,48.91885874,moist,negative,NA,NA,NA
-S_POP_A1,S_POP,south,686,Western European broadleaf forests,454.3699951,12.752462,48.34326695,fresh,restored,res,6,arable land
-S_POP_A2,S_POP,south,686,Western European broadleaf forests,454.3699951,12.752462,48.34326695,fresh,restored,res,6,arable land
-S_POP_A3,S_POP,south,686,Western European broadleaf forests,454.3699951,12.752462,48.34326695,fresh,restored,res,6,arable land
-S_POP_A4,S_POP,south,686,Western European broadleaf forests,454.3699951,12.752462,48.34326695,fresh,restored,res,6,arable land
-S_RUP_A1,S_RUP,south,686,Western European broadleaf forests,392.6499939,12.76338506,48.57072509,fresh,negative,NA,NA,NA
-S_RUP_A2,S_RUP,south,686,Western European broadleaf forests,392.6499939,12.76338506,48.57072509,fresh,negative,NA,NA,NA
-S_RUP_A3,S_RUP,south,686,Western European broadleaf forests,392.6499939,12.76338506,48.57072509,fresh,negative,NA,NA,NA
-S_RUP_A4,S_RUP,south,686,Western European broadleaf forests,392.6499939,12.76338506,48.57072509,fresh,negative,NA,NA,NA
-S_SBA_A1,S_SBA,south,686,Western European broadleaf forests,347.6199951,12.91630909,48.22090622,dry,positive,NA,NA,NA
-S_SBA_A2,S_SBA,south,686,Western European broadleaf forests,347.6199951,12.91630909,48.22090622,dry,positive,NA,NA,NA
-S_SBA_A3,S_SBA,south,686,Western European broadleaf forests,347.6199951,12.91630909,48.22090622,dry,positive,NA,NA,NA
-S_SBA_A4,S_SBA,south,686,Western European broadleaf forests,347.6199951,12.91630909,48.22090622,dry,positive,NA,NA,NA
-S_SBN_A1,S_SBN,south,686,Western European broadleaf forests,347.3800049,12.91495514,48.2218162,dry,restored,dih,15,arable land
-S_SBN_A2,S_SBN,south,686,Western European broadleaf forests,347.3800049,12.91495514,48.2218162,dry,restored,dih,15,arable land
-S_SBN_A3,S_SBN,south,686,Western European broadleaf forests,347.3800049,12.91495514,48.2218162,dry,restored,dih,15,arable land
-S_SBN_A4,S_SBN,south,686,Western European broadleaf forests,347.3800049,12.91495514,48.2218162,dry,restored,dih,15,arable land
-S_SHH_A1,S_SHH,south,686,Western European broadleaf forests,377.3399963,11.80223937,48.84317953,dry,restored,dih,22,arable land
-S_SHH_A2,S_SHH,south,686,Western European broadleaf forests,377.3399963,11.80223937,48.84317953,dry,restored,dih,22,arable land
-S_SHH_A3,S_SHH,south,686,Western European broadleaf forests,377.3399963,11.80223937,48.84317953,dry,restored,dih,22,arable land
-S_SHH_A4,S_SHH,south,686,Western European broadleaf forests,377.3399963,11.80223937,48.84317953,dry,restored,dih,22,arable land
-S_SIM_A1,S_SIM,south,686,Western European broadleaf forests,413.9100037,13.00670297,48.27852534,fresh,positive,NA,NA,NA
-S_SIM_A2,S_SIM,south,686,Western European broadleaf forests,413.9100037,13.00670297,48.27852534,fresh,positive,NA,NA,NA
-S_SIM_A3,S_SIM,south,686,Western European broadleaf forests,413.9100037,13.00670297,48.27852534,fresh,positive,NA,NA,NA
-S_SIM_A4,S_SIM,south,686,Western European broadleaf forests,413.9100037,13.00670297,48.27852534,fresh,positive,NA,NA,NA
-S_SNF_A1,S_SNF,south,686,Western European broadleaf forests,423.6199951,12.82663992,48.49460355,moist,restored,dih,4,arable land
-S_SNF_A2,S_SNF,south,686,Western European broadleaf forests,423.6199951,12.82663992,48.49460355,moist,restored,dih,4,arable land
-S_SNF_A3,S_SNF,south,686,Western European broadleaf forests,423.6199951,12.82663992,48.49460355,moist,restored,dih,4,arable land
-S_SNF_A4,S_SNF,south,686,Western European broadleaf forests,423.6199951,12.82663992,48.49460355,moist,restored,dih,4,arable land
-S_STB_A1,S_STB,south,686,Western European broadleaf forests,461.6099854,12.90330298,48.34946692,moist,restored,dih,17,arable land
-S_STB_A2,S_STB,south,686,Western European broadleaf forests,461.6099854,12.90330298,48.34946692,moist,restored,dih,17,arable land
-S_STB_A3,S_STB,south,686,Western European broadleaf forests,461.6099854,12.90330298,48.34946692,moist,restored,dih,17,arable land
-S_STB_A4,S_STB,south,686,Western European broadleaf forests,461.6099854,12.90330298,48.34946692,moist,restored,dih,17,arable land
-S_STW_A1,S_STW,south,686,Western European broadleaf forests,310.8900146,12.95283715,48.80354079,moist,positive,NA,NA,NA
-S_STW_A2,S_STW,south,686,Western European broadleaf forests,310.8900146,12.95283715,48.80354079,moist,positive,NA,NA,NA
-S_STW_A3,S_STW,south,686,Western European broadleaf forests,310.8900146,12.95283715,48.80354079,moist,positive,NA,NA,NA
-S_STW_A4,S_STW,south,686,Western European broadleaf forests,310.8900146,12.95283715,48.80354079,moist,positive,NA,NA,NA
-S_TIE_A1,S_TIE,south,686,Western European broadleaf forests,395.0599976,12.09043374,48.51097382,fresh,restored,res,6,arable land
-S_TIE_A2,S_TIE,south,686,Western European broadleaf forests,395.0599976,12.09043374,48.51097382,fresh,restored,res,6,arable land
-S_TIE_A3,S_TIE,south,686,Western European broadleaf forests,395.0599976,12.09043374,48.51097382,fresh,restored,res,6,arable land
-S_TIE_A4,S_TIE,south,686,Western European broadleaf forests,395.0599976,12.09043374,48.51097382,fresh,restored,res,6,arable land
-S_TRN_A1,S_TRN,south,686,Western European broadleaf forests,396.25,11.82695299,48.73620979,fresh,restored,dih,NA,arable land
-S_TRN_A2,S_TRN,south,686,Western European broadleaf forests,396.25,11.82695299,48.73620979,fresh,restored,dih,NA,arable land
-S_TRN_A3,S_TRN,south,686,Western European broadleaf forests,396.25,11.82695299,48.73620979,fresh,restored,dih,NA,arable land
-S_TRN_A4,S_TRN,south,686,Western European broadleaf forests,396.25,11.82695299,48.73620979,fresh,restored,dih,NA,arable land
-S_UKB_A1,S_UKB,south,686,Western European broadleaf forests,445.0400085,11.57301044,48.43279483,fresh,negative,NA,NA,NA
-S_UKB_A2,S_UKB,south,686,Western European broadleaf forests,445.0400085,11.57301044,48.43279483,fresh,negative,NA,NA,NA
-S_UKB_A3,S_UKB,south,686,Western European broadleaf forests,445.0400085,11.57301044,48.43279483,fresh,negative,NA,NA,NA
-S_UKB_A4,S_UKB,south,686,Western European broadleaf forests,445.0400085,11.57301044,48.43279483,fresh,negative,NA,NA,NA
-S_VIB_A1,S_VIB,south,686,Western European broadleaf forests,437.019989,12.36689193,48.45628545,moist,negative,NA,NA,NA
-S_VIB_A2,S_VIB,south,686,Western European broadleaf forests,437.019989,12.36689193,48.45628545,moist,negative,NA,NA,NA
-S_VIB_A3,S_VIB,south,686,Western European broadleaf forests,437.019989,12.36689193,48.45628545,moist,negative,NA,NA,NA
-S_VIB_A4,S_VIB,south,686,Western European broadleaf forests,437.019989,12.36689193,48.45628545,moist,negative,NA,NA,NA
-S_VLP_A1,S_VLP,south,686,Western European broadleaf forests,344.0799866,12.90589476,48.63870818,moist,positive,NA,NA,NA
-S_VLP_A2,S_VLP,south,686,Western European broadleaf forests,344.0799866,12.90589476,48.63870818,moist,positive,NA,NA,NA
-S_VLP_A3,S_VLP,south,686,Western European broadleaf forests,344.0799866,12.90589476,48.63870818,moist,positive,NA,NA,NA
-S_VLP_A4,S_VLP,south,686,Western European broadleaf forests,344.0799866,12.90589476,48.63870818,moist,positive,NA,NA,NA
-S_VLR_A1,S_VLR,south,686,Western European broadleaf forests,341.8399963,12.91962329,48.63645504,fresh,restored,cus,23,arable land
-S_VLR_A2,S_VLR,south,686,Western European broadleaf forests,341.8399963,12.91962329,48.63645504,fresh,restored,cus,23,arable land
-S_VLR_A3,S_VLR,south,686,Western European broadleaf forests,341.8399963,12.91962329,48.63645504,fresh,restored,cus,23,arable land
-S_VLR_A4,S_VLR,south,686,Western European broadleaf forests,341.8399963,12.91962329,48.63645504,fresh,restored,cus,23,arable land
-S_WGD_A1,S_WGD,south,686,Western European broadleaf forests,474.0100098,12.43641984,48.56602654,fresh,restored,cus,2,arable land
-S_WGD_A2,S_WGD,south,686,Western European broadleaf forests,474.0100098,12.43641984,48.56602654,fresh,restored,cus,2,arable land
-S_WGD_A3,S_WGD,south,686,Western European broadleaf forests,474.0100098,12.43641984,48.56602654,fresh,restored,cus,2,arable land
-S_WGD_A4,S_WGD,south,686,Western European broadleaf forests,474.0100098,12.43641984,48.56602654,fresh,restored,cus,2,arable land
-S_WLF_A1,S_WLF,south,686,Western European broadleaf forests,487.9299927,11.71529076,48.47763047,fresh,negative,NA,NA,NA
-S_WLF_A2,S_WLF,south,686,Western European broadleaf forests,487.9299927,11.71529076,48.47763047,fresh,negative,NA,NA,NA
-S_WLF_A3,S_WLF,south,686,Western European broadleaf forests,487.9299927,11.71529076,48.47763047,fresh,negative,NA,NA,NA
-S_WLF_A4,S_WLF,south,686,Western European broadleaf forests,487.9299927,11.71529076,48.47763047,fresh,negative,NA,NA,NA
-S_WNG_A1,S_WNG,south,686,Western European broadleaf forests,404.8999939,12.37349432,48.65857576,dry,positive,NA,NA,NA
-S_WNG_A2,S_WNG,south,686,Western European broadleaf forests,404.8999939,12.37349432,48.65857576,dry,positive,NA,NA,NA
-S_WNG_A3,S_WNG,south,686,Western European broadleaf forests,404.8999939,12.37349432,48.65857576,dry,positive,NA,NA,NA
-S_WNG_A4,S_WNG,south,686,Western European broadleaf forests,404.8999939,12.37349432,48.65857576,dry,positive,NA,NA,NA
-S_WNK_A1,S_WNK,south,686,Western European broadleaf forests,420.9200134,13.05049386,48.28204403,fresh,restored,dih,11,grassland
-S_WNK_A2,S_WNK,south,686,Western European broadleaf forests,420.9200134,13.05049386,48.28204403,fresh,restored,dih,11,grassland
-S_WNK_A3,S_WNK,south,686,Western European broadleaf forests,420.9200134,13.05049386,48.28204403,fresh,restored,dih,11,grassland
-S_WNK_A4,S_WNK,south,686,Western European broadleaf forests,420.9200134,13.05049386,48.28204403,fresh,restored,dih,11,grassland
-S_WTB_A1,S_WTB,south,686,Western European broadleaf forests,502.1000061,13.0168955,48.32459274,fresh,negative,NA,NA,NA
-S_WTB_A2,S_WTB,south,686,Western European broadleaf forests,502.1000061,13.0168955,48.32459274,fresh,negative,NA,NA,NA
-S_WTB_A3,S_WTB,south,686,Western European broadleaf forests,502.1000061,13.0168955,48.32459274,fresh,negative,NA,NA,NA
-S_WTB_A4,S_WTB,south,686,Western European broadleaf forests,502.1000061,13.0168955,48.32459274,fresh,negative,NA,NA,NA
-S_WTH_A1,S_WTH,south,686,Western European broadleaf forests,311.1400146,12.96174849,48.80605399,moist,restored,dih,NA,grassland
-S_WTH_A2,S_WTH,south,686,Western European broadleaf forests,311.1400146,12.96174849,48.80605399,moist,restored,dih,NA,grassland
-S_WTH_A3,S_WTH,south,686,Western European broadleaf forests,311.1400146,12.96174849,48.80605399,moist,restored,dih,NA,grassland
-S_WTH_A4,S_WTH,south,686,Western European broadleaf forests,311.1400146,12.96174849,48.80605399,moist,restored,dih,NA,grassland
-S_WTZ_A1,S_WTZ,south,686,Western European broadleaf forests,465.9700012,12.87799591,48.35616758,fresh,restored,dih,5,arable land
-S_WTZ_A2,S_WTZ,south,686,Western European broadleaf forests,465.9700012,12.87799591,48.35616758,fresh,restored,dih,5,arable land
-S_WTZ_A3,S_WTZ,south,686,Western European broadleaf forests,465.9700012,12.87799591,48.35616758,fresh,restored,dih,5,arable land
-S_WTZ_A4,S_WTZ,south,686,Western European broadleaf forests,465.9700012,12.87799591,48.35616758,fresh,restored,dih,5,arable land
+id.plot,id.site,region,eco.id,eco.name,altitude,longitude,latitude,hydrology,site.type,rest.meth,rest.age,land.use.hist,site.forb.legu.grass.ratio
+M_ALT_A1,M_ALT,centre,654,Central European mixed forests,58.13999939,11.74807035,51.82958952,moist,negative,NA,NA,NA,0.183
+M_ALT_A2,M_ALT,centre,654,Central European mixed forests,58.13999939,11.74807035,51.82958952,moist,negative,NA,NA,NA,0.183
+M_ALT_A3,M_ALT,centre,654,Central European mixed forests,58.13999939,11.74807035,51.82958952,moist,negative,NA,NA,NA,0.183
+M_ALT_A4,M_ALT,centre,654,Central European mixed forests,58.13999939,11.74807035,51.82958952,moist,negative,NA,NA,NA,0.183
+M_ASE_A1,M_ASE,centre,654,Central European mixed forests,124.5699997,11.66707081,51.47886224,fresh,restored,res,2,arable land,0.564
+M_ASE_A2,M_ASE,centre,654,Central European mixed forests,124.5699997,11.66707081,51.47886224,fresh,restored,res,2,arable land,0.564
+M_ASE_A3,M_ASE,centre,654,Central European mixed forests,124.5699997,11.66707081,51.47886224,fresh,restored,res,2,arable land,0.564
+M_ASE_A4,M_ASE,centre,654,Central European mixed forests,124.5699997,11.66707081,51.47886224,fresh,restored,res,2,arable land,0.564
+M_BAD_A1,M_BAD,centre,654,Central European mixed forests,184.0800018,11.59227903,51.32216743,dry,restored,mga,5,grassland,3.221
+M_BAD_A2,M_BAD,centre,654,Central European mixed forests,184.0800018,11.59227903,51.32216743,dry,restored,mga,5,grassland,3.221
+M_BAD_A3,M_BAD,centre,654,Central European mixed forests,184.0800018,11.59227903,51.32216743,dry,restored,mga,5,grassland,3.221
+M_BAD_A4,M_BAD,centre,654,Central European mixed forests,184.0800018,11.59227903,51.32216743,dry,restored,mga,5,grassland,3.221
+M_BAL_A1,M_BAL,centre,654,Central European mixed forests,200.6300049,11.70893906,51.2084909,fresh,negative,NA,NA,NA,0.567
+M_BAL_A2,M_BAL,centre,654,Central European mixed forests,200.6300049,11.70893906,51.2084909,fresh,negative,NA,NA,NA,0.567
+M_BAL_A3,M_BAL,centre,654,Central European mixed forests,200.6300049,11.70893906,51.2084909,fresh,negative,NA,NA,NA,0.567
+M_BAL_A4,M_BAL,centre,654,Central European mixed forests,200.6300049,11.70893906,51.2084909,fresh,negative,NA,NA,NA,0.567
+M_BEE_A1,M_BEE,centre,654,Central European mixed forests,63.38999939,11.70097692,51.72492772,fresh,restored,cus,25,arable land,0.430
+M_BEE_A2,M_BEE,centre,654,Central European mixed forests,63.38999939,11.70097692,51.72492772,fresh,restored,cus,25,arable land,0.430
+M_BEE_A3,M_BEE,centre,654,Central European mixed forests,63.38999939,11.70097692,51.72492772,fresh,restored,cus,25,arable land,0.430
+M_BEE_A4,M_BEE,centre,654,Central European mixed forests,63.38999939,11.70097692,51.72492772,fresh,restored,cus,25,arable land,0.430
+M_BEN_A1,M_BEN,centre,654,Central European mixed forests,131.8200073,11.86002024,51.48599594,fresh,restored,res,2,arable land,0.202
+M_BEN_A2,M_BEN,centre,654,Central European mixed forests,131.8200073,11.86002024,51.48599594,fresh,restored,res,2,arable land,0.202
+M_BEN_A3,M_BEN,centre,654,Central European mixed forests,131.8200073,11.86002024,51.48599594,fresh,restored,res,2,arable land,0.202
+M_BEN_A4,M_BEN,centre,654,Central European mixed forests,131.8200073,11.86002024,51.48599594,fresh,restored,res,2,arable land,0.202
+M_BIR_A1,M_BIR,centre,654,Central European mixed forests,60.08000183,12.37165595,51.82300851,fresh,positive,NA,NA,NA,0.915
+M_BIR_A2,M_BIR,centre,654,Central European mixed forests,60.08000183,12.37165595,51.82300851,fresh,positive,NA,NA,NA,0.915
+M_BIR_A3,M_BIR,centre,654,Central European mixed forests,60.08000183,12.37165595,51.82300851,fresh,positive,NA,NA,NA,0.915
+M_BIR_A4,M_BIR,centre,654,Central European mixed forests,60.08000183,12.37165595,51.82300851,fresh,positive,NA,NA,NA,0.915
+M_BOD_A1,M_BOD,centre,654,Central European mixed forests,59,11.72985443,51.83255624,fresh,negative,NA,NA,NA,0.511
+M_BOD_A2,M_BOD,centre,654,Central European mixed forests,59,11.72985443,51.83255624,fresh,negative,NA,NA,NA,0.511
+M_BOD_A3,M_BOD,centre,654,Central European mixed forests,59,11.72985443,51.83255624,fresh,negative,NA,NA,NA,0.511
+M_BOD_A4,M_BOD,centre,654,Central European mixed forests,59,11.72985443,51.83255624,fresh,negative,NA,NA,NA,0.511
+M_BRA_A1,M_BRA,centre,654,Central European mixed forests,122.0899963,11.86698516,51.54885765,dry,restored,res,10,arable land,1.579
+M_BRA_A2,M_BRA,centre,654,Central European mixed forests,122.0899963,11.86698516,51.54885765,dry,restored,res,10,arable land,1.579
+M_BRA_A3,M_BRA,centre,654,Central European mixed forests,122.0899963,11.86698516,51.54885765,dry,restored,res,10,arable land,1.579
+M_BRA_A4,M_BRA,centre,654,Central European mixed forests,122.0899963,11.86698516,51.54885765,dry,restored,res,10,arable land,1.579
+M_BUH_A1,M_BUH,centre,654,Central European mixed forests,104.7900009,10.60948255,52.00891,fresh,restored,res,3,arable land,2.261
+M_BUH_A2,M_BUH,centre,654,Central European mixed forests,104.7900009,10.60948255,52.00891,fresh,restored,res,3,arable land,2.261
+M_BUH_A3,M_BUH,centre,654,Central European mixed forests,104.7900009,10.60948255,52.00891,fresh,restored,res,3,arable land,2.261
+M_BUH_A4,M_BUH,centre,654,Central European mixed forests,104.7900009,10.60948255,52.00891,fresh,restored,res,3,arable land,2.261
+M_CAL_A1,M_CAL,centre,654,Central European mixed forests,54.95999908,11.8127823,51.91316941,fresh,restored,res,6,arable land,1.673
+M_CAL_A2,M_CAL,centre,654,Central European mixed forests,54.95999908,11.8127823,51.91316941,fresh,restored,res,6,arable land,1.673
+M_CAL_A3,M_CAL,centre,654,Central European mixed forests,54.95999908,11.8127823,51.91316941,fresh,restored,res,6,arable land,1.673
+M_CAL_A4,M_CAL,centre,654,Central European mixed forests,54.95999908,11.8127823,51.91316941,fresh,restored,res,6,arable land,1.673
+M_CBE_A1,M_CBE,centre,654,Central European mixed forests,55.54000092,11.81622602,51.91392502,fresh,negative,NA,NA,NA,0.198
+M_CBE_A2,M_CBE,centre,654,Central European mixed forests,55.54000092,11.81622602,51.91392502,fresh,negative,NA,NA,NA,0.198
+M_CBE_A3,M_CBE,centre,654,Central European mixed forests,55.54000092,11.81622602,51.91392502,fresh,negative,NA,NA,NA,0.198
+M_CBE_A4,M_CBE,centre,654,Central European mixed forests,55.54000092,11.81622602,51.91392502,fresh,negative,NA,NA,NA,0.198
+M_DOB_A1,M_DOB,centre,654,Central European mixed forests,124.8199997,11.76306711,51.62001263,dry,restored,res,6,arable land,3.029
+M_DOB_A2,M_DOB,centre,654,Central European mixed forests,124.8199997,11.76306711,51.62001263,dry,restored,res,6,arable land,3.029
+M_DOB_A3,M_DOB,centre,654,Central European mixed forests,124.8199997,11.76306711,51.62001263,dry,restored,res,6,arable land,3.029
+M_DOB_A4,M_DOB,centre,654,Central European mixed forests,124.8199997,11.76306711,51.62001263,dry,restored,res,6,arable land,3.029
+M_DOR_A1,M_DOR,centre,654,Central European mixed forests,114.1999969,11.81450305,51.64508573,fresh,restored,cus,27,arable land,0.400
+M_DOR_A2,M_DOR,centre,654,Central European mixed forests,114.1999969,11.81450305,51.64508573,fresh,restored,cus,27,arable land,0.400
+M_DOR_A3,M_DOR,centre,654,Central European mixed forests,114.1999969,11.81450305,51.64508573,fresh,restored,cus,27,arable land,0.400
+M_DOR_A4,M_DOR,centre,654,Central European mixed forests,114.1999969,11.81450305,51.64508573,fresh,restored,cus,27,arable land,0.400
+M_EIC_A1,M_EIC,centre,654,Central European mixed forests,56.56999969,12.18899395,51.85716614,fresh,negative,NA,NA,NA,0.929
+M_EIC_A2,M_EIC,centre,654,Central European mixed forests,56.56999969,12.18899395,51.85716614,fresh,negative,NA,NA,NA,0.929
+M_EIC_A3,M_EIC,centre,654,Central European mixed forests,56.56999969,12.18899395,51.85716614,fresh,negative,NA,NA,NA,0.929
+M_EIC_A4,M_EIC,centre,654,Central European mixed forests,56.56999969,12.18899395,51.85716614,fresh,negative,NA,NA,NA,0.929
+M_FAL_A1,M_FAL,centre,654,Central European mixed forests,142.5299988,11.35946299,51.74746391,fresh,restored,res,6,arable land,1.129
+M_FAL_A2,M_FAL,centre,654,Central European mixed forests,142.5299988,11.35946299,51.74746391,fresh,restored,res,6,arable land,1.129
+M_FAL_A3,M_FAL,centre,654,Central European mixed forests,142.5299988,11.35946299,51.74746391,fresh,restored,res,6,arable land,1.129
+M_FAL_A4,M_FAL,centre,654,Central European mixed forests,142.5299988,11.35946299,51.74746391,fresh,restored,res,6,arable land,1.129
+M_FRB_A1,M_FRB,centre,654,Central European mixed forests,136.2400055,11.73327072,51.62485865,dry,restored,mga,14,grassland,1.188
+M_FRB_A2,M_FRB,centre,654,Central European mixed forests,136.2400055,11.73327072,51.62485865,dry,restored,mga,14,grassland,1.188
+M_FRB_A3,M_FRB,centre,654,Central European mixed forests,136.2400055,11.73327072,51.62485865,dry,restored,mga,14,grassland,1.188
+M_FRB_A4,M_FRB,centre,654,Central European mixed forests,136.2400055,11.73327072,51.62485865,dry,restored,mga,14,grassland,1.188
+M_GRO_A1,M_GRO,centre,654,Central European mixed forests,61.65000153,11.68390121,51.76579064,fresh,restored,cus,26,arable land,0.310
+M_GRO_A2,M_GRO,centre,654,Central European mixed forests,61.65000153,11.68390121,51.76579064,fresh,restored,cus,26,arable land,0.310
+M_GRO_A3,M_GRO,centre,654,Central European mixed forests,61.65000153,11.68390121,51.76579064,fresh,restored,cus,26,arable land,0.310
+M_GRO_A4,M_GRO,centre,654,Central European mixed forests,61.65000153,11.68390121,51.76579064,fresh,restored,cus,26,arable land,0.310
+M_HAH_A1,M_HAH,centre,654,Central European mixed forests,211.7200012,11.62972068,51.30873546,dry,positive,NA,NA,NA,0.987
+M_HAH_A2,M_HAH,centre,654,Central European mixed forests,211.7200012,11.62972068,51.30873546,dry,positive,NA,NA,NA,0.987
+M_HAH_A3,M_HAH,centre,654,Central European mixed forests,211.7200012,11.62972068,51.30873546,dry,positive,NA,NA,NA,0.987
+M_HAH_A4,M_HAH,centre,654,Central European mixed forests,211.7200012,11.62972068,51.30873546,dry,positive,NA,NA,NA,0.987
+M_HAI_A1,M_HAI,centre,686,Western European broadleaf forests,302.8399963,11.18385429,51.50506446,fresh,restored,mga,11,grassland,0.444
+M_HAI_A2,M_HAI,centre,686,Western European broadleaf forests,302.8399963,11.18385429,51.50506446,fresh,restored,mga,11,grassland,0.444
+M_HAI_A3,M_HAI,centre,686,Western European broadleaf forests,302.8399963,11.18385429,51.50506446,fresh,restored,mga,11,grassland,0.444
+M_HAI_A4,M_HAI,centre,686,Western European broadleaf forests,302.8399963,11.18385429,51.50506446,fresh,restored,mga,11,grassland,0.444
+M_HAR_A1,M_HAR,centre,654,Central European mixed forests,149.1900024,11.08520296,51.82462193,fresh,restored,res,12,arable land,1.318
+M_HAR_A2,M_HAR,centre,654,Central European mixed forests,149.1900024,11.08520296,51.82462193,fresh,restored,res,12,arable land,1.318
+M_HAR_A3,M_HAR,centre,654,Central European mixed forests,149.1900024,11.08520296,51.82462193,fresh,restored,res,12,arable land,1.318
+M_HAR_A4,M_HAR,centre,654,Central European mixed forests,149.1900024,11.08520296,51.82462193,fresh,restored,res,12,arable land,1.318
+M_HIR_A1,M_HIR,centre,654,Central European mixed forests,207.1199951,11.68710429,51.1981926,dry,restored,mga,9,grassland,1.208
+M_HIR_A2,M_HIR,centre,654,Central European mixed forests,207.1199951,11.68710429,51.1981926,dry,restored,mga,9,grassland,1.208
+M_HIR_A3,M_HIR,centre,654,Central European mixed forests,207.1199951,11.68710429,51.1981926,dry,restored,mga,9,grassland,1.208
+M_HIR_A4,M_HIR,centre,654,Central European mixed forests,207.1199951,11.68710429,51.1981926,dry,restored,mga,9,grassland,1.208
+M_HLI_A1,M_HLI,centre,686,Western European broadleaf forests,344.5700073,11.33102988,51.53507321,fresh,positive,NA,NA,NA,1.761
+M_HLI_A2,M_HLI,centre,686,Western European broadleaf forests,344.5700073,11.33102988,51.53507321,fresh,positive,NA,NA,NA,1.761
+M_HLI_A3,M_HLI,centre,686,Western European broadleaf forests,344.5700073,11.33102988,51.53507321,fresh,positive,NA,NA,NA,1.761
+M_HLI_A4,M_HLI,centre,686,Western European broadleaf forests,344.5700073,11.33102988,51.53507321,fresh,positive,NA,NA,NA,1.761
+M_HNB_A1,M_HNB,centre,654,Central European mixed forests,209.5399933,11.77775515,51.2062993,dry,restored,mga,2,grassland,0.798
+M_HNB_A2,M_HNB,centre,654,Central European mixed forests,209.5399933,11.77775515,51.2062993,dry,restored,mga,2,grassland,0.798
+M_HNB_A3,M_HNB,centre,654,Central European mixed forests,209.5399933,11.77775515,51.2062993,dry,restored,mga,2,grassland,0.798
+M_HNB_A4,M_HNB,centre,654,Central European mixed forests,209.5399933,11.77775515,51.2062993,dry,restored,mga,2,grassland,0.798
+M_HOH_A1,M_HOH,centre,654,Central European mixed forests,61.65000153,11.65059088,51.85418882,moist,restored,cus,26,arable land,1.350
+M_HOH_A2,M_HOH,centre,654,Central European mixed forests,61.65000153,11.65059088,51.85418882,moist,restored,cus,26,arable land,1.350
+M_HOH_A3,M_HOH,centre,654,Central European mixed forests,61.65000153,11.65059088,51.85418882,moist,restored,cus,26,arable land,1.350
+M_HOH_A4,M_HOH,centre,654,Central European mixed forests,61.65000153,11.65059088,51.85418882,moist,restored,cus,26,arable land,1.350
+M_ILB_A1,M_ILB,centre,654,Central European mixed forests,67.48000336,11.65441561,51.82311226,fresh,restored,res,12,arable land,2.478
+M_ILB_A2,M_ILB,centre,654,Central European mixed forests,67.48000336,11.65441561,51.82311226,fresh,restored,res,12,arable land,2.478
+M_ILB_A3,M_ILB,centre,654,Central European mixed forests,67.48000336,11.65441561,51.82311226,fresh,restored,res,12,arable land,2.478
+M_ILB_A4,M_ILB,centre,654,Central European mixed forests,67.48000336,11.65441561,51.82311226,fresh,restored,res,12,arable land,2.478
+M_JEP_A1,M_JEP,centre,654,Central European mixed forests,34.40999985,12.02312125,52.4791434,fresh,positive,NA,NA,NA,1.739
+M_JEP_A2,M_JEP,centre,654,Central European mixed forests,34.40999985,12.02312125,52.4791434,fresh,positive,NA,NA,NA,1.739
+M_JEP_A3,M_JEP,centre,654,Central European mixed forests,34.40999985,12.02312125,52.4791434,fresh,positive,NA,NA,NA,1.739
+M_JEP_A4,M_JEP,centre,654,Central European mixed forests,34.40999985,12.02312125,52.4791434,fresh,positive,NA,NA,NA,1.739
+M_JER_A1,M_JER,centre,654,Central European mixed forests,34.11000061,12.01639122,52.48309646,fresh,restored,dih,5,arable land,4.500
+M_JER_A2,M_JER,centre,654,Central European mixed forests,34.11000061,12.01639122,52.48309646,fresh,restored,dih,5,arable land,4.500
+M_JER_A3,M_JER,centre,654,Central European mixed forests,34.11000061,12.01639122,52.48309646,fresh,restored,dih,5,arable land,4.500
+M_JER_A4,M_JER,centre,654,Central European mixed forests,34.11000061,12.01639122,52.48309646,fresh,restored,dih,5,arable land,4.500
+M_KAL_A1,M_KAL,centre,686,Western European broadleaf forests,274.9100037,11.1614036,51.49407413,fresh,positive,NA,NA,NA,0.745
+M_KAL_A2,M_KAL,centre,686,Western European broadleaf forests,274.9100037,11.1614036,51.49407413,fresh,positive,NA,NA,NA,0.745
+M_KAL_A3,M_KAL,centre,686,Western European broadleaf forests,274.9100037,11.1614036,51.49407413,fresh,positive,NA,NA,NA,0.745
+M_KAL_A4,M_KAL,centre,686,Western European broadleaf forests,274.9100037,11.1614036,51.49407413,fresh,positive,NA,NA,NA,0.745
+M_KAP_A1,M_KAP,centre,654,Central European mixed forests,58.43000031,12.23992028,51.87819202,fresh,negative,NA,NA,NA,0.265
+M_KAP_A2,M_KAP,centre,654,Central European mixed forests,58.43000031,12.23992028,51.87819202,fresh,negative,NA,NA,NA,0.265
+M_KAP_A3,M_KAP,centre,654,Central European mixed forests,58.43000031,12.23992028,51.87819202,fresh,negative,NA,NA,NA,0.265
+M_KAP_A4,M_KAP,centre,654,Central European mixed forests,58.43000031,12.23992028,51.87819202,fresh,negative,NA,NA,NA,0.265
+M_KIF_A1,M_KIF,centre,654,Central European mixed forests,114.7300034,11.7568316,51.65465985,dry,negative,NA,NA,NA,0.447
+M_KIF_A2,M_KIF,centre,654,Central European mixed forests,114.7300034,11.7568316,51.65465985,dry,negative,NA,NA,NA,0.447
+M_KIF_A3,M_KIF,centre,654,Central European mixed forests,114.7300034,11.7568316,51.65465985,dry,negative,NA,NA,NA,0.447
+M_KIF_A4,M_KIF,centre,654,Central European mixed forests,114.7300034,11.7568316,51.65465985,dry,negative,NA,NA,NA,0.447
+M_KOL_A1,M_KOL,centre,654,Central European mixed forests,114.6600037,11.82447632,51.50647081,dry,restored,res,3,arable land,0.804
+M_KOL_A2,M_KOL,centre,654,Central European mixed forests,114.6600037,11.82447632,51.50647081,dry,restored,res,3,arable land,0.804
+M_KOL_A3,M_KOL,centre,654,Central European mixed forests,114.6600037,11.82447632,51.50647081,dry,restored,res,3,arable land,0.804
+M_KOL_A4,M_KOL,centre,654,Central European mixed forests,114.6600037,11.82447632,51.50647081,dry,restored,res,3,arable land,0.804
+M_KOT_A1,M_KOT,centre,654,Central European mixed forests,72,11.97743495,51.76112712,fresh,restored,res,4,arable land,1.040
+M_KOT_A2,M_KOT,centre,654,Central European mixed forests,72,11.97743495,51.76112712,fresh,restored,res,4,arable land,1.040
+M_KOT_A3,M_KOT,centre,654,Central European mixed forests,72,11.97743495,51.76112712,fresh,restored,res,4,arable land,1.040
+M_KOT_A4,M_KOT,centre,654,Central European mixed forests,72,11.97743495,51.76112712,fresh,restored,res,4,arable land,1.040
+M_KUH_A1,M_KUH,centre,654,Central European mixed forests,161.2100067,11.83230936,51.25517652,dry,restored,mga,4,grassland,0.324
+M_KUH_A2,M_KUH,centre,654,Central European mixed forests,161.2100067,11.83230936,51.25517652,dry,restored,mga,4,grassland,0.324
+M_KUH_A3,M_KUH,centre,654,Central European mixed forests,161.2100067,11.83230936,51.25517652,dry,restored,mga,4,grassland,0.324
+M_KUH_A4,M_KUH,centre,654,Central European mixed forests,161.2100067,11.83230936,51.25517652,dry,restored,mga,4,grassland,0.324
+M_LOB_A1,M_LOB,centre,654,Central European mixed forests,114.2600021,11.9262047,51.63375412,fresh,restored,cus,NA,arable land,1.376
+M_LOB_A2,M_LOB,centre,654,Central European mixed forests,114.2600021,11.9262047,51.63375412,fresh,restored,cus,NA,arable land,1.376
+M_LOB_A3,M_LOB,centre,654,Central European mixed forests,114.2600021,11.9262047,51.63375412,fresh,restored,cus,NA,arable land,1.376
+M_LOB_A4,M_LOB,centre,654,Central European mixed forests,114.2600021,11.9262047,51.63375412,fresh,restored,cus,NA,arable land,1.376
+M_MOZ_A1,M_MOZ,centre,686,Western European broadleaf forests,310.6099854,11.30686446,51.69061448,moist,positive,NA,NA,NA,0.688
+M_MOZ_A2,M_MOZ,centre,686,Western European broadleaf forests,310.6099854,11.30686446,51.69061448,moist,positive,NA,NA,NA,0.688
+M_MOZ_A3,M_MOZ,centre,686,Western European broadleaf forests,310.6099854,11.30686446,51.69061448,moist,positive,NA,NA,NA,0.688
+M_MOZ_A4,M_MOZ,centre,686,Western European broadleaf forests,310.6099854,11.30686446,51.69061448,moist,positive,NA,NA,NA,0.688
+M_NEL_A1,M_NEL,centre,654,Central European mixed forests,96.33999634,11.75335512,51.66467973,dry,restored,mga,14,grassland,0.917
+M_NEL_A2,M_NEL,centre,654,Central European mixed forests,96.33999634,11.75335512,51.66467973,dry,restored,mga,14,grassland,0.917
+M_NEL_A3,M_NEL,centre,654,Central European mixed forests,96.33999634,11.75335512,51.66467973,dry,restored,mga,14,grassland,0.917
+M_NEL_A4,M_NEL,centre,654,Central European mixed forests,96.33999634,11.75335512,51.66467973,dry,restored,mga,14,grassland,0.917
+M_NIS_A1,M_NIS,centre,654,Central European mixed forests,204.7700043,11.76049993,51.20428793,dry,negative,NA,NA,NA,1.727
+M_NIS_A2,M_NIS,centre,654,Central European mixed forests,204.7700043,11.76049993,51.20428793,dry,negative,NA,NA,NA,1.727
+M_NIS_A3,M_NIS,centre,654,Central European mixed forests,204.7700043,11.76049993,51.20428793,dry,negative,NA,NA,NA,1.727
+M_NIS_A4,M_NIS,centre,654,Central European mixed forests,204.7700043,11.76049993,51.20428793,dry,negative,NA,NA,NA,1.727
+M_PRA_A1,M_PRA,centre,654,Central European mixed forests,66.73000336,12.67487398,51.84309028,moist,restored,dih,22,arable land,1.354
+M_PRA_A2,M_PRA,centre,654,Central European mixed forests,66.73000336,12.67487398,51.84309028,moist,restored,dih,22,arable land,1.354
+M_PRA_A3,M_PRA,centre,654,Central European mixed forests,66.73000336,12.67487398,51.84309028,moist,restored,dih,22,arable land,1.354
+M_PRA_A4,M_PRA,centre,654,Central European mixed forests,66.73000336,12.67487398,51.84309028,moist,restored,dih,22,arable land,1.354
+M_SKF_A1,M_SKF,centre,654,Central European mixed forests,66.11000061,11.57491171,52.02875982,fresh,restored,res,9,arable land,1.363
+M_SKF_A2,M_SKF,centre,654,Central European mixed forests,66.11000061,11.57491171,52.02875982,fresh,restored,res,9,arable land,1.363
+M_SKF_A3,M_SKF,centre,654,Central European mixed forests,66.11000061,11.57491171,52.02875982,fresh,restored,res,9,arable land,1.363
+M_SKF_A4,M_SKF,centre,654,Central European mixed forests,66.11000061,11.57491171,52.02875982,fresh,restored,res,9,arable land,1.363
+M_SMH_A1,M_SMH,centre,654,Central European mixed forests,227.3800049,11.59779124,51.33296162,dry,negative,NA,NA,NA,0.237
+M_SMH_A2,M_SMH,centre,654,Central European mixed forests,227.3800049,11.59779124,51.33296162,dry,negative,NA,NA,NA,0.237
+M_SMH_A3,M_SMH,centre,654,Central European mixed forests,227.3800049,11.59779124,51.33296162,dry,negative,NA,NA,NA,0.237
+M_SMH_A4,M_SMH,centre,654,Central European mixed forests,227.3800049,11.59779124,51.33296162,dry,negative,NA,NA,NA,0.237
+M_SSB_A1,M_SSB,centre,654,Central European mixed forests,182.1799927,11.72160941,51.21551542,dry,positive,NA,NA,NA,1.259
+M_SSB_A2,M_SSB,centre,654,Central European mixed forests,182.1799927,11.72160941,51.21551542,dry,positive,NA,NA,NA,1.259
+M_SSB_A3,M_SSB,centre,654,Central European mixed forests,182.1799927,11.72160941,51.21551542,dry,positive,NA,NA,NA,1.259
+M_SSB_A4,M_SSB,centre,654,Central European mixed forests,182.1799927,11.72160941,51.21551542,dry,positive,NA,NA,NA,1.259
+M_SSL_A1,M_SSL,centre,654,Central European mixed forests,118.0299988,11.92439633,51.6336248,dry,positive,NA,NA,NA,0.722
+M_SSL_A2,M_SSL,centre,654,Central European mixed forests,118.0299988,11.92439633,51.6336248,dry,positive,NA,NA,NA,0.722
+M_SSL_A3,M_SSL,centre,654,Central European mixed forests,118.0299988,11.92439633,51.6336248,dry,positive,NA,NA,NA,0.722
+M_SSL_A4,M_SSL,centre,654,Central European mixed forests,118.0299988,11.92439633,51.6336248,dry,positive,NA,NA,NA,0.722
+M_STA_A1,M_STA,centre,654,Central European mixed forests,54.43999863,12.03915626,51.87081962,fresh,restored,res,5,grassland,0.800
+M_STA_A2,M_STA,centre,654,Central European mixed forests,54.43999863,12.03915626,51.87081962,fresh,restored,res,5,grassland,0.800
+M_STA_A3,M_STA,centre,654,Central European mixed forests,54.43999863,12.03915626,51.87081962,fresh,restored,res,5,grassland,0.800
+M_STA_A4,M_STA,centre,654,Central European mixed forests,54.43999863,12.03915626,51.87081962,fresh,restored,res,5,grassland,0.800
+M_STF_A1,M_STF,centre,654,Central European mixed forests,39.75,11.6869805,52.28069534,moist,restored,dih,3,arable land,1.200
+M_STF_A2,M_STF,centre,654,Central European mixed forests,39.75,11.6869805,52.28069534,moist,restored,dih,3,arable land,1.200
+M_STF_A3,M_STF,centre,654,Central European mixed forests,39.75,11.6869805,52.28069534,moist,restored,dih,3,arable land,1.200
+M_STF_A4,M_STF,centre,654,Central European mixed forests,39.75,11.6869805,52.28069534,moist,restored,dih,3,arable land,1.200
+M_STI_A1,M_STI,centre,654,Central European mixed forests,91.91999817,11.83597112,51.65776367,moist,restored,cus,28,arable land,0.387
+M_STI_A2,M_STI,centre,654,Central European mixed forests,91.91999817,11.83597112,51.65776367,moist,restored,cus,28,arable land,0.387
+M_STI_A3,M_STI,centre,654,Central European mixed forests,91.91999817,11.83597112,51.65776367,moist,restored,cus,28,arable land,0.387
+M_STI_A4,M_STI,centre,654,Central European mixed forests,91.91999817,11.83597112,51.65776367,moist,restored,cus,28,arable land,0.387
+M_STN_A1,M_STN,centre,654,Central European mixed forests,184.0599976,11.51118008,51.27824642,dry,restored,mga,2,grassland,0.786
+M_STN_A2,M_STN,centre,654,Central European mixed forests,184.0599976,11.51118008,51.27824642,dry,restored,mga,2,grassland,0.786
+M_STN_A3,M_STN,centre,654,Central European mixed forests,184.0599976,11.51118008,51.27824642,dry,restored,mga,2,grassland,0.786
+M_STN_A4,M_STN,centre,654,Central European mixed forests,184.0599976,11.51118008,51.27824642,dry,restored,mga,2,grassland,0.786
+M_STP_A1,M_STP,centre,654,Central European mixed forests,54.63000107,12.05356323,51.87379422,fresh,positive,NA,NA,NA,0.961
+M_STP_A2,M_STP,centre,654,Central European mixed forests,54.63000107,12.05356323,51.87379422,fresh,positive,NA,NA,NA,0.961
+M_STP_A3,M_STP,centre,654,Central European mixed forests,54.63000107,12.05356323,51.87379422,fresh,positive,NA,NA,NA,0.961
+M_STP_A4,M_STP,centre,654,Central European mixed forests,54.63000107,12.05356323,51.87379422,fresh,positive,NA,NA,NA,0.961
+M_SUL_A1,M_SUL,centre,654,Central European mixed forests,73.33000183,11.56157811,52.02835511,fresh,negative,NA,NA,NA,0.099
+M_SUL_A2,M_SUL,centre,654,Central European mixed forests,73.33000183,11.56157811,52.02835511,fresh,negative,NA,NA,NA,0.099
+M_SUL_A3,M_SUL,centre,654,Central European mixed forests,73.33000183,11.56157811,52.02835511,fresh,negative,NA,NA,NA,0.099
+M_SUL_A4,M_SUL,centre,654,Central European mixed forests,73.33000183,11.56157811,52.02835511,fresh,negative,NA,NA,NA,0.099
+M_TAN_A1,M_TAN,centre,654,Central European mixed forests,120.5999985,11.75682108,51.64052353,dry,restored,mga,11,grassland,1.209
+M_TAN_A2,M_TAN,centre,654,Central European mixed forests,120.5999985,11.75682108,51.64052353,dry,restored,mga,11,grassland,1.209
+M_TAN_A3,M_TAN,centre,654,Central European mixed forests,120.5999985,11.75682108,51.64052353,dry,restored,mga,11,grassland,1.209
+M_TAN_A4,M_TAN,centre,654,Central European mixed forests,120.5999985,11.75682108,51.64052353,dry,restored,mga,11,grassland,1.209
+M_TRE_A1,M_TRE,centre,654,Central European mixed forests,75.77999878,11.96757714,51.64524689,fresh,restored,res,8,grassland,0.933
+M_TRE_A2,M_TRE,centre,654,Central European mixed forests,75.77999878,11.96757714,51.64524689,fresh,restored,res,8,grassland,0.933
+M_TRE_A3,M_TRE,centre,654,Central European mixed forests,75.77999878,11.96757714,51.64524689,fresh,restored,res,8,grassland,0.933
+M_TRE_A4,M_TRE,centre,654,Central European mixed forests,75.77999878,11.96757714,51.64524689,fresh,restored,res,8,grassland,0.933
+M_TRN_A1,M_TRN,centre,654,Central European mixed forests,75.37999725,11.96509704,51.64410826,moist,negative,NA,NA,NA,0.383
+M_TRN_A2,M_TRN,centre,654,Central European mixed forests,75.37999725,11.96509704,51.64410826,moist,negative,NA,NA,NA,0.383
+M_TRN_A3,M_TRN,centre,654,Central European mixed forests,75.37999725,11.96509704,51.64410826,moist,negative,NA,NA,NA,0.383
+M_TRN_A4,M_TRN,centre,654,Central European mixed forests,75.37999725,11.96509704,51.64410826,moist,negative,NA,NA,NA,0.383
+M_TTH_A1,M_TTH,centre,654,Central European mixed forests,212.8300018,11.74525195,51.20022449,dry,restored,mga,11,grassland,1.638
+M_TTH_A2,M_TTH,centre,654,Central European mixed forests,212.8300018,11.74525195,51.20022449,dry,restored,mga,11,grassland,1.638
+M_TTH_A3,M_TTH,centre,654,Central European mixed forests,212.8300018,11.74525195,51.20022449,dry,restored,mga,11,grassland,1.638
+M_TTH_A4,M_TTH,centre,654,Central European mixed forests,212.8300018,11.74525195,51.20022449,dry,restored,mga,11,grassland,1.638
+M_TTO_A1,M_TTO,centre,654,Central European mixed forests,205.6600037,11.73221691,51.18472096,dry,positive,NA,NA,NA,2.929
+M_TTO_A2,M_TTO,centre,654,Central European mixed forests,205.6600037,11.73221691,51.18472096,dry,positive,NA,NA,NA,2.929
+M_TTO_A3,M_TTO,centre,654,Central European mixed forests,205.6600037,11.73221691,51.18472096,dry,positive,NA,NA,NA,2.929
+M_TTO_A4,M_TTO,centre,654,Central European mixed forests,205.6600037,11.73221691,51.18472096,dry,positive,NA,NA,NA,2.929
+M_TTP_A1,M_TTP,centre,654,Central European mixed forests,217.3399963,11.75171156,51.20209679,dry,restored,mga,13,grassland,1.050
+M_TTP_A2,M_TTP,centre,654,Central European mixed forests,217.3399963,11.75171156,51.20209679,dry,restored,mga,13,grassland,1.050
+M_TTP_A3,M_TTP,centre,654,Central European mixed forests,217.3399963,11.75171156,51.20209679,dry,restored,mga,13,grassland,1.050
+M_TTP_A4,M_TTP,centre,654,Central European mixed forests,217.3399963,11.75171156,51.20209679,dry,restored,mga,13,grassland,1.050
+M_VOC_A1,M_VOC,centre,654,Central European mixed forests,60.04000092,12.33854304,51.85665776,fresh,restored,dih,8,arable land,1.440
+M_VOC_A2,M_VOC,centre,654,Central European mixed forests,60.04000092,12.33854304,51.85665776,fresh,restored,dih,8,arable land,1.440
+M_VOC_A3,M_VOC,centre,654,Central European mixed forests,60.04000092,12.33854304,51.85665776,fresh,restored,dih,8,arable land,1.440
+M_VOC_A4,M_VOC,centre,654,Central European mixed forests,60.04000092,12.33854304,51.85665776,fresh,restored,dih,8,arable land,1.440
+M_WDG_A1,M_WDG,centre,654,Central European mixed forests,77.66000366,11.4834876,52.2889212,fresh,restored,res,6,arable land,2.292
+M_WDG_A2,M_WDG,centre,654,Central European mixed forests,77.66000366,11.4834876,52.2889212,fresh,restored,res,6,arable land,2.292
+M_WDG_A3,M_WDG,centre,654,Central European mixed forests,77.66000366,11.4834876,52.2889212,fresh,restored,res,6,arable land,2.292
+M_WDG_A4,M_WDG,centre,654,Central European mixed forests,77.66000366,11.4834876,52.2889212,fresh,restored,res,6,arable land,2.292
+M_WED_A1,M_WED,centre,654,Central European mixed forests,48.04000092,11.48918164,52.2679638,moist,restored,res,7,arable land,0.362
+M_WED_A2,M_WED,centre,654,Central European mixed forests,48.04000092,11.48918164,52.2679638,moist,restored,res,7,arable land,0.362
+M_WED_A3,M_WED,centre,654,Central European mixed forests,48.04000092,11.48918164,52.2679638,moist,restored,res,7,arable land,0.362
+M_WED_A4,M_WED,centre,654,Central European mixed forests,48.04000092,11.48918164,52.2679638,moist,restored,res,7,arable land,0.362
+M_WEF_A1,M_WEF,centre,654,Central European mixed forests,120.6800003,11.17225431,52.17879519,moist,restored,mga,13,grassland,0.111
+M_WEF_A2,M_WEF,centre,654,Central European mixed forests,120.6800003,11.17225431,52.17879519,moist,restored,mga,13,grassland,0.111
+M_WEF_A3,M_WEF,centre,654,Central European mixed forests,120.6800003,11.17225431,52.17879519,moist,restored,mga,13,grassland,0.111
+M_WEF_A4,M_WEF,centre,654,Central European mixed forests,120.6800003,11.17225431,52.17879519,moist,restored,mga,13,grassland,0.111
+M_WIM_A1,M_WIM,centre,686,Western European broadleaf forests,212.1000061,11.49754839,51.51079173,fresh,restored,res,6,arable land,1.162
+M_WIM_A2,M_WIM,centre,686,Western European broadleaf forests,212.1000061,11.49754839,51.51079173,fresh,restored,res,6,arable land,1.162
+M_WIM_A3,M_WIM,centre,686,Western European broadleaf forests,212.1000061,11.49754839,51.51079173,fresh,restored,res,6,arable land,1.162
+M_WIM_A4,M_WIM,centre,686,Western European broadleaf forests,212.1000061,11.49754839,51.51079173,fresh,restored,res,6,arable land,1.162
+M_WLE_A1,M_WLE,centre,654,Central European mixed forests,119.6500015,11.20737972,52.18579459,moist,negative,NA,NA,NA,1.197
+M_WLE_A2,M_WLE,centre,654,Central European mixed forests,119.6500015,11.20737972,52.18579459,moist,negative,NA,NA,NA,1.197
+M_WLE_A3,M_WLE,centre,654,Central European mixed forests,119.6500015,11.20737972,52.18579459,moist,negative,NA,NA,NA,1.197
+M_WLE_A4,M_WLE,centre,654,Central European mixed forests,119.6500015,11.20737972,52.18579459,moist,negative,NA,NA,NA,1.197
+M_WUG_A1,M_WUG,centre,654,Central European mixed forests,51.81000137,11.91389537,51.85297179,fresh,restored,mga,NA,arable land,0.997
+M_WUG_A2,M_WUG,centre,654,Central European mixed forests,51.81000137,11.91389537,51.85297179,fresh,restored,mga,NA,arable land,0.997
+M_WUG_A3,M_WUG,centre,654,Central European mixed forests,51.81000137,11.91389537,51.85297179,fresh,restored,mga,NA,arable land,0.997
+M_WUG_A4,M_WUG,centre,654,Central European mixed forests,51.81000137,11.91389537,51.85297179,fresh,restored,mga,NA,arable land,0.997
+M_WUM_A1,M_WUM,centre,654,Central European mixed forests,52.34000015,11.94306453,51.83665149,fresh,restored,mga,NA,grassland,0.870
+M_WUM_A2,M_WUM,centre,654,Central European mixed forests,52.34000015,11.94306453,51.83665149,fresh,restored,mga,NA,grassland,0.870
+M_WUM_A3,M_WUM,centre,654,Central European mixed forests,52.34000015,11.94306453,51.83665149,fresh,restored,mga,NA,grassland,0.870
+M_WUM_A4,M_WUM,centre,654,Central European mixed forests,52.34000015,11.94306453,51.83665149,fresh,restored,mga,NA,grassland,0.870
+M_WUN_A1,M_WUN,centre,654,Central European mixed forests,51.93999863,11.91088705,51.85409945,fresh,negative,NA,NA,NA,0.144
+M_WUN_A2,M_WUN,centre,654,Central European mixed forests,51.93999863,11.91088705,51.85409945,fresh,negative,NA,NA,NA,0.144
+M_WUN_A3,M_WUN,centre,654,Central European mixed forests,51.93999863,11.91088705,51.85409945,fresh,negative,NA,NA,NA,0.144
+M_WUN_A4,M_WUN,centre,654,Central European mixed forests,51.93999863,11.91088705,51.85409945,fresh,negative,NA,NA,NA,0.144
+M_WUP_A1,M_WUP,centre,654,Central European mixed forests,52.24000168,11.93649437,51.84281827,fresh,positive,NA,NA,NA,0.916
+M_WUP_A2,M_WUP,centre,654,Central European mixed forests,52.24000168,11.93649437,51.84281827,fresh,positive,NA,NA,NA,0.916
+M_WUP_A3,M_WUP,centre,654,Central European mixed forests,52.24000168,11.93649437,51.84281827,fresh,positive,NA,NA,NA,0.916
+M_WUP_A4,M_WUP,centre,654,Central European mixed forests,52.24000168,11.93649437,51.84281827,fresh,positive,NA,NA,NA,0.916
+M_WUR_A1,M_WUR,centre,654,Central European mixed forests,52.08000183,11.95411022,51.83463992,moist,positive,NA,NA,NA,0.774
+M_WUR_A2,M_WUR,centre,654,Central European mixed forests,52.08000183,11.95411022,51.83463992,moist,positive,NA,NA,NA,0.774
+M_WUR_A3,M_WUR,centre,654,Central European mixed forests,52.08000183,11.95411022,51.83463992,moist,positive,NA,NA,NA,0.774
+M_WUR_A4,M_WUR,centre,654,Central European mixed forests,52.08000183,11.95411022,51.83463992,moist,positive,NA,NA,NA,0.774
+N_AFE_A1,N_AFE,north,664,European Atlantic mixed forests,54.68000031,10.60355741,52.57145886,fresh,restored,cus,34,arable land,1.005
+N_AFE_A2,N_AFE,north,664,European Atlantic mixed forests,54.68000031,10.60355741,52.57145886,fresh,restored,cus,34,arable land,1.005
+N_AFE_A3,N_AFE,north,664,European Atlantic mixed forests,54.68000031,10.60355741,52.57145886,fresh,restored,cus,34,arable land,1.005
+N_AFE_A4,N_AFE,north,664,European Atlantic mixed forests,54.68000031,10.60355741,52.57145886,fresh,restored,cus,34,arable land,1.005
+N_ALA_A1,N_ALA,north,664,European Atlantic mixed forests,18.13999939,11.63909778,52.99585029,fresh,restored,res,6,grassland,1.361
+N_ALA_A2,N_ALA,north,664,European Atlantic mixed forests,18.13999939,11.63909778,52.99585029,fresh,restored,res,6,grassland,1.361
+N_ALA_A3,N_ALA,north,664,European Atlantic mixed forests,18.13999939,11.63909778,52.99585029,fresh,restored,res,6,grassland,1.361
+N_ALA_A4,N_ALA,north,664,European Atlantic mixed forests,18.13999939,11.63909778,52.99585029,fresh,restored,res,6,grassland,1.361
+N_ARE_A1,N_ARE,north,664,European Atlantic mixed forests,20.57999992,11.41380242,52.90835525,fresh,restored,res,NA,arable land,0.358
+N_ARE_A2,N_ARE,north,664,European Atlantic mixed forests,20.57999992,11.41380242,52.90835525,fresh,restored,res,NA,arable land,0.358
+N_ARE_A3,N_ARE,north,664,European Atlantic mixed forests,20.57999992,11.41380242,52.90835525,fresh,restored,res,NA,arable land,0.358
+N_ARE_A4,N_ARE,north,664,European Atlantic mixed forests,20.57999992,11.41380242,52.90835525,fresh,restored,res,NA,arable land,0.358
+N_BEB_A1,N_BEB,north,664,European Atlantic mixed forests,54.29000092,10.58705219,52.56455023,fresh,restored,cus,29,arable land,0.021
+N_BEB_A2,N_BEB,north,664,European Atlantic mixed forests,54.29000092,10.58705219,52.56455023,fresh,restored,cus,29,arable land,0.021
+N_BEB_A3,N_BEB,north,664,European Atlantic mixed forests,54.29000092,10.58705219,52.56455023,fresh,restored,cus,29,arable land,0.021
+N_BEB_A4,N_BEB,north,664,European Atlantic mixed forests,54.29000092,10.58705219,52.56455023,fresh,restored,cus,29,arable land,0.021
+N_BEN_A1,N_BEN,north,664,European Atlantic mixed forests,59.18000031,10.61579891,52.64595831,fresh,negative,NA,NA,NA,0.150
+N_BEN_A2,N_BEN,north,664,European Atlantic mixed forests,59.18000031,10.61579891,52.64595831,fresh,negative,NA,NA,NA,0.150
+N_BEN_A3,N_BEN,north,664,European Atlantic mixed forests,59.18000031,10.61579891,52.64595831,fresh,negative,NA,NA,NA,0.150
+N_BEN_A4,N_BEN,north,664,European Atlantic mixed forests,59.18000031,10.61579891,52.64595831,fresh,negative,NA,NA,NA,0.150
+N_BIT_A1,N_BIT,north,664,European Atlantic mixed forests,29.85000038,9.712489826,54.06746828,fresh,restored,dih,4,grassland,1.782
+N_BIT_A2,N_BIT,north,664,European Atlantic mixed forests,29.85000038,9.712489826,54.06746828,fresh,restored,dih,4,grassland,1.782
+N_BIT_A3,N_BIT,north,664,European Atlantic mixed forests,29.85000038,9.712489826,54.06746828,fresh,restored,dih,4,grassland,1.782
+N_BIT_A4,N_BIT,north,664,European Atlantic mixed forests,29.85000038,9.712489826,54.06746828,fresh,restored,dih,4,grassland,1.782
+N_BLE_A1,N_BLE,north,664,European Atlantic mixed forests,8.430000305,10.74598821,53.33188724,fresh,positive,NA,NA,NA,0.821
+N_BLE_A2,N_BLE,north,664,European Atlantic mixed forests,8.430000305,10.74598821,53.33188724,fresh,positive,NA,NA,NA,0.821
+N_BLE_A3,N_BLE,north,664,European Atlantic mixed forests,8.430000305,10.74598821,53.33188724,fresh,positive,NA,NA,NA,0.821
+N_BLE_A4,N_BLE,north,664,European Atlantic mixed forests,8.430000305,10.74598821,53.33188724,fresh,positive,NA,NA,NA,0.821
+N_BLU_A1,N_BLU,north,664,European Atlantic mixed forests,17.78000069,11.15186993,52.90365006,fresh,restored,cus,28,arable land,0.686
+N_BLU_A2,N_BLU,north,664,European Atlantic mixed forests,17.78000069,11.15186993,52.90365006,fresh,restored,cus,28,arable land,0.686
+N_BLU_A3,N_BLU,north,664,European Atlantic mixed forests,17.78000069,11.15186993,52.90365006,fresh,restored,cus,28,arable land,0.686
+N_BLU_A4,N_BLU,north,664,European Atlantic mixed forests,17.78000069,11.15186993,52.90365006,fresh,restored,cus,28,arable land,0.686
+N_BRD_A1,N_BRD,north,664,European Atlantic mixed forests,16.42000008,11.4258011,53.05071543,fresh,restored,dih,3,grassland,0.426
+N_BRD_A2,N_BRD,north,664,European Atlantic mixed forests,16.42000008,11.4258011,53.05071543,fresh,restored,dih,3,grassland,0.426
+N_BRD_A3,N_BRD,north,664,European Atlantic mixed forests,16.42000008,11.4258011,53.05071543,fresh,restored,dih,3,grassland,0.426
+N_BRD_A4,N_BRD,north,664,European Atlantic mixed forests,16.42000008,11.4258011,53.05071543,fresh,restored,dih,3,grassland,0.426
+N_BRE_A1,N_BRE,north,664,European Atlantic mixed forests,21.70999908,10.66332693,53.60182733,dry,restored,res,4,arable land,0.846
+N_BRE_A2,N_BRE,north,664,European Atlantic mixed forests,21.70999908,10.66332693,53.60182733,dry,restored,res,4,arable land,0.846
+N_BRE_A3,N_BRE,north,664,European Atlantic mixed forests,21.70999908,10.66332693,53.60182733,dry,restored,res,4,arable land,0.846
+N_BRE_A4,N_BRE,north,664,European Atlantic mixed forests,21.70999908,10.66332693,53.60182733,dry,restored,res,4,arable land,0.846
+N_BRO_A1,N_BRO,north,664,European Atlantic mixed forests,21.72999954,10.66569268,53.46791394,dry,restored,dih,8,arable land,2.809
+N_BRO_A2,N_BRO,north,664,European Atlantic mixed forests,21.72999954,10.66569268,53.46791394,dry,restored,dih,8,arable land,2.809
+N_BRO_A3,N_BRO,north,664,European Atlantic mixed forests,21.72999954,10.66569268,53.46791394,dry,restored,dih,8,arable land,2.809
+N_BRO_A4,N_BRO,north,664,European Atlantic mixed forests,21.72999954,10.66569268,53.46791394,dry,restored,dih,8,arable land,2.809
+N_BU1_A1,N_BU1,north,664,European Atlantic mixed forests,14.35000038,9.774601422,54.09915593,fresh,negative,NA,NA,NA,0.563
+N_BU1_A2,N_BU1,north,664,European Atlantic mixed forests,14.35000038,9.774601422,54.09915593,fresh,negative,NA,NA,NA,0.563
+N_BU1_A3,N_BU1,north,664,European Atlantic mixed forests,14.35000038,9.774601422,54.09915593,fresh,negative,NA,NA,NA,0.563
+N_BU1_A4,N_BU1,north,664,European Atlantic mixed forests,14.35000038,9.774601422,54.09915593,fresh,negative,NA,NA,NA,0.563
+N_BU2_A1,N_BU2,north,664,European Atlantic mixed forests,12.56999969,9.766568712,54.09996863,moist,negative,NA,NA,NA,0.079
+N_BU2_A2,N_BU2,north,664,European Atlantic mixed forests,12.56999969,9.766568712,54.09996863,moist,negative,NA,NA,NA,0.079
+N_BU2_A3,N_BU2,north,664,European Atlantic mixed forests,12.56999969,9.766568712,54.09996863,moist,negative,NA,NA,NA,0.079
+N_BU2_A4,N_BU2,north,664,European Atlantic mixed forests,12.56999969,9.766568712,54.09996863,moist,negative,NA,NA,NA,0.079
+N_CAM_A1,N_CAM,north,664,European Atlantic mixed forests,70.16999817,9.825099354,53.15047911,dry,positive,NA,NA,NA,0.132
+N_CAM_A2,N_CAM,north,664,European Atlantic mixed forests,70.16999817,9.825099354,53.15047911,dry,positive,NA,NA,NA,0.132
+N_CAM_A3,N_CAM,north,664,European Atlantic mixed forests,70.16999817,9.825099354,53.15047911,dry,positive,NA,NA,NA,0.132
+N_CAM_A4,N_CAM,north,664,European Atlantic mixed forests,70.16999817,9.825099354,53.15047911,dry,positive,NA,NA,NA,0.132
+N_CNI_A1,N_CNI,north,664,European Atlantic mixed forests,10.42000008,10.85101826,53.24958879,moist,restored,mga,16,grassland,0.361
+N_CNI_A2,N_CNI,north,664,European Atlantic mixed forests,10.42000008,10.85101826,53.24958879,moist,restored,mga,16,grassland,0.361
+N_CNI_A3,N_CNI,north,664,European Atlantic mixed forests,10.42000008,10.85101826,53.24958879,moist,restored,mga,16,grassland,0.361
+N_CNI_A4,N_CNI,north,664,European Atlantic mixed forests,10.42000008,10.85101826,53.24958879,moist,restored,mga,16,grassland,0.361
+N_DAM_A1,N_DAM,north,664,European Atlantic mixed forests,12.60000038,11.13755266,53.12415583,fresh,restored,res,7,arable land,0.027
+N_DAM_A2,N_DAM,north,664,European Atlantic mixed forests,12.60000038,11.13755266,53.12415583,fresh,restored,res,7,arable land,0.027
+N_DAM_A3,N_DAM,north,664,European Atlantic mixed forests,12.60000038,11.13755266,53.12415583,fresh,restored,res,7,arable land,0.027
+N_DAM_A4,N_DAM,north,664,European Atlantic mixed forests,12.60000038,11.13755266,53.12415583,fresh,restored,res,7,arable land,0.027
+N_DUM_A1,N_DUM,north,664,European Atlantic mixed forests,24.95000076,10.96713715,52.90104063,moist,positive,NA,NA,NA,0.613
+N_DUM_A2,N_DUM,north,664,European Atlantic mixed forests,24.95000076,10.96713715,52.90104063,moist,positive,NA,NA,NA,0.613
+N_DUM_A3,N_DUM,north,664,European Atlantic mixed forests,24.95000076,10.96713715,52.90104063,moist,positive,NA,NA,NA,0.613
+N_DUM_A4,N_DUM,north,664,European Atlantic mixed forests,24.95000076,10.96713715,52.90104063,moist,positive,NA,NA,NA,0.613
+N_EIC_A1,N_EIC,north,664,European Atlantic mixed forests,135.8899994,9.966582081,53.15894547,dry,restored,dih,6,grassland,1.001
+N_EIC_A2,N_EIC,north,664,European Atlantic mixed forests,135.8899994,9.966582081,53.15894547,dry,restored,dih,6,grassland,1.001
+N_EIC_A3,N_EIC,north,664,European Atlantic mixed forests,135.8899994,9.966582081,53.15894547,dry,restored,dih,6,grassland,1.001
+N_EIC_A4,N_EIC,north,664,European Atlantic mixed forests,135.8899994,9.966582081,53.15894547,dry,restored,dih,6,grassland,1.001
+N_ELB_A1,N_ELB,north,664,European Atlantic mixed forests,13.56000042,11.21872812,53.12500769,fresh,restored,res,5,arable land,1.714
+N_ELB_A2,N_ELB,north,664,European Atlantic mixed forests,13.56000042,11.21872812,53.12500769,fresh,restored,res,5,arable land,1.714
+N_ELB_A3,N_ELB,north,664,European Atlantic mixed forests,13.56000042,11.21872812,53.12500769,fresh,restored,res,5,arable land,1.714
+N_ELB_A4,N_ELB,north,664,European Atlantic mixed forests,13.56000042,11.21872812,53.12500769,fresh,restored,res,5,arable land,1.714
+N_FLA_A1,N_FLA,north,664,European Atlantic mixed forests,13.14000034,10.30145646,53.28602734,moist,negative,NA,NA,NA,0.002
+N_FLA_A2,N_FLA,north,664,European Atlantic mixed forests,13.14000034,10.30145646,53.28602734,moist,negative,NA,NA,NA,0.002
+N_FLA_A3,N_FLA,north,664,European Atlantic mixed forests,13.14000034,10.30145646,53.28602734,moist,negative,NA,NA,NA,0.002
+N_FLA_A4,N_FLA,north,664,European Atlantic mixed forests,13.14000034,10.30145646,53.28602734,moist,negative,NA,NA,NA,0.002
+N_GAM_A1,N_GAM,north,664,European Atlantic mixed forests,52.41999817,10.54880198,52.51725778,fresh,restored,cus,30,arable land,0.305
+N_GAM_A2,N_GAM,north,664,European Atlantic mixed forests,52.41999817,10.54880198,52.51725778,fresh,restored,cus,30,arable land,0.305
+N_GAM_A3,N_GAM,north,664,European Atlantic mixed forests,52.41999817,10.54880198,52.51725778,fresh,restored,cus,30,arable land,0.305
+N_GAM_A4,N_GAM,north,664,European Atlantic mixed forests,52.41999817,10.54880198,52.51725778,fresh,restored,cus,30,arable land,0.305
+N_GAR_A1,N_GAR,north,664,European Atlantic mixed forests,6.429999828,10.65708759,53.33546428,fresh,restored,cus,17,arable land,3.756
+N_GAR_A2,N_GAR,north,664,European Atlantic mixed forests,6.429999828,10.65708759,53.33546428,fresh,restored,cus,17,arable land,3.756
+N_GAR_A3,N_GAR,north,664,European Atlantic mixed forests,6.429999828,10.65708759,53.33546428,fresh,restored,cus,17,arable land,3.756
+N_GAR_A4,N_GAR,north,664,European Atlantic mixed forests,6.429999828,10.65708759,53.33546428,fresh,restored,cus,17,arable land,3.756
+N_GBI_A1,N_GBI,north,664,European Atlantic mixed forests,17.15999985,11.21682835,52.89239537,moist,positive,NA,NA,NA,1.187
+N_GBI_A2,N_GBI,north,664,European Atlantic mixed forests,17.15999985,11.21682835,52.89239537,moist,positive,NA,NA,NA,1.187
+N_GBI_A3,N_GBI,north,664,European Atlantic mixed forests,17.15999985,11.21682835,52.89239537,moist,positive,NA,NA,NA,1.187
+N_GBI_A4,N_GBI,north,664,European Atlantic mixed forests,17.15999985,11.21682835,52.89239537,moist,positive,NA,NA,NA,1.187
+N_GUT_A1,N_GUT,north,664,European Atlantic mixed forests,39.79000092,10.7350907,53.17096801,fresh,restored,res,8,arable land,1.366
+N_GUT_A2,N_GUT,north,664,European Atlantic mixed forests,39.79000092,10.7350907,53.17096801,fresh,restored,res,8,arable land,1.366
+N_GUT_A3,N_GUT,north,664,European Atlantic mixed forests,39.79000092,10.7350907,53.17096801,fresh,restored,res,8,arable land,1.366
+N_GUT_A4,N_GUT,north,664,European Atlantic mixed forests,39.79000092,10.7350907,53.17096801,fresh,restored,res,8,arable land,1.366
+N_HAI_A1,N_HAI,north,664,European Atlantic mixed forests,16.59000015,9.734085864,53.59957298,moist,restored,mga,3,grassland,0.048
+N_HAI_A2,N_HAI,north,664,European Atlantic mixed forests,16.59000015,9.734085864,53.59957298,moist,restored,mga,3,grassland,0.048
+N_HAI_A3,N_HAI,north,664,European Atlantic mixed forests,16.59000015,9.734085864,53.59957298,moist,restored,mga,3,grassland,0.048
+N_HAI_A4,N_HAI,north,664,European Atlantic mixed forests,16.59000015,9.734085864,53.59957298,moist,restored,mga,3,grassland,0.048
+N_HOH_A1,N_HOH,north,664,European Atlantic mixed forests,37.56000137,11.41839008,53.07004693,dry,restored,mga,7,arable land,1.101
+N_HOH_A2,N_HOH,north,664,European Atlantic mixed forests,37.56000137,11.41839008,53.07004693,dry,restored,mga,7,arable land,1.101
+N_HOH_A3,N_HOH,north,664,European Atlantic mixed forests,37.56000137,11.41839008,53.07004693,dry,restored,mga,7,arable land,1.101
+N_HOH_A4,N_HOH,north,664,European Atlantic mixed forests,37.56000137,11.41839008,53.07004693,dry,restored,mga,7,arable land,1.101
+N_HOR_A1,N_HOR,north,664,European Atlantic mixed forests,60.97000122,10.18559932,53.09655483,dry,restored,cus,4,arable land,0.452
+N_HOR_A2,N_HOR,north,664,European Atlantic mixed forests,60.97000122,10.18559932,53.09655483,dry,restored,cus,4,arable land,0.452
+N_HOR_A3,N_HOR,north,664,European Atlantic mixed forests,60.97000122,10.18559932,53.09655483,dry,restored,cus,4,arable land,0.452
+N_HOR_A4,N_HOR,north,664,European Atlantic mixed forests,60.97000122,10.18559932,53.09655483,dry,restored,cus,4,arable land,0.452
+N_HOY_A1,N_HOY,north,664,European Atlantic mixed forests,17.11000061,11.16556556,52.8977337,moist,restored,mga,3,arable land,0.293
+N_HOY_A2,N_HOY,north,664,European Atlantic mixed forests,17.11000061,11.16556556,52.8977337,moist,restored,mga,3,arable land,0.293
+N_HOY_A3,N_HOY,north,664,European Atlantic mixed forests,17.11000061,11.16556556,52.8977337,moist,restored,mga,3,arable land,0.293
+N_HOY_A4,N_HOY,north,664,European Atlantic mixed forests,17.11000061,11.16556556,52.8977337,moist,restored,mga,3,arable land,0.293
+N_ISE_A1,N_ISE,north,664,European Atlantic mixed forests,55.18999863,10.61617118,52.58565925,dry,positive,NA,NA,NA,0.383
+N_ISE_A2,N_ISE,north,664,European Atlantic mixed forests,55.18999863,10.61617118,52.58565925,dry,positive,NA,NA,NA,0.383
+N_ISE_A3,N_ISE,north,664,European Atlantic mixed forests,55.18999863,10.61617118,52.58565925,dry,positive,NA,NA,NA,0.383
+N_ISE_A4,N_ISE,north,664,European Atlantic mixed forests,55.18999863,10.61617118,52.58565925,dry,positive,NA,NA,NA,0.383
+N_JAS_A1,N_JAS,north,664,European Atlantic mixed forests,7.260000229,10.76861238,53.31423676,fresh,restored,cus,10,arable land,0.604
+N_JAS_A2,N_JAS,north,664,European Atlantic mixed forests,7.260000229,10.76861238,53.31423676,fresh,restored,cus,10,arable land,0.604
+N_JAS_A3,N_JAS,north,664,European Atlantic mixed forests,7.260000229,10.76861238,53.31423676,fresh,restored,cus,10,arable land,0.604
+N_JAS_A4,N_JAS,north,664,European Atlantic mixed forests,7.260000229,10.76861238,53.31423676,fresh,restored,cus,10,arable land,0.604
+N_KAP_A1,N_KAP,north,664,European Atlantic mixed forests,17.52000046,11.50973785,53.02310201,fresh,restored,dih,7,arable land,0.870
+N_KAP_A2,N_KAP,north,664,European Atlantic mixed forests,17.52000046,11.50973785,53.02310201,fresh,restored,dih,7,arable land,0.870
+N_KAP_A3,N_KAP,north,664,European Atlantic mixed forests,17.52000046,11.50973785,53.02310201,fresh,restored,dih,7,arable land,0.870
+N_KAP_A4,N_KAP,north,664,European Atlantic mixed forests,17.52000046,11.50973785,53.02310201,fresh,restored,dih,7,arable land,0.870
+N_KIR_A1,N_KIR,north,664,European Atlantic mixed forests,1.429999948,10.16907367,53.42338413,moist,positive,NA,NA,NA,0.294
+N_KIR_A2,N_KIR,north,664,European Atlantic mixed forests,1.429999948,10.16907367,53.42338413,moist,positive,NA,NA,NA,0.294
+N_KIR_A3,N_KIR,north,664,European Atlantic mixed forests,1.429999948,10.16907367,53.42338413,moist,positive,NA,NA,NA,0.294
+N_KIR_A4,N_KIR,north,664,European Atlantic mixed forests,1.429999948,10.16907367,53.42338413,moist,positive,NA,NA,NA,0.294
+N_KRI_A1,N_KRI,north,664,European Atlantic mixed forests,18.56999969,11.28477841,52.8908079,fresh,restored,cus,12,arable land,0.223
+N_KRI_A2,N_KRI,north,664,European Atlantic mixed forests,18.56999969,11.28477841,52.8908079,fresh,restored,cus,12,arable land,0.223
+N_KRI_A3,N_KRI,north,664,European Atlantic mixed forests,18.56999969,11.28477841,52.8908079,fresh,restored,cus,12,arable land,0.223
+N_KRI_A4,N_KRI,north,664,European Atlantic mixed forests,18.56999969,11.28477841,52.8908079,fresh,restored,cus,12,arable land,0.223
+N_LUB_A1,N_LUB,north,664,European Atlantic mixed forests,17.37000084,11.1899045,52.90165593,fresh,restored,dih,27,arable land,0.932
+N_LUB_A2,N_LUB,north,664,European Atlantic mixed forests,17.37000084,11.1899045,52.90165593,fresh,restored,dih,27,arable land,0.932
+N_LUB_A3,N_LUB,north,664,European Atlantic mixed forests,17.37000084,11.1899045,52.90165593,fresh,restored,dih,27,arable land,0.932
+N_LUB_A4,N_LUB,north,664,European Atlantic mixed forests,17.37000084,11.1899045,52.90165593,fresh,restored,dih,27,arable land,0.932
+N_MAU_A1,N_MAU,north,664,European Atlantic mixed forests,41.31999969,11.04525958,53.09223625,dry,restored,cus,4,arable land,1.378
+N_MAU_A2,N_MAU,north,664,European Atlantic mixed forests,41.31999969,11.04525958,53.09223625,dry,restored,cus,4,arable land,1.378
+N_MAU_A3,N_MAU,north,664,European Atlantic mixed forests,41.31999969,11.04525958,53.09223625,dry,restored,cus,4,arable land,1.378
+N_MAU_A4,N_MAU,north,664,European Atlantic mixed forests,41.31999969,11.04525958,53.09223625,dry,restored,cus,4,arable land,1.378
+N_MEC_A1,N_MEC,north,664,European Atlantic mixed forests,10.5,10.31390512,53.29404852,fresh,negative,NA,NA,NA,0.005
+N_MEC_A2,N_MEC,north,664,European Atlantic mixed forests,10.5,10.31390512,53.29404852,fresh,negative,NA,NA,NA,0.005
+N_MEC_A3,N_MEC,north,664,European Atlantic mixed forests,10.5,10.31390512,53.29404852,fresh,negative,NA,NA,NA,0.005
+N_MEC_A4,N_MEC,north,664,European Atlantic mixed forests,10.5,10.31390512,53.29404852,fresh,negative,NA,NA,NA,0.005
+N_MOO_A1,N_MOO,north,664,European Atlantic mixed forests,44.20000076,10.65701565,53.58911462,fresh,restored,res,5,arable land,1.000
+N_MOO_A2,N_MOO,north,664,European Atlantic mixed forests,44.20000076,10.65701565,53.58911462,fresh,restored,res,5,arable land,1.000
+N_MOO_A3,N_MOO,north,664,European Atlantic mixed forests,44.20000076,10.65701565,53.58911462,fresh,restored,res,5,arable land,1.000
+N_MOO_A4,N_MOO,north,664,European Atlantic mixed forests,44.20000076,10.65701565,53.58911462,fresh,restored,res,5,arable land,1.000
+N_NLG_A1,N_NLG,north,664,European Atlantic mixed forests,12.98999977,11.09491762,53.07630186,moist,restored,res,9,arable land,0.109
+N_NLG_A2,N_NLG,north,664,European Atlantic mixed forests,12.98999977,11.09491762,53.07630186,moist,restored,res,9,arable land,0.109
+N_NLG_A3,N_NLG,north,664,European Atlantic mixed forests,12.98999977,11.09491762,53.07630186,moist,restored,res,9,arable land,0.109
+N_NLG_A4,N_NLG,north,664,European Atlantic mixed forests,12.98999977,11.09491762,53.07630186,moist,restored,res,9,arable land,0.109
+N_OCH_A1,N_OCH,north,664,European Atlantic mixed forests,29.65999985,10.37203967,53.27486287,dry,restored,dih,5,grassland,3.320
+N_OCH_A2,N_OCH,north,664,European Atlantic mixed forests,29.65999985,10.37203967,53.27486287,dry,restored,dih,5,grassland,3.320
+N_OCH_A3,N_OCH,north,664,European Atlantic mixed forests,29.65999985,10.37203967,53.27486287,dry,restored,dih,5,grassland,3.320
+N_OCH_A4,N_OCH,north,664,European Atlantic mixed forests,29.65999985,10.37203967,53.27486287,dry,restored,dih,5,grassland,3.320
+N_OLE_A1,N_OLE,north,664,European Atlantic mixed forests,13.63000011,10.25770936,53.29191269,fresh,negative,NA,NA,NA,0.239
+N_OLE_A2,N_OLE,north,664,European Atlantic mixed forests,13.63000011,10.25770936,53.29191269,fresh,negative,NA,NA,NA,0.239
+N_OLE_A3,N_OLE,north,664,European Atlantic mixed forests,13.63000011,10.25770936,53.29191269,fresh,negative,NA,NA,NA,0.239
+N_OLE_A4,N_OLE,north,664,European Atlantic mixed forests,13.63000011,10.25770936,53.29191269,fresh,negative,NA,NA,NA,0.239
+N_PAN_A1,N_PAN,north,647,Baltic mixed forests,16.34000015,10.63384914,53.6617434,fresh,restored,res,5,arable land,0.837
+N_PAN_A2,N_PAN,north,647,Baltic mixed forests,16.34000015,10.63384914,53.6617434,fresh,restored,res,5,arable land,0.837
+N_PAN_A3,N_PAN,north,647,Baltic mixed forests,16.34000015,10.63384914,53.6617434,fresh,restored,res,5,arable land,0.837
+N_PAN_A4,N_PAN,north,647,Baltic mixed forests,16.34000015,10.63384914,53.6617434,fresh,restored,res,5,arable land,0.837
+N_PEV_A1,N_PEV,north,664,European Atlantic mixed forests,16.52000046,11.46833565,53.06540809,dry,restored,dih,3,grassland,0.853
+N_PEV_A2,N_PEV,north,664,European Atlantic mixed forests,16.52000046,11.46833565,53.06540809,dry,restored,dih,3,grassland,0.853
+N_PEV_A3,N_PEV,north,664,European Atlantic mixed forests,16.52000046,11.46833565,53.06540809,dry,restored,dih,3,grassland,0.853
+N_PEV_A4,N_PEV,north,664,European Atlantic mixed forests,16.52000046,11.46833565,53.06540809,dry,restored,dih,3,grassland,0.853
+N_PFE_A1,N_PFE,north,664,European Atlantic mixed forests,11.53999996,10.24418938,53.30522848,moist,restored,mga,NA,grassland,0.101
+N_PFE_A2,N_PFE,north,664,European Atlantic mixed forests,11.53999996,10.24418938,53.30522848,moist,restored,mga,NA,grassland,0.101
+N_PFE_A3,N_PFE,north,664,European Atlantic mixed forests,11.53999996,10.24418938,53.30522848,moist,restored,mga,NA,grassland,0.101
+N_PFE_A4,N_PFE,north,664,European Atlantic mixed forests,11.53999996,10.24418938,53.30522848,moist,restored,mga,NA,grassland,0.101
+N_RAD_A1,N_RAD,north,664,European Atlantic mixed forests,5.960000038,10.26511988,53.32796833,moist,negative,NA,NA,NA,0.102
+N_RAD_A2,N_RAD,north,664,European Atlantic mixed forests,5.960000038,10.26511988,53.32796833,moist,negative,NA,NA,NA,0.102
+N_RAD_A3,N_RAD,north,664,European Atlantic mixed forests,5.960000038,10.26511988,53.32796833,moist,negative,NA,NA,NA,0.102
+N_RAD_A4,N_RAD,north,664,European Atlantic mixed forests,5.960000038,10.26511988,53.32796833,moist,negative,NA,NA,NA,0.102
+N_RET_A1,N_RET,north,664,European Atlantic mixed forests,6.5,10.26463881,53.32578714,moist,restored,mga,3,grassland,0.441
+N_RET_A2,N_RET,north,664,European Atlantic mixed forests,6.5,10.26463881,53.32578714,moist,restored,mga,3,grassland,0.441
+N_RET_A3,N_RET,north,664,European Atlantic mixed forests,6.5,10.26463881,53.32578714,moist,restored,mga,3,grassland,0.441
+N_RET_A4,N_RET,north,664,European Atlantic mixed forests,6.5,10.26463881,53.32578714,moist,restored,mga,3,grassland,0.441
+N_SCH_A1,N_SCH,north,664,European Atlantic mixed forests,16.27000046,11.42651666,53.03730674,moist,positive,NA,NA,NA,1.857
+N_SCH_A2,N_SCH,north,664,European Atlantic mixed forests,16.27000046,11.42651666,53.03730674,moist,positive,NA,NA,NA,1.857
+N_SCH_A3,N_SCH,north,664,European Atlantic mixed forests,16.27000046,11.42651666,53.03730674,moist,positive,NA,NA,NA,1.857
+N_SCH_A4,N_SCH,north,664,European Atlantic mixed forests,16.27000046,11.42651666,53.03730674,moist,positive,NA,NA,NA,1.857
+N_SMG_A1,N_SMG,north,664,European Atlantic mixed forests,53.02999878,10.55267673,52.53846878,fresh,negative,NA,NA,NA,0.002
+N_SMG_A2,N_SMG,north,664,European Atlantic mixed forests,53.02999878,10.55267673,52.53846878,fresh,negative,NA,NA,NA,0.002
+N_SMG_A3,N_SMG,north,664,European Atlantic mixed forests,53.02999878,10.55267673,52.53846878,fresh,negative,NA,NA,NA,0.002
+N_SMG_A4,N_SMG,north,664,European Atlantic mixed forests,53.02999878,10.55267673,52.53846878,fresh,negative,NA,NA,NA,0.002
+N_STA_A1,N_STA,north,664,European Atlantic mixed forests,9.430000305,10.95623026,53.23560299,fresh,restored,cus,17,arable land,0.135
+N_STA_A2,N_STA,north,664,European Atlantic mixed forests,9.430000305,10.95623026,53.23560299,fresh,restored,cus,17,arable land,0.135
+N_STA_A3,N_STA,north,664,European Atlantic mixed forests,9.430000305,10.95623026,53.23560299,fresh,restored,cus,17,arable land,0.135
+N_STA_A4,N_STA,north,664,European Atlantic mixed forests,9.430000305,10.95623026,53.23560299,fresh,restored,cus,17,arable land,0.135
+N_STE_A1,N_STE,north,664,European Atlantic mixed forests,4.570000172,9.644420627,54.37676893,moist,positive,NA,NA,NA,0.412
+N_STE_A2,N_STE,north,664,European Atlantic mixed forests,4.570000172,9.644420627,54.37676893,moist,positive,NA,NA,NA,0.412
+N_STE_A3,N_STE,north,664,European Atlantic mixed forests,4.570000172,9.644420627,54.37676893,moist,positive,NA,NA,NA,0.412
+N_STE_A4,N_STE,north,664,European Atlantic mixed forests,4.570000172,9.644420627,54.37676893,moist,positive,NA,NA,NA,0.412
+N_TAN_A1,N_TAN,north,664,European Atlantic mixed forests,33.97999954,10.88157921,53.18174904,fresh,restored,mga,3,grassland,0.471
+N_TAN_A2,N_TAN,north,664,European Atlantic mixed forests,33.97999954,10.88157921,53.18174904,fresh,restored,mga,3,grassland,0.471
+N_TAN_A3,N_TAN,north,664,European Atlantic mixed forests,33.97999954,10.88157921,53.18174904,fresh,restored,mga,3,grassland,0.471
+N_TAN_A4,N_TAN,north,664,European Atlantic mixed forests,33.97999954,10.88157921,53.18174904,fresh,restored,mga,3,grassland,0.471
+N_TAS_A1,N_TAS,north,664,European Atlantic mixed forests,55.84000015,10.8822017,53.14036873,fresh,restored,cus,6,arable land,0.051
+N_TAS_A2,N_TAS,north,664,European Atlantic mixed forests,55.84000015,10.8822017,53.14036873,fresh,restored,cus,6,arable land,0.051
+N_TAS_A3,N_TAS,north,664,European Atlantic mixed forests,55.84000015,10.8822017,53.14036873,fresh,restored,cus,6,arable land,0.051
+N_TAS_A4,N_TAS,north,664,European Atlantic mixed forests,55.84000015,10.8822017,53.14036873,fresh,restored,cus,6,arable land,0.051
+N_TRI_A1,N_TRI,north,664,European Atlantic mixed forests,11.5,11.0939351,53.15897651,fresh,negative,NA,NA,NA,0.079
+N_TRI_A2,N_TRI,north,664,European Atlantic mixed forests,11.5,11.0939351,53.15897651,fresh,negative,NA,NA,NA,0.079
+N_TRI_A3,N_TRI,north,664,European Atlantic mixed forests,11.5,11.0939351,53.15897651,fresh,negative,NA,NA,NA,0.079
+N_TRI_A4,N_TRI,north,664,European Atlantic mixed forests,11.5,11.0939351,53.15897651,fresh,negative,NA,NA,NA,0.079
+N_TUT_A1,N_TUT,north,664,European Atlantic mixed forests,78.54000092,9.934592759,53.11325527,dry,restored,mga,3,arable land,0.713
+N_TUT_A2,N_TUT,north,664,European Atlantic mixed forests,78.54000092,9.934592759,53.11325527,dry,restored,mga,3,arable land,0.713
+N_TUT_A3,N_TUT,north,664,European Atlantic mixed forests,78.54000092,9.934592759,53.11325527,dry,restored,mga,3,arable land,0.713
+N_TUT_A4,N_TUT,north,664,European Atlantic mixed forests,78.54000092,9.934592759,53.11325527,dry,restored,mga,3,arable land,0.713
+N_UET_A1,N_UET,north,664,European Atlantic mixed forests,17.61000061,9.718224004,53.62918256,fresh,negative,NA,NA,NA,0.369
+N_UET_A2,N_UET,north,664,European Atlantic mixed forests,17.61000061,9.718224004,53.62918256,fresh,negative,NA,NA,NA,0.369
+N_UET_A3,N_UET,north,664,European Atlantic mixed forests,17.61000061,9.718224004,53.62918256,fresh,negative,NA,NA,NA,0.369
+N_UET_A4,N_UET,north,664,European Atlantic mixed forests,17.61000061,9.718224004,53.62918256,fresh,negative,NA,NA,NA,0.369
+N_VIE_A1,N_VIE,north,664,European Atlantic mixed forests,8.069999695,10.66972437,53.36600443,dry,positive,NA,NA,NA,0.873
+N_VIE_A2,N_VIE,north,664,European Atlantic mixed forests,8.069999695,10.66972437,53.36600443,dry,positive,NA,NA,NA,0.873
+N_VIE_A3,N_VIE,north,664,European Atlantic mixed forests,8.069999695,10.66972437,53.36600443,dry,positive,NA,NA,NA,0.873
+N_VIE_A4,N_VIE,north,664,European Atlantic mixed forests,8.069999695,10.66972437,53.36600443,dry,positive,NA,NA,NA,0.873
+N_VOG_A1,N_VOG,north,664,European Atlantic mixed forests,13.77999973,10.33981105,53.28352764,moist,restored,dih,5,arable land,0.064
+N_VOG_A2,N_VOG,north,664,European Atlantic mixed forests,13.77999973,10.33981105,53.28352764,moist,restored,dih,5,arable land,0.064
+N_VOG_A3,N_VOG,north,664,European Atlantic mixed forests,13.77999973,10.33981105,53.28352764,moist,restored,dih,5,arable land,0.064
+N_VOG_A4,N_VOG,north,664,European Atlantic mixed forests,13.77999973,10.33981105,53.28352764,moist,restored,dih,5,arable land,0.064
+N_WAL_A1,N_WAL,north,664,European Atlantic mixed forests,7.599999905,10.32606436,53.30616173,moist,restored,dih,8,grassland,0.586
+N_WAL_A2,N_WAL,north,664,European Atlantic mixed forests,7.599999905,10.32606436,53.30616173,moist,restored,dih,8,grassland,0.586
+N_WAL_A3,N_WAL,north,664,European Atlantic mixed forests,7.599999905,10.32606436,53.30616173,moist,restored,dih,8,grassland,0.586
+N_WAL_A4,N_WAL,north,664,European Atlantic mixed forests,7.599999905,10.32606436,53.30616173,moist,restored,dih,8,grassland,0.586
+N_WEN_A1,N_WEN,north,664,European Atlantic mixed forests,41.61000061,10.2886445,53.50726174,dry,restored,dih,5,grassland,0.170
+N_WEN_A2,N_WEN,north,664,European Atlantic mixed forests,41.61000061,10.2886445,53.50726174,dry,restored,dih,5,grassland,0.170
+N_WEN_A3,N_WEN,north,664,European Atlantic mixed forests,41.61000061,10.2886445,53.50726174,dry,restored,dih,5,grassland,0.170
+N_WEN_A4,N_WEN,north,664,European Atlantic mixed forests,41.61000061,10.2886445,53.50726174,dry,restored,dih,5,grassland,0.170
+N_WER_A1,N_WER,north,664,European Atlantic mixed forests,15.68999958,11.44244748,53.03215809,moist,positive,NA,NA,NA,0.611
+N_WER_A2,N_WER,north,664,European Atlantic mixed forests,15.68999958,11.44244748,53.03215809,moist,positive,NA,NA,NA,0.611
+N_WER_A3,N_WER,north,664,European Atlantic mixed forests,15.68999958,11.44244748,53.03215809,moist,positive,NA,NA,NA,0.611
+N_WER_A4,N_WER,north,664,European Atlantic mixed forests,15.68999958,11.44244748,53.03215809,moist,positive,NA,NA,NA,0.611
+N_WIZ_A1,N_WIZ,north,664,European Atlantic mixed forests,12.97999954,10.62512681,53.45419964,dry,positive,NA,NA,NA,1.496
+N_WIZ_A2,N_WIZ,north,664,European Atlantic mixed forests,12.97999954,10.62512681,53.45419964,dry,positive,NA,NA,NA,1.496
+N_WIZ_A3,N_WIZ,north,664,European Atlantic mixed forests,12.97999954,10.62512681,53.45419964,dry,positive,NA,NA,NA,1.496
+N_WIZ_A4,N_WIZ,north,664,European Atlantic mixed forests,12.97999954,10.62512681,53.45419964,dry,positive,NA,NA,NA,1.496
+N_ZDF_A1,N_ZDF,north,664,European Atlantic mixed forests,5.039999962,10.03877469,53.46811983,fresh,restored,res,5,arable land,0.285
+N_ZDF_A2,N_ZDF,north,664,European Atlantic mixed forests,5.039999962,10.03877469,53.46811983,fresh,restored,res,5,arable land,0.285
+N_ZDF_A3,N_ZDF,north,664,European Atlantic mixed forests,5.039999962,10.03877469,53.46811983,fresh,restored,res,5,arable land,0.285
+N_ZDF_A4,N_ZDF,north,664,European Atlantic mixed forests,5.039999962,10.03877469,53.46811983,fresh,restored,res,5,arable land,0.285
+S_ACR_A1,S_ACR,south,686,Western European broadleaf forests,313.8500061,12.94115244,48.76934451,dry,restored,dih,24,grassland,1.046
+S_ACR_A2,S_ACR,south,686,Western European broadleaf forests,313.8500061,12.94115244,48.76934451,dry,restored,dih,24,grassland,1.046
+S_ACR_A3,S_ACR,south,686,Western European broadleaf forests,313.8500061,12.94115244,48.76934451,dry,restored,dih,24,grassland,1.046
+S_ACR_A4,S_ACR,south,686,Western European broadleaf forests,313.8500061,12.94115244,48.76934451,dry,restored,dih,24,grassland,1.046
+S_AFR_A1,S_AFR,south,686,Western European broadleaf forests,474.019989,12.19621171,48.43163073,fresh,restored,res,7,grassland,0.646
+S_AFR_A2,S_AFR,south,686,Western European broadleaf forests,474.019989,12.19621171,48.43163073,fresh,restored,res,7,grassland,0.646
+S_AFR_A3,S_AFR,south,686,Western European broadleaf forests,474.019989,12.19621171,48.43163073,fresh,restored,res,7,grassland,0.646
+S_AFR_A4,S_AFR,south,686,Western European broadleaf forests,474.019989,12.19621171,48.43163073,fresh,restored,res,7,grassland,0.646
+S_AMP_A1,S_AMP,south,686,Western European broadleaf forests,429.7399902,11.728948,48.45557417,moist,positive,NA,NA,NA,0.903
+S_AMP_A2,S_AMP,south,686,Western European broadleaf forests,429.7399902,11.728948,48.45557417,moist,positive,NA,NA,NA,0.903
+S_AMP_A3,S_AMP,south,686,Western European broadleaf forests,429.7399902,11.728948,48.45557417,moist,positive,NA,NA,NA,0.903
+S_AMP_A4,S_AMP,south,686,Western European broadleaf forests,429.7399902,11.728948,48.45557417,moist,positive,NA,NA,NA,0.903
+S_AUH_A1,S_AUH,south,686,Western European broadleaf forests,406.0299988,12.7596479,48.60586598,dry,restored,dih,26,arable land,2.793
+S_AUH_A2,S_AUH,south,686,Western European broadleaf forests,406.0299988,12.7596479,48.60586598,dry,restored,dih,26,arable land,2.793
+S_AUH_A3,S_AUH,south,686,Western European broadleaf forests,406.0299988,12.7596479,48.60586598,dry,restored,dih,26,arable land,2.793
+S_AUH_A4,S_AUH,south,686,Western European broadleaf forests,406.0299988,12.7596479,48.60586598,dry,restored,dih,26,arable land,2.793
+S_AUL_A1,S_AUL,south,686,Western European broadleaf forests,381.8800049,12.21921022,48.57198665,fresh,restored,res,NA,arable land,0.463
+S_AUL_A2,S_AUL,south,686,Western European broadleaf forests,381.8800049,12.21921022,48.57198665,fresh,restored,res,NA,arable land,0.463
+S_AUL_A3,S_AUL,south,686,Western European broadleaf forests,381.8800049,12.21921022,48.57198665,fresh,restored,res,NA,arable land,0.463
+S_AUL_A4,S_AUL,south,686,Western European broadleaf forests,381.8800049,12.21921022,48.57198665,fresh,restored,res,NA,arable land,0.463
+S_BUC_A1,S_BUC,south,686,Western European broadleaf forests,384.2099915,12.91594009,48.25495346,dry,restored,dih,8,arable land,0.714
+S_BUC_A2,S_BUC,south,686,Western European broadleaf forests,384.2099915,12.91594009,48.25495346,dry,restored,dih,8,arable land,0.714
+S_BUC_A3,S_BUC,south,686,Western European broadleaf forests,384.2099915,12.91594009,48.25495346,dry,restored,dih,8,arable land,0.714
+S_BUC_A4,S_BUC,south,686,Western European broadleaf forests,384.2099915,12.91594009,48.25495346,dry,restored,dih,8,arable land,0.714
+S_DIE_A1,S_DIE,south,686,Western European broadleaf forests,471.5100098,11.68287532,48.27532086,dry,negative,NA,NA,NA,0.135
+S_DIE_A2,S_DIE,south,686,Western European broadleaf forests,471.5100098,11.68287532,48.27532086,dry,negative,NA,NA,NA,0.135
+S_DIE_A3,S_DIE,south,686,Western European broadleaf forests,471.5100098,11.68287532,48.27532086,dry,negative,NA,NA,NA,0.135
+S_DIE_A4,S_DIE,south,686,Western European broadleaf forests,471.5100098,11.68287532,48.27532086,dry,negative,NA,NA,NA,0.135
+S_ECH_A1,S_ECH,south,686,Western European broadleaf forests,472.7999878,11.64420748,48.27851352,dry,restored,res,10,arable land,2.461
+S_ECH_A2,S_ECH,south,686,Western European broadleaf forests,472.7999878,11.64420748,48.27851352,dry,restored,res,10,arable land,2.461
+S_ECH_A3,S_ECH,south,686,Western European broadleaf forests,472.7999878,11.64420748,48.27851352,dry,restored,res,10,arable land,2.461
+S_ECH_A4,S_ECH,south,686,Western European broadleaf forests,472.7999878,11.64420748,48.27851352,dry,restored,res,10,arable land,2.461
+S_EIT_A1,S_EIT,south,686,Western European broadleaf forests,358.1000061,12.33237085,48.8117411,fresh,positive,NA,NA,NA,0.679
+S_EIT_A2,S_EIT,south,686,Western European broadleaf forests,358.1000061,12.33237085,48.8117411,fresh,positive,NA,NA,NA,0.679
+S_EIT_A3,S_EIT,south,686,Western European broadleaf forests,358.1000061,12.33237085,48.8117411,fresh,positive,NA,NA,NA,0.679
+S_EIT_A4,S_EIT,south,686,Western European broadleaf forests,358.1000061,12.33237085,48.8117411,fresh,positive,NA,NA,NA,0.679
+S_FCH_A1,S_FCH,south,686,Western European broadleaf forests,310.3900146,12.99798414,48.7778517,fresh,restored,dih,23,grassland,1.325
+S_FCH_A2,S_FCH,south,686,Western European broadleaf forests,310.3900146,12.99798414,48.7778517,fresh,restored,dih,23,grassland,1.325
+S_FCH_A3,S_FCH,south,686,Western European broadleaf forests,310.3900146,12.99798414,48.7778517,fresh,restored,dih,23,grassland,1.325
+S_FCH_A4,S_FCH,south,686,Western European broadleaf forests,310.3900146,12.99798414,48.7778517,fresh,restored,dih,23,grassland,1.325
+S_FHZ_A1,S_FHZ,south,686,Western European broadleaf forests,458.3099976,11.62566181,48.33018411,moist,restored,dih,17,arable land,0.040
+S_FHZ_A2,S_FHZ,south,686,Western European broadleaf forests,458.3099976,11.62566181,48.33018411,moist,restored,dih,17,arable land,0.040
+S_FHZ_A3,S_FHZ,south,686,Western European broadleaf forests,458.3099976,11.62566181,48.33018411,moist,restored,dih,17,arable land,0.040
+S_FHZ_A4,S_FHZ,south,686,Western European broadleaf forests,458.3099976,11.62566181,48.33018411,moist,restored,dih,17,arable land,0.040
+S_GIG_A1,S_GIG,south,686,Western European broadleaf forests,450.6499939,11.67758768,48.36299592,fresh,restored,dih,16,grassland,0.322
+S_GIG_A2,S_GIG,south,686,Western European broadleaf forests,450.6499939,11.67758768,48.36299592,fresh,restored,dih,16,grassland,0.322
+S_GIG_A3,S_GIG,south,686,Western European broadleaf forests,450.6499939,11.67758768,48.36299592,fresh,restored,dih,16,grassland,0.322
+S_GIG_A4,S_GIG,south,686,Western European broadleaf forests,450.6499939,11.67758768,48.36299592,fresh,restored,dih,16,grassland,0.322
+S_GSH_A1,S_GSH,south,686,Western European broadleaf forests,486.1799927,12.23745702,48.48982286,fresh,restored,res,2,arable land,1.222
+S_GSH_A2,S_GSH,south,686,Western European broadleaf forests,486.1799927,12.23745702,48.48982286,fresh,restored,res,2,arable land,1.222
+S_GSH_A3,S_GSH,south,686,Western European broadleaf forests,486.1799927,12.23745702,48.48982286,fresh,restored,res,2,arable land,1.222
+S_GSH_A4,S_GSH,south,686,Western European broadleaf forests,486.1799927,12.23745702,48.48982286,fresh,restored,res,2,arable land,1.222
+S_GSR_A1,S_GSR,south,686,Western European broadleaf forests,358.8200073,12.33541826,48.80917261,fresh,restored,dih,15,arable land,0.454
+S_GSR_A2,S_GSR,south,686,Western European broadleaf forests,358.8200073,12.33541826,48.80917261,fresh,restored,dih,15,arable land,0.454
+S_GSR_A3,S_GSR,south,686,Western European broadleaf forests,358.8200073,12.33541826,48.80917261,fresh,restored,dih,15,arable land,0.454
+S_GSR_A4,S_GSR,south,686,Western European broadleaf forests,358.8200073,12.33541826,48.80917261,fresh,restored,dih,15,arable land,0.454
+S_GTZ_A1,S_GTZ,south,686,Western European broadleaf forests,408.7399902,12.91075347,48.28923404,moist,restored,dih,5,grassland,0.309
+S_GTZ_A2,S_GTZ,south,686,Western European broadleaf forests,408.7399902,12.91075347,48.28923404,moist,restored,dih,5,grassland,0.309
+S_GTZ_A3,S_GTZ,south,686,Western European broadleaf forests,408.7399902,12.91075347,48.28923404,moist,restored,dih,5,grassland,0.309
+S_GTZ_A4,S_GTZ,south,686,Western European broadleaf forests,408.7399902,12.91075347,48.28923404,moist,restored,dih,5,grassland,0.309
+S_HBF_A1,S_HBF,south,686,Western European broadleaf forests,449.7900085,12.84243042,48.39936525,fresh,negative,NA,NA,NA,0.140
+S_HBF_A2,S_HBF,south,686,Western European broadleaf forests,449.7900085,12.84243042,48.39936525,fresh,negative,NA,NA,NA,0.140
+S_HBF_A3,S_HBF,south,686,Western European broadleaf forests,449.7900085,12.84243042,48.39936525,fresh,negative,NA,NA,NA,0.140
+S_HBF_A4,S_HBF,south,686,Western European broadleaf forests,449.7900085,12.84243042,48.39936525,fresh,negative,NA,NA,NA,0.140
+S_HGR_A1,S_HGR,south,686,Western European broadleaf forests,429.0599976,12.17203485,48.53001885,fresh,negative,NA,NA,NA,0.153
+S_HGR_A2,S_HGR,south,686,Western European broadleaf forests,429.0599976,12.17203485,48.53001885,fresh,negative,NA,NA,NA,0.153
+S_HGR_A3,S_HGR,south,686,Western European broadleaf forests,429.0599976,12.17203485,48.53001885,fresh,negative,NA,NA,NA,0.153
+S_HGR_A4,S_HGR,south,686,Western European broadleaf forests,429.0599976,12.17203485,48.53001885,fresh,negative,NA,NA,NA,0.153
+S_HLZ_A1,S_HLZ,south,686,Western European broadleaf forests,417.230011,12.79959234,48.51803671,moist,restored,dih,6,arable land,0.220
+S_HLZ_A2,S_HLZ,south,686,Western European broadleaf forests,417.230011,12.79959234,48.51803671,moist,restored,dih,6,arable land,0.220
+S_HLZ_A3,S_HLZ,south,686,Western European broadleaf forests,417.230011,12.79959234,48.51803671,moist,restored,dih,6,arable land,0.220
+S_HLZ_A4,S_HLZ,south,686,Western European broadleaf forests,417.230011,12.79959234,48.51803671,moist,restored,dih,6,arable land,0.220
+S_HTH_A1,S_HTH,south,686,Western European broadleaf forests,366.9500122,12.35473657,48.61669657,dry,restored,dih,3,arable land,1.185
+S_HTH_A2,S_HTH,south,686,Western European broadleaf forests,366.9500122,12.35473657,48.61669657,dry,restored,dih,3,arable land,1.185
+S_HTH_A3,S_HTH,south,686,Western European broadleaf forests,366.9500122,12.35473657,48.61669657,dry,restored,dih,3,arable land,1.185
+S_HTH_A4,S_HTH,south,686,Western European broadleaf forests,366.9500122,12.35473657,48.61669657,dry,restored,dih,3,arable land,1.185
+S_HUB_A1,S_HUB,south,686,Western European broadleaf forests,445.5299988,12.72431246,48.40861092,dry,restored,dih,13,arable land,2.178
+S_HUB_A2,S_HUB,south,686,Western European broadleaf forests,445.5299988,12.72431246,48.40861092,dry,restored,dih,13,arable land,2.178
+S_HUB_A3,S_HUB,south,686,Western European broadleaf forests,445.5299988,12.72431246,48.40861092,dry,restored,dih,13,arable land,2.178
+S_HUB_A4,S_HUB,south,686,Western European broadleaf forests,445.5299988,12.72431246,48.40861092,dry,restored,dih,13,arable land,2.178
+S_JAN_A1,S_JAN,south,686,Western European broadleaf forests,470.3299866,12.69901395,48.53915881,fresh,negative,NA,NA,NA,0.048
+S_JAN_A2,S_JAN,south,686,Western European broadleaf forests,470.3299866,12.69901395,48.53915881,fresh,negative,NA,NA,NA,0.048
+S_JAN_A3,S_JAN,south,686,Western European broadleaf forests,470.3299866,12.69901395,48.53915881,fresh,negative,NA,NA,NA,0.048
+S_JAN_A4,S_JAN,south,686,Western European broadleaf forests,470.3299866,12.69901395,48.53915881,fresh,negative,NA,NA,NA,0.048
+S_JAU_A1,S_JAU,south,686,Western European broadleaf forests,459.8200073,12.71231385,48.50161319,fresh,restored,res,3,arable land,4.513
+S_JAU_A2,S_JAU,south,686,Western European broadleaf forests,459.8200073,12.71231385,48.50161319,fresh,restored,res,3,arable land,4.513
+S_JAU_A3,S_JAU,south,686,Western European broadleaf forests,459.8200073,12.71231385,48.50161319,fresh,restored,res,3,arable land,4.513
+S_JAU_A4,S_JAU,south,686,Western European broadleaf forests,459.8200073,12.71231385,48.50161319,fresh,restored,res,3,arable land,4.513
+S_JHB_A1,S_JHB,south,686,Western European broadleaf forests,481.1700134,12.47326098,48.47581201,moist,restored,cus,36,arable land,0.380
+S_JHB_A2,S_JHB,south,686,Western European broadleaf forests,481.1700134,12.47326098,48.47581201,moist,restored,cus,36,arable land,0.380
+S_JHB_A3,S_JHB,south,686,Western European broadleaf forests,481.1700134,12.47326098,48.47581201,moist,restored,cus,36,arable land,0.380
+S_JHB_A4,S_JHB,south,686,Western European broadleaf forests,481.1700134,12.47326098,48.47581201,moist,restored,cus,36,arable land,0.380
+S_JOS_A1,S_JOS,south,686,Western European broadleaf forests,446.7600098,12.1719055,48.52702364,fresh,restored,res,NA,grassland,1.490
+S_JOS_A2,S_JOS,south,686,Western European broadleaf forests,446.7600098,12.1719055,48.52702364,fresh,restored,res,NA,grassland,1.490
+S_JOS_A3,S_JOS,south,686,Western European broadleaf forests,446.7600098,12.1719055,48.52702364,fresh,restored,res,NA,grassland,1.490
+S_JOS_A4,S_JOS,south,686,Western European broadleaf forests,446.7600098,12.1719055,48.52702364,fresh,restored,res,NA,grassland,1.490
+S_KDT_A1,S_KDT,south,686,Western European broadleaf forests,408.4100037,11.88897373,48.77168548,fresh,positive,NA,NA,NA,1.333
+S_KDT_A2,S_KDT,south,686,Western European broadleaf forests,408.4100037,11.88897373,48.77168548,fresh,positive,NA,NA,NA,1.333
+S_KDT_A3,S_KDT,south,686,Western European broadleaf forests,408.4100037,11.88897373,48.77168548,fresh,positive,NA,NA,NA,1.333
+S_KDT_A4,S_KDT,south,686,Western European broadleaf forests,408.4100037,11.88897373,48.77168548,fresh,positive,NA,NA,NA,1.333
+S_KRT_A1,S_KRT,south,686,Western European broadleaf forests,437.6799927,11.61319851,48.43912991,dry,restored,dih,13,grassland,0.856
+S_KRT_A2,S_KRT,south,686,Western European broadleaf forests,437.6799927,11.61319851,48.43912991,dry,restored,dih,13,grassland,0.856
+S_KRT_A3,S_KRT,south,686,Western European broadleaf forests,437.6799927,11.61319851,48.43912991,dry,restored,dih,13,grassland,0.856
+S_KRT_A4,S_KRT,south,686,Western European broadleaf forests,437.6799927,11.61319851,48.43912991,dry,restored,dih,13,grassland,0.856
+S_LAP_A1,S_LAP,south,686,Western European broadleaf forests,393.269989,12.09402349,48.54027517,fresh,restored,res,NA,grassland,1.452
+S_LAP_A2,S_LAP,south,686,Western European broadleaf forests,393.269989,12.09402349,48.54027517,fresh,restored,res,NA,grassland,1.452
+S_LAP_A3,S_LAP,south,686,Western European broadleaf forests,393.269989,12.09402349,48.54027517,fresh,restored,res,NA,grassland,1.452
+S_LAP_A4,S_LAP,south,686,Western European broadleaf forests,393.269989,12.09402349,48.54027517,fresh,restored,res,NA,grassland,1.452
+S_LPI_A1,S_LPI,south,686,Western European broadleaf forests,329.0100098,12.7908912,48.69968268,dry,restored,dih,NA,arable land,1.693
+S_LPI_A2,S_LPI,south,686,Western European broadleaf forests,329.0100098,12.7908912,48.69968268,dry,restored,dih,NA,arable land,1.693
+S_LPI_A3,S_LPI,south,686,Western European broadleaf forests,329.0100098,12.7908912,48.69968268,dry,restored,dih,NA,arable land,1.693
+S_LPI_A4,S_LPI,south,686,Western European broadleaf forests,329.0100098,12.7908912,48.69968268,dry,restored,dih,NA,arable land,1.693
+S_MAS_A1,S_MAS,south,686,Western European broadleaf forests,456.269989,11.6437404,48.33687532,moist,restored,cus,NA,grassland,0.306
+S_MAS_A2,S_MAS,south,686,Western European broadleaf forests,456.269989,11.6437404,48.33687532,moist,restored,cus,NA,grassland,0.306
+S_MAS_A3,S_MAS,south,686,Western European broadleaf forests,456.269989,11.6437404,48.33687532,moist,restored,cus,NA,grassland,0.306
+S_MAS_A4,S_MAS,south,686,Western European broadleaf forests,456.269989,11.6437404,48.33687532,moist,restored,cus,NA,grassland,0.306
+S_MBM_A1,S_MBM,south,686,Western European broadleaf forests,372.0899963,12.30389712,48.62358624,moist,restored,dih,15,arable land,0.434
+S_MBM_A2,S_MBM,south,686,Western European broadleaf forests,372.0899963,12.30389712,48.62358624,moist,restored,dih,15,arable land,0.434
+S_MBM_A3,S_MBM,south,686,Western European broadleaf forests,372.0899963,12.30389712,48.62358624,moist,restored,dih,15,arable land,0.434
+S_MBM_A4,S_MBM,south,686,Western European broadleaf forests,372.0899963,12.30389712,48.62358624,moist,restored,dih,15,arable land,0.434
+S_MCH_A1,S_MCH,south,686,Western European broadleaf forests,395.6600037,12.07870896,48.53248617,fresh,restored,res,NA,grassland,5.000
+S_MCH_A2,S_MCH,south,686,Western European broadleaf forests,395.6600037,12.07870896,48.53248617,fresh,restored,res,NA,grassland,5.000
+S_MCH_A3,S_MCH,south,686,Western European broadleaf forests,395.6600037,12.07870896,48.53248617,fresh,restored,res,NA,grassland,5.000
+S_MCH_A4,S_MCH,south,686,Western European broadleaf forests,395.6600037,12.07870896,48.53248617,fresh,restored,res,NA,grassland,5.000
+S_MHH_A1,S_MHH,south,686,Western European broadleaf forests,476.8200073,11.60328534,48.26931298,dry,positive,NA,NA,NA,0.588
+S_MHH_A2,S_MHH,south,686,Western European broadleaf forests,476.8200073,11.60328534,48.26931298,dry,positive,NA,NA,NA,0.588
+S_MHH_A3,S_MHH,south,686,Western European broadleaf forests,476.8200073,11.60328534,48.26931298,dry,positive,NA,NA,NA,0.588
+S_MHH_A4,S_MHH,south,686,Western European broadleaf forests,476.8200073,11.60328534,48.26931298,dry,positive,NA,NA,NA,0.588
+S_MTK_A1,S_MTK,south,686,Western European broadleaf forests,450.3099976,12.71665297,48.35337998,fresh,positive,NA,NA,NA,1.304
+S_MTK_A2,S_MTK,south,686,Western European broadleaf forests,450.3099976,12.71665297,48.35337998,fresh,positive,NA,NA,NA,1.304
+S_MTK_A3,S_MTK,south,686,Western European broadleaf forests,450.3099976,12.71665297,48.35337998,fresh,positive,NA,NA,NA,1.304
+S_MTK_A4,S_MTK,south,686,Western European broadleaf forests,450.3099976,12.71665297,48.35337998,fresh,positive,NA,NA,NA,1.304
+S_NOZ_A1,S_NOZ,south,686,Western European broadleaf forests,467.4899902,11.85303491,48.30648641,fresh,restored,res,2,arable land,3.960
+S_NOZ_A2,S_NOZ,south,686,Western European broadleaf forests,467.4899902,11.85303491,48.30648641,fresh,restored,res,2,arable land,3.960
+S_NOZ_A3,S_NOZ,south,686,Western European broadleaf forests,467.4899902,11.85303491,48.30648641,fresh,restored,res,2,arable land,3.960
+S_NOZ_A4,S_NOZ,south,686,Western European broadleaf forests,467.4899902,11.85303491,48.30648641,fresh,restored,res,2,arable land,3.960
+S_OST_A1,S_OST,south,686,Western European broadleaf forests,312.3200073,13.0299326,48.69049221,moist,restored,dih,13,arable land,1.147
+S_OST_A2,S_OST,south,686,Western European broadleaf forests,312.3200073,13.0299326,48.69049221,moist,restored,dih,13,arable land,1.147
+S_OST_A3,S_OST,south,686,Western European broadleaf forests,312.3200073,13.0299326,48.69049221,moist,restored,dih,13,arable land,1.147
+S_OST_A4,S_OST,south,686,Western European broadleaf forests,312.3200073,13.0299326,48.69049221,moist,restored,dih,13,arable land,1.147
+S_OSW_A1,S_OSW,south,686,Western European broadleaf forests,447.0899963,12.77263565,48.34503539,fresh,restored,dih,11,arable land,0.733
+S_OSW_A2,S_OSW,south,686,Western European broadleaf forests,447.0899963,12.77263565,48.34503539,fresh,restored,dih,11,arable land,0.733
+S_OSW_A3,S_OSW,south,686,Western European broadleaf forests,447.0899963,12.77263565,48.34503539,fresh,restored,dih,11,arable land,0.733
+S_OSW_A4,S_OSW,south,686,Western European broadleaf forests,447.0899963,12.77263565,48.34503539,fresh,restored,dih,11,arable land,0.733
+S_PEI_A1,S_PEI,south,686,Western European broadleaf forests,374.6700134,12.04598848,48.91343401,fresh,restored,dih,2,grassland,0.637
+S_PEI_A2,S_PEI,south,686,Western European broadleaf forests,374.6700134,12.04598848,48.91343401,fresh,restored,dih,2,grassland,0.637
+S_PEI_A3,S_PEI,south,686,Western European broadleaf forests,374.6700134,12.04598848,48.91343401,fresh,restored,dih,2,grassland,0.637
+S_PEI_A4,S_PEI,south,686,Western European broadleaf forests,374.6700134,12.04598848,48.91343401,fresh,restored,dih,2,grassland,0.637
+S_PEN_A1,S_PEN,south,686,Western European broadleaf forests,365.8800049,12.08385737,48.91885874,moist,negative,NA,NA,NA,0.336
+S_PEN_A2,S_PEN,south,686,Western European broadleaf forests,365.8800049,12.08385737,48.91885874,moist,negative,NA,NA,NA,0.336
+S_PEN_A3,S_PEN,south,686,Western European broadleaf forests,365.8800049,12.08385737,48.91885874,moist,negative,NA,NA,NA,0.336
+S_PEN_A4,S_PEN,south,686,Western European broadleaf forests,365.8800049,12.08385737,48.91885874,moist,negative,NA,NA,NA,0.336
+S_POP_A1,S_POP,south,686,Western European broadleaf forests,454.3699951,12.752462,48.34326695,fresh,restored,res,6,arable land,0.393
+S_POP_A2,S_POP,south,686,Western European broadleaf forests,454.3699951,12.752462,48.34326695,fresh,restored,res,6,arable land,0.393
+S_POP_A3,S_POP,south,686,Western European broadleaf forests,454.3699951,12.752462,48.34326695,fresh,restored,res,6,arable land,0.393
+S_POP_A4,S_POP,south,686,Western European broadleaf forests,454.3699951,12.752462,48.34326695,fresh,restored,res,6,arable land,0.393
+S_RUP_A1,S_RUP,south,686,Western European broadleaf forests,392.6499939,12.76338506,48.57072509,fresh,negative,NA,NA,NA,0.008
+S_RUP_A2,S_RUP,south,686,Western European broadleaf forests,392.6499939,12.76338506,48.57072509,fresh,negative,NA,NA,NA,0.008
+S_RUP_A3,S_RUP,south,686,Western European broadleaf forests,392.6499939,12.76338506,48.57072509,fresh,negative,NA,NA,NA,0.008
+S_RUP_A4,S_RUP,south,686,Western European broadleaf forests,392.6499939,12.76338506,48.57072509,fresh,negative,NA,NA,NA,0.008
+S_SBA_A1,S_SBA,south,686,Western European broadleaf forests,347.6199951,12.91630909,48.22090622,dry,positive,NA,NA,NA,1.206
+S_SBA_A2,S_SBA,south,686,Western European broadleaf forests,347.6199951,12.91630909,48.22090622,dry,positive,NA,NA,NA,1.206
+S_SBA_A3,S_SBA,south,686,Western European broadleaf forests,347.6199951,12.91630909,48.22090622,dry,positive,NA,NA,NA,1.206
+S_SBA_A4,S_SBA,south,686,Western European broadleaf forests,347.6199951,12.91630909,48.22090622,dry,positive,NA,NA,NA,1.206
+S_SBN_A1,S_SBN,south,686,Western European broadleaf forests,347.3800049,12.91495514,48.2218162,dry,restored,dih,15,arable land,1.000
+S_SBN_A2,S_SBN,south,686,Western European broadleaf forests,347.3800049,12.91495514,48.2218162,dry,restored,dih,15,arable land,1.000
+S_SBN_A3,S_SBN,south,686,Western European broadleaf forests,347.3800049,12.91495514,48.2218162,dry,restored,dih,15,arable land,1.000
+S_SBN_A4,S_SBN,south,686,Western European broadleaf forests,347.3800049,12.91495514,48.2218162,dry,restored,dih,15,arable land,1.000
+S_SHH_A1,S_SHH,south,686,Western European broadleaf forests,377.3399963,11.80223937,48.84317953,dry,restored,dih,22,arable land,1.441
+S_SHH_A2,S_SHH,south,686,Western European broadleaf forests,377.3399963,11.80223937,48.84317953,dry,restored,dih,22,arable land,1.441
+S_SHH_A3,S_SHH,south,686,Western European broadleaf forests,377.3399963,11.80223937,48.84317953,dry,restored,dih,22,arable land,1.441
+S_SHH_A4,S_SHH,south,686,Western European broadleaf forests,377.3399963,11.80223937,48.84317953,dry,restored,dih,22,arable land,1.441
+S_SIM_A1,S_SIM,south,686,Western European broadleaf forests,413.9100037,13.00670297,48.27852534,fresh,positive,NA,NA,NA,1.108
+S_SIM_A2,S_SIM,south,686,Western European broadleaf forests,413.9100037,13.00670297,48.27852534,fresh,positive,NA,NA,NA,1.108
+S_SIM_A3,S_SIM,south,686,Western European broadleaf forests,413.9100037,13.00670297,48.27852534,fresh,positive,NA,NA,NA,1.108
+S_SIM_A4,S_SIM,south,686,Western European broadleaf forests,413.9100037,13.00670297,48.27852534,fresh,positive,NA,NA,NA,1.108
+S_SNF_A1,S_SNF,south,686,Western European broadleaf forests,423.6199951,12.82663992,48.49460355,moist,restored,dih,4,arable land,0.343
+S_SNF_A2,S_SNF,south,686,Western European broadleaf forests,423.6199951,12.82663992,48.49460355,moist,restored,dih,4,arable land,0.343
+S_SNF_A3,S_SNF,south,686,Western European broadleaf forests,423.6199951,12.82663992,48.49460355,moist,restored,dih,4,arable land,0.343
+S_SNF_A4,S_SNF,south,686,Western European broadleaf forests,423.6199951,12.82663992,48.49460355,moist,restored,dih,4,arable land,0.343
+S_STB_A1,S_STB,south,686,Western European broadleaf forests,461.6099854,12.90330298,48.34946692,moist,restored,dih,17,arable land,1.131
+S_STB_A2,S_STB,south,686,Western European broadleaf forests,461.6099854,12.90330298,48.34946692,moist,restored,dih,17,arable land,1.131
+S_STB_A3,S_STB,south,686,Western European broadleaf forests,461.6099854,12.90330298,48.34946692,moist,restored,dih,17,arable land,1.131
+S_STB_A4,S_STB,south,686,Western European broadleaf forests,461.6099854,12.90330298,48.34946692,moist,restored,dih,17,arable land,1.131
+S_STW_A1,S_STW,south,686,Western European broadleaf forests,310.8900146,12.95283715,48.80354079,moist,positive,NA,NA,NA,0.600
+S_STW_A2,S_STW,south,686,Western European broadleaf forests,310.8900146,12.95283715,48.80354079,moist,positive,NA,NA,NA,0.600
+S_STW_A3,S_STW,south,686,Western European broadleaf forests,310.8900146,12.95283715,48.80354079,moist,positive,NA,NA,NA,0.600
+S_STW_A4,S_STW,south,686,Western European broadleaf forests,310.8900146,12.95283715,48.80354079,moist,positive,NA,NA,NA,0.600
+S_TIE_A1,S_TIE,south,686,Western European broadleaf forests,395.0599976,12.09043374,48.51097382,fresh,restored,res,6,arable land,1.053
+S_TIE_A2,S_TIE,south,686,Western European broadleaf forests,395.0599976,12.09043374,48.51097382,fresh,restored,res,6,arable land,1.053
+S_TIE_A3,S_TIE,south,686,Western European broadleaf forests,395.0599976,12.09043374,48.51097382,fresh,restored,res,6,arable land,1.053
+S_TIE_A4,S_TIE,south,686,Western European broadleaf forests,395.0599976,12.09043374,48.51097382,fresh,restored,res,6,arable land,1.053
+S_TRN_A1,S_TRN,south,686,Western European broadleaf forests,396.25,11.82695299,48.73620979,fresh,restored,dih,NA,arable land,1.355
+S_TRN_A2,S_TRN,south,686,Western European broadleaf forests,396.25,11.82695299,48.73620979,fresh,restored,dih,NA,arable land,1.355
+S_TRN_A3,S_TRN,south,686,Western European broadleaf forests,396.25,11.82695299,48.73620979,fresh,restored,dih,NA,arable land,1.355
+S_TRN_A4,S_TRN,south,686,Western European broadleaf forests,396.25,11.82695299,48.73620979,fresh,restored,dih,NA,arable land,1.355
+S_UKB_A1,S_UKB,south,686,Western European broadleaf forests,445.0400085,11.57301044,48.43279483,fresh,negative,NA,NA,NA,0.458
+S_UKB_A2,S_UKB,south,686,Western European broadleaf forests,445.0400085,11.57301044,48.43279483,fresh,negative,NA,NA,NA,0.458
+S_UKB_A3,S_UKB,south,686,Western European broadleaf forests,445.0400085,11.57301044,48.43279483,fresh,negative,NA,NA,NA,0.458
+S_UKB_A4,S_UKB,south,686,Western European broadleaf forests,445.0400085,11.57301044,48.43279483,fresh,negative,NA,NA,NA,0.458
+S_VIB_A1,S_VIB,south,686,Western European broadleaf forests,437.019989,12.36689193,48.45628545,moist,negative,NA,NA,NA,0.148
+S_VIB_A2,S_VIB,south,686,Western European broadleaf forests,437.019989,12.36689193,48.45628545,moist,negative,NA,NA,NA,0.148
+S_VIB_A3,S_VIB,south,686,Western European broadleaf forests,437.019989,12.36689193,48.45628545,moist,negative,NA,NA,NA,0.148
+S_VIB_A4,S_VIB,south,686,Western European broadleaf forests,437.019989,12.36689193,48.45628545,moist,negative,NA,NA,NA,0.148
+S_VLP_A1,S_VLP,south,686,Western European broadleaf forests,344.0799866,12.90589476,48.63870818,moist,positive,NA,NA,NA,0.521
+S_VLP_A2,S_VLP,south,686,Western European broadleaf forests,344.0799866,12.90589476,48.63870818,moist,positive,NA,NA,NA,0.521
+S_VLP_A3,S_VLP,south,686,Western European broadleaf forests,344.0799866,12.90589476,48.63870818,moist,positive,NA,NA,NA,0.521
+S_VLP_A4,S_VLP,south,686,Western European broadleaf forests,344.0799866,12.90589476,48.63870818,moist,positive,NA,NA,NA,0.521
+S_VLR_A1,S_VLR,south,686,Western European broadleaf forests,341.8399963,12.91962329,48.63645504,fresh,restored,cus,23,arable land,0.773
+S_VLR_A2,S_VLR,south,686,Western European broadleaf forests,341.8399963,12.91962329,48.63645504,fresh,restored,cus,23,arable land,0.773
+S_VLR_A3,S_VLR,south,686,Western European broadleaf forests,341.8399963,12.91962329,48.63645504,fresh,restored,cus,23,arable land,0.773
+S_VLR_A4,S_VLR,south,686,Western European broadleaf forests,341.8399963,12.91962329,48.63645504,fresh,restored,cus,23,arable land,0.773
+S_WGD_A1,S_WGD,south,686,Western European broadleaf forests,474.0100098,12.43641984,48.56602654,fresh,restored,cus,2,arable land,0.645
+S_WGD_A2,S_WGD,south,686,Western European broadleaf forests,474.0100098,12.43641984,48.56602654,fresh,restored,cus,2,arable land,0.645
+S_WGD_A3,S_WGD,south,686,Western European broadleaf forests,474.0100098,12.43641984,48.56602654,fresh,restored,cus,2,arable land,0.645
+S_WGD_A4,S_WGD,south,686,Western European broadleaf forests,474.0100098,12.43641984,48.56602654,fresh,restored,cus,2,arable land,0.645
+S_WLF_A1,S_WLF,south,686,Western European broadleaf forests,487.9299927,11.71529076,48.47763047,fresh,negative,NA,NA,NA,0.077
+S_WLF_A2,S_WLF,south,686,Western European broadleaf forests,487.9299927,11.71529076,48.47763047,fresh,negative,NA,NA,NA,0.077
+S_WLF_A3,S_WLF,south,686,Western European broadleaf forests,487.9299927,11.71529076,48.47763047,fresh,negative,NA,NA,NA,0.077
+S_WLF_A4,S_WLF,south,686,Western European broadleaf forests,487.9299927,11.71529076,48.47763047,fresh,negative,NA,NA,NA,0.077
+S_WNG_A1,S_WNG,south,686,Western European broadleaf forests,404.8999939,12.37349432,48.65857576,dry,positive,NA,NA,NA,0.815
+S_WNG_A2,S_WNG,south,686,Western European broadleaf forests,404.8999939,12.37349432,48.65857576,dry,positive,NA,NA,NA,0.815
+S_WNG_A3,S_WNG,south,686,Western European broadleaf forests,404.8999939,12.37349432,48.65857576,dry,positive,NA,NA,NA,0.815
+S_WNG_A4,S_WNG,south,686,Western European broadleaf forests,404.8999939,12.37349432,48.65857576,dry,positive,NA,NA,NA,0.815
+S_WNK_A1,S_WNK,south,686,Western European broadleaf forests,420.9200134,13.05049386,48.28204403,fresh,restored,dih,11,grassland,1.010
+S_WNK_A2,S_WNK,south,686,Western European broadleaf forests,420.9200134,13.05049386,48.28204403,fresh,restored,dih,11,grassland,1.010
+S_WNK_A3,S_WNK,south,686,Western European broadleaf forests,420.9200134,13.05049386,48.28204403,fresh,restored,dih,11,grassland,1.010
+S_WNK_A4,S_WNK,south,686,Western European broadleaf forests,420.9200134,13.05049386,48.28204403,fresh,restored,dih,11,grassland,1.010
+S_WTB_A1,S_WTB,south,686,Western European broadleaf forests,502.1000061,13.0168955,48.32459274,fresh,negative,NA,NA,NA,0.284
+S_WTB_A2,S_WTB,south,686,Western European broadleaf forests,502.1000061,13.0168955,48.32459274,fresh,negative,NA,NA,NA,0.284
+S_WTB_A3,S_WTB,south,686,Western European broadleaf forests,502.1000061,13.0168955,48.32459274,fresh,negative,NA,NA,NA,0.284
+S_WTB_A4,S_WTB,south,686,Western European broadleaf forests,502.1000061,13.0168955,48.32459274,fresh,negative,NA,NA,NA,0.284
+S_WTH_A1,S_WTH,south,686,Western European broadleaf forests,311.1400146,12.96174849,48.80605399,moist,restored,dih,NA,grassland,1.235
+S_WTH_A2,S_WTH,south,686,Western European broadleaf forests,311.1400146,12.96174849,48.80605399,moist,restored,dih,NA,grassland,1.235
+S_WTH_A3,S_WTH,south,686,Western European broadleaf forests,311.1400146,12.96174849,48.80605399,moist,restored,dih,NA,grassland,1.235
+S_WTH_A4,S_WTH,south,686,Western European broadleaf forests,311.1400146,12.96174849,48.80605399,moist,restored,dih,NA,grassland,1.235
+S_WTZ_A1,S_WTZ,south,686,Western European broadleaf forests,465.9700012,12.87799591,48.35616758,fresh,restored,dih,5,arable land,0.421
+S_WTZ_A2,S_WTZ,south,686,Western European broadleaf forests,465.9700012,12.87799591,48.35616758,fresh,restored,dih,5,arable land,0.421
+S_WTZ_A3,S_WTZ,south,686,Western European broadleaf forests,465.9700012,12.87799591,48.35616758,fresh,restored,dih,5,arable land,0.421
+S_WTZ_A4,S_WTZ,south,686,Western European broadleaf forests,465.9700012,12.87799591,48.35616758,fresh,restored,dih,5,arable land,0.421

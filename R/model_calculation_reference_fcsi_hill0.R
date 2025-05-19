@@ -233,10 +233,10 @@ rm(list = setdiff(ls(), c("data_all")))
 
 ## 1 Summary -------------------------------------------------------------------
 
-data_model_fcsihill0 <- data_all
+sites <- data_all
 
 restref_fcsihill0 <- glmmTMB(fcsi.hill.0 ~ site.type + (1|region) + (1|hydrology), 
-                            data = data_model_fcsihill0,
+                            data = sites,
                             family = gaussian
 )
 
@@ -255,21 +255,7 @@ pairs(emm.site.type, adjust = "tukey")
 
 ## 3 Save final model ----------------------------------------------------------
 
-save(restref_fcsihill0, data_model_fcsihill0,
-     file = here("outputs", "models",
-                 "model_reference_fcsi_hill0.Rdata"))
-
-
-
-
-
-
-## end script
-
-
-
-
-
-
-
-
+save(
+  restref_fcsihill0,
+  file = here("outputs", "models", "model_reference_fcsi_hill0.Rdata")
+  )

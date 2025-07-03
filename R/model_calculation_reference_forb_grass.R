@@ -1,10 +1,11 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 1: Restoration vs. Reference sites
+# Question 1: Restoration vs. Reference sites ####
 # Response variable: forb-grass-ratio
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# author: Christin Juno Laschke
+# Christin Juno Laschke
+# 2025
 
 
 
@@ -63,7 +64,7 @@ sort(sites$site.cover.legumes)
 # ok
 
 
-## c inspect categorical covariates -----------------------------------------
+## c inspect categorical covariates --------------------------------------------
 
 table(data_all$site.type)
 table(data_all$hydrology)
@@ -148,12 +149,18 @@ library(MASS)
 # region
 interaction.plot(x.factor = data_all$site.type, trace.factor = data_all$region,
                  response = data_all$fg.ratio)
-int_model <- glm(fg.ratio ~ region * site.type, data = data_all, family = Gamma(link="log"))
+int_model <- glm(
+  fg.ratio ~ region * site.type,
+  data = data_all,
+  family = Gamma(link="log")
+)
 anova(int_model)
 
 # hydrology
-interaction.plot(x.factor = data_all$site.type, trace.factor = data_all$hydrology,
-                 response = data_all$fg.ratio)
+interaction.plot(
+  x.factor = data_all$site.type, trace.factor = data_all$hydrology,
+  response = data_all$fg.ratio
+  )
 int_model <- glm(fg.ratio ~ hydrology * site.type, data = data_all, family = Gamma(link="log"))
 anova(int_model)
 
@@ -198,7 +205,7 @@ data_model$E_B1 <- resid(B1, type = "pearson")
 data_model$F_B1 <- fitted(B1)
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model, aes(x = F_B1, y = E_B1)) +
@@ -229,7 +236,7 @@ ggplot(data = data_model, aes(x = hydrology, y = E_B1)) +
   geom_hline(yintercept = 0, lty = 2) 
 
 
-### c Plot residuals vs covariates not in the model ------------------------------
+### c Plot residuals vs covariates not in the model ----------------------------
 
 # no other covariates
 
@@ -282,17 +289,3 @@ pairs(emm.site.type, adjust = "tukey")
 save(restref_fgratio, data_model_fgratio,
      file = here("outputs", "models",
                  "model_reference_forb_grass.Rdata"))
-
-
-
-
-
-
-## end script
-
-
-
-
-
-
-

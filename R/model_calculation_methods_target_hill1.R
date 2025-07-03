@@ -1,10 +1,11 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 2: Restoration factors
+# Question 2: Restoration factors ####
 # Response variable: Characteristic Hill-Shannon (Hill q1)
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# author: Christin Juno Laschke
+# Christin Juno Laschke
+# 2025
 
 
 
@@ -79,7 +80,7 @@ data_all %>%
 
 
 
-## c inspect categorical covariates -----------------------------------------
+## c inspect categorical covariates --------------------------------------------
 
 table(data_all$site.type)
 table(data_all$hydrology)
@@ -89,7 +90,7 @@ table(data_all$site.type, data_all$region)
 
 
 
-## d Check collinearity part 1 ----------------------------------------
+## d Check collinearity part 1 -------------------------------------------------
 
 # between continuous covariates
 # only one numerical variable in model data --> no need to check
@@ -873,10 +874,11 @@ rm(list = setdiff(ls(), c("data_all", "data_model_20y", "yB1", "yB1_drop")))
 data_model_targethill1_20y <- data_all %>%
   filter(rest.age <= 20)
 
-restfact_targethill1_20y <- glmmTMB(target.hill.1 ~ rest.meth + land.use.hist + rest.age.std
-                                 + (1 |region) + (1 |hydrology),
-                                 data = data_model_targethill1_20y,
-                                 family = Gamma(link="log")
+restfact_targethill1_20y <- glmmTMB(
+  target.hill.1 ~ rest.meth + land.use.hist + rest.age.std
+  + (1 |region) + (1 |hydrology),
+  data = data_model_targethill1_20y,
+  family = Gamma(link="log")
 )
 summary(restfact_targethill1_20y)
 # Estimate Std. Error z value Pr(>|z|)    
@@ -1246,10 +1248,10 @@ rm(list = setdiff(ls(), c("data_all", "data_model", "B1", "B1_drop")))
 data_model_targethill1 <- data_all %>%
   filter(!is.na(rest.meth))
 
-restfact_targethill1 <- glmmTMB(target.hill.1 ~ rest.meth + land.use.hist
-                             + (1 |region) + (1 |hydrology),
-                             data = data_model_targethill1,
-                             family = Gamma(link="log")
+restfact_targethill1 <- glmmTMB(
+  target.hill.1 ~ rest.meth + land.use.hist + (1 |region) + (1 |hydrology),
+  data = data_model_targethill1,
+  family = Gamma(link="log")
 )
 summary(restfact_targethill1)
 # Estimate Std. Error z value Pr(>|z|)    

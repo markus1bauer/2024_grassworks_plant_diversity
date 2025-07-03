@@ -1,10 +1,11 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 1: Restoration vs. Reference
+# Question 1: Restoration vs. Reference ####
 # Plot table: EMMs
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# author: Christin Juno Laschke
+# Christin Juno Laschke
+# 2025
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

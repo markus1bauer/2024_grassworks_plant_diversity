@@ -1,6 +1,7 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
-# Show figure 2
+# Vegetation diversity analysis
+# Show figure 2 ####
 # Restoration methods
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Christin Juno Laschke
@@ -74,7 +75,7 @@ gglayer_theme <- list(
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# Plot 1 - Total Species Richness #########################################
+# Plot 1 - Total Species Richness #############################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -409,8 +410,8 @@ p6 <- p6 + labs(tag = "(F)")
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-ggsave(
-  plot = plot_3x2,
-  here("outputs", "figures", "figure_2_300dpi_24x24cm.tiff"),
-  dpi = 300, width = 24, height = 24, units = "cm"
-)
+# ggsave(
+#   plot = plot_3x2,
+#   here("outputs", "figures", "figure_2_300dpi_24x24cm.tiff"),
+#   dpi = 300, width = 24, height = 24, units = "cm"
+# )

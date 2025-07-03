@@ -1,10 +1,11 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 2: Restoration factors
+# Question 2: Restoration factors ####
 # Response variable: Characteristic Species Richness (Hill 0)
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# author: Christin Juno Laschke
+# Christin Juno Laschke
+# 2025
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -36,9 +37,9 @@ data_all <- read_csv(
 
 
 
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# B - DATA EXPLORATION ##########################################################
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# B - DATA EXPLORATION #########################################################
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 ## a Missing values ------------------------------------------------------------
@@ -76,7 +77,7 @@ data_all %>%
 
 
 
-## c inspect categorical covariates -----------------------------------------
+## c inspect categorical covariates --------------------------------------------
 
 table(data_all$site.type)
 table(data_all$hydrology)
@@ -86,7 +87,7 @@ table(data_all$site.type, data_all$region)
 
 
 
-## d Check collinearity part 1 ----------------------------------------
+## d Check collinearity part 1 -------------------------------------------------
 
 # between continuous covariates
 # only one numerical variable in model data --> no need to check
@@ -107,7 +108,7 @@ ggplot(data_all, aes(x = region, y = rest.age.std)) +
   geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 
 
-## e Relationships --------------------------------------------------------------
+## e Relationships -------------------------------------------------------------
 
 #' Plot response variable versus each covariate.
 
@@ -1185,10 +1186,11 @@ rm(list = setdiff(ls(), c("data_all", "data_model", "B1", "B1_drop")))
 data_model_targethill0 <- data_all %>%
   filter(!is.na(rest.meth))
 
-restfact_targethill0 <- glmmTMB(target.hill.0 ~ rest.meth + land.use.hist
-                    + (1 |region) + (1 |hydrology),
-                    data = data_model_targethill0,
-                    family = nbinom2                      # Negative binomial family
+restfact_targethill0 <- glmmTMB(
+  target.hill.0 ~ rest.meth + land.use.hist
+  + (1 |region) + (1 |hydrology),
+  data = data_model_targethill0,
+  family = nbinom2 # Negative binomial family
 )
 summary(restfact_targethill0)
 #                         Estimate Std. Error z value Pr(>|z|)    

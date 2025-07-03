@@ -1,10 +1,11 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 2: Restoration factors
+# Question 2: Restoration factors ####
 # Response variable: Forb-grass-ratio
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# author: Christin Juno Laschke
+# Christin Juno Laschke
+# 2025
 
 
 
@@ -82,7 +83,7 @@ sort(data_all$site.cover.legumes)
 
 
 
-## c inspect categorical covariates -----------------------------------------
+## c inspect categorical covariates --------------------------------------------
 
 table(data_all$site.type)
 table(data_all$hydrology)
@@ -93,7 +94,7 @@ table(data_all$site.type, data_all$region)
 
 
 
-## d Check collinearity part 1 ----------------------------------------
+## d Check collinearity part 1 -------------------------------------------------
 
 # between continuous covariates
 # only one numerical variable in model data --> no need to check
@@ -280,22 +281,38 @@ library(MASS)
 
 ## rest.meth vs. X
 
-int_model <- glm(fg.ratio ~ rest.meth * land.use.hist, data = data_all, family = Gamma(link = "log"))
+int_model <- glm(
+  fg.ratio ~ rest.meth * land.use.hist,
+  data = data_all,
+  family = Gamma(link = "log")
+  )
 check_overdispersion(int_model)
 anova(int_model)
 # --> no interaction between rest.meth and land.use.hist
 
-int_model <- glm(fg.ratio ~ rest.meth * rest.age, data = data_all, family = Gamma(link = "log"))
+int_model <- glm(
+  fg.ratio ~ rest.meth * rest.age,
+  data = data_all,
+  family = Gamma(link = "log")
+  )
 check_overdispersion(int_model)
 anova(int_model)
 # --> no interaction
 
-int_model <- glm(fg.ratio ~ rest.meth * region, data = data_all, family = Gamma(link = "log"))
+int_model <- glm(
+  fg.ratio ~ rest.meth * region,
+  data = data_all,
+  family = Gamma(link = "log")
+  )
 check_overdispersion(int_model)
 anova(int_model)
 # --> interaction
 
-int_model <- glm(fg.ratio ~ rest.meth * hydrology, data = data_all, family = Gamma(link = "log"))
+int_model <- glm(
+  fg.ratio ~ rest.meth * hydrology,
+  data = data_all,
+  family = Gamma(link = "log")
+  )
 check_overdispersion(int_model)
 anova(int_model)
 # --> no interaction
@@ -817,13 +834,13 @@ ggplot(data = data_model_20y, aes(x = hydrology, y = E_yB1_drop)) +
 
 ### d Model validation with DHARMa ---------------------------------------------
 
-
+# library(DHARMa)
 # ### a Plot residuals vs fitted values
 # simulation_output <- simulateResiduals(yB1_drop, plot = TRUE)
 # # quantile deviations detected
 # 
 # 
-# ### b Plot residuals vs covariates in the model 
+# ### b Plot residuals vs covariates in the model
 # plotResiduals(simulation_output$scaledResiduals, data_model_20y$rest.meth) # ok
 # plotResiduals(simulation_output$scaledResiduals, data_model_20y$land.use.hist) # ok
 # plotResiduals(simulation_output$scaledResiduals, data_model_20y$rest.age.std) # ok
@@ -1268,10 +1285,11 @@ data_model_fgratio <- data_all %>%
   filter(!is.na(rest.meth)) 
 
 
-restfact_fgratio <- glmmTMB(fg.ratio ~ rest.meth + land.use.hist
-                             + (1 |region) + (1 |hydrology),
-                             data = data_model_fgratio,
-                            family = Gamma(link="log")
+restfact_fgratio <- glmmTMB(
+  fg.ratio ~ rest.meth + land.use.hist
+  + (1 |region) + (1 |hydrology),
+  data = data_model_fgratio,
+  family = Gamma(link="log")
 )
 summary(restfact_fgratio)$sigma
 # sigma < 1 --> gamma distribution is okay, and not exponential (sigma ~= 1)

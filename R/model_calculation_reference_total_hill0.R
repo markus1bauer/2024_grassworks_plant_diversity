@@ -1,10 +1,11 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 1: Restoration vs. Reference sites
+# Question 1: Restoration vs. Reference sites ####
 # Response variable: Total Species Richness (Hill 0)
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# author: Christin Juno Laschke
+# Christin Juno Laschke
+# 2025
 
 
 
@@ -60,7 +61,7 @@ data_all %>%
   identify_outliers(tot.hill.0)
 
 
-## c inspect categorical covariates -----------------------------------------
+## c inspect categorical covariates --------------------------------------------
 
 table(data_all$site.type)
 table(data_all$hydrology)
@@ -171,7 +172,7 @@ data_model$E_B1 <- resid(B1, type = "pearson")
 data_model$F_B1 <- fitted(B1)
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model, aes(x = F_B1, y = E_B1)) +
@@ -202,7 +203,7 @@ ggplot(data = data_model, aes(x = hydrology, y = E_B1)) +
   geom_hline(yintercept = 0, lty = 2) 
 
 
-### c Plot residuals vs covariates not in the model ------------------------------
+### c Plot residuals vs covariates not in the model ----------------------------
 
 # no other covariates
 

@@ -1,10 +1,11 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 2: Restoration factors
+# Question 2: Restoration factors ####
 # Response variable: Total Species Richness (Hill 0)
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# author: Christin Juno Laschke
+# Christin Juno Laschke
+# 2025
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -77,7 +78,7 @@ data_all %>%
 
 
 
-## c inspect categorical covariates -----------------------------------------
+## c inspect categorical covariates --------------------------------------------
 
 table(data_all$site.type)
 table(data_all$hydrology)
@@ -87,7 +88,7 @@ table(data_all$site.type, data_all$region)
 
 
 
-## d Check collinearity part 1 ----------------------------------------
+## d Check collinearity part 1 -------------------------------------------------
 
 # between continuous covariates
 # only one numerical variable in model data --> no need to check
@@ -366,19 +367,21 @@ data_model_20y %>%
 # consider interactions between explanatory variables
 
 # B1_y crossed random intercept model with region and hydrology as random factors
-yB1 <- glmmTMB(tot.hill.0 ~ rest.meth * land.use.hist + rest.age.std * land.use.hist
-               + (1|region) + (1|hydrology), 
-               data = data_model_20y,
-               family = poisson
+yB1 <- glmmTMB(
+  tot.hill.0 ~ rest.meth * land.use.hist + rest.age.std * land.use.hist
+  + (1|region) + (1|hydrology), 
+  data = data_model_20y,
+  family = poisson
 )
 #' Check overispersion for poisson
 check_overdispersion(yB1)
 # overdispersion detected --> change to neg-binomial
 
-yB1 <- glmmTMB(tot.hill.0 ~ rest.meth * land.use.hist + rest.age.std * land.use.hist
-                + (1|region) + (1|hydrology), 
-                data = data_model_20y,
-                family = nbinom2                      # Negative binomial family
+yB1 <- glmmTMB(
+  tot.hill.0 ~ rest.meth * land.use.hist + rest.age.std * land.use.hist
+  + (1|region) + (1|hydrology), 
+  data = data_model_20y,
+  family = nbinom2 # Negative binomial family
 )
 
 # yB1 <- glmer.nb(tot.hill.0 ~ rest.meth * land.use.hist + rest.age.std * land.use.hist
@@ -408,7 +411,7 @@ data_model_20y$E_yB1 <- resid(yB1, type = "pearson")   #' Observed eveness minus
 data_model_20y$F_yB1 <- fitted(yB1)  #' Fitted values contain the random effects.
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model_20y, aes(x = F_yB1, y = E_yB1)) +
@@ -494,7 +497,7 @@ ggplot(data = data_model_20y, aes(x = hydrology, y = E_yB1)) +
 #' looks fine
 
 
-### c Plot residuals vs covariates not in the model ------------------------------
+### c Plot residuals vs covariates not in the model ----------------------------
 # --> no other covariates
 
 
@@ -612,7 +615,7 @@ data_model_20y$E_yB1_drop <- resid(yB1_drop, type = "pearson")   #' Observed eve
 data_model_20y$F_yB1_drop <- fitted(yB1_drop)  #' Fitted values contain the random effects.
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model_20y, aes(x = F_yB1_drop, y = E_yB1_drop)) +
@@ -698,7 +701,7 @@ ggplot(data = data_model_20y, aes(x = hydrology, y = E_yB1_drop)) +
 #' looks fine
 
 
-### c Plot residuals vs covariates not in the model ------------------------------
+### c Plot residuals vs covariates not in the model ----------------------------
 # --> no other covariates
 
 
@@ -779,10 +782,11 @@ rm(list = setdiff(ls(), c("data_all", "data_model_20y", "yB1", "yB1_drop")))
 data_model_tothill0_20y <- data_all %>%
   filter(rest.age <= 20)
 
-restfact_tothill0_20y <- glmmTMB(tot.hill.0 ~ rest.meth + land.use.hist + rest.age.std
-                         + (1 |region) + (1 |hydrology),
-                         data = data_model_tothill0_20y,
-                         family = nbinom2                      # Negative binomial family
+restfact_tothill0_20y <- glmmTMB(
+  tot.hill.0 ~ rest.meth + land.use.hist + rest.age.std
+  + (1 |region) + (1 |hydrology),
+  data = data_model_tothill0_20y,
+  family = nbinom2 # Negative binomial family
                          )
 summary(restfact_tothill0_20y)
 #                         Estimate Std. Error z value Pr(>|z|)    
@@ -906,7 +910,7 @@ data_model$E_B1 <- resid(B1, type = "pearson")   #' Observed eveness minus fitte
 data_model$F_B1 <- fitted(B1)  #' Fitted values contain the random effects.
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model, aes(x = F_B1, y = E_B1)) +
@@ -951,7 +955,7 @@ ggplot(data = data_model, aes(x = hydrology, y = E_B1)) +
 #' looks fine
 
 
-### c Plot residuals vs covariates not in the model ------------------------------
+### c Plot residuals vs covariates not in the model ----------------------------
 
 #' Plot residuals versus restoration age
 ggplot(data = data_model, aes(x = rest.age.std, y = E_B1)) +
@@ -1052,7 +1056,7 @@ data_model$E_B1_drop <- resid(B1_drop, type = "pearson")   #' Observed eveness m
 data_model$F_B1_drop <- fitted(B1_drop)  #' Fitted values contain the random effects.
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model, aes(x = F_B1_drop, y = E_B1_drop)) +
@@ -1097,7 +1101,7 @@ ggplot(data = data_model, aes(x = hydrology, y = E_B1_drop)) +
 #' looks fine
 
 
-### c Plot residuals vs covariates not in the model ------------------------------
+### c Plot residuals vs covariates not in the model ----------------------------
 
 #' Plot residuals versus restoration age
 ggplot(data = data_model, aes(x = rest.age.std, y = E_B1_drop)) +
@@ -1165,10 +1169,11 @@ rm(list = setdiff(ls(), c("data_all", "data_model", "B1", "B1_drop")))
 data_model_tothill0 <- data_all %>%
   filter(!is.na(rest.meth))
 
-restfact_tothill0 <- glmmTMB(tot.hill.0 ~ rest.meth + land.use.hist
-                         + (1 |region) + (1 |hydrology),
-                         data = data_model_tothill0,
-                         family = nbinom2                      # Negative binomial family
+restfact_tothill0 <- glmmTMB(
+  tot.hill.0 ~ rest.meth + land.use.hist
+  + (1 |region) + (1 |hydrology),
+  data = data_model_tothill0,
+  family = nbinom2 # Negative binomial family
 )
 summary(restfact_tothill0)
 #                         Estimate Std. Error z value Pr(>|z|)    

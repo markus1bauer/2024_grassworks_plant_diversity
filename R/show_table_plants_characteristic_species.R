@@ -2,7 +2,8 @@
 # GRASSWORKS Project
 # Output table characteristic grassland species
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# author: Christin Juno Laschke
+# Christin Juno Laschke
+# 2025
 
 
 
@@ -35,12 +36,15 @@ abundances <- read_csv(
 
 species <- abundances %>% 
   distinct(name.plant.agg, .keep_all = T) %>% 
-  select(name.plant.agg, target.species.agg, r.all.diagnostic, ffh.lrt, calth.btt) %>% 
+  select(
+    name.plant.agg, target.species.agg, r.all.diagnostic, ffh.lrt, calth.btt
+    ) %>% 
   arrange(name.plant.agg) %>% 
   mutate(name.plant.agg = str_replace(name.plant.agg, "Gruppe", "group"),
          # add "spec." to genus taxa
          name.plant.agg = if_else(
-           !str_detect(name.plant.agg, " ") & !str_detect(name.plant.agg, "group"),
+           !str_detect(name.plant.agg, " ") &
+             !str_detect(name.plant.agg, "group"),
            paste0(name.plant.agg, " spec."),
            name.plant.agg
          ))
@@ -119,5 +123,5 @@ species %>%
     
 
 
-### Save ###
+### Save ####
 gtsave(table, here("outputs", "tables", "table_char_spec_list_20250407.docx"))

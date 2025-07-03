@@ -1,10 +1,12 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Plant species diversity analysis
-# Descriptive analysis
+# Descriptive analysis ####
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# author: Christin Juno Laschke
+# Christin Juno Laschke
+# 2025
 
+# Aim get an genral overview of the data
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -50,15 +52,16 @@ sites <- read_csv(
     .default = "?"
   )
 ) %>%   
-  select(id.site, site.type, rest.meth, land.use.hist, rest.age, region, hydrology,
-         mngm.type) %>% 
+  select(id.site, site.type, rest.meth, land.use.hist, rest.age, region,
+         hydrology, mngm.type) %>% 
   distinct()
 
 
 ### diversity data ####
 
 diversity <- read_csv(
-  here("data", "processed", "data_processed_plants_site_diversity_20250306.csv"),
+  here("data", "processed",
+       "data_processed_plants_site_diversity_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   ))
@@ -134,7 +137,7 @@ data_tot %>%
 
 
 
-## 2 - Target species -------------------------------------------------------------
+## 2 - Target species ----------------------------------------------------------
 
 
 data_tgt <- abundances_target_agg %>% 
@@ -210,7 +213,7 @@ diversity %>%
 
 
 
-## 4 - Sites ---------------------------------------------------------------
+## 4 - Sites -------------------------------------------------------------------
 
 
 sites %>% 

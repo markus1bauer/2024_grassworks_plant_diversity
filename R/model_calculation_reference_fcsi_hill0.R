@@ -1,10 +1,11 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 1: Restoration vs. Reference sites
+# Question 1: Restoration vs. Reference sites ####
 # Response variable: FCSi (Index of Favourable Conservation Status)
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# author: Christin Juno Laschke
+# Christin Juno Laschke
+# 2025
 
 
 
@@ -59,7 +60,7 @@ data_all %>%
   identify_outliers(fcsi.hill.0)
 
 
-## c inspect categorical covariates -----------------------------------------
+## c inspect categorical covariates --------------------------------------------
 
 table(data_all$site.type)
 table(data_all$hydrology)
@@ -174,7 +175,7 @@ data_model$E_B1 <- resid(B1, type = "pearson")
 data_model$F_B1 <- fitted(B1)
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model, aes(x = F_B1, y = E_B1)) +
@@ -205,7 +206,7 @@ ggplot(data = data_model, aes(x = hydrology, y = E_B1)) +
   geom_hline(yintercept = 0, lty = 2) 
 
 
-### c Plot residuals vs covariates not in the model ------------------------------
+### c Plot residuals vs covariates not in the model ----------------------------
 
 # no other covariates
 
@@ -235,9 +236,10 @@ rm(list = setdiff(ls(), c("data_all")))
 
 data_model_fcsihill0 <- data_all
 
-restref_fcsihill0 <- glmmTMB(fcsi.hill.0 ~ site.type + (1|region) + (1|hydrology), 
-                            data = data_model_fcsihill0,
-                            family = gaussian
+restref_fcsihill0 <- glmmTMB(
+  fcsi.hill.0 ~ site.type + (1|region) + (1|hydrology), 
+  data = data_model_fcsihill0,
+  family = gaussian
 )
 
 summary(restref_fcsihill0)

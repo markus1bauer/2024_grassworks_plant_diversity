@@ -1,6 +1,7 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
-# Show figure 1
+# Vegetation diversity analysis
+# Show figure 1 ####
 # Restoration sites and references
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Christin Juno Laschke
@@ -8,7 +9,7 @@
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# Preparation ###############################################################
+# Preparation #################################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -249,7 +250,8 @@ cld_results <- multcomp::cld(
 
 ## plot with EMMs and SE
 (p4 <- ggplot(
-  data_model_targethill1, aes(x = site.type, y = target.hill.1, fill = site.type)
+  data_model_targethill1,
+  aes(x = site.type, y = target.hill.1, fill = site.type)
   ) +
     gglayer_theme +
     gglayer_labs +
@@ -340,7 +342,9 @@ emm.df <- summary(emm.site.type, infer = FALSE, type = "response")
 emm.df
 
 # compact letter display
-cld_results <- multcomp::cld(emm.site.type, adjust = "tukey", Letters = letters) %>% 
+cld_results <- multcomp::cld(
+  emm.site.type, adjust = "tukey", Letters = letters
+  ) %>% 
   mutate(.group = str_trim(.group))
 
 ## plot with EMMs and SE
@@ -404,8 +408,8 @@ p6 <- p6 + labs(tag = "(F)")
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-ggsave(
-  plot = plot_3x2,
-  here("outputs", "figures", "figure_1_300dpi_24x24cm.tiff"),
-  dpi = 300, width = 24, height = 24, units = "cm"
-  )
+# ggsave(
+#   plot = plot_3x2,
+#   here("outputs", "figures", "figure_1_300dpi_24x24cm.tiff"),
+#   dpi = 300, width = 24, height = 24, units = "cm"
+#   )

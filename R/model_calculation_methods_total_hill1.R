@@ -1,10 +1,11 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 2: Restoration factors
+# Question 2: Restoration factors ####
 # Response variable: Total Hill-Shannon (q1)
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# author: Christin Juno Laschke
+# Christin Juno Laschke
+# 2025
 
 
 
@@ -78,7 +79,7 @@ data_all %>%
 
 
 
-## c inspect categorical covariates -----------------------------------------
+## c inspect categorical covariates --------------------------------------------
 
 table(data_all$site.type)
 table(data_all$hydrology)
@@ -88,7 +89,7 @@ table(data_all$site.type, data_all$region)
 
 
 
-## d Check collinearity part 1 ----------------------------------------
+## d Check collinearity part 1 -------------------------------------------------
 
 # between continuous covariates
 # only one numerical variable in model data --> no need to check
@@ -109,7 +110,7 @@ ggplot(data_all, aes(x = region, y = rest.age.std)) +
   geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 
 
-## e Relationships --------------------------------------------------------------
+## e Relationships -------------------------------------------------------------
 
 #' Plot response variable versus each covariate.
 
@@ -187,26 +188,39 @@ ggplot(data_all, aes(rest.age, tot.hill.1, color = hydrology)) +
 
 
 ## rest.meth vs. X
-interaction.plot(x.factor = data_all$rest.meth, trace.factor = data_all$land.use.hist,
-                 response = data_all$tot.hill.1)
-ggplot(data_all, aes(x = interaction(land.use.hist, rest.meth), y = tot.hill.1)) + geom_boxplot()
+interaction.plot(
+  x.factor = data_all$rest.meth, trace.factor = data_all$land.use.hist,
+  response = data_all$tot.hill.1
+  )
+ggplot(
+  data_all, aes(x = interaction(land.use.hist, rest.meth), y = tot.hill.1)
+  ) +
+  geom_boxplot()
 # interaction
 
 
 ggplot(data_all, aes(rest.age, tot.hill.1, color = rest.meth)) +
   geom_point() + theme_bw() +
-  geom_smooth(method = "glm", method.args = list(family = Gamma(link = "log")), se = F)
+  geom_smooth(
+    method = "glm",
+    method.args = list(family = Gamma(link = "log")),
+    se = FALSE
+    )
 # interaction
 
 
 interaction.plot(x.factor = data_all$rest.meth, trace.factor = data_all$region,
                  response = data_all$tot.hill.1)
-ggplot(data_all, aes(x = interaction(region, rest.meth), y = tot.hill.1)) + geom_boxplot()
+ggplot(data_all, aes(x = interaction(region, rest.meth), y = tot.hill.1)) +
+  geom_boxplot()
 # interaction
 
-interaction.plot(x.factor = data_all$rest.meth, trace.factor = data_all$hydrology,
-                 response = data_all$tot.hill.1)
-ggplot(data_all, aes(x = interaction(hydrology, rest.meth), y = tot.hill.1)) + geom_boxplot()
+interaction.plot(
+  x.factor = data_all$rest.meth, trace.factor = data_all$hydrology,
+  response = data_all$tot.hill.1
+  )
+ggplot(data_all, aes(x = interaction(hydrology, rest.meth), y = tot.hill.1)) +
+  geom_boxplot()
 # interaction
 
 
@@ -217,14 +231,22 @@ ggplot(data_all, aes(rest.age, tot.hill.1, color = land.use.hist)) +
   geom_smooth(method = "glm", method.args = list(family = poisson), se = F)
 # interaction between rest.age and land.use.hist
 
-interaction.plot(x.factor = data_all$land.use.hist, trace.factor = data_all$region,
-                 response = data_all$tot.hill.1)
-ggplot(data_all, aes(x = interaction(region, land.use.hist), y = tot.hill.1)) + geom_boxplot()
+interaction.plot(
+  x.factor = data_all$land.use.hist, trace.factor = data_all$region,
+  response = data_all$tot.hill.1
+  )
+ggplot(data_all, aes(x = interaction(region, land.use.hist), y = tot.hill.1)) +
+  geom_boxplot()
 # no interaction
 
-interaction.plot(x.factor = data_all$land.use.hist, trace.factor = data_all$hydrology,
-                 response = data_all$tot.hill.1)
-ggplot(data_all, aes(x = interaction(hydrology, land.use.hist), y = tot.hill.1)) + geom_boxplot()
+interaction.plot(
+  x.factor = data_all$land.use.hist, trace.factor = data_all$hydrology,
+  response = data_all$tot.hill.1
+  )
+ggplot(
+  data_all, aes(x = interaction(hydrology, land.use.hist), y = tot.hill.1)
+  ) +
+  geom_boxplot()
 # interaction
 
 
@@ -234,20 +256,27 @@ ggplot(data_all, aes(x = interaction(hydrology, land.use.hist), y = tot.hill.1))
 ggplot(data_all, aes(rest.age, tot.hill.1, color = region)) +
   geom_point() +
   theme_bw() +
-  geom_smooth(method = "glm", method.args = list(family = Gamma(link = "log")), se = F)
+  geom_smooth(
+    method = "glm", method.args = list(family = Gamma(link = "log")), se = FALSE
+    )
 # interaction between rest.age and region --> consider random slope
 
 ggplot(data_all, aes(rest.age, tot.hill.1, color = hydrology)) +
   geom_point() +
   theme_bw() +
-  geom_smooth(method = "glm", method.args = list(family = Gamma(link = "log")), se = F)
+  geom_smooth(
+    method = "glm", method.args = list(family = Gamma(link = "log")), se = FALSE
+    )
 # interaction between rest.age and hydrology --> consider random slope
 
 ## region vs. hydrology
 
-interaction.plot(x.factor = data_all$hydrology, trace.factor = data_all$region,
-                 response = data_all$tot.hill.1)
-ggplot(data_all, aes(x = interaction(region, hydrology), y = tot.hill.1)) + geom_boxplot()
+interaction.plot(
+  x.factor = data_all$hydrology, trace.factor = data_all$region,
+  response = data_all$tot.hill.1
+  )
+ggplot(data_all, aes(x = interaction(region, hydrology), y = tot.hill.1)) +
+  geom_boxplot()
 # no interaction
 
 
@@ -258,12 +287,18 @@ library(MASS)
 
 ## rest.meth vs. X
 
-int_model <- glm(tot.hill.1 ~ rest.meth * land.use.hist, data = data_all, family = Gamma(link = "log"))
+int_model <- glm(
+  tot.hill.1 ~ rest.meth * land.use.hist, data = data_all,
+  family = Gamma(link = "log")
+  )
 check_overdispersion(int_model)
 anova(int_model)
 # --> no interaction between rest.meth and land.use.hist
 
-int_model <- glm(tot.hill.1 ~ rest.meth * rest.age, data = data_all, family = Gamma(link = "log"))
+int_model <- glm(
+  tot.hill.1 ~ rest.meth * rest.age, data = data_all,
+  family = Gamma(link = "log")
+  )
 check_overdispersion(int_model)
 anova(int_model)
 # --> no interaction
@@ -320,7 +355,7 @@ anova(int_model)
 detach(package:MASS)
 
 
-## h Spatial dependency --------------------------------------------------------------
+## h Spatial dependency --------------------------------------------------------
 
 library(rnaturalearth)
 
@@ -501,7 +536,7 @@ data_model_20y$E_yB1 <- resid(yB1, type = "pearson")   #' Observed eveness minus
 data_model_20y$F_yB1 <- fitted(yB1)  #' Fitted values contain the random effects.
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model_20y, aes(x = F_yB1, y = E_yB1)) +
@@ -586,7 +621,7 @@ ggplot(data = data_model_20y, aes(x = hydrology, y = E_yB1)) +
 #' looks fine
 
 
-### c Plot residuals vs covariates not in the model ------------------------------
+### c Plot residuals vs covariates not in the model ----------------------------
 # --> no other covariates
 
 
@@ -705,7 +740,7 @@ data_model_20y$E_yB1_drop <- resid(yB1_drop, type = "pearson")   #' Observed eve
 data_model_20y$F_yB1_drop <- fitted(yB1_drop)  #' Fitted values contain the random effects.
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model_20y, aes(x = F_yB1_drop, y = E_yB1_drop)) +
@@ -873,10 +908,11 @@ rm(list = setdiff(ls(), c("data_all", "data_model_20y", "yB1", "yB1_drop")))
 data_model_tothill1_20y <- data_all %>%
   filter(rest.age <= 20)
 
-restfact_tothill1_20y <- glmmTMB(tot.hill.1 ~ rest.meth + land.use.hist + rest.age.std
-                                + (1 |region) + (1 |hydrology),
-                                data = data_model_tothill1_20y,
-                                family = Gamma(link="log")
+restfact_tothill1_20y <- glmmTMB(
+  tot.hill.1 ~ rest.meth + land.use.hist + rest.age.std
+  + (1 |region) + (1 |hydrology),
+  data = data_model_tothill1_20y,
+  family = Gamma(link="log")
 )
 summary(restfact_tothill1_20y)
 # Estimate Std. Error z value Pr(>|z|)    
@@ -1133,7 +1169,7 @@ data_model$E_B1_drop <- resid(B1_drop, type = "pearson")   #' Observed eveness m
 data_model$F_B1_drop <- fitted(B1_drop)  #' Fitted values contain the random effects.
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model, aes(x = F_B1_drop, y = E_B1_drop)) +
@@ -1246,10 +1282,10 @@ rm(list = setdiff(ls(), c("data_all", "data_model", "B1", "B1_drop")))
 data_model_tothill1 <- data_all %>%
   filter(!is.na(rest.meth))
 
-restfact_tothill1 <- glmmTMB(tot.hill.1 ~ rest.meth + land.use.hist
-                            + (1 |region) + (1 |hydrology),
-                            data = data_model_tothill1,
-                            family = Gamma(link="log")
+restfact_tothill1 <- glmmTMB(
+  tot.hill.1 ~ rest.meth + land.use.hist + (1 |region) + (1 |hydrology),
+  data = data_model_tothill1,
+  family = Gamma(link="log")
 )
 summary(restfact_tothill1)
 # Estimate Std. Error z value Pr(>|z|)    

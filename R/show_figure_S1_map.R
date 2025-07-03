@@ -117,11 +117,11 @@ graph_sites <- ggplot() +
 
 ### Save -----------------------------------------------------------------------
 
-ggsave(
-  "figure_1_map_ecoregions_300dpi_12x15cm.tiff",
-  dpi = 300, width = 12, height = 15, units = "cm",
-  path = here("outputs", "figures")
-)
+# ggsave(
+#   "figure_1_map_ecoregions_300dpi_12x15cm.tiff",
+#   dpi = 300, width = 12, height = 15, units = "cm",
+#   path = here("outputs", "figures")
+# )
 
 
 
@@ -168,8 +168,8 @@ graph_sites <- ggplot() +
 
 ### Save -----------------------------------------------------------------------
 
-ggsave(
-  "figure_1_map_elevation_300dpi_15x15cm.tiff",
-  dpi = 300, width = 15, height = 15, units = "cm",
-  path = here("outputs", "figures")
-)
+# ggsave(
+#   "figure_1_map_elevation_300dpi_15x15cm.tiff",
+#   dpi = 300, width = 15, height = 15, units = "cm",
+#   path = here("outputs", "figures")
+# )

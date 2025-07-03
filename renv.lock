@@ -274,7 +274,7 @@
     },
     "bayestestR": {
       "Package": "bayestestR",
-      "Version": "0.15.3",
+      "Version": "0.16.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -286,7 +286,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "722f5a467bce37edeba19f9d183305fd"
+      "Hash": "fd2a2bf84aaadde60e6b5fb15240f77d"
     },
     "beeswarm": {
       "Package": "beeswarm",
@@ -387,6 +387,26 @@
         "tidyr"
       ],
       "Hash": "f6ceb00b6c485a472516d8d6a884b84d"
+    },
+    "broom.mixed": {
+      "Package": "broom.mixed",
+      "Version": "0.2.9.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "broom",
+        "coda",
+        "dplyr",
+        "forcats",
+        "furrr",
+        "methods",
+        "nlme",
+        "purrr",
+        "stringr",
+        "tibble",
+        "tidyr"
+      ],
+      "Hash": "e27ed8cc90f6cbb7d9d42bcedf2781ff"
     },
     "bslib": {
       "Package": "bslib",
@@ -542,6 +562,17 @@
         "utils"
       ],
       "Hash": "3f038e5ac7f41d4ac41ce658c85e3042"
+    },
+    "coda": {
+      "Package": "coda",
+      "Version": "0.19-4.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "lattice"
+      ],
+      "Hash": "af436915c590afc6fffc3ce3a5be1569"
     },
     "codetools": {
       "Package": "codetools",
@@ -773,6 +804,23 @@
         "utils"
       ],
       "Hash": "27a09ca40266a1066d62ef5402dd51d6"
+    },
+    "effectsize": {
+      "Package": "effectsize",
+      "Version": "1.0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "bayestestR",
+        "datawizard",
+        "insight",
+        "parameters",
+        "performance",
+        "stats",
+        "utils"
+      ],
+      "Hash": "c2d8e991738a5eb25d083c81842ebd44"
     },
     "elevatr": {
       "Package": "elevatr",
@@ -1006,6 +1054,21 @@
         "vipor"
       ],
       "Hash": "899f28fe0388b7f687d7453429c2474d"
+    },
+    "ggeffects": {
+      "Package": "ggeffects",
+      "Version": "2.3.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "datawizard",
+        "graphics",
+        "insight",
+        "stats",
+        "utils"
+      ],
+      "Hash": "630367eab25b1e666b7bb360f14f916f"
     },
     "ggplot2": {
       "Package": "ggplot2",
@@ -1390,7 +1453,7 @@
     },
     "insight": {
       "Package": "insight",
-      "Version": "1.2.0",
+      "Version": "1.3.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1399,7 +1462,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "421b21f46fda94ad23cf6faa06e597c0"
+      "Hash": "ad4cdf2f590e93908ac200b3abef5b3a"
     },
     "isoband": {
       "Package": "isoband",
@@ -1718,6 +1781,16 @@
       ],
       "Hash": "4a05342d3cdef9ba4dcdd09d6cc31343"
     },
+    "multcompView": {
+      "Package": "multcompView",
+      "Version": "0.1-10",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "grid"
+      ],
+      "Hash": "bd174e328b679e9a1ce589422002c72b"
+    },
     "mvtnorm": {
       "Package": "mvtnorm",
       "Version": "1.3-3",
@@ -1809,7 +1882,7 @@
     },
     "parameters": {
       "Package": "parameters",
-      "Version": "0.25.0",
+      "Version": "0.26.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1822,7 +1895,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "c0774f88f934541fbd09b58d11bb8774"
+      "Hash": "338f8ab2f4f944adaa9f3f0e30b32f97"
     },
     "patchwork": {
       "Package": "patchwork",
@@ -1863,7 +1936,7 @@
     },
     "performance": {
       "Package": "performance",
-      "Version": "0.13.0",
+      "Version": "0.14.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1871,10 +1944,11 @@
         "bayestestR",
         "datawizard",
         "insight",
+        "methods",
         "stats",
         "utils"
       ],
-      "Hash": "35de0c9474563ca8054029abb0b6e72c"
+      "Hash": "76e7003989afe1366ebc3e0dced1d2d1"
     },
     "pillar": {
       "Package": "pillar",
@@ -2417,6 +2491,90 @@
         "utils"
       ],
       "Hash": "14a8dae2a678fa953907893a9df561c0"
+    },
+    "sjPlot": {
+      "Package": "sjPlot",
+      "Version": "2.8.17",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "MASS",
+        "R",
+        "bayestestR",
+        "datawizard",
+        "dplyr",
+        "ggeffects",
+        "ggplot2",
+        "grDevices",
+        "graphics",
+        "insight",
+        "knitr",
+        "parameters",
+        "performance",
+        "purrr",
+        "rlang",
+        "scales",
+        "sjlabelled",
+        "sjmisc",
+        "sjstats",
+        "stats",
+        "tidyr",
+        "utils"
+      ],
+      "Hash": "63a068f0af77c28e4107a424c38bc4d4"
+    },
+    "sjlabelled": {
+      "Package": "sjlabelled",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "datawizard",
+        "insight",
+        "stats",
+        "tools",
+        "utils"
+      ],
+      "Hash": "4bd18166ef8ca74aeec74ad295dfe77f"
+    },
+    "sjmisc": {
+      "Package": "sjmisc",
+      "Version": "2.8.10",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "datawizard",
+        "dplyr",
+        "insight",
+        "magrittr",
+        "methods",
+        "purrr",
+        "rlang",
+        "sjlabelled",
+        "stats",
+        "tidyselect",
+        "utils"
+      ],
+      "Hash": "a8f86596ca0fa8de37f7ef1774d89158"
+    },
+    "sjstats": {
+      "Package": "sjstats",
+      "Version": "0.19.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "datawizard",
+        "effectsize",
+        "insight",
+        "parameters",
+        "performance",
+        "stats",
+        "utils"
+      ],
+      "Hash": "d707e40e0e2ba49dd8a4644d74933259"
     },
     "slippymath": {
       "Package": "slippymath",

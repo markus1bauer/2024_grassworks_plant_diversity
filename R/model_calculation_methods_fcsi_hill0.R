@@ -1025,7 +1025,7 @@ data_model$E_B1 <- resid(B1, type = "pearson")   #' Observed eveness minus fitte
 data_model$F_B1 <- fitted(B1)  #' Fitted values contain the random effects.
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model, aes(x = F_B1, y = E_B1)) +
@@ -1043,7 +1043,7 @@ data_model %>%
 
 ## --> 2025-03-12 not excluded, calculated model with N_DAM site as well ##
 
-#' ## 3 Model adjustment -----------------------------------------------
+#' ## 3 Model adjustment -------------------------------------------------------
 #' 
 #' # exclude N_DAM
 #' data_model <- data_model %>% 
@@ -1062,7 +1062,7 @@ data_model %>%
 #' 
 #' 
 #' 
-#' ## 2 Model validation full model -----------------------------------------------
+#' ## 2 Model validation full model --------------------------------------------
 #' 
 #' 
 #' #' As part of the model validation, we need to:
@@ -1078,7 +1078,7 @@ data_model %>%
 #' data_model$F_B1 <- fitted(B1)  #' Fitted values contain the random effects.
 #' 
 #' 
-#' ### a Plot residuals vs fitted values ---------------------------------------------
+#' ### a Plot residuals vs fitted values ---------------------------------------
 #' 
 #' 
 #' ggplot(data = data_model, aes(x = F_B1, y = E_B1)) +
@@ -1121,7 +1121,7 @@ ggplot(data = data_model, aes(x = hydrology, y = E_B1)) +
 #' looks fine
 
 
-### c Plot residuals vs covariates not in the model ------------------------------
+### c Plot residuals vs covariates not in the model ----------------------------
 
 #' Plot residuals versus restoration age
 ggplot(data = data_model, aes(x = rest.age.std, y = E_B1)) +
@@ -1224,7 +1224,7 @@ data_model$E_B1_drop <- resid(B1_drop, type = "pearson")   #' Observed eveness m
 data_model$F_B1_drop <- fitted(B1_drop)  #' Fitted values contain the random effects.
 
 
-### a Plot residuals vs fitted values ---------------------------------------------
+### a Plot residuals vs fitted values ------------------------------------------
 
 
 ggplot(data = data_model, aes(x = F_B1_drop, y = E_B1_drop)) +
@@ -1269,7 +1269,7 @@ ggplot(data = data_model, aes(x = hydrology, y = E_B1_drop)) +
 #' looks fine
 
 
-### c Plot residuals vs covariates not in the model ------------------------------
+### c Plot residuals vs covariates not in the model ----------------------------
 
 #' Plot residuals versus restoration age
 ggplot(data = data_model, aes(x = rest.age.std, y = E_B1_drop)) +
@@ -1338,10 +1338,10 @@ data_model_fcsihill0 <- data_all %>%
   filter(!is.na(rest.meth)) #%>% 
   # filter(id.site != "N_DAM")
 
-restfact_fcsihill0 <- glmmTMB(fcsi.hill.0 ~ rest.meth + land.use.hist
-                             + (1 |region) + (1 |hydrology),
-                             data = data_model_fcsihill0,
-                             family = gaussian
+restfact_fcsihill0 <- glmmTMB(
+  fcsi.hill.0 ~ rest.meth + land.use.hist + (1 |region) + (1 |hydrology),
+  data = data_model_fcsihill0,
+  family = gaussian
 )
 summary(restfact_fcsihill0)
 # Estimate Std. Error z value Pr(>|z|)    

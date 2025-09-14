@@ -391,12 +391,12 @@ E#F
 "
 
 # insert tags
-p1 <- p1 + labs(tag = "(A)")
-p2 <- p2 + labs(tag = "(B)")
-p3 <- p3 + labs(tag = "(C)")
-p4 <- p4 + labs(tag = "(D)")
-p5 <- p5 + labs(tag = "(E)")
-p6 <- p6 + labs(tag = "(F)")
+p1 <- p1 + labs(tag = "(a)")
+p2 <- p2 + labs(tag = "(b)")
+p3 <- p3 + labs(tag = "(c)")
+p4 <- p4 + labs(tag = "(d)")
+p5 <- p5 + labs(tag = "(e)")
+p6 <- p6 + labs(tag = "(f)")
 
 
 (plot_3x2 <- p1 + p2 + p3 + p4 + p5 + p6 +

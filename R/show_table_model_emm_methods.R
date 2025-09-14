@@ -9,8 +9,9 @@
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# Preparation #################################################################
+# A - PREPARATION #############################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 ### Packages ###
 library(tidyverse)
@@ -20,27 +21,22 @@ library(gt)
 library(glmmTMB)
 
 
-
-
 ### Start ###
 rm(list = ls())
 
 
-
-
-## load data
-
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_tothill0.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_tothill1.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_targethill0.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_targethill1.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_fgratio.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_fcsihill0.Rdata"))
+### load data ###
+load(file = here("outputs", "models", "model_methods_total_hill0_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_total_hill1_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_target_hill0_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_target_hill1_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_forb_grass_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_fcsi_hill0_full.Rdata"))
 
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# Calculation of EMMs & SE ####################################################
+# B - Calculation of EMMs & SE ################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -49,39 +45,46 @@ load(file = here("outputs", "models", "vegetation", "model_plants_restfact_fcsih
 
 emm.rest.meth <- emmeans(restfact_tothill0, ~ rest.meth)
 cld_results <- multcomp::cld(emm.rest.meth, adjust = "tukey", Letters = letters)
-emm.restmeth.tothill0.df <- summary(emm.rest.meth, infer = F, type = "response") %>% select(-df) %>% 
+emm.restmeth.tothill0.df <- summary(emm.rest.meth, infer = F, type = "response") %>%
+  select(-df) %>% 
   left_join(cld_results %>% select(rest.meth, .group), by = "rest.meth")
 
 emm.rest.meth <- emmeans(restfact_tothill1, ~ rest.meth)
 cld_results <- multcomp::cld(emm.rest.meth, adjust = "tukey", Letters = letters)
-emm.restmeth.tothill1.df <- summary(emm.rest.meth, infer = F, type = "response") %>% select(-df) %>% 
+emm.restmeth.tothill1.df <- summary(emm.rest.meth, infer = F, type = "response") %>%
+  select(-df) %>% 
   left_join(cld_results %>% select(rest.meth, .group), by = "rest.meth")
 
 emm.rest.meth <- emmeans(restfact_targethill0, ~ rest.meth)
 cld_results <- multcomp::cld(emm.rest.meth, adjust = "tukey", Letters = letters)
-emm.restmeth.targethill0.df <- summary(emm.rest.meth, infer = F, type = "response") %>% select(-df) %>% 
+emm.restmeth.targethill0.df <- summary(emm.rest.meth, infer = F, type = "response") %>%
+  select(-df) %>% 
   left_join(cld_results %>% select(rest.meth, .group), by = "rest.meth")
 
 emm.rest.meth <- emmeans(restfact_targethill1, ~ rest.meth)
 cld_results <- multcomp::cld(emm.rest.meth, adjust = "tukey", Letters = letters)
-emm.restmeth.targethill1.df <- summary(emm.rest.meth, infer = F, type = "response") %>% select(-df) %>% 
+emm.restmeth.targethill1.df <- summary(emm.rest.meth, infer = F, type = "response") %>%
+  select(-df) %>% 
   left_join(cld_results %>% select(rest.meth, .group), by = "rest.meth")
 
 emm.rest.meth <- emmeans(restfact_fgratio, ~ rest.meth)
 cld_results <- multcomp::cld(emm.rest.meth, adjust = "tukey", Letters = letters)
-emm.restmeth.fgratio.df <- summary(emm.rest.meth, infer = F, type = "response") %>% select(-df) %>% 
+emm.restmeth.fgratio.df <- summary(emm.rest.meth, infer = F, type = "response") %>%
+  select(-df) %>% 
   left_join(cld_results %>% select(rest.meth, .group), by = "rest.meth")
 
 emm.rest.meth <- emmeans(restfact_fcsihill0, ~ rest.meth)
 cld_results <- multcomp::cld(emm.rest.meth, adjust = "tukey", Letters = letters)
-emm.restmeth.fcsihill0.df <- summary(emm.rest.meth, infer = F, type = "response") %>% select(-df) %>% 
+emm.restmeth.fcsihill0.df <- summary(emm.rest.meth, infer = F, type = "response") %>%
+  select(-df) %>% 
   left_join(cld_results %>% select(rest.meth, .group), by = "rest.meth")
 
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# H - Joint table #############################################################
+# C - Joint table #############################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 emm.table <- emm.restmeth.tothill0.df %>% 
   left_join(emm.restmeth.targethill0.df, by = "rest.meth") %>% 
@@ -147,13 +150,14 @@ emm.table.gt <- emm.table.gt %>%
 emm.table.gt
 
 
+
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# Save  #######################################################################
+# D - Save  ###################################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 # gt table
-gtsave(emm.table.gt,
-       here(
-         "outputs", "statistics", "vegetation", "model_emm_restfact_full.docx"
-       ))
+# gtsave(emm.table.gt,
+#        here(
+#          "outputs", "model_emm_restfact_full.docx"
+#        ))

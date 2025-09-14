@@ -14,7 +14,6 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-
 ### Packages ###
 library(tidyverse)
 library(here)
@@ -43,13 +42,12 @@ data_all <- read_csv(
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+## 1 Missing values ------------------------------------------------------------
 
-## a Missing values ------------------------------------------------------------
 colSums(is.na(data_all)) 
 
 
-## b Outliers ------------------------------------------------------------------
-
+## 2 Outliers ------------------------------------------------------------------
 
 # Outliers: check with Cleveland dotplot
 dotchart(data_all$target.hill.0, ylab = "Order of the data")
@@ -60,7 +58,7 @@ data_all %>%
   identify_outliers(target.hill.0)
 
 
-## c inspect categorical covariates -------------------------------------------
+## 3 inspect categorical covariates -------------------------------------------
 
 table(data_all$site.type)
 table(data_all$hydrology)
@@ -69,16 +67,14 @@ table(data_all$site.type, data_all$hydrology)
 table(data_all$site.type, data_all$region)
 
 
-
-## d Check collinearity --------------------------------------------------------
+## 4 Check collinearity --------------------------------------------------------
 
 # between continuous covariates
 
 # no numerical variable in model data
 
 
-
-## e Relationships -------------------------------------------------------------
+## 5 Relationships -------------------------------------------------------------
 
 #' Plot response variable versus each covariate.
 ggplot(data_all, aes(x = site.type, y = target.hill.0)) +
@@ -89,13 +85,12 @@ ggplot(data_all, aes(x = hydrology, y = target.hill.0)) +
   geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 
 
-
-## f distribution --------------------------------------------------------------
+## 6 distribution --------------------------------------------------------------
 
 # --> count data: poisson or non-binomial
 
 
-## g Interactions --------------------------------------------------------------
+## 7 Interactions --------------------------------------------------------------
 
 # --> no numerical covariates
 
@@ -106,35 +101,31 @@ library(MASS)
 ## site.type vs. X
 
 # region
-interaction.plot(x.factor = data_all$site.type, trace.factor = data_all$region,
-                 response = data_all$target.hill.0)
 int_model <- glm(target.hill.0 ~ region * site.type, data = data_all, family = "poisson")
 check_overdispersion(int_model)
 int_model <- glm.nb(target.hill.0 ~ region * site.type, data = data_all)
 anova(int_model)
+# interaction
 
 # hydrology
-interaction.plot(x.factor = data_all$site.type, trace.factor = data_all$hydrology,
-                 response = data_all$target.hill.0)
 int_model <- glm(target.hill.0 ~ hydrology * site.type, data = data_all, family = "poisson")
 check_overdispersion(int_model)
 int_model <- glm.nb(target.hill.0 ~ hydrology * site.type, data = data_all)
 anova(int_model)
+# no interaction
+
 
 ## region vs. X
 
 # hydrology
-interaction.plot(x.factor = data_all$region, trace.factor = data_all$hydrology,
-                 response = data_all$target.hill.0)
 int_model <- glm(target.hill.0 ~ hydrology * region, data = data_all, family = "poisson")
 check_overdispersion(int_model)
 int_model <- glm.nb(target.hill.0 ~ hydrology * region, data = data_all)
 anova(int_model)
+# interaction
 
 
 detach(package:MASS)
-
-
 
 
 
@@ -142,7 +133,9 @@ detach(package:MASS)
 # C - FULL MODEL ##############################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+
 rm(list = setdiff(ls(), c("data_all")))
+
 
 ## 1 Model formulation ---------------------------------------------------------
 
@@ -207,13 +200,9 @@ ggplot(data = data_model, aes(x = hydrology, y = E_B1)) +
 # no other covariates
 
 
-
-
-
 ## 3 Model fitting -------------------------------------------------------------
 
 # --> no need to fit model, no interaction terms
-
 
 
 ## 4 Model validation drop model -----------------------------------------------
@@ -225,6 +214,7 @@ ggplot(data = data_model, aes(x = hydrology, y = E_B1)) +
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # D - FINAL MODEL ##############################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 rm(list = setdiff(ls(), c("data_all")))
 
@@ -253,6 +243,9 @@ pairs(emm.site.type, adjust = "tukey")
 
 ## 3 Save final model ----------------------------------------------------------
 
-save(restref_targethill0, data_model_targethill0,
-     file = here("outputs", "models",
-                 "model_reference_target_hill0.Rdata"))
+# save(restref_targethill0, data_model_targethill0,
+#      file = here("outputs", "models",
+#                  "model_reference_target_hill0.Rdata"))
+
+
+## end script

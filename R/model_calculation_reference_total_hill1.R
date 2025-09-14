@@ -14,7 +14,6 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-
 ### Packages ###
 library(tidyverse)
 library(here)
@@ -43,13 +42,12 @@ data_all <- read_csv(
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+## 1 Missing values ------------------------------------------------------------
 
-## a Missing values ------------------------------------------------------------
 colSums(is.na(data_all)) 
 
 
-## b Outliers ------------------------------------------------------------------
-
+## 2 Outliers ------------------------------------------------------------------
 
 # Outliers: check with Cleveland dotplot
 dotchart(data_all$tot.hill.1, ylab = "Order of the data")
@@ -60,7 +58,7 @@ data_all %>%
   identify_outliers(tot.hill.1)
 
 
-## c inspect categorical covariates --------------------------------------------
+## 3 inspect categorical covariates --------------------------------------------
 
 table(data_all$site.type)
 table(data_all$hydrology)
@@ -69,16 +67,14 @@ table(data_all$site.type, data_all$hydrology)
 table(data_all$site.type, data_all$region)
 
 
-
-## d Check collinearity --------------------------------------------------------
+## 4 Check collinearity --------------------------------------------------------
 
 # between continuous covariates
 
 # no numerical variable in model data
 
 
-
-## e Relationships -------------------------------------------------------------
+## 5 Relationships -------------------------------------------------------------
 
 #' Plot response variable versus each covariate.
 ggplot(data_all, aes(x = site.type, y = tot.hill.1)) +
@@ -89,8 +85,7 @@ ggplot(data_all, aes(x = hydrology, y = tot.hill.1)) +
   geom_jitter(color = "grey") + geom_boxplot(fill = "transparent")
 
 
-
-## f distribution --------------------------------------------------------------
+## 6 distribution --------------------------------------------------------------
 
 library(lattice)
 library(fitdistrplus)
@@ -112,9 +107,10 @@ fit.gamma$aic
 
 detach(package:fitdistrplus)
 
+# --> gamma distribution
 
-## g Interactions --------------------------------------------------------------
 
+## 7 Interactions --------------------------------------------------------------
 
 # --> no numerical covariates
 
@@ -122,33 +118,29 @@ detach(package:fitdistrplus)
 # check categorical coviariates
 library(MASS)
 
+
 ## site.type vs. X
 
 # region
-interaction.plot(x.factor = data_all$site.type, trace.factor = data_all$region,
-                 response = data_all$tot.hill.1)
 int_model <- glm(tot.hill.1 ~ region * site.type, data = data_all, family = Gamma(link="log"))
 anova(int_model)
+# no interaction
 
 # hydrology
-interaction.plot(x.factor = data_all$site.type, trace.factor = data_all$hydrology,
-                 response = data_all$tot.hill.1)
 int_model <- glm(tot.hill.1 ~ hydrology * site.type, data = data_all, family = Gamma(link="log"))
 anova(int_model)
+# no interaction
 
 
 ## region vs. X
 
 # hydrology
-interaction.plot(x.factor = data_all$region, trace.factor = data_all$hydrology,
-                 response = data_all$tot.hill.1)
 int_model <- glm(tot.hill.1 ~ hydrology * region, data = data_all, family = Gamma(link="log"))
 anova(int_model)
+# no interaction
 
 
 detach(package:MASS)
-
-
 
 
 
@@ -156,7 +148,9 @@ detach(package:MASS)
 # C - FULL MODEL ##############################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+
 rm(list = setdiff(ls(), c("data_all")))
+
 
 ## 1 Model formulation ---------------------------------------------------------
 
@@ -170,9 +164,7 @@ summary(B1)
 performance(B1)
 
 
-
 ## 2 Model validation full model -----------------------------------------------
-
 
 #' Get residuals and fitted values of model
 data_model$E_B1 <- resid(B1, type = "pearson")   
@@ -180,7 +172,6 @@ data_model$F_B1 <- fitted(B1)
 
 
 ### a Plot residuals vs fitted values ---------------------------------------------
-
 
 ggplot(data = data_model, aes(x = F_B1, y = E_B1)) +
   geom_point(size = 0.8, alpha = 0.5) + 
@@ -215,14 +206,9 @@ ggplot(data = data_model, aes(x = hydrology, y = E_B1)) +
 # no other covariates
 
 
-
-
-
-
 ## 3 Model fitting -------------------------------------------------------------
 
 # --> no need to fit model, no interaction terms
-
 
 
 ## 4 Model validation drop model -----------------------------------------------
@@ -234,6 +220,7 @@ ggplot(data = data_model, aes(x = hydrology, y = E_B1)) +
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # D - FINAL MODEL ##############################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 rm(list = setdiff(ls(), c("data_all")))
 
@@ -262,6 +249,9 @@ pairs(emm.site.type, adjust = "tukey")
 
 ## 3 Save final model ----------------------------------------------------------
 
-save(restref_tothill1, data_model_tothill1,
-     file = here("outputs", "models",
-                 "model_reference_total_hill1.Rdata"))
+# save(restref_tothill1, data_model_tothill1,
+#      file = here("outputs", "models",
+#                  "model_reference_total_hill1.Rdata"))
+
+
+## end script

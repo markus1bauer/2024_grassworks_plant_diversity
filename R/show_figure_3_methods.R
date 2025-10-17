@@ -412,6 +412,6 @@ p6 <- p6 + labs(tag = "(f)")
 
 # ggsave(
 #   plot = plot_3x2,
-#   here("outputs", "figures", "figure_2_300dpi_24x24cm.tiff"),
+#   here("outputs", "figures", "figure_3_300dpi_24x24cm.tiff"),
 #   dpi = 300, width = 24, height = 24, units = "cm"
 # )

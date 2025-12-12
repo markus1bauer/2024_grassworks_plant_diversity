@@ -1,8 +1,8 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 2: Restoration factors ####
-# Plot table: EMMs
+# Show table S4 ####
+# Estimated marginal means of model restoration methods (full model)
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Christin Juno Laschke
 # 2025
@@ -27,11 +27,11 @@ rm(list = ls())
 
 ### load data ###
 load(file = here("outputs", "models", "model_methods_total_hill0_full.Rdata"))
-load(file = here("outputs", "models", "model_methods_total_hill1_full.Rdata"))
 load(file = here("outputs", "models", "model_methods_target_hill0_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_total_hill1_full.Rdata"))
 load(file = here("outputs", "models", "model_methods_target_hill1_full.Rdata"))
-load(file = here("outputs", "models", "model_methods_forb_grass_full.Rdata"))
 load(file = here("outputs", "models", "model_methods_fcsi_hill0_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_forb_grass_full.Rdata"))
 
 
 

@@ -1,8 +1,8 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 1: Restoration vs. Reference ####
-# Plot table: EMMs
+# Show table S3 ####
+# Estimated marginal means of model restoration sites and references
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Christin Juno Laschke
 # 2025
@@ -26,11 +26,11 @@ rm(list = ls())
 
 ### load data ###
 load(file = here("outputs", "models", "model_reference_total_hill0.Rdata"))
-load(file = here("outputs", "models", "model_reference_total_hill1.Rdata"))
 load(file = here("outputs", "models", "model_reference_target_hill0.Rdata"))
+load(file = here("outputs", "models", "model_reference_total_hill1.Rdata"))
 load(file = here("outputs", "models", "model_reference_target_hill1.Rdata"))
-load(file = here("outputs", "models", "model_reference_forb_grass.Rdata"))
 load(file = here("outputs", "models", "model_reference_fcsi_hill0.Rdata"))
+load(file = here("outputs", "models", "model_reference_forb_grass.Rdata"))
 
 
 

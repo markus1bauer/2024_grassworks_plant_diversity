@@ -1,8 +1,8 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 2: Restoration effects
-# Output table: Model results restfact <20 years model
+# Show table S2 ####
+# Model results restoration methods (model with sites <20 years)
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # author: Christin Juno Laschke
 
@@ -23,12 +23,12 @@ rm(list = ls())
 
 ## load models -------------------------------------------------------------------
 
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_tothill0_20y.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_targethill0_20y.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_tothill1_20y.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_targethill1_20y.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_fcsihill0_20y.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_fgratio_20y.Rdata"))
+load(file = here("outputs", "models", "model_methods_total_hill0_20y.Rdata"))
+load(file = here("outputs", "models", "model_methods_target_hill0_20y.Rdata"))
+load(file = here("outputs", "models", "model_methods_total_hill1_20y.Rdata"))
+load(file = here("outputs", "models", "model_methods_target_hill1_20y.Rdata"))
+load(file = here("outputs", "models", "model_methods_fcsi_hill0_20y.Rdata"))
+load(file = here("outputs", "models", "model_methods_forb_grass_20y.Rdata"))
 
 
 # remove dispersion component from tidy dataframe
@@ -101,7 +101,7 @@ gm <- list(
   list("raw" = "aic", "clean" = "AIC", "fmt" = 0))
 
 
-# Version 1
+
 modelsummary(m,
              fmt = fmt_statistic(estimate = 2, std.error = 2, statistic = 2, p.value = 3),
              stars = TRUE,
@@ -116,18 +116,6 @@ modelsummary(m,
                "outputs", "statistics", "vegetation", "model_summary_restfact_20y.docx")
 )
 
-
-
-# Version 2 - not used
-modelsummary(m,
-             fmt = fmt_statistic(estimate = 2, std.error = 2, statistic = 2, p.value = 3),
-             stars = TRUE,
-             statistic = c("z" = "statistic"),
-             coef_map = cm,
-             gof_map = gm,
-             output = here(
-               "outputs", "statistics", "vegetation", "model_summary_restfact_20y_2.docx")
-)
 
 
 

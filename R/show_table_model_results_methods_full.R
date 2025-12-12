@@ -1,8 +1,8 @@
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # GRASSWORKS Project
 # Vegetation diversity analysis
-# Question 2: Restoration effects ####
-# Output table: Model results restfact full model
+# Show table 2 ####
+# Model results restoration methods (full model)
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Christin Juno Laschke
 # 2025
@@ -24,12 +24,12 @@ rm(list = ls())
 
 ## load models -------------------------------------------------------------------
 
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_tothill0.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_targethill0.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_tothill1.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_targethill1.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_fcsihill0.Rdata"))
-load(file = here("outputs", "models", "vegetation", "model_plants_restfact_fgratio.Rdata"))
+load(file = here("outputs", "models", "model_methods_total_hill0_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_target_hill0_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_total_hill1_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_target_hill1_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_fcsi_hill0_full.Rdata"))
+load(file = here("outputs", "models", "model_methods_forb_grass_full.Rdata"))
 
 
 # remove dispersion component from tidy dataframe
@@ -102,7 +102,6 @@ gm <- list(
   list("raw" = "aic", "clean" = "AIC", "fmt" = 0))
 
 
-# Version 1
 modelsummary(m,
                     fmt = fmt_statistic(estimate = 2, std.error = 2, statistic = 2, p.value = 3),
                     stars = TRUE,
@@ -119,23 +118,5 @@ modelsummary(m,
 
 
 
-# Version 2 - not used
-modelsummary(m,
-             fmt = fmt_statistic(estimate = 2, std.error = 2, statistic = 2, p.value = 3),
-             stars = TRUE,
-             statistic = c("z" = "statistic"),
-             coef_map = cm,
-             gof_map = gm,
-             output = here(
-               "outputs", "statistics", "vegetation", "model_summary_restfact_full_2.docx")
-)
-
-
 
 # end skript
-
-
-
-
-
-

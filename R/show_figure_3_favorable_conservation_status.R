@@ -78,7 +78,7 @@ cld_results <- multcomp::cld(
       size = 0.4, linewidth = 0.8
     ) +
     geom_text(
-      data = cld_results, aes(x = rest.meth, y = 4.2, label = .group),
+      data = cld_results, aes(x = rest.meth, y = 4.22, label = .group),
       vjust = 0, hjust = 0.4, size = rel(4)
     ) +
     labs(

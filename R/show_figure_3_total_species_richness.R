@@ -83,7 +83,7 @@ sample_size = data_model_tothill0 %>%
       size = 0.4, linewidth = 0.8
     ) +
     geom_text(
-      data = cld_results, aes(x = rest.meth, y = 80, label = .group),
+      data = cld_results, aes(x = rest.meth, y = 82, label = .group),
       vjust = 0, hjust = 0.4, size = rel(4)
     ) +
     labs(

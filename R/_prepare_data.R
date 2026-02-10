@@ -4,7 +4,7 @@
 # Prepare data ####
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Markus Bauer
-# 2025-04-08
+# 2026-02-10
 
 
 
@@ -69,7 +69,8 @@ diversity <- read_csv(
 data <- sites %>% 
   select(
     id.site, site.type, hydrology, region, fg.ratio, fg.ratio.std,
-    rest.meth, land.use.hist, rest.age, rest.age.std
+    rest.meth, land.use.hist, rest.age, rest.age.std,
+    cover.grass, cover.forbs, cover.legumes
     ) %>%
   distinct() %>%
   left_join(diversity, by = "id.site")

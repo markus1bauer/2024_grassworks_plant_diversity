@@ -1,0 +1,21 @@
+attributeName,attributeDefinition,formatString,unit,numberType,type,factor,comment
+id.site,site ID containing of four plots,NA,NA,NA,character,NA,NA
+hydrology,Expert judgement about the hydrological site conditions,NA,NA,NA,factor,moist / fresh / dry,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+region,location of site in Germany,NA,NA,NA,factor,north / centre / south,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+fg.ratio,The graminoid-forb ratio. Legumes are added to the forbs part,NA,NA,real,numeric,NA,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+fg.ratio.std,,,,,,,
+rest.meth,Restoration method which was applied to the id.site,NA,NA,NA,factor,cus = cultivar seed mixture / mag = management adaptation / res = regional seed mixture / dih = direct harvesting,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+land.use.hist,The use of the site before restoration was applied,NA,NA,NA,factor,arable land / grassland,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+rest.age,How long ago to the obs.year is the restoration activity?,NA,years,integer,numeric,NA,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+cover.grass,The total estimated cover of the graminoid species (Poacease/Cyperaceae/Juncaceae),NA,percent,integer,numeric,NA,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+cover.forbs,The total estimated cover of the forb species without legumes,NA,percent,integer,numeric,NA,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+cover.legumes,The total estimated cover of legumes (Fabaceae),NA,percent,integer,numeric,NA,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+tot.hill.0,Total species richness (Hill numbers q = 0),NA,dimensionless,real,numeric,NA,Chao et al. (2014) https://doi.org/10.1146/annurev-ecolsys-120213-091540
+tot.hill.1,Based on all species: Shannon diversity (Hill numbers 1 expressed in effective numbers of species),NA,dimensionless,real,numeric,NA,Chao et al. (2014) https://doi.org/10.1146/annurev-ecolsys-120213-091541
+tot.hill.2,Based on all species: Gini-Simpson diversity (Hill numbers 2 expressed in effective numbers of species),NA,dimensionless,real,numeric,NA,Chao et al. (2014) https://doi.org/10.1146/annurev-ecolsys-120213-091542
+target.hill.0,Target species richness (Hill numbers q = 0),NA,dimensionless,real,numeric,NA,Chao et al. (2014) https://doi.org/10.1146/annurev-ecolsys-120213-091543
+target.hill.1,Based on target species: Shannon diversity (Hill numbers 1 expressed in effective numbers of species),NA,dimensionless,real,numeric,NA,Chao et al. (2014) https://doi.org/10.1146/annurev-ecolsys-120213-091544
+target.hill.2,Based on target species: Gini-Simpson diversity (Hill numbers 2 expressed in effective numbers of species),NA,dimensionless,real,numeric,NA,Chao et al. (2014) https://doi.org/10.1146/annurev-ecolsys-120213-091545
+fcsi.hill.0,Favorable Conservation Status index based on Hill numbers 0 = species richness,NA,dimensionless,real,numeric,NA,Helm et al. (2015) https://doi.org/10.1111/ddi.12285 / Chao et al. (2014) https://doi.org/10.1146/annurev-ecolsys-120213-091540
+fsci.hill.1,Favorable Conservation Status index based on Hill numbers 1 = Shannon diversity,NA,dimensionless,real,numeric,NA,Helm et al. (2015) https://doi.org/10.1111/ddi.12285 / Chao et al. (2014) https://doi.org/10.1146/annurev-ecolsys-120213-091541
+fcsi.hill.2,Favorable Conservation Status index based on Hill numbers 2 = Gini-Simpson index,NA,dimensionless,real,numeric,NA,Helm et al. (2015) https://doi.org/10.1111/ddi.12285 / Chao et al. (2014) https://doi.org/10.1146/annurev-ecolsys-120213-091542

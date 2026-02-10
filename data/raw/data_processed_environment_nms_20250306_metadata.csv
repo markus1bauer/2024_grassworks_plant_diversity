@@ -1,0 +1,17 @@
+attributeName,attributeDefinition,formatString,unit,numberType,type,factor,comment
+id.plot,plot ID,NA,NA,NA,character,NA,NA
+id.site,site ID containing of four plots,NA,NA,NA,character,NA,NA
+region,location of site in Germany,NA,NA,NA,factor,north / centre / south,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+eco.id,ID of the ecoregion sensu Dinerstein et al. (2017),NA,NA,NA,factor,NA,https://doi.org/10.1093/biosci/bix014 / https://ecoregions.appspot.com/
+eco.name,name of the eco.id sensu Dinerstein et al. (2017),NA,NA,NA,character,NA,https://doi.org/10.1093/biosci/bix014 / https://ecoregions.appspot.com/
+altitude,height above sea level,NA,meter,real,numeric,NA,NA
+longitude,x coordinate of id.plot / WGS84 / EPSG 4326,NA,meter,real,numeric,NA,NA
+latitude,y coordinate of id.plot / WGS84 / EPSG 4327,NA,meter,real,numeric,NA,NA
+hydrology,Expert judgement about the hydrological site conditions,NA,NA,NA,factor,moist / fresh / dry,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+rest.meth,Restoration method which was applied to the id.site,NA,NA,NA,factor,cus = cultivar seed mixture / mag = management adaptation / res = regional seed mixture / dih = direct harvesting,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+rest.age,How long ago to the obs.year is the restoration activity?,NA,years,integer,numeric,NA,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+land.use.hist,The use of the site before restoration was applied,NA,NA,NA,factor,arable land / grassland,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+cover.grass,The total estimated cover of the graminoid species (Poacease/Cyperaceae/Juncaceae),NA,percent,integer,numeric,NA,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+cover.forbs,The total estimated cover of the forb species without legumes,NA,percent,integer,numeric,NA,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+cover.legumes,The total estimated cover of legumes (Fabaceae),NA,percent,integer,numeric,NA,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"
+site.forb.legu.grass.ratio,The graminoid-forb ratio. Legumes are added to the forbs part,NA,dimensionless,real,numeric,NA,"Infos from the Grassworks project (see Temperton et al. 2025, https://doi.org/10.32942/X2192S)"

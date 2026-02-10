@@ -82,7 +82,7 @@ cld_results <- multcomp::cld(
       vjust = 0, hjust = 0.4, size = rel(4)
     ) +
     labs(
-      title = "Total Hill\u2013Shannon",
+      title = "Total Shannon diversity",
       y = "ENS"
     ) +
     coord_cartesian(ylim = c(0, 41)) +
@@ -98,7 +98,7 @@ cld_results <- multcomp::cld(
 ggsave(
   plot = graph,
   here(
-    "outputs", "figures", "figure_2_total_hill-shannon_300dpi_8x6cm.tiff"
+    "outputs", "figures", "figure_2_total_shannon_300dpi_8x6cm.tiff"
   ),
   dpi = 300, width = 8, height = 6, units = "cm"
 )

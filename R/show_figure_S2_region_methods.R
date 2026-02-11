@@ -4,8 +4,8 @@
 # Show figure S2 ####
 # Regional effects in restoration methods
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# Christin Juno Laschke
-# 2025
+# Christin Juno Laschke & Alina Twerski
+# 2026-02-11
 
 
 
@@ -28,7 +28,8 @@ library(multcompView)
 rm(list = ls())
 
 ### Colours ###
-my_col <- c("#4E79A7", "#F28E2B" ,"#E15759", "#59A14F")
+my_col <-  c("#781c6d", "#bc3754" ,"#ed6925", "#fbb61a")
+#my_col <- c("#4E79A7", "#F28E2B" ,"#E15759", "#59A14F")
 
 ### Labels ###
 gglayer_labs <- list(
@@ -105,7 +106,7 @@ data_all <- read_csv(
   geom_boxplot() +
   labs(
     title = "Total species richness",
-    y = "no. of species"
+    y = "No. of species"
   ) +
   coord_cartesian(ylim = c(0, 85))
 )
@@ -127,7 +128,7 @@ data_all <- read_csv(
   geom_boxplot() +
   labs(
       title = "Characteristic species richness",
-      y = "no. of species"
+      y = "No. of species"
     ) +
     coord_cartesian(ylim = c(0, 85))
 )
@@ -149,7 +150,7 @@ data_all <- read_csv(
   geom_boxplot() +
   labs(
       title = "Total Hill-Shannon",
-      y = "effective no. of species"
+      y = "ENS"
     ) +
     coord_cartesian(ylim = c(0, 37))
 )
@@ -174,7 +175,7 @@ data_all <- read_csv(
   geom_boxplot() +
   labs(
       title = "Characteristic Hill-Shannon",
-      y = "effective no. of species"
+      y = "ENS"
     ) +
     coord_cartesian(ylim = c(0, 37))
 )
@@ -205,7 +206,7 @@ data_all <- read_csv(
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# Plot 6 - Forb-Grass Ratio ###################################################
+# Plot 6 - Forb-Graminoid Ratio ###################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -218,8 +219,8 @@ data_all <- read_csv(
   facet_wrap(~region) +
   geom_boxplot() +
   labs(
-      title = "Forb-grass ratio",
-      y = "cover of forbs / cover of grasses"
+      title = "Forb-graminoid ratio",
+      y = "Cover of forbs / cover of graminoids"
     ) +
     coord_cartesian(ylim = c(0, 5.5))
 )
@@ -240,12 +241,12 @@ E#F
 "
 
 # insert tags
-p1 <- p1 + labs(tag = "(a)")
-p2 <- p2 + labs(tag = "(b)")
-p3 <- p3 + labs(tag = "(c)")
-p4 <- p4 + labs(tag = "(d)")
-p5 <- p5 + labs(tag = "(e)")
-p6 <- p6 + labs(tag = "(f)")
+p1 <- p1 + labs(tag = "A")
+p2 <- p2 + labs(tag = "B")
+p3 <- p3 + labs(tag = "C")
+p4 <- p4 + labs(tag = "D")
+p5 <- p5 + labs(tag = "E")
+p6 <- p6 + labs(tag = "F")
 
 
 (plot_3x2 <- p1 + p2 + p3 + p4 + p5 + p6 +
@@ -264,3 +265,4 @@ ggsave(
   here("outputs", "figures", "figure_S2_300dpi_24x24cm.tiff"),
   dpi = 300, width = 24, height = 24, units = "cm"
 )
+

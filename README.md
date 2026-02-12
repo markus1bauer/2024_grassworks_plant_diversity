@@ -60,7 +60,7 @@ When using the **data available** in this repository, please cite the original p
 
 > Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (2026) Data and code for Laschke, Twerski et al. (prepared) (v1.0.0) [Data set]. &ndash; _Zenodo_. [<https://doi.org/10.5281/zenodo.18621272>](https://doi.org/10.5281/zenodo.18621272)
 
-This dataset is also linked to PANGAEA
-> Laschke CJ*, Twerski A*, Bauer M, Härdtel W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (XXX) XXX. &ndash; _PANGAEA_. https://doi.org/10.XXX
+Raw data for this manuscript is also linked to PANGAEA
+> XXX (XXX) XXX. &ndash; _PANGAEA_. https://doi.org/10.XXX
 
 Contact [markus1.bauer\@tum.de](mailto:markus1.bauer@tum.de) for any further information.

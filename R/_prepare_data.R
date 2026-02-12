@@ -35,7 +35,7 @@ rm(list = ls())
 
 
 sites <- read_csv(
-  here("data", "raw", "data_processed_environment_nms_20250306.csv"),
+  here("data", "raw", "data_raw_environment_nms_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?",
     rest.age = "d"
@@ -46,13 +46,13 @@ sites <- read_csv(
     hydrology = fct_relevel(hydrology, "dry", "fresh", "moist"),
     rest.meth = fct_relevel(rest.meth, "cus", "mga", "res", "dih")
   ) %>%
-  mutate(across(where(is.character), as.factor)) %>%
   mutate(
+    across(where(is.character), as.factor),
     across(c(rest.age, fg.ratio), ~ as.numeric(scale(.)), .names = "{col}.std")
-  )
+    )
 
 diversity <- read_csv(
-  here("data", "raw", "data_processed_plants_site_diversity_20250306.csv"),
+  here("data", "raw", "data_raw_plants_site_diversity_20250306.csv"),
   col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
     .default = "?"
   )
@@ -66,14 +66,20 @@ diversity <- read_csv(
 
 
 
+cover <- sites %>%
+  select(id.site, cover.grass, cover.forbs, cover.legumes) %>%
+  group_by(id.site) %>%
+  summarize(across(where(is.numeric), ~ mean(.)))
+
 data <- sites %>% 
   select(
     id.site, site.type, hydrology, region, fg.ratio, fg.ratio.std,
-    rest.meth, land.use.hist, rest.age, rest.age.std,
-    cover.grass, cover.forbs, cover.legumes
+    rest.meth, land.use.hist, rest.age, rest.age.std
     ) %>%
   distinct() %>%
-  left_join(diversity, by = "id.site")
+  left_join(cover, by = "id.site") %>%
+  left_join(diversity, by = "id.site") %>%
+  select(-tot.hill.2, -target.hill.2, -fcsi.hill.1, -fcsi.hill.2)
 
 
 

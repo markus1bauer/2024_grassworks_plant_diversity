@@ -83,7 +83,7 @@ sample_size = data_model_tothill0 %>%
       size = 0.4, linewidth = 0.8
     ) +
     geom_text(
-      data = cld_results, aes(x = rest.meth, y = 82, label = .group),
+      data = cld_results, aes(x = rest.meth, y = 84, label = .group),
       vjust = 0, hjust = 0.4, size = rel(4)
     ) +
     labs(
@@ -97,7 +97,7 @@ sample_size = data_model_tothill0 %>%
       )
     ) +
     scale_fill_manual(values = c("#781c6d", "#bc3754" ,"#ed6925", "#fbb61a")) +
-    coord_cartesian(ylim = c(0, 85)) +
+    scale_y_continuous(limits = c(0, 88), breaks = seq(0, 100, 10)) +
     theme_mb()
 )
 

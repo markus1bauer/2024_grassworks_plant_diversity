@@ -77,13 +77,10 @@ cld_results <- multcomp::cld(
       aes(y = response, ymin = response - SE, ymax = response + SE),
       size = 0.4, linewidth = 0.8
     ) +
-    geom_text(
-      data = cld_results, aes(x = rest.meth, y = 5.3, label = .group),
-      vjust = 0, hjust = 0.4, size = rel(4)
-    ) +
+    annotate(geom = "text", x = 4.2, y = 5.2, label = "n.s.") +
     labs(
-      title = "Forb\u2013graminoid ratio (cover)",
-      y = "Ratio"
+      title = "Forb\u2013graminoid ratio",
+      y = "Ratio (cover)"
     ) +
     scale_y_continuous(limits = c(0, 5.5), breaks = seq(0, 10, 1)) +
     scale_x_discrete(

@@ -82,7 +82,7 @@ cld_results <- multcomp::cld(
       vjust = 0, hjust = 0.4, size = rel(4)
     ) +
     labs(
-      title = "Total Shannon diversity",
+      title = "Total Hill–Shannon",
       y = "ENS"
     ) +
     coord_cartesian(ylim = c(0, 41)) +

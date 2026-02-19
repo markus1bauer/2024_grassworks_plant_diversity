@@ -78,7 +78,7 @@ cld_results <- multcomp::cld(
       size = 0.4, linewidth = 0.8
     ) +
     geom_text(
-      data = cld_results, aes(x = rest.meth, y = 4.22, label = .group),
+      data = cld_results, aes(x = rest.meth, y = 4.35, label = .group),
       vjust = 0, hjust = 0.4, size = rel(4)
     ) +
     labs(
@@ -92,7 +92,7 @@ cld_results <- multcomp::cld(
       )
     ) +
     scale_fill_manual(values = c("#781c6d", "#bc3754" ,"#ed6925", "#fbb61a")) +
-    coord_cartesian(ylim = c(1.7, 4.3)) +
+    scale_y_continuous(limits = c(1.7, 4.6), breaks = seq(0, 6, .5)) +
     theme_mb()
 )
 

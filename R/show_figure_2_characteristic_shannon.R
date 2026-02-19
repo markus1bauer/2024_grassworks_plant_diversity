@@ -81,7 +81,7 @@ cld_results <- multcomp::cld(
       vjust = 0, hjust = 0.4, size = rel(4)
     ) +
     labs(
-      title = "Characteristic Hill-Shannon",
+      title = "Characteristic Hill–Shannon",
       y = "ENS"
     ) +
     scale_x_discrete(

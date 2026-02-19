@@ -105,7 +105,7 @@ col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# Plot 2 - Legumes cover ######################################################
+# Plot 2 - Legume cover ######################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -117,7 +117,7 @@ col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
   geom_boxplot() +
   
   labs(
-    title = "Legumes cover",
+    title = "Legume cover",
     y = "Cover [%]"
   ) +
   coord_cartesian(ylim = c(0, 85))
@@ -126,7 +126,7 @@ col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
 
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# Plot 3 - Graminoids cover #################################################
+# Plot 3 - Graminoid cover #################################################
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -137,7 +137,7 @@ col_names = TRUE, na = c("na", "NA", ""), col_types = cols(
   gglayer_labs +
   geom_boxplot() +
   labs(
-    title = "Graminoids cover",
+    title = "Graminoid cover",
     y = "Cover [%]"
   ) +
   coord_cartesian(ylim = c(0, 110))

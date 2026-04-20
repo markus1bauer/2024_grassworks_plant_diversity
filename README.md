@@ -4,7 +4,7 @@ Christin Juno Laschke* <a href="https://orcid.org/0009-0008-5041-4697"><img src=
 
 Data and code for:
 
-Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (under review) __Integrated assessment of grassland restoration methods across Germany: Direct harvest and regional seed mixtures are most successful.__ &ndash; _Journal of Applied Ecology_ XX, XXX&ndash;XXX.
+Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (2026) __Integrated assessment of grassland restoration methods across Germany: Direct harvest and regional seed mixtures are most successful.__ &ndash; _Journal of Applied Ecology_ XX, XXX&ndash;XXX.
 
 [![DOI:10.XXX](http://img.shields.io/badge/DOI-10.XXX-informational.svg)](https://doi.org/10.XXX)
 

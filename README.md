@@ -1,4 +1,4 @@
-# Data and code for Laschke, Twerski et al. (under review)
+# Data and code for Laschke, Twerski et al. (2026)
 
 Christin Juno Laschke <a href="https://orcid.org/0009-0008-5041-4697"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16"/></a>
 Alina Twerski <a href="https://orcid.org/0000-0001-7966-1335"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16"/></a>
@@ -16,7 +16,7 @@ Vicky M. Temperton <a href="https://orcid.org/0000-0003-0543-4521"><img src="htt
 
 Data and code for:
 
-Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (under review) __Integrated assessment of grassland restoration methods across Germany: Direct harvest and regional seed mixtures are most successful.__ &ndash; _Journal_ XX, XXX&ndash;XXX.
+Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (under review) __Integrated assessment of grassland restoration methods across Germany: Direct harvest and regional seed mixtures are most successful.__ &ndash; _Journal of Applied Ecology_ XX, XXX&ndash;XXX.
 
 [![DOI:10.XXX](http://img.shields.io/badge/DOI-10.XXX-informational.svg)](https://doi.org/10.XXX)
 
@@ -54,11 +54,11 @@ When using the **data available** in this repository, please cite the original p
 
 **Publication**
 
-> Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (under review) Integrated assessment of grassland restoration methods across Germany: Direct harvest and regional seed mixtures are most successful.. &ndash; _Journal_ XX, XXX&ndash;XXX. <https://doi.org/10.XXX>
+> Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (2026) Integrated assessment of grassland restoration methods across Germany: Direct harvest and regional seed mixtures are most successful.. &ndash; _Journal of Applied Ecology_ XX, XXX&ndash;XXX. <https://doi.org/10.XXX>
 
 **Dataset**
 
-> Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (2026) Data and code for Laschke, Twerski et al. (prepared) (v1.0.0) [Data set]. &ndash; _Zenodo_. [<https://doi.org/10.5281/zenodo.18621272>](https://doi.org/10.5281/zenodo.18621272)
+> Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (2026) Data and code for Laschke, Twerski et al. (2026) (v1.1.0) [Data set]. &ndash; _Zenodo_. [<https://doi.org/10.5281/zenodo.18621272>](https://doi.org/10.5281/zenodo.18621272)
 
 Raw data for this manuscript is also linked to PANGAEA
 > XXX (XXX) XXX. &ndash; _PANGAEA_. https://doi.org/10.XXX

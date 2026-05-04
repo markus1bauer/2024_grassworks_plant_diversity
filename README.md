@@ -4,9 +4,9 @@ Christin Juno Laschke* <a href="https://orcid.org/0009-0008-5041-4697"><img src=
 
 Data and code for:
 
-Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (2026) __Integrated assessment of grassland restoration methods across Germany: Direct harvest and regional seed mixtures are most successful.__ &ndash; _Journal of Applied Ecology_ XX, XXX&ndash;XXX.
+Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (2026) __Integrated assessment of grassland restoration methods across Germany: Direct harvest and regional seed mixtures are most successful.__ &ndash; _Journal of Applied Ecology_ 63, e70390.
 
-[![DOI:10.XXX](http://img.shields.io/badge/DOI-10.XXX-informational.svg)](https://doi.org/10.XXX)
+[![DOI:10.1111/1365-2664.70390](http://img.shields.io/badge/DOI-10.1111/1365-2664.70390-informational.svg)](https://doi.org/10.1111/1365-2664.70390)
 
 **Study region**: [Three regions in Germany](https://www.openstreetmap.org/#map=7/50.861/12.327&layers=P)
 <br>
@@ -42,7 +42,7 @@ When using the **data available** in this repository, please cite the original p
 
 **Publication**
 
-> Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (2026) Integrated assessment of grassland restoration methods across Germany: Direct harvest and regional seed mixtures are most successful.. &ndash; _Journal of Applied Ecology_ XX, XXX&ndash;XXX. <https://doi.org/10.XXX>
+> Laschke CJ*, Twerski A*, Bauer M, Härdtle W, Kirmer A, Kollmann J, Loos J, Schmidt A, Sturm L, Tischew S, Wiesmeier M & Temperton VM (2026) Integrated assessment of grassland restoration methods across Germany: Direct harvest and regional seed mixtures are most successful.. &ndash; _Journal of Applied Ecology_ 63, e70390. <https://doi.org/10.1111/1365-2664.70390>
 
 **Dataset**
 
